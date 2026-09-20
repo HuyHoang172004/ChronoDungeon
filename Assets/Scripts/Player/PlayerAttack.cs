@@ -8,13 +8,15 @@ public class PlayerAttack : MonoBehaviour
 
     public void Attack()
     {
+        Health ownHealth = GetComponentInParent<Health>();
+        if (Time.timeScale <= 0f || (ownHealth != null && ownHealth.IsDead)) return;
+
         Collider2D[] hits = Physics2D.OverlapCircleAll(
             transform.position,
             attackRange
         );
 
         var damaged = new HashSet<Health>();
-        Health ownHealth = GetComponentInParent<Health>();
         foreach (Collider2D hit in hits)
         {
             Health target = hit.GetComponentInParent<Health>();
