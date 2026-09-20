@@ -1,8 +1,10 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
     public float attackRange = 2f;
+    public float attackDamage = 25f;
 
     public void Attack()
     {
@@ -11,14 +13,16 @@ public class PlayerAttack : MonoBehaviour
             attackRange
         );
 
+        var damaged = new HashSet<Health>();
+        Health ownHealth = GetComponentInParent<Health>();
         foreach (Collider2D hit in hits)
         {
-            EnemyFollow enemy = hit.GetComponent<EnemyFollow>();
+            Health target = hit.GetComponentInParent<Health>();
 
-            if (enemy != null)
+            if (target != null && target != ownHealth &&
+                !target.transform.IsChildOf(transform) && !target.IsDead && damaged.Add(target))
             {
-                Destroy(enemy.gameObject);
-                Debug.Log("Enemy defeated!");
+                target.TakeDamage(attackDamage);
             }
         }
     }
