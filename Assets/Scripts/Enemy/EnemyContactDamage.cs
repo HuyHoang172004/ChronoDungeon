@@ -10,7 +10,9 @@ public class EnemyContactDamage : MonoBehaviour
     private Health ownHealth;
 
     private void Awake() => ownHealth = GetComponentInParent<Health>();
-    private void OnEnable() => nextDamageTime = 0f;
+    private void OnEnable() => ResetDamageCooldown();
+
+    public void ResetDamageCooldown() => nextDamageTime = 0f;
 
     private void FixedUpdate()
     {

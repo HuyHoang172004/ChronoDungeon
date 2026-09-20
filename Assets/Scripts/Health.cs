@@ -50,6 +50,14 @@ public class Health : MonoBehaviour
         }
     }
 
+    // Explicit lifecycle reset can revive an actor; ordinary healing cannot.
+    public void RestoreToFullHealth()
+    {
+        ValidateValues();
+        health = maximumHealth;
+        Changed?.Invoke(this);
+    }
+
     // Healing does not resurrect dead actors; respawning is a separate concern.
     public void Heal(float amount)
     {

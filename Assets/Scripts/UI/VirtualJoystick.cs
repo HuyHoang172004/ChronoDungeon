@@ -44,6 +44,11 @@ public class VirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandler,
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        ResetInput();
+    }
+
+    public void ResetInput()
+    {
         inputDirection = Vector2.zero;
 
         joystickHandle.anchoredPosition = Vector2.zero;
