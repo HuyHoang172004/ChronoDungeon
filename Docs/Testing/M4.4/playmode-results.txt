@@ -1,0 +1,21 @@
+M4.4 PASS: Combat encounter starts at local Loop 1 with empty Ghost/timeline state
+M4.4 PASS: Combat action is recorded in current room timeline
+M4.4 PASS: Room-local rewind increments loop and spawns one Ghost
+M4.4 PASS: Ghost keeps the completed combat room timeline
+M4.4 PASS: Player returns to current room spawn on rewind
+M4.4 PASS: Current room enemy restores health on rewind
+M4.4 PASS: Recorder begins the next loop after rewind
+M4.4 PASS: Ghost remains an independent playback actor
+M4.4 PASS: Room transition activates puzzle and deactivates combat content
+M4.4 PASS: Room transition clears Ghosts and starts a fresh local timeline
+M4.4 PASS: Room transition uses the new room spawn
+M4.4 PASS: Old room enemy cannot remain as a live active actor in new room
+M4.4 PASS: New room starts without stale Ghost pressure
+M4.4 PASS: Puzzle rewind creates only the new room Ghost and restores its spawn
+M4.4 PASS: New room Ghost cooperates with current Player after local rewind
+M4.4 PASS: Puzzle room exit responds to current room Ghost state
+M4.4 PASS: Puzzle room remains current until its physical exit is reached
+M4.4 PASS: Pause freezes local timer and Ghost state
+M4.4 PASS: Restart clears room progression and all Ghost history
+M4.4 PASS: Main Menu exits the local time-loop run
+M4.4 ALL CHECKS PASSED; checks=20

@@ -1,0 +1,31 @@
+M4.1 PASS: Combat room starts active with exit locked
+ M4.1 PASS: Future puzzle content is inactive
+ M4.1 PASS: Uncleared room rejects transition
+ M4.1 PASS: Directional attack still damages enemy
+ M4.1 PASS: Enemy death completes once and unlocks exit
+ M4.1 PASS: Repeated evaluation cannot duplicate completion
+ M4.1 PASS: Non-player cannot advance
+ M4.1 PASS: Pause blocks transitions
+ M4.1 PASS: Pause freezes timer
+ M4.1 PASS: Natural 20-second rewind completes
+ M4.1 PASS: Rewind restores enemy and locks completed room again
+ M4.1 PASS: Combat recording creates Ghost
+ M4.1 PASS: Player exit trigger advances exactly one room
+ M4.1 PASS: Old content sleeps and new room starts
+ M4.1 PASS: Transition uses room spawn and preserves HP
+ M4.1 PASS: Transition starts fresh timer and clears old Ghost history
+ M4.1 PASS: Stale room exit cannot advance
+ M4.1 PASS: Recorder starts new room timeline
+ M4.1 PASS: One Player cannot clear dual-switch room alone
+ M4.1 PASS: Natural 20-second rewind completes
+ M4.1 PASS: Room-local rewind uses new spawn and does not revive old room
+ M4.1 PASS: New room Ghost replays plate A while Player holds B
+ M4.1 PASS: Temporal puzzle completes room and opens its exit
+ M4.1 PASS: Room clear latches until rewind so Player can reach exit
+ M4.1 PASS: Last exit signals completion and stops encounter timer
+ M4.1 PASS: Final completion cannot fire twice
+ M4.1 PASS: Restart restores first room and clears progression/Ghosts
+ M4.1 PASS: Player death still triggers Game Over
+ M4.1 PASS: Restart after Game Over restores gameplay
+ M4.1 PASS: Main Menu unloads room progression
+ M4.1 ALL CHECKS PASSED; checks=30

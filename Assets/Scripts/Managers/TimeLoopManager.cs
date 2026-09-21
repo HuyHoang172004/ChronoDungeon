@@ -13,10 +13,33 @@ public class TimeLoopManager : MonoBehaviour
     public bool IsRewinding { get; private set; }
     public float ElapsedTime => loopDuration - remainingTime;
     public float LoopDuration => loopDuration;
-    public bool IsRunning => !IsRewinding && Time.timeScale > 0f &&
+    public bool IsRunning => isActiveAndEnabled && !IsRewinding && Time.timeScale > 0f &&
         (gameManager == null || !gameManager.IsGameOver);
     public event Action LoopEnding;
     public event Action LoopRewound;
+    public event Action EncounterStarted;
+
+    // Room transitions start a fresh local timeline without recording a teleport.
+    public void BeginEncounter(GameObject player, GameObject roomRoot)
+    {
+        resettables.Clear();
+        CaptureRoot(player);
+        CaptureRoot(roomRoot);
+        loopIndex = 1;
+        remainingTime = loopDuration;
+        Physics2D.SyncTransforms();
+        EncounterStarted?.Invoke();
+    }
+
+    private void CaptureRoot(GameObject root)
+    {
+        foreach (MonoBehaviour component in root.GetComponentsInChildren<MonoBehaviour>(true))
+        {
+            if (!(component is ITimeLoopResettable resettable)) continue;
+            resettable.CaptureInitialState();
+            resettables.Add(component);
+        }
+    }
 
     private void Awake() => remainingTime = loopDuration;
 

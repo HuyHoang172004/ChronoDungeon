@@ -29,6 +29,7 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
         if (loop == null) return;
         loop.LoopEnding += FinishRecording;
         loop.LoopRewound += BeginRecording;
+        loop.EncounterStarted += BeginRecording;
     }
 
     private void Start()
@@ -59,6 +60,7 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
         if (loop == null) return;
         loop.LoopEnding -= FinishRecording;
         loop.LoopRewound -= BeginRecording;
+        loop.EncounterStarted -= BeginRecording;
     }
 
     private void LateUpdate()

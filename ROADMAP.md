@@ -17,13 +17,15 @@ DONE nghĩa là feature đã compile, test và integrate mà không còn blockin
 # PHASE 0 — Foundation
 
 ## M0.1 Project / Scene Flow
+**[x] DONE — foundation scene flow; scope clarified 2026-09-21.**
+
 - [x] SplashScene
 - [x] MainMenuScene
 - [x] GameScene
 - [x] Splash -> Main Menu
 - [x] Play -> GameScene
-- [ ] hoàn thiện Settings behavior
-- [ ] verify final Exit/platform behavior
+- Settings implementation: **DEFER sang M9.3**, không phải blocker của Room System.
+- Final Exit/platform verification: **DEFER sang Phase 11 / final platform QA**, không phải blocker của Room System.
 
 ## M0.2 Mobile Movement
 - [x] Player Rigidbody2D movement
@@ -335,45 +337,107 @@ Combat responsive và dễ hiểu mà không cần debug visual.
 # PHASE 4 — Dungeon Room System
 
 ## M4.1 — Room Architecture
-- [ ] Room component
-- [ ] room lifecycle
-- [ ] enter room
-- [ ] lock room nếu cần
-- [ ] clear condition
-- [ ] completion
-- [ ] unlock exit
-- [ ] transition sang room tiếp theo
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] Room component
+- [x] room lifecycle
+- [x] enter room
+- [x] lock room nếu cần
+- [x] clear condition
+- [x] completion
+- [x] unlock exit
+- [x] transition sang room tiếp theo
+
+`Room` quản lý NotEntered/Active/Completed/Exited và điều kiện OnEntry/DefeatEnemies/SolvePuzzle;
+`RoomManager` điều phối sequence, `RoomExit` chỉ nhận Player, `RoomHUD` hiển thị objective/exit.
+GameScene có hai encounter dùng chung arena: combat dùng Enemy hiện có, rồi dual-switch puzzle.
+Mỗi encounter có cửa thoát riêng dùng lại `Door`; cửa puzzle gốc vẫn do `DualPressureDoor` điều khiển.
+
+Dependency trực tiếp: chuyển phòng giữ HP, đưa Player tới spawn mới, bắt đầu Loop 1 và timeline mới,
+dọn Ghost cũ; rewind chỉ reset Player và room hiện tại. Clear được giữ tới rewind để Player đi tới exit;
+rewind mở lại encounter. Exit cuối phát trạng thái completion và dừng timer, chưa phải Victory flow.
+
+Verification: 30 checks PASS qua Unity MCP/Play Mode, gồm hai rewind tự nhiên 20 giây,
+combat/lock/unlock, transition bằng physics trigger, pause, Ghost puzzle, room-local reset,
+Restart, Game Over và Main Menu. Đã sửa warning API deprecated trong test, compile lại;
+kiểm tra Play Mode bổ sung xác nhận HUD không đè hint puzzle và transition vẫn hoạt động.
+Console cuối: 0 errors, 0 warnings. Đã exit Play Mode, save GameScene, không gắn probe vào scene.
+Chưa test touch/Android. Chi tiết: [M4.1 review](Docs/Testing/M4.1/REVIEW.md).
 
 ## M4.2 — Dungeon Layout
-Tạo authored dungeon khoảng 6–8 room.
+**[x] DONE — authored layout verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+Tám room riêng trong GameScene, authored thủ công và nối bằng RoomManager.
+DONE ở milestone này là layout/progression; không đồng nghĩa đã hoàn thành trap, upgrade, elite hay boss gameplay.
 
 Target:
-- [ ] Start Room
-- [ ] Combat Room
-- [ ] Time Puzzle Room
-- [ ] Trap Room
-- [ ] Upgrade/Treasure Room
-- [ ] Combat/Puzzle Room thứ hai
-- [ ] Elite Room
-- [ ] Boss Room
+- [x] Start Room — Threshold
+- [x] Combat Room — Guard Hall (2 Enemy hiện có)
+- [x] Time Puzzle Room — Echo Chamber (dual-switch + Ghost)
+- [x] Trap Room — Pendulum Gallery (layout + 3 hazard sockets; trap mechanics ở M6.4)
+- [x] Upgrade/Treasure Room — Timewell Treasury (layout + reward socket; upgrade ở Phase 7)
+- [x] Combat/Puzzle Room thứ hai — Split Bastion (3 Enemy hiện có)
+- [x] Elite Room — Warden Antechamber (layout + 1 guard stand-in; elite behavior ở M5.5)
+- [x] Boss Room — Chrono Sanctum (arena + boss/mechanism sockets; boss ở Phase 8)
+
+Mỗi phòng có spawn, camera anchor, exit, floor/border blockout và vị trí nội dung riêng.
+`RoomCamera` theo room hiện tại qua event, không tìm object bằng tên trong runtime.
+Start/Trap/Treasure/Boss dùng OnEntry để kiểm thử tuyến layout; combat và puzzle vẫn yêu cầu clear.
+Chỉ Content của room hiện tại active. DashButton scale được sửa từ 2,5 về 1 để không che layout.
+
+Verification: 153 checks PASS qua Unity MCP/Play Mode: đủ 8 role/footprint riêng, full progression
+qua physics exit, spawn/camera đúng phòng, content isolation, combat clear, hai rewind tự nhiên,
+Ghost puzzle ở tọa độ mới, pause, HP preservation, Restart/Game Over/Main Menu.
+Đã inspect screenshot Guard Hall/Echo Chamber/Pendulum Gallery/Chrono Sanctum.
+Console cuối: 0 errors, 0 warnings; không missing script/reference được kiểm tra.
+Đã exit Play Mode, save GameScene; chưa test touch/Android.
+Chi tiết, map và deferred content: [M4.2 review](Docs/Testing/M4.2/REVIEW.md).
 
 KHÔNG ưu tiên procedural generation.
 
 ## M4.3 — Tilemap / Environment
-- [ ] floor
-- [ ] walls
-- [ ] collision
-- [ ] room boundaries
-- [ ] visual theme consistency
-- [ ] Player không thoát khỏi level geometry
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] floor
+- [x] walls
+- [x] collision
+- [x] room boundaries
+- [x] visual theme consistency
+- [x] Player không thoát khỏi level geometry
+
+Mỗi room có authored floor/border blockout và `RoomBoundary` với năm BoxCollider2D: north,
+south, west, east-upper/east-lower, giữ khe exit ở phía đông. `PlayerDash` dùng Rigidbody2D cast
+để dừng trước collider thay vì teleport xuyên tường. Main Camera vẫn đổi theo `RoomCamera`.
+Environment cũ dùng chung đã tắt; layout hiện tại dùng nền và trim theo từng room, màu cyan cho
+temporal path và amber cho hazard blockout.
+
+Verification: 76 checks PASS qua Unity MCP/Play Mode trên cả 8 room: boundary/collider count,
+movement bị giữ ở tường tây, dash bị chặn ở tường đông phía trên khe, khe exit còn mở,
+pause giữ timer, Restart khôi phục boundary/dash, Main Menu unload scene. Console cuối:
+0 errors, 0 warnings; không missing script, 8 RoomBoundary/8 room; GameScene đã save và exit Play Mode.
+Chưa test touch/Android. Chi tiết: [M4.3 review](Docs/Testing/M4.3/REVIEW.md).
 
 ## M4.4 — Room + Time Loop Interaction
-Phải quyết định rõ và implement:
-- [ ] loop restart position behavior theo room
-- [ ] room-local reset behavior
-- [ ] Ghost lifecycle giữa các room
-- [ ] timeline có reset khi sang room hay không
-- [ ] ngăn Ghost cũ phá gameplay room mới
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] loop restart position behavior theo room
+- [x] room-local reset behavior
+- [x] Ghost lifecycle giữa các room
+- [x] timeline có reset khi sang room hay không
+- [x] ngăn Ghost cũ phá gameplay room mới
+
+Policy đã chốt: mỗi room là một local temporal encounter. Khi room bắt đầu, `TimeLoopManager.BeginEncounter`
+chụp Player + current Room, reset Loop 1 và phát `EncounterStarted`; `PlayerTimelineRecorder` bắt đầu
+timeline mới còn `TemporalGhostManager` xóa pending/active Ghost. Rewind trong room giữ room hiện tại,
+trả Player về spawn, khôi phục enemy/puzzle resettable và tạo Ghost của loop vừa hoàn thành.
+Transition chỉ bật Content room mới, tắt room cũ, giữ HP, đưa Player tới spawn và không mang Ghost/timeline
+cũ sang room mới. Room cũ không thể advance lại; Pause giữ timer và Ghost state.
+
+Verification: 20 checks PASS qua Unity MCP/Play Mode: combat action recording, room-local rewind,
+Ghost snapshot/source loop, enemy health restore, independent Ghost actor, room transition/content isolation,
+fresh Loop 1/timeline, stale Ghost rejection in puzzle, Ghost A + Player B cooperation, physical-exit hold,
+pause, Restart and Main Menu. Console cuối 0 errors, 0 warnings; đã exit Play Mode.
+Chi tiết: [M4.4 review](Docs/Testing/M4.4/REVIEW.md).
 
 Recommended default:  
 Mỗi major room là một local temporal encounter; khi vào room mới nên reset/clear Ghost history trừ khi gameplay testing chứng minh rule khác tốt hơn.
@@ -555,6 +619,8 @@ Boss đánh được, dễ hiểu, và thể hiện rõ core mechanic của game
 - [ ] pause không phá Time Loop/Ghost timeline
 
 ## M9.3 — Settings
+Settings implementation được DEFER từ M0.1 sang milestone này; chưa triển khai trong M4.1.
+
 Tối thiểu:
 - [ ] master volume
 - [ ] music volume hoặc music toggle đơn giản
@@ -665,6 +731,7 @@ Test thủ công:
 - [ ] target frame rate ổn định trên Android device dự kiến
 
 ## M11.4 — Android Build
+- [ ] final Exit/platform behavior verification (DEFER từ M0.1; kết hợp final platform QA)
 - [ ] Android build thành công
 - [ ] install lên real device
 - [ ] launch thành công
@@ -779,13 +846,15 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M3.3 ngày 2026-09-21:
+Next milestone sau khi verify M4.4 ngày 2026-09-21:
 
-**M4.1 — Room Architecture**
+**M5.1 — Enemy Base Improvements**
 
-M3.3 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M4.1. Các hạng mục final Settings,
-Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
-không thay đổi trạng thái của chúng trong milestone này.
+M4.4 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M5.1.
+Trap, upgrade, elite và boss gameplay vẫn ở các milestone tương ứng; không đánh dấu chúng DONE.
+M0.1 là foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
+Phase 11/final platform QA theo scope clarification của user. Các hạng mục device touch và
+responsive layout của M0.2 vẫn cần final QA; không chặn milestone phát triển chính Room System.
 
 Không tự skip sang milestone sau chỉ vì nó hấp dẫn hơn.  
 Hoàn thành, test và integrate milestone chưa hoàn thành sớm nhất trước.

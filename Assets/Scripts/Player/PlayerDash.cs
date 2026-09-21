@@ -15,6 +15,8 @@ public sealed class PlayerDash : MonoBehaviour, ITimeLoopResettable
     private float nextDashTime;
     private Vector2 initialPosition;
     private Vector2 initialFacing;
+    private readonly RaycastHit2D[] dashHits = new RaycastHit2D[8];
+    private ContactFilter2D dashFilter;
 
     public event Action<Vector2> DashPerformed;
     public float DashDistance => dashDistance;
@@ -30,6 +32,8 @@ public sealed class PlayerDash : MonoBehaviour, ITimeLoopResettable
         feedback = GetComponent<DashFeedback>();
         if (feedback == null) feedback = gameObject.AddComponent<DashFeedback>();
         if (loop == null) loop = FindAnyObjectByType<TimeLoopManager>();
+        dashFilter.useTriggers = false;
+        dashFilter.SetLayerMask(Physics2D.DefaultRaycastLayers);
     }
 
     public void CaptureInitialState()
@@ -62,9 +66,17 @@ public sealed class PlayerDash : MonoBehaviour, ITimeLoopResettable
         LastDashDirection = direction;
         nextDashTime = Time.time + dashCooldown;
         Vector2 start = body.position;
-        body.position = start + direction * dashDistance;
+        float travel = dashDistance;
+        int hitCount = body.Cast(direction, dashFilter, dashHits, dashDistance);
+        for (int i = 0; i < hitCount; i++)
+        {
+            Collider2D hit = dashHits[i].collider;
+            if (hit == null || hit.attachedRigidbody == body || hit.isTrigger) continue;
+            travel = Mathf.Min(travel, Mathf.Max(0f, dashHits[i].distance - 0.05f));
+        }
+        body.position = start + direction * travel;
         Physics2D.SyncTransforms();
         DashPerformed?.Invoke(direction);
-        if (feedback != null) feedback.Play(start, direction, dashDistance);
+        if (feedback != null) feedback.Play(start, direction, travel);
     }
 }

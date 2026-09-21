@@ -26,6 +26,7 @@ public sealed class TemporalGhostManager : MonoBehaviour
     {
         if (recorder != null) recorder.RecordingCompleted += QueueRecording;
         if (loop != null) loop.LoopRewound += StartPlayback;
+        if (loop != null) loop.EncounterStarted += ClearHistory;
     }
 
     private void Start()
@@ -41,6 +42,7 @@ public sealed class TemporalGhostManager : MonoBehaviour
     {
         if (recorder != null) recorder.RecordingCompleted -= QueueRecording;
         if (loop != null) loop.LoopRewound -= StartPlayback;
+        if (loop != null) loop.EncounterStarted -= ClearHistory;
     }
 
     private void QueueRecording(PlayerTimeline timeline) => pending = timeline;
@@ -79,7 +81,9 @@ public sealed class TemporalGhostManager : MonoBehaviour
         foreach (GhostPlayback ghost in ghosts) ghost.Play(ghost.Timeline);
     }
 
-    private void OnDestroy()
+    private void OnDestroy() => ClearHistory();
+
+    public void ClearHistory()
     {
         pending = null;
         foreach (GhostPlayback ghost in ghosts)

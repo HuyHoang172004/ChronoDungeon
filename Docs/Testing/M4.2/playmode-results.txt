@@ -1,0 +1,154 @@
+M4.2 PASS: Exactly eight authored rooms
+M4.2 PASS: Configured unique role Start
+M4.2 PASS: Configured unique role Combat
+M4.2 PASS: Separate footprints 0 and 1
+M4.2 PASS: Configured unique role TimePuzzle
+M4.2 PASS: Separate footprints 0 and 2
+M4.2 PASS: Separate footprints 1 and 2
+M4.2 PASS: Configured unique role Trap
+M4.2 PASS: Separate footprints 0 and 3
+M4.2 PASS: Separate footprints 1 and 3
+M4.2 PASS: Separate footprints 2 and 3
+M4.2 PASS: Configured unique role Treasure
+M4.2 PASS: Separate footprints 0 and 4
+M4.2 PASS: Separate footprints 1 and 4
+M4.2 PASS: Separate footprints 2 and 4
+M4.2 PASS: Separate footprints 3 and 4
+M4.2 PASS: Configured unique role CombatChallenge
+M4.2 PASS: Separate footprints 0 and 5
+M4.2 PASS: Separate footprints 1 and 5
+M4.2 PASS: Separate footprints 2 and 5
+M4.2 PASS: Separate footprints 3 and 5
+M4.2 PASS: Separate footprints 4 and 5
+M4.2 PASS: Configured unique role Elite
+M4.2 PASS: Separate footprints 0 and 6
+M4.2 PASS: Separate footprints 1 and 6
+M4.2 PASS: Separate footprints 2 and 6
+M4.2 PASS: Separate footprints 3 and 6
+M4.2 PASS: Separate footprints 4 and 6
+M4.2 PASS: Separate footprints 5 and 6
+M4.2 PASS: Configured unique role Boss
+M4.2 PASS: Separate footprints 0 and 7
+M4.2 PASS: Separate footprints 1 and 7
+M4.2 PASS: Separate footprints 2 and 7
+M4.2 PASS: Separate footprints 3 and 7
+M4.2 PASS: Separate footprints 4 and 7
+M4.2 PASS: Separate footprints 5 and 7
+M4.2 PASS: Separate footprints 6 and 7
+M4.2 PASS: Entered authored room 1
+M4.2 PASS: Player at room spawn 1
+M4.2 PASS: Camera frames room 1
+M4.2 PASS: Only current content active 1
+M4.2 PASS: Fresh temporal state on entry 1
+M4.2 PASS: Layout traversal room has open exit 1
+M4.2 PASS: Pause rejects progression 1
+M4.2 PASS: Pause preserves room framing 1
+M4.2 PASS: Non-player rejected 1
+M4.2 PASS: Transition preserves HP 1
+M4.2 PASS: Physics exit advances once 1
+M4.2 PASS: Old exit rejected 1
+M4.2 PASS: Entered authored room 2
+M4.2 PASS: Player at room spawn 2
+M4.2 PASS: Camera frames room 2
+M4.2 PASS: Only current content active 2
+M4.2 PASS: Fresh temporal state on entry 2
+M4.2 PASS: Combat exit denies early transition 2
+M4.2 PASS: All assigned enemies required 2
+M4.2 PASS: Combat group clears 2
+M4.2 PASS: Natural rewind in Combat
+M4.2 PASS: Rewind relocks guard hall
+M4.2 PASS: Guard restored at room-local rewind
+M4.2 PASS: Guard restored at room-local rewind
+M4.2 PASS: Guard hall produces world-space Ghost
+M4.2 PASS: Pause rejects progression 2
+M4.2 PASS: Pause preserves room framing 2
+M4.2 PASS: Non-player rejected 2
+M4.2 PASS: Transition preserves HP 2
+M4.2 PASS: Physics exit advances once 2
+M4.2 PASS: Old exit rejected 2
+M4.2 PASS: Entered authored room 3
+M4.2 PASS: Player at room spawn 3
+M4.2 PASS: Camera frames room 3
+M4.2 PASS: Only current content active 3
+M4.2 PASS: Fresh temporal state on entry 3
+M4.2 PASS: Translated puzzle still requires cooperation
+M4.2 PASS: Natural rewind in TimePuzzle
+M4.2 PASS: Puzzle rewind returns to translated spawn
+M4.2 PASS: Ghost holds translated plate A while Player holds B
+M4.2 PASS: Translated puzzle unlocks room exit
+M4.2 PASS: Pause rejects progression 3
+M4.2 PASS: Pause preserves room framing 3
+M4.2 PASS: Non-player rejected 3
+M4.2 PASS: Transition preserves HP 3
+M4.2 PASS: Physics exit advances once 3
+M4.2 PASS: Old exit rejected 3
+M4.2 PASS: Entered authored room 4
+M4.2 PASS: Player at room spawn 4
+M4.2 PASS: Camera frames room 4
+M4.2 PASS: Only current content active 4
+M4.2 PASS: Fresh temporal state on entry 4
+M4.2 PASS: Layout traversal room has open exit 4
+M4.2 PASS: Pause rejects progression 4
+M4.2 PASS: Pause preserves room framing 4
+M4.2 PASS: Non-player rejected 4
+M4.2 PASS: Transition preserves HP 4
+M4.2 PASS: Physics exit advances once 4
+M4.2 PASS: Old exit rejected 4
+M4.2 PASS: Entered authored room 5
+M4.2 PASS: Player at room spawn 5
+M4.2 PASS: Camera frames room 5
+M4.2 PASS: Only current content active 5
+M4.2 PASS: Fresh temporal state on entry 5
+M4.2 PASS: Layout traversal room has open exit 5
+M4.2 PASS: Pause rejects progression 5
+M4.2 PASS: Pause preserves room framing 5
+M4.2 PASS: Non-player rejected 5
+M4.2 PASS: Transition preserves HP 5
+M4.2 PASS: Physics exit advances once 5
+M4.2 PASS: Old exit rejected 5
+M4.2 PASS: Entered authored room 6
+M4.2 PASS: Player at room spawn 6
+M4.2 PASS: Camera frames room 6
+M4.2 PASS: Only current content active 6
+M4.2 PASS: Fresh temporal state on entry 6
+M4.2 PASS: Combat exit denies early transition 6
+M4.2 PASS: All assigned enemies required 6
+M4.2 PASS: Combat group clears 6
+M4.2 PASS: Pause rejects progression 6
+M4.2 PASS: Pause preserves room framing 6
+M4.2 PASS: Non-player rejected 6
+M4.2 PASS: Transition preserves HP 6
+M4.2 PASS: Physics exit advances once 6
+M4.2 PASS: Old exit rejected 6
+M4.2 PASS: Entered authored room 7
+M4.2 PASS: Player at room spawn 7
+M4.2 PASS: Camera frames room 7
+M4.2 PASS: Only current content active 7
+M4.2 PASS: Fresh temporal state on entry 7
+M4.2 PASS: Combat exit denies early transition 7
+M4.2 PASS: All assigned enemies required 7
+M4.2 PASS: Combat group clears 7
+M4.2 PASS: Pause rejects progression 7
+M4.2 PASS: Pause preserves room framing 7
+M4.2 PASS: Non-player rejected 7
+M4.2 PASS: Transition preserves HP 7
+M4.2 PASS: Physics exit advances once 7
+M4.2 PASS: Old exit rejected 7
+M4.2 PASS: Entered authored room 8
+M4.2 PASS: Player at room spawn 8
+M4.2 PASS: Camera frames room 8
+M4.2 PASS: Only current content active 8
+M4.2 PASS: Fresh temporal state on entry 8
+M4.2 PASS: Layout traversal room has open exit 8
+M4.2 PASS: Pause rejects progression 8
+M4.2 PASS: Pause preserves room framing 8
+M4.2 PASS: Non-player rejected 8
+M4.2 PASS: Transition preserves HP 8
+M4.2 PASS: All eight rooms reach layout completion
+M4.2 PASS: Restart returns to Threshold
+M4.2 PASS: Restart restores camera framing
+M4.2 PASS: Restart leaves no Ghost history
+M4.2 PASS: Game Over still works
+M4.2 PASS: Restart after death restores run
+M4.2 PASS: Main Menu unloads dungeon and room camera
+M4.2 ALL CHECKS PASSED; checks=153
