@@ -11,15 +11,21 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
     private PlayerTimeline recording, spare;
     private float nextSampleTime;
     private PlayerAttack playerAttack;
+    private PlayerDash playerDash;
     private bool reportedActionOverflow;
     public PlayerTimeline CurrentRecording => recording;
     public event Action<PlayerTimeline> RecordingCompleted;
 
-    private void Awake() => playerAttack = GetComponent<PlayerAttack>();
+    private void Awake()
+    {
+        playerAttack = GetComponent<PlayerAttack>();
+        playerDash = GetComponent<PlayerDash>();
+    }
 
     private void OnEnable()
     {
         if (playerAttack != null) playerAttack.AttackPerformed += RecordAttack;
+        if (playerDash != null) playerDash.DashPerformed += RecordDash;
         if (loop == null) return;
         loop.LoopEnding += FinishRecording;
         loop.LoopRewound += BeginRecording;
@@ -34,6 +40,11 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
             return;
         }
         visual = GetComponent<SpriteRenderer>();
+        if (playerDash == null)
+        {
+            playerDash = GetComponent<PlayerDash>();
+            if (playerDash != null) playerDash.DashPerformed += RecordDash;
+        }
         sampleInterval = Mathf.Clamp(sampleInterval, 0.02f, 0.2f);
         int capacity = Mathf.Clamp(Mathf.CeilToInt(loop.LoopDuration / sampleInterval) + 3, 3, 10000);
         recording = new PlayerTimeline(capacity);
@@ -44,6 +55,7 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
     private void OnDisable()
     {
         if (playerAttack != null) playerAttack.AttackPerformed -= RecordAttack;
+        if (playerDash != null) playerDash.DashPerformed -= RecordDash;
         if (loop == null) return;
         loop.LoopEnding -= FinishRecording;
         loop.LoopRewound -= BeginRecording;
@@ -78,6 +90,21 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
         bool added = recording.TryAddAction(new PlayerTimeline.ActionEvent {
             Time = loop.ElapsedTime, Kind = PlayerTimeline.ActionKind.Attack,
             Direction = attack.Direction, Attack = attack });
+        if (!added && !reportedActionOverflow)
+        {
+            reportedActionOverflow = true;
+            Debug.LogWarning("Timeline action capacity reached; further actions are omitted this loop.", this);
+        }
+    }
+
+    private void RecordDash(Vector2 direction)
+    {
+        if (recording == null || loop == null || !loop.IsRunning) return;
+        bool added = recording.TryAddAction(new PlayerTimeline.ActionEvent {
+            Time = loop.ElapsedTime, Kind = PlayerTimeline.ActionKind.Dash,
+            Direction = direction,
+            Payload = playerDash != null ? Mathf.RoundToInt(playerDash.DashDistance * 1000f) : 0
+        });
         if (!added && !reportedActionOverflow)
         {
             reportedActionOverflow = true;

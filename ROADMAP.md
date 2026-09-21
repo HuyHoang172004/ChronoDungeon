@@ -160,7 +160,8 @@ slot tái sử dụng không replay attack cũ. Pause, Game Over và Restart PAS
 
 Đã thoát Play Mode, save GameScene; Enemy có EnemyAttackTarget, maxGhosts = 3,
 không missing script/probe lưu trong scene. Console cuối: 0 errors, 0 warnings.
-Attack vẫn là radial như foundation; hướng được record, directional hit shape/VFX thuộc M3.1.
+Tại thời điểm M1.3 attack còn radial; hướng đã được record để mở rộng. Directional hit shape/VFX
+được hoàn tất trong M3.1.
 Action buffer giới hạn 256 event/loop; overflow cảnh báo một lần và bỏ event vượt giới hạn.
 Chưa test touch/Android. Chi tiết: [M1.3 review](Docs/Testing/M1.3/REVIEW.md).
 
@@ -266,27 +267,65 @@ Chi tiết: [M2.4 review](Docs/Testing/M2.4/REVIEW.md).
 # PHASE 3 — Player Combat Polish
 
 ## M3.1 — Directional Combat
-- [ ] attack direction/facing
-- [ ] attack visual
-- [ ] hit feedback rõ
-- [ ] attack cooldown
-- [ ] ngăn accidental multi-hit bug
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] attack direction/facing
+- [x] attack visual
+- [x] hit feedback rõ
+- [x] attack cooldown
+- [x] ngăn accidental multi-hit bug
+
+`PlayerAttack` dùng `PlayerMovement.FacingDirection`, ghi `ArcAngle` vào `AttackSnapshot`
+và dùng cùng payload cho Player/Ghost. `AttackResolver` lọc mục tiêu theo hướng, vẫn deduplicate
+Enemy có nhiều collider. Cooldown mặc định 0,35 giây chặn swing trùng; `AttackFeedback` hiển thị
+slash line theo hướng, còn `DamageFeedback` flash SpriteRenderer của Enemy khi trúng đòn.
+
+Verification: 10 checks PASS qua Unity MCP/Play Mode: hit phía trước, không hit phía sau,
+đổi hướng, cooldown, slash visual, Enemy hit flash, timeline giữ ArcAngle và pause giữ nguyên
+combat/loop. Console cuối không có error/warning mới; đã exit Play Mode và xóa probe khỏi scene.
+Regression M1.3 được giữ nguyên trong code path hiện tại; touch/Android chưa mô phỏng đáng tin cậy
+qua MCP và cần test thủ công trên thiết bị.
 
 ## M3.2 — Dash
-- [ ] Dash button
-- [ ] dash movement
-- [ ] cooldown
-- [ ] mobile-friendly behavior
-- [ ] visual feedback
-- [ ] Ghost timeline support nếu cần
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] Dash button
+- [x] dash movement
+- [x] cooldown
+- [x] mobile-friendly behavior
+- [x] visual feedback
+- [x] Ghost timeline support nếu cần
+
+`PlayerDash` là component riêng, dùng hướng di chuyển/facing hiện tại, dash distance mặc định
+2,5 và cooldown 0,8 giây. `DashButton` là UI adapter nhận pointer click trên Canvas, tự hiển thị
+trạng thái ready/cooldown và tạo nhãn DASH khi chạy. `DashFeedback` hiển thị vệt cyan; Dash được
+ghi vào timeline với hướng và distance payload. Ghost replay lại action/feedback đúng thời điểm;
+pose timeline giữ quãng di chuyển nên không bị dash hai lần.
+
+Verification: 11 checks PASS qua Unity MCP/Play Mode: movement theo hướng, cooldown chặn lặp,
+cooldown hồi phục, visual feedback, mobile button reference, pause freeze, natural rewind, Ghost
+nhận timeline và replay Dash. Console cuối không có error/warning mới; đã save GameScene, exit Play
+Mode và xóa probe khỏi scene. MCP không mô phỏng touch Android đáng tin cậy; cần test tap Dash trên
+thiết bị/emulator thủ công.
 
 ## M3.3 — Player Feedback
-- [ ] hit flash
-- [ ] damage feedback
-- [ ] attack SFX
-- [ ] damage SFX
-- [ ] death feedback
-- [ ] optional restrained camera shake
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] hit flash
+- [x] damage feedback
+- [x] attack SFX
+- [x] damage SFX
+- [x] death feedback
+- [ ] optional restrained camera shake (deferred; không cần cho acceptance)
+
+`CombatFeedback` là component presentation dùng chung cho Player và Enemy. `Health` phát hit/death
+feedback tập trung, `PlayerAttack` phát attack SFX, còn `AttackResolver` giữ hit flash/damage SFX
+cho Enemy nhiều collider. Audio dùng clip procedural ngắn, không thêm package/asset dependency.
+
+Verification: 10 checks PASS qua Unity MCP/Play Mode: Player/Enemy feedback component và audio
+source, attack SFX, Enemy hit flash + damage SFX, Player contact damage + feedback, death feedback,
+cooldown chống duplicate và gameplay time vẫn hoạt động. Console cuối không có error/warning mới;
+đã save GameScene, exit Play Mode và xóa probe khỏi scene. Touch/Android audio vẫn cần test thủ công.
 
 Acceptance:  
 Combat responsive và dễ hiểu mà không cần debug visual.
@@ -740,11 +779,11 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M2.4 ngày 2026-09-21:
+Next milestone sau khi verify M3.3 ngày 2026-09-21:
 
-**M3.1 — Directional Combat**
+**M4.1 — Room Architecture**
 
-M2.4 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M3.1. Các hạng mục final Settings,
+M3.3 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M4.1. Các hạng mục final Settings,
 Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
 không thay đổi trạng thái của chúng trong milestone này.
 

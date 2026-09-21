@@ -27,6 +27,9 @@ public sealed class GhostPlayback : MonoBehaviour
         switchActor = gameObject.AddComponent<PressureSwitchActor>();
         switchActor.UseReplayPoint();
         switchActor.enabled = false;
+        if (GetComponent<AttackFeedback>() == null) gameObject.AddComponent<AttackFeedback>();
+        if (GetComponent<DashFeedback>() == null) gameObject.AddComponent<DashFeedback>();
+        if (GetComponent<CombatFeedback>() == null) gameObject.AddComponent<CombatFeedback>();
     }
 
     public void Play(PlayerTimeline timeline)
@@ -60,6 +63,15 @@ public sealed class GhostPlayback : MonoBehaviour
             {
                 case PlayerTimeline.ActionKind.Attack:
                     attacks.Execute(action.Attack);
+                    var feedback = GetComponent<AttackFeedback>();
+                    if (feedback != null) feedback.Play(action.Attack);
+                    var combatFeedback = GetComponent<CombatFeedback>();
+                    if (combatFeedback != null) combatFeedback.PlayAttack();
+                    break;
+                case PlayerTimeline.ActionKind.Dash:
+                    var dashFeedback = GetComponent<DashFeedback>();
+                    if (dashFeedback != null)
+                        dashFeedback.Play(action.Direction);
                     break;
                 // Future Dash/Interaction/Skill handlers use the same cursor.
             }

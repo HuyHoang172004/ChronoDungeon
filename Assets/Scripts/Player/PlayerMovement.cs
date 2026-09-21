@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour, ITimeLoopResettable
     private Rigidbody2D rb;
     private Vector2 moveDirection;
     public Vector2 FacingDirection { get; private set; } = Vector2.right;
+    public Vector2 CurrentMoveDirection => moveDirection;
     private Vector2 initialFacing = Vector2.right;
 
     public void CaptureInitialState() => initialFacing = FacingDirection;
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour, ITimeLoopResettable
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (GetComponent<PlayerDash>() == null) gameObject.AddComponent<PlayerDash>();
     }
 
     public void SetMoveDirection(Vector2 direction)

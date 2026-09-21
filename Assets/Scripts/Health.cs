@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float health = 100f;
     [SerializeField] private DeathAction deathAction = DeathAction.None;
     [SerializeField] private UnityEvent onDeath = new UnityEvent();
+    private CombatFeedback feedback;
 
     public float maxHealth => maximumHealth;
     public float currentHealth => health;
@@ -19,6 +20,8 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
+        feedback = GetComponent<CombatFeedback>();
+        if (feedback == null) feedback = gameObject.AddComponent<CombatFeedback>();
         ValidateValues();
         health = maximumHealth;
     }
@@ -38,8 +41,10 @@ public class Health : MonoBehaviour
         if (IsDead || damage <= 0f || float.IsNaN(damage)) return;
         health = Mathf.Clamp(health - damage, 0f, maximumHealth);
         Changed?.Invoke(this);
+        if (feedback != null) feedback.PlayHit();
         if (!IsDead) return;
 
+        if (feedback != null) feedback.PlayDeath();
         onDeath.Invoke();
         if (deathAction == DeathAction.Deactivate)
             gameObject.SetActive(false);
