@@ -6,6 +6,7 @@ public sealed class GhostPlayback : MonoBehaviour
 {
     private TimeLoopManager loop;
     private SpriteRenderer visual;
+    private PressureSwitchActor switchActor;
     private readonly AttackResolver attacks = new AttackResolver();
     private int nextAction;
     public event System.Action<PlayerTimeline.ActionEvent> ActionReplayed;
@@ -23,6 +24,9 @@ public sealed class GhostPlayback : MonoBehaviour
         visual.color = tint;
         transform.localScale = source.transform.lossyScale;
         visual.enabled = false;
+        switchActor = gameObject.AddComponent<PressureSwitchActor>();
+        switchActor.UseReplayPoint();
+        switchActor.enabled = false;
     }
 
     public void Play(PlayerTimeline timeline)
@@ -30,6 +34,7 @@ public sealed class GhostPlayback : MonoBehaviour
         Timeline = timeline;
         nextAction = 0;
         visual.enabled = timeline != null && timeline.PoseCount > 0;
+        if (switchActor != null) switchActor.enabled = visual.enabled;
         ApplyPose(0f);
     }
 

@@ -2079,6 +2079,7 @@ GameObject:
   - component: {fileID: 1130303117}
   - component: {fileID: 1130303118}
   - component: {fileID: 1130303119}
+  - component: {fileID: 1130303120}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2332,6 +2333,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerTimelineRecorder
   loop: {fileID: 298039190}
   sampleInterval: 0.05
+--- !u!114 &1130303120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130303110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563bff1987bedf045af84860ffd9010d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PressureSwitchActor
+  useReplayPoint: 0
 --- !u!1 &1354902631
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,6 +3379,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068710448}
   m_CullTransparentMesh: 1
+--- !u!1001 &4053644271064591547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071921602247532951, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852130812325109194, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
+      propertyPath: m_Name
+      value: Pressure Switch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dccb32a916367644a953cc8f2ea15fac, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3376,3 +3447,4 @@ SceneRoots:
   - {fileID: 1883288069}
   - {fileID: 401301886}
   - {fileID: 606092072}
+  - {fileID: 4053644271064591547}

@@ -1,0 +1,39 @@
+M2.1 PASS: Initial switch is visibly inactive
+M2.1 PASS: Existing maxGhosts=3 and 20-second clock retained
+M2.1 PASS: Player reaches target using movement
+M2.1 PASS: Player with two colliders counts as one occupant
+M2.1 PASS: Active state changes color and enables light
+M2.1 PASS: Disabling one collider keeps switch active through remaining collider
+M2.1 PASS: Last collider leaving deactivates switch
+M2.1 PASS: Returning child collider activates switch
+M2.1 PASS: Disabled opt-in actor is removed without an exit callback
+M2.1 PASS: Player attack remains exact 25 damage with switch present
+M2.1 PASS: Player reaches target using movement
+M2.1 PASS: Player leaving restores inactive visual
+M2.1 PASS: Enemy without opt-in cannot activate switch
+M2.1 PASS: Player reaches target using movement
+M2.1 PASS: Switch held active before rewind
+M2.1 PASS: Natural rewind resets switch inactive with zero occupants
+M2.1 PASS: No stale occupancy after rewind teleports actors
+M2.1 PASS: Ghost explicitly opts in without physics collider or Health
+M2.1 PASS: Recorded Ghost movement activates switch while live Player is elsewhere
+M2.1 PASS: Ghost attack replay remains once-only, exactly 25 Enemy damage and no Player damage
+M2.1 PASS: Player plus Ghost count as two actors, not three colliders
+M2.1 PASS: Player exits while Ghost remains: no false inactive event
+M2.1 PASS: Ghost exits while Player remains: switch stays active
+M2.1 PASS: Last actor exits: switch deactivates
+M2.1 PASS: Reusable opt-in actor activates switch
+M2.1 PASS: Disabling switch clears output
+M2.1 PASS: Re-enabled switch reconciles existing occupants
+M2.1 PASS: Destroyed actor cannot leave stale occupancy
+M2.1 PASS: Ghost can hold switch until loop ends
+M2.1 PASS: Natural rewind resets switch inactive with zero occupants
+M2.1 PASS: No stale occupancy after rewind teleports actors
+M2.1 PASS: Multiple Ghost history survives switch resets
+M2.1 PASS: Enemy chase still works
+M2.1 PASS: Enemy contact damages Player while switch remains usable
+M2.1 PASS: Game Over still freezes gameplay
+M2.1 PASS: Switch state, loop and Ghost actions stay frozen during Game Over
+M2.1 PASS: C# and Inspector events agree on every state transition
+M2.1 PASS: Restart gives clean switch, actor registry, Ghost history and Player state
+M2.1 ALL CHECKS PASSED; checks=38; frames=14641; transitions=18; worstPosition=0

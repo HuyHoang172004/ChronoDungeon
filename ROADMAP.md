@@ -169,11 +169,31 @@ Chưa test touch/Android. Chi tiết: [M1.3 review](Docs/Testing/M1.3/REVIEW.md)
 # PHASE 2 — First Complete Time Puzzle
 
 ## M2.1 — Pressure Switch
-- [ ] reusable PressureSwitch
-- [ ] Player activate được
-- [ ] Ghost tương thích activate được
-- [ ] visual state active/inactive rõ
-- [ ] resettable khi rewind
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] reusable PressureSwitch
+- [x] Player activate được
+- [x] Ghost tương thích activate được
+- [x] visual state active/inactive rõ
+- [x] resettable khi rewind
+
+Prefab PressureSwitch dùng opt-in PressureSwitchActor, đếm actor độc lập với số collider.
+Player dùng collider overlap; Ghost dùng vị trí replay nằm trong plate, không thêm physics collider.
+Có IsActive/OccupantCount, C# StateChanged(bool) và Inspector UnityEvent<bool> để nối mechanism sau.
+Rewind reset inactive/zero occupants ngay lập tức, đánh giá lại ở frame gameplay tiếp theo.
+
+Verification: 38 checks PASS qua Unity MCP/Play Mode, hai rewind tự nhiên 20 giây,
+14.641 frame theo dõi, sai số Ghost movement = 0. Player hai collider đếm một actor;
+Player + Ghost đếm hai; một actor rời thì actor còn lại vẫn giữ switch, không phát false event.
+PASS: collider disable/exit, actor disable/destroy, switch disable/re-enable, Enemy bị loại,
+reset khi Player/Ghost giữ plate, Ghost attack đúng 25 damage một lần và không damage Player,
+Enemy chase/contact, Game Over/freeze, Restart và C#/Inspector events đồng nhất (18 transitions).
+
+Đã kiểm tra hình ảnh active/inactive, save prefab và GameScene, thoát Play Mode;
+không probe/missing script trong scene, maxGhosts = 3. Console cuối: 0 errors, 0 warnings.
+Chưa test mobile touch/Android. Khi record nên đứng rõ trên plate: Ghost dùng anchor point,
+Player dùng collider nên ngưỡng kích hoạt ở mép khác nhau. Chưa triển khai Door/M2.2.
+Chi tiết: [M2.1 review](Docs/Testing/M2.1/REVIEW.md).
 
 ## M2.2 — Door
 - [ ] reusable Door
@@ -679,11 +699,11 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M1.3 ngày 2026-09-21:
+Next milestone sau khi verify M2.1 ngày 2026-09-21:
 
-**M2.1 — Pressure Switch**
+**M2.2 — Door**
 
-M1.3 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M2.1. Các hạng mục final Settings,
+M2.1 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M2.2. Các hạng mục final Settings,
 Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
 không thay đổi trạng thái của chúng trong milestone này.
 
