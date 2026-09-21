@@ -31,14 +31,14 @@ public sealed class TemporalGhostPlayModeChecks : MonoBehaviour
 
     private IEnumerator Start()
     {
-        loop = FindFirstObjectByType<TimeLoopManager>();
-        recorder = FindFirstObjectByType<PlayerTimelineRecorder>();
-        ghosts = FindFirstObjectByType<TemporalGhostManager>();
-        player = FindFirstObjectByType<PlayerMovement>();
-        var enemy = FindFirstObjectByType<EnemyFollow>();
+        loop = FindAnyObjectByType<TimeLoopManager>();
+        recorder = FindAnyObjectByType<PlayerTimelineRecorder>();
+        ghosts = FindAnyObjectByType<TemporalGhostManager>();
+        player = FindAnyObjectByType<PlayerMovement>();
+        var enemy = FindAnyObjectByType<EnemyFollow>();
         var enemyHealth = enemy.GetComponent<Health>();
         var playerHealth = player.GetComponent<Health>();
-        var game = FindFirstObjectByType<GameManager>();
+        var game = FindAnyObjectByType<GameManager>();
         var initialPlayer = player.transform.position;
         var initialEnemy = enemy.transform.position;
         enemy.enabled = false; // Keep the recording path safe; restored below.

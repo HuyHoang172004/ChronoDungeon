@@ -99,16 +99,35 @@ Chưa xác nhận touch/multitouch Android hoặc độ mượt cảm nhận tr�
 Chi tiết và manual checklist: [M1.1 review](Docs/Testing/M1.1/REVIEW.md).
 
 ## M1.2 — Multiple Ghosts
-- [ ] Ghost1 đại diện Loop1
-- [ ] Ghost2 đại diện Loop2
-- [ ] Ghost3 đại diện Loop3
-- [ ] maxGhosts = 3
-- [ ] loại Ghost cũ nhất khi vượt giới hạn
-- [ ] Restart xóa recordings/Ghosts
-- [ ] Game Over không làm hỏng recording state
+
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] Ghost1 đại diện Loop1
+- [x] Ghost2 đại diện Loop2
+- [x] Ghost3 đại diện Loop3
+- [x] maxGhosts = 3
+- [x] loại Ghost cũ nhất khi vượt giới hạn
+- [x] Restart xóa recordings/Ghosts
+- [x] Game Over không làm hỏng recording state
 
 Acceptance:  
 Test ít nhất 4 lần chuyển loop và không bao giờ có hơn 3 active Ghost.
+
+Verification: 81 checks PASS qua Unity MCP/Play Mode, bốn rewind tự nhiên
+20 giây liên tiếp và một rewind sau Restart. Loop 2/3/4 lần lượt giữ lịch sử
+[1], [1,2], [1,2,3]; Loop 5 giữ [2,3,4]. Theo dõi 38.107 frame: tối đa 3 Ghost,
+sai số vị trí so với recording lưu riêng = 0. Mỗi Ghost giữ snapshot riêng,
+không bị recorder ghi đè; slot cũ nhất được tái sử dụng khi đủ ba Ghost.
+
+PASS: joystick pointer giả lập điều khiển Player độc lập; Ghost không có input,
+Health/collider/Player tag; Enemy overlap Ghost không gây Player damage;
+pause/Game Over giữ nguyên timeline; combat, Enemy chase/contact và reset HP/dead
+Enemy hoạt động. Restart từ Game Over và khi đang chơi xóa lịch sử; rewind đầu
+sau Restart tạo đúng một Ghost mới; Main Menu không còn Ghost tồn dư.
+
+Đã exit Play Mode, gỡ probe, save GameScene; reference đầy đủ, không missing script.
+Unity native Console cuối: 0 errors, 0 warnings. Chưa xác nhận touch/multitouch
+hay performance Android. Chi tiết: [M1.2 review](Docs/Testing/M1.2/REVIEW.md).
 
 ## M1.3 — Action Timeline
 Mở rộng timeline mà không viết lại movement system.
@@ -645,11 +664,11 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M1.1 ngày 2026-09-21:
+Next milestone sau khi verify M1.2 ngày 2026-09-21:
 
-**M1.2 — Multiple Ghosts**
+**M1.3 — Action Timeline**
 
-M1.1 đã hoàn thành; dừng tại checkpoint review. Các hạng mục final Settings,
+M1.2 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M1.3. Các hạng mục final Settings,
 Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
 không thay đổi trạng thái của chúng trong milestone này.
 

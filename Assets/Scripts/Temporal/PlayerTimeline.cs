@@ -26,6 +26,8 @@ public sealed class PlayerTimeline
     public int PoseCount { get; private set; }
     public int ActionCount { get; private set; }
     public int SourceLoop { get; private set; }
+    public int PoseCapacity => poses.Length;
+    public int ActionCapacity => actions.Length;
     public Pose GetPose(int index) => poses[index];
     public ActionEvent GetAction(int index) => actions[index];
 
@@ -39,6 +41,20 @@ public sealed class PlayerTimeline
     {
         PoseCount = ActionCount = 0;
         SourceLoop = sourceLoop;
+    }
+
+    // Ghost-owned snapshots must not retain the recorder's rotating buffers.
+    // Copy only at rewind; destination storage is reused after oldest eviction.
+    public void CopyFrom(PlayerTimeline source)
+    {
+        if (source == null) throw new System.ArgumentNullException(nameof(source));
+        if (source.PoseCount > poses.Length || source.ActionCount > actions.Length)
+            throw new System.ArgumentException("Timeline snapshot capacity is too small.", nameof(source));
+        System.Array.Copy(source.poses, poses, source.PoseCount);
+        System.Array.Copy(source.actions, actions, source.ActionCount);
+        PoseCount = source.PoseCount;
+        ActionCount = source.ActionCount;
+        SourceLoop = source.SourceLoop;
     }
 
     public void AddPose(Pose pose)

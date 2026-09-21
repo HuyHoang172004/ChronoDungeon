@@ -1,0 +1,83 @@
+M1.2 PASS: Fresh run starts with zero Ghosts and maxGhosts=3
+M1.2 PASS: Tests use real 20-second loops at timeScale 1
+M1.2 PASS: Synthetic joystick drives live Player independently in Loop 1
+M1.2 PASS: Enemy death deactivates before rewind
+M1.2 PASS: Natural rewind 1 completed
+M1.2 PASS: Player reset and HP preserved after rewind 1
+M1.2 PASS: Enemy restoration after rewind 1
+M1.2 PASS: Loop 2 active Ghost count=1
+M1.2 PASS: Loop 2 preserves every sample from Loop 1
+M1.2 PASS: Ghost 1 excludes damage/input/recording components and Player tag
+M1.2 PASS: Ghost 1 restarts at time zero
+M1.2 PASS: Synthetic joystick drives live Player independently in Loop 2
+M1.2 PASS: Natural rewind 2 completed
+M1.2 PASS: Player reset and HP preserved after rewind 2
+M1.2 PASS: Enemy restoration after rewind 2
+M1.2 PASS: Loop 3 active Ghost count=2
+M1.2 PASS: Loop 3 preserves every sample from Loop 1
+M1.2 PASS: Ghost 1 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 3 preserves every sample from Loop 2
+M1.2 PASS: Ghost 2 excludes damage/input/recording components and Player tag
+M1.2 PASS: Ghost 1 restarts at time zero
+M1.2 PASS: Ghost 2 restarts at time zero
+M1.2 PASS: Synthetic joystick drives live Player independently in Loop 3
+M1.2 PASS: Pause freezes all Ghosts, history, recorder and clock
+M1.2 PASS: Loop 3 active Ghost count=2
+M1.2 PASS: Loop 3 preserves every sample from Loop 1
+M1.2 PASS: Ghost 1 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 3 preserves every sample from Loop 2
+M1.2 PASS: Ghost 2 excludes damage/input/recording components and Player tag
+M1.2 PASS: Natural rewind 3 completed
+M1.2 PASS: Player reset and HP preserved after rewind 3
+M1.2 PASS: Enemy restoration after rewind 3
+M1.2 PASS: Loop 4 active Ghost count=3
+M1.2 PASS: Loop 4 preserves every sample from Loop 1
+M1.2 PASS: Ghost 1 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 4 preserves every sample from Loop 2
+M1.2 PASS: Ghost 2 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 4 preserves every sample from Loop 3
+M1.2 PASS: Ghost 3 excludes damage/input/recording components and Player tag
+M1.2 PASS: Ghost 1 restarts at time zero
+M1.2 PASS: Ghost 2 restarts at time zero
+M1.2 PASS: Ghost 3 restarts at time zero
+M1.2 PASS: Synthetic joystick drives live Player independently in Loop 4
+M1.2 PASS: Natural rewind 4 completed
+M1.2 PASS: Player reset and HP preserved after rewind 4
+M1.2 PASS: Enemy restoration after rewind 4
+M1.2 PASS: Loop 5 active Ghost count=3
+M1.2 PASS: Loop 5 preserves every sample from Loop 2
+M1.2 PASS: Ghost 2 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 5 preserves every sample from Loop 3
+M1.2 PASS: Ghost 3 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 5 preserves every sample from Loop 4
+M1.2 PASS: Ghost 4 excludes damage/input/recording components and Player tag
+M1.2 PASS: Ghost 2 restarts at time zero
+M1.2 PASS: Full history reuses an existing slot
+M1.2 PASS: Ghost 3 restarts at time zero
+M1.2 PASS: Full history reuses an existing slot
+M1.2 PASS: Ghost 4 restarts at time zero
+M1.2 PASS: Full history reuses an existing slot
+M1.2 PASS: Loop 5 evicts Loop 1 and retains exactly Loops 2,3,4
+M1.2 PASS: Enemy overlapping Ghost neither damages Player nor removes Ghost
+M1.2 PASS: Player attack still damages Enemy without self-damage
+M1.2 PASS: Enemy still follows live Player
+M1.2 PASS: Enemy contact still damages live Player
+M1.2 PASS: Game Over with three Ghosts
+M1.2 PASS: Game Over freezes all Ghosts, history, recorder and clock
+M1.2 PASS: Loop 5 active Ghost count=3
+M1.2 PASS: Loop 5 preserves every sample from Loop 2
+M1.2 PASS: Ghost 2 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 5 preserves every sample from Loop 3
+M1.2 PASS: Ghost 3 excludes damage/input/recording components and Player tag
+M1.2 PASS: Loop 5 preserves every sample from Loop 4
+M1.2 PASS: Ghost 4 excludes damage/input/recording components and Player tag
+M1.2 HISTORY CHECKS PASSED; monitored frames=28438; max active=3; worst position error=0
+M1.2 PASS: Restart destroys every old Ghost and recorder
+M1.2 PASS: Restart starts fresh recording and Loop 1, unpaused
+M1.2 PASS: First rewind after Restart creates exactly one fresh Ghost
+M1.2 PASS: Loop 2 active Ghost count=1
+M1.2 PASS: Loop 2 preserves every sample from Loop 1
+M1.2 PASS: Ghost 1 excludes damage/input/recording components and Player tag
+M1.2 PASS: Restart during active gameplay also clears Ghost history
+M1.2 PASS: Main Menu navigation leaves no Ghosts
+M1.2 ALL CHECKS PASSED; assertions=81; max active=3; frames=38107; worst position error=0
