@@ -1,0 +1,26 @@
+M2.2 PASS: Initial locked door has blocking collider and visible panel
+M2.2 PASS: Existing loop duration and maxGhosts retained
+M2.2 PASS: Closed Door physically blocks Rigidbody2D Player moving toward it
+M2.2 PASS: Generic bool event opens collider and visual together
+M2.2 PASS: Open status light differs from locked status
+M2.2 PASS: Repeated open command does not duplicate state events
+M2.2 PASS: Open Door allows physical Player passage
+M2.2 PASS: Close while Player occupies passage defers without trapping or visual mismatch
+M2.2 PASS: Door remains open while passage occupied
+M2.2 PASS: New open signal cancels pending close
+M2.2 PASS: Player can exit and pending Door closes automatically after clearance
+M2.2 PASS: Enemy body also prevents unsafe closure
+M2.2 PASS: Door closes after Enemy clears
+M2.2 PASS: Saved PressureSwitch Inspector event opens Door
+M2.2 PASS: Switch release closes clear Door
+M2.2 PASS: Live attack still deals exactly 25 Enemy damage
+M2.2 PASS: Door is open before natural rewind
+M2.2 PASS: Natural rewind restores configured locked Door and inactive switch
+M2.2 PASS: Ghost history created normally
+M2.2 PASS: Replaying Ghost operates existing switch-to-Door event
+M2.2 PASS: Ghost departure closes Door without collider interaction
+M2.2 PASS: Ghost attack remains once-only, exact damage, no Player damage
+M2.2 PASS: Game Over works while Door close is pending
+M2.2 PASS: Game Over freezes pending Door, loop and visual state
+M2.2 PASS: Restart restores clean Door/switch/history state
+M2.2 ALL CHECKS PASSED; checks=25; frames=8204; transitions=12; worstPosition=0

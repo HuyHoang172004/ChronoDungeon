@@ -1,0 +1,17 @@
+M2.3 PASS: Two switches and referenced dual mechanism exist
+M2.3 PASS: Fresh puzzle starts unsolved with Door closed
+M2.3 PASS: Loop 1 Player holds Switch A alone; Door remains locked
+M2.3 PASS: Player leaving Switch A releases it in Loop 1
+M2.3 PASS: Loop 2 creates Ghost 1 from Loop 1
+M2.3 PASS: Ghost 1 replays Switch A while Player is elsewhere
+M2.3 PASS: Player activates Switch B while Ghost holds A; Door opens
+M2.3 PASS: Solved dual mechanism synchronizes Door collider and visual
+M2.3 PASS: Player leaving B closes Door while Ghost still holds A
+M2.3 PASS: Player returning to B reopens Door without another rewind
+M2.3 PASS: Puzzle movement does not fabricate action events
+M2.3 PASS: Player combat remains valid in solved puzzle
+M2.3 PASS: Natural rewind completes
+M2.3 PASS: Rewind resets both switches, dual gate and Door
+M2.3 PASS: Post-rewind puzzle state is clean before next loop
+M2.3 PASS: Restart clears puzzle, Door and Ghost state
+M2.3 ALL CHECKS PASSED; checks=16; frames=14351; replayActions=0; worstPosition=0

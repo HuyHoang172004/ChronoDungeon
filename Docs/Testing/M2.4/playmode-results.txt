@@ -1,0 +1,9 @@
+M2.4 PASS: Feedback adapter has line, hint and audio components
+M2.4 PASS: Fresh puzzle shows tutorial hint and inactive connection
+M2.4 PASS: First switch activates line, hint and switch feedback
+M2.4 PASS: Active switch receives pulse feedback
+M2.4 PASS: Both switches show solved connection and Door-open feedback
+M2.4 PASS: Releasing both switches clears connection and restores hint
+M2.4 PASS: Pause freezes puzzle feedback state
+M2.4 PASS: Restart clears feedback and puzzle state
+M2.4 ALL CHECKS PASSED; checks=8; frames=257

@@ -196,29 +196,70 @@ Player dùng collider nên ngưỡng kích hoạt ở mép khác nhau. Chưa tri
 Chi tiết: [M2.1 review](Docs/Testing/M2.1/REVIEW.md).
 
 ## M2.2 — Door
-- [ ] reusable Door
-- [ ] locked/open state
-- [ ] opening animation hoặc visual feedback rõ
-- [ ] reset support khi cần
-- [ ] không trap Player vì collider/state mismatch
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] reusable Door
+- [x] locked/open state
+- [x] opening animation hoặc visual feedback rõ
+- [x] reset support khi cần
+- [x] không trap Player vì collider/state mismatch
+
+Door có API `Open`, `Close`, `SetOpen(bool)`, `IsOpen`, `IsLocked`, `StateChanged(bool)` và
+Inspector UnityEvent<bool>; không hard-code switch/cửa cụ thể. Collider blocking và visual panel
+được cập nhật cùng một state. Lệnh đóng khi actor còn trong passage được trì hoãn an toàn tới khi
+clear, tránh kẹt Player/Enemy. Rewind trả về trạng thái authored ban đầu; prefab reusable.
+
+Verification: 25 checks PASS qua Unity MCP/Play Mode, 8.204 frame, sai số Ghost movement = 0.
+PASS: cửa đóng chặn Rigidbody2D Player, mở cho đi qua, event bool điều khiển đúng, repeated command
+không phát event trùng, đóng an toàn khi Player/Enemy còn trong passage, PressureSwitch nối event
+mở/đóng Door, visual/collider đồng bộ, rewind reset Door + switch, Ghost replay switch/attack,
+combat, Game Over/freeze và Restart. Console cuối: 0 errors, 0 warnings.
+
+Đã save GameScene và `Assets/Prefabs/Door.prefab`, exit Play Mode; không probe/missing script
+được lưu trong scene. Chưa test touch/Android. Chưa triển khai M2.3.
+Chi tiết: [M2.2 review](Docs/Testing/M2.2/REVIEW.md).
 
 ## M2.3 — Dual-Switch Puzzle
+- **[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
 Scenario bắt buộc:
-- [ ] Loop1 Player activate Switch A
-- [ ] rewind
-- [ ] Ghost1 activate Switch A
-- [ ] Player hiện tại activate Switch B
-- [ ] Door mở
-- [ ] Player đi qua được
+- [x] Loop1 Player activate Switch A
+- [x] rewind
+- [x] Ghost1 activate Switch A
+- [x] Player hiện tại activate Switch B
+- [x] Door mở
+- [x] Player đi qua được
 
 Acceptance:  
 Puzzle chỉ solve được khi dùng ít nhất một Ghost.
 
+DualPressureDoor nhận hai PressureSwitch reference và một Door reference; chỉ mở khi cả hai
+switch active. Không hard-code scene object; mechanism có thể tái sử dụng với cặp input/output khác.
+Rewind reset cả gate và Door về locked; PressureSwitch events tiếp tục điều khiển state.
+
+Verification: 16 checks PASS qua Unity MCP/Play Mode, 14.351 frame, sai số Ghost movement = 0.
+Loop 1 Player giữ A không mở cửa; Loop 2 Ghost giữ A + Player giữ B mở cửa; rời B đóng cửa,
+trở lại B mở lại. Combat Player vẫn gây đúng 25 damage; rewind/reset và Restart PASS.
+Console cuối: 0 errors, 0 warnings. Chưa test touch/Android. Chưa triển khai M2.4.
+Chi tiết: [M2.3 review](Docs/Testing/M2.3/REVIEW.md).
+
 ## M2.4 — Puzzle Feedback
-- [ ] switch SFX/VFX
-- [ ] door SFX/VFX
-- [ ] connection giữa switch và door dễ hiểu
-- [ ] basic tutorial hint cho temporal puzzle đầu tiên
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
+- [x] switch SFX/VFX
+- [x] door SFX/VFX
+- [x] connection giữa switch và door dễ hiểu
+- [x] basic tutorial hint cho temporal puzzle đầu tiên
+
+`PuzzleFeedback` là presentation-only adapter lắng nghe PressureSwitch/Door events:
+switch/door pulse, runtime tone feedback, LineRenderer nối hai switch với Door, và hint
+"STAND ON BOTH TIME PLATES" / "ONE MORE SWITCH" / "TIME LINK COMPLETE". Không đổi puzzle logic.
+
+Verification: 8 checks PASS qua Unity MCP/Play Mode, 257 frame; feedback adapter có line/hint/audio,
+inactive state đúng, một switch bật line + hint + pulse, hai switch hiển thị solved connection và
+Door-open feedback, release dọn connection/hint, pause freeze và Restart cleanup PASS.
+Console cuối: 0 errors, 0 warnings. Đã save GameScene, exit Play Mode; chưa test touch/Android.
+Chi tiết: [M2.4 review](Docs/Testing/M2.4/REVIEW.md).
 
 ---
 
@@ -699,11 +740,11 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M2.1 ngày 2026-09-21:
+Next milestone sau khi verify M2.4 ngày 2026-09-21:
 
-**M2.2 — Door**
+**M3.1 — Directional Combat**
 
-M2.1 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M2.2. Các hạng mục final Settings,
+M2.4 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M3.1. Các hạng mục final Settings,
 Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
 không thay đổi trạng thái của chúng trong milestone này.
 
