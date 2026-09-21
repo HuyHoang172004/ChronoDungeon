@@ -446,6 +446,7 @@ GameObject:
   - component: {fileID: 298039188}
   - component: {fileID: 298039189}
   - component: {fileID: 298039190}
+  - component: {fileID: 298039191}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -497,6 +498,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TimeLoopManager
   loopDuration: 20
   gameManager: {fileID: 298039189}
+--- !u!114 &298039191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd64c85a3d43c34194728846f3cd1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TemporalGhostManager
+  loop: {fileID: 298039190}
+  recorder: {fileID: 1130303119}
+  playerVisual: {fileID: 1130303114}
+  ghostTint: {r: 0.75, g: 0.65, b: 1, a: 0.5}
 --- !u!1 &358219656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,6 +2064,7 @@ GameObject:
   - component: {fileID: 1130303116}
   - component: {fileID: 1130303117}
   - component: {fileID: 1130303118}
+  - component: {fileID: 1130303119}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2286,6 +2304,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1130303119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130303110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71235b92ec592f46bc0ecb6a5cf27fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerTimelineRecorder
+  loop: {fileID: 298039190}
+  sampleInterval: 0.05
 --- !u!1 &1354902631
 GameObject:
   m_ObjectHideFlags: 0

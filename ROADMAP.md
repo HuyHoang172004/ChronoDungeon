@@ -61,28 +61,42 @@ DONE nghĩa là feature đã compile, test và integrate mà không còn blockin
 
 ## M1.1 — Ghi và Replay chuyển động
 
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
 Mục tiêu:  
 Biến lịch sử chuyển động của Player thành Ghost nhìn thấy được sau rewind.
 
 Yêu cầu:
-- [ ] timeline data structure
-- [ ] Player timeline recorder
-- [ ] ghi time + position
-- [ ] ghi facing/rotation khi phù hợp
-- [ ] sample interval hợp lý
-- [ ] Ghost visual
-- [ ] Ghost playback
-- [ ] smooth interpolation
-- [ ] Ghost độc lập với joystick
-- [ ] Ghost không nhận Player damage
-- [ ] Ghost playback pause cùng gameplay
-- [ ] Ghost giữ trạng thái tới hết loop
-- [ ] không ghi lại Ghost như Player
+- [x] timeline data structure
+- [x] Player timeline recorder
+- [x] ghi time + position
+- [x] ghi facing/rotation khi phù hợp
+- [x] sample interval hợp lý
+- [x] Ghost visual
+- [x] Ghost playback
+- [x] smooth interpolation
+- [x] Ghost độc lập với joystick
+- [x] Ghost không nhận Player damage
+- [x] Ghost playback pause cùng gameplay
+- [x] Ghost giữ trạng thái tới hết loop
+- [x] không ghi lại Ghost như Player
 
 Acceptance:
 - Loop 1 record Player.
 - Loop 2 spawn Ghost1 replay Loop1.
 - Player hiện tại vẫn điều khiển độc lập.
+
+Verification: 22 automated checks trong Play Mode qua Unity MCP; rewind tự nhiên
+20 giây, 782 frame so sánh playback (sai số vị trí đo được = 0), pause/Game Over,
+Player/Enemy HP reset, Enemy death restoration, attack/contact damage đều PASS.
+Restart về Loop 1, recording mới, không Ghost; Main Menu return PASS qua API.
+Console cuối không error/warning; đã exit Play Mode và save GameScene, không missing script.
+
+Giới hạn M1.1: một Ghost của loop ngay trước, visual primitive tím bán trong suốt;
+ghi rotation và sprite flip hiện có (Player chưa có directional facing system).
+Action channel chỉ là cấu trúc mở rộng, chưa record/replay attack/dash/interaction.
+Chưa xác nhận touch/multitouch Android hoặc độ mượt cảm nhận trên thiết bị.
+Chi tiết và manual checklist: [M1.1 review](Docs/Testing/M1.1/REVIEW.md).
 
 ## M1.2 — Multiple Ghosts
 - [ ] Ghost1 đại diện Loop1
@@ -631,9 +645,13 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Expected next milestone tại thời điểm file được tạo:
+Next milestone sau khi verify M1.1 ngày 2026-09-21:
 
-**M1.1 — Ghi và Replay chuyển động**
+**M1.2 — Multiple Ghosts**
+
+M1.1 đã hoàn thành; dừng tại checkpoint review. Các hạng mục final Settings,
+Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
+không thay đổi trạng thái của chúng trong milestone này.
 
 Không tự skip sang milestone sau chỉ vì nó hấp dẫn hơn.  
 Hoàn thành, test và integrate milestone chưa hoàn thành sớm nhất trước.

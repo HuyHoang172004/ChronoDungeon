@@ -11,6 +11,11 @@ public class TimeLoopManager : MonoBehaviour
     public float remainingTime { get; private set; }
     public int loopIndex { get; private set; } = 1;
     public bool IsRewinding { get; private set; }
+    public float ElapsedTime => loopDuration - remainingTime;
+    public float LoopDuration => loopDuration;
+    public bool IsRunning => !IsRewinding && Time.timeScale > 0f &&
+        (gameManager == null || !gameManager.IsGameOver);
+    public event Action LoopEnding;
     public event Action LoopRewound;
 
     private void Awake() => remainingTime = loopDuration;
@@ -42,6 +47,8 @@ public class TimeLoopManager : MonoBehaviour
         IsRewinding = true;
         try
         {
+            // Record the final pose before any actor is teleported or restored.
+            LoopEnding?.Invoke();
             foreach (MonoBehaviour component in resettables)
                 if (component != null)
                     ((ITimeLoopResettable)component).ResetToInitialState();
