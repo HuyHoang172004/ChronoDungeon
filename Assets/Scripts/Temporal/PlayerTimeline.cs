@@ -19,6 +19,7 @@ public sealed class PlayerTimeline
         public ActionKind Kind;
         public Vector2 Direction;
         public int Payload;
+        public AttackSnapshot Attack;
     }
 
     private readonly Pose[] poses;

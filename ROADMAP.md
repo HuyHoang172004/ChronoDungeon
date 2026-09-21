@@ -130,24 +130,39 @@ Unity native Console cuối: 0 errors, 0 warnings. Chưa xác nhận touch/multi
 hay performance Android. Chi tiết: [M1.2 review](Docs/Testing/M1.2/REVIEW.md).
 
 ## M1.3 — Action Timeline
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+
 Mở rộng timeline mà không viết lại movement system.
 
 Event support bắt buộc:
-- [ ] Attack event
-- [ ] facing/attack direction
-- [ ] Ghost attack playback
-- [ ] Ghost có thể damage Enemy hợp lệ
-- [ ] Ghost attack không ảnh hưởng Player
-- [ ] attack timing khớp timeline đã record
+- [x] Attack event
+- [x] facing/attack direction
+- [x] Ghost attack playback
+- [x] Ghost có thể damage Enemy hợp lệ
+- [x] Ghost attack không ảnh hưởng Player
+- [x] attack timing khớp timeline đã record
 
 Kiến trúc phải sẵn sàng cho:
-- [ ] Dash event
-- [ ] Interaction event
-- [ ] Skill event
+- [x] Dash event (extension point; chưa implement mechanic)
+- [x] Interaction event (extension point; chưa implement mechanic)
+- [x] Skill event (extension point; chưa implement mechanic)
 
 Acceptance:  
 Player attack trong Loop1.  
 Ghost1 lặp lại attack gần đúng timeline moment đó trong Loop2.
+
+Verification: 31 checks PASS qua Unity MCP/Play Mode, bốn rewind tự nhiên 20 giây.
+9 attack replay đúng một lần/event, sai lệch thời điểm tối đa 0,0304 giây (trong một frame).
+Theo dõi 4.715 frame, sai số movement replay = 0. Player/Ghost gây đúng 25 damage/đòn,
+Enemy hai collider không bị damage lặp; Player và Health không được đánh dấu Enemy đều an toàn.
+Hai Ghost gây tổng 75 damage từ ba event; ba Ghost và eviction giữ đúng lịch sử,
+slot tái sử dụng không replay attack cũ. Pause, Game Over và Restart PASS.
+
+Đã thoát Play Mode, save GameScene; Enemy có EnemyAttackTarget, maxGhosts = 3,
+không missing script/probe lưu trong scene. Console cuối: 0 errors, 0 warnings.
+Attack vẫn là radial như foundation; hướng được record, directional hit shape/VFX thuộc M3.1.
+Action buffer giới hạn 256 event/loop; overflow cảnh báo một lần và bỏ event vượt giới hạn.
+Chưa test touch/Android. Chi tiết: [M1.3 review](Docs/Testing/M1.3/REVIEW.md).
 
 ---
 
@@ -664,11 +679,11 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M1.2 ngày 2026-09-21:
+Next milestone sau khi verify M1.3 ngày 2026-09-21:
 
-**M1.3 — Action Timeline**
+**M2.1 — Pressure Switch**
 
-M1.2 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M1.3. Các hạng mục final Settings,
+M1.3 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M2.1. Các hạng mục final Settings,
 Exit/platform, responsive layout và device touch của Phase 0 vẫn chưa hoàn thành;
 không thay đổi trạng thái của chúng trong milestone này.
 

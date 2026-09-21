@@ -1,0 +1,32 @@
+M1.3 PASS: 20-second loops, maxGhosts=3
+M1.3 PASS: Player attack: exactly 25 damage across two colliders; Player/neutral safe
+M1.3 PASS: Two live attacks create exactly two events
+M1.3 PASS: Action snapshots preserve direction, damage, range and ordered timestamps
+M1.3 PASS: Natural 20-second rewind 1
+M1.3 PASS: Loop 2 creates one Ghost and restores Enemy
+M1.3 PASS: Snapshot retains exact action payload
+M1.3 PASS: No early Ghost attack
+M1.3 PASS: Pause freezes actions and rejects Player attacks
+M1.3 PASS: Replay timing within one frame, source 1
+M1.3 PASS: Ghost first attack deals exactly 25 damage, never Player damage
+M1.3 PASS: Replay timing within one frame, source 1
+M1.3 PASS: Ghost second attack once only; explicit target filter
+M1.3 PASS: No duplicate damage on later frames
+M1.3 PASS: Live Player can still attack alongside Ghost
+M1.3 PASS: Natural 20-second rewind 2
+M1.3 PASS: Replay timing within one frame, source 1
+M1.3 PASS: Replay timing within one frame, source 1
+M1.3 PASS: Replay timing within one frame, source 2
+M1.3 PASS: Two Ghosts independently replay two plus one attacks, exact total damage 75
+M1.3 PASS: Natural 20-second rewind 3
+M1.3 PASS: Replay timing within one frame, source 1
+M1.3 PASS: Replay timing within one frame, source 1
+M1.3 PASS: Replay timing within one frame, source 2
+M1.3 PASS: Three Ghosts preserve independent action history
+M1.3 PASS: Natural 20-second rewind 4
+M1.3 PASS: Replay timing within one frame, source 2
+M1.3 PASS: Oldest slot reuse clears old actions; only retained attack deals damage
+M1.3 PASS: Game Over still triggers
+M1.3 PASS: Game Over freezes recording and all Ghost actions
+M1.3 PASS: Restart clears Ghost/action history and restores live Player
+M1.3 ALL CHECKS PASSED; checks=31; frames=4715; replayed=9; worstTiming=0.03039742; worstPosition=0

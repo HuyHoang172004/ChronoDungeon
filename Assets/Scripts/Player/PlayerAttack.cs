@@ -1,32 +1,26 @@
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
     public float attackRange = 2f;
     public float attackDamage = 25f;
+    private readonly AttackResolver resolver = new AttackResolver();
+    public event Action<AttackSnapshot> AttackPerformed;
 
     public void Attack()
     {
         Health ownHealth = GetComponentInParent<Health>();
         if (Time.timeScale <= 0f || (ownHealth != null && ownHealth.IsDead)) return;
 
-        Collider2D[] hits = Physics2D.OverlapCircleAll(
-            transform.position,
-            attackRange
-        );
-
-        var damaged = new HashSet<Health>();
-        foreach (Collider2D hit in hits)
-        {
-            Health target = hit.GetComponentInParent<Health>();
-
-            if (target != null && target != ownHealth &&
-                !target.transform.IsChildOf(transform) && !target.IsDead && damaged.Add(target))
-            {
-                target.TakeDamage(attackDamage);
-            }
-        }
+        if (!isActiveAndEnabled) return;
+        var movement = GetComponent<PlayerMovement>();
+        var attack = new AttackSnapshot { Position = transform.position,
+            Direction = movement != null ? movement.FacingDirection : Vector2.right,
+            Range = attackRange, Damage = attackDamage };
+        // Record accepted attempts, including swings that hit nothing.
+        AttackPerformed?.Invoke(attack);
+        resolver.Execute(attack);
     }
 
     private void OnDrawGizmosSelected()

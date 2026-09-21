@@ -898,6 +898,7 @@ GameObject:
   - component: {fileID: 526543399}
   - component: {fileID: 526543400}
   - component: {fileID: 526543401}
+  - component: {fileID: 526543402}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1119,6 +1120,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &526543402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526543393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb30b4349fb8452439a7c6d55a198e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackTarget
 --- !u!1 &575634946
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,11 +10,16 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
     private SpriteRenderer visual;
     private PlayerTimeline recording, spare;
     private float nextSampleTime;
+    private PlayerAttack playerAttack;
+    private bool reportedActionOverflow;
     public PlayerTimeline CurrentRecording => recording;
     public event Action<PlayerTimeline> RecordingCompleted;
 
+    private void Awake() => playerAttack = GetComponent<PlayerAttack>();
+
     private void OnEnable()
     {
+        if (playerAttack != null) playerAttack.AttackPerformed += RecordAttack;
         if (loop == null) return;
         loop.LoopEnding += FinishRecording;
         loop.LoopRewound += BeginRecording;
@@ -38,6 +43,7 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
 
     private void OnDisable()
     {
+        if (playerAttack != null) playerAttack.AttackPerformed -= RecordAttack;
         if (loop == null) return;
         loop.LoopEnding -= FinishRecording;
         loop.LoopRewound -= BeginRecording;
@@ -55,6 +61,7 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
     {
         if (recording == null) return;
         recording.Clear(loop.loopIndex);
+        reportedActionOverflow = false;
         Capture(0f);
         nextSampleTime = sampleInterval;
     }
@@ -63,6 +70,19 @@ public sealed class PlayerTimelineRecorder : MonoBehaviour
     {
         recording.AddPose(new PlayerTimeline.Pose { Time = time, Position = transform.position,
             Rotation = transform.rotation, FlipX = visual.flipX, FlipY = visual.flipY });
+    }
+
+    private void RecordAttack(AttackSnapshot attack)
+    {
+        if (recording == null || loop == null || !loop.IsRunning) return;
+        bool added = recording.TryAddAction(new PlayerTimeline.ActionEvent {
+            Time = loop.ElapsedTime, Kind = PlayerTimeline.ActionKind.Attack,
+            Direction = attack.Direction, Attack = attack });
+        if (!added && !reportedActionOverflow)
+        {
+            reportedActionOverflow = true;
+            Debug.LogWarning("Timeline action capacity reached; further actions are omitted this loop.", this);
+        }
     }
 
     private void FinishRecording()
