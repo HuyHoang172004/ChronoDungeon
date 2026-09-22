@@ -1,31 +1,31 @@
-# ROADMAP.md — Lộ trình phát triển hoàn chỉnh ChronoDungeon
+﻿# ROADMAP.md â€” Lá»™ trÃ¬nh phÃ¡t triá»ƒn hoÃ n chá»‰nh ChronoDungeon
 
-## Quy ước trạng thái
+## Quy Æ°á»›c tráº¡ng thÃ¡i
 
 - [x] DONE
 - [~] IN PROGRESS / PARTIAL
 - [ ] NOT STARTED
 - [!] BLOCKED
 
-Codex chỉ được cập nhật trạng thái sau khi verify project thực tế.
+Codex chá»‰ Ä‘Æ°á»£c cáº­p nháº­t tráº¡ng thÃ¡i sau khi verify project thá»±c táº¿.
 
-Không mark milestone DONE chỉ vì code đã tồn tại.  
-DONE nghĩa là feature đã compile, test và integrate mà không còn blocking error đã biết.
+KhÃ´ng mark milestone DONE chá»‰ vÃ¬ code Ä‘Ã£ tá»“n táº¡i.  
+DONE nghÄ©a lÃ  feature Ä‘Ã£ compile, test vÃ  integrate mÃ  khÃ´ng cÃ²n blocking error Ä‘Ã£ biáº¿t.
 
 ---
 
-# PHASE 0 — Foundation
+# PHASE 0 â€” Foundation
 
 ## M0.1 Project / Scene Flow
-**[x] DONE — foundation scene flow; scope clarified 2026-09-21.**
+**[x] DONE â€” foundation scene flow; scope clarified 2026-09-21.**
 
 - [x] SplashScene
 - [x] MainMenuScene
 - [x] GameScene
 - [x] Splash -> Main Menu
 - [x] Play -> GameScene
-- Settings implementation: **DEFER sang M9.3**, không phải blocker của Room System.
-- Final Exit/platform verification: **DEFER sang Phase 11 / final platform QA**, không phải blocker của Room System.
+- Settings implementation: **DEFER sang M9.3**, khÃ´ng pháº£i blocker cá»§a Room System.
+- Final Exit/platform verification: **DEFER sang Phase 11 / final platform QA**, khÃ´ng pháº£i blocker cá»§a Room System.
 
 ## M0.2 Mobile Movement
 - [x] Player Rigidbody2D movement
@@ -47,478 +47,478 @@ DONE nghĩa là feature đã compile, test và integrate mà không còn blockin
 - [x] Main Menu return
 
 ## M0.4 Time Loop Foundation
-- [x] Time Loop 20 giây
+- [x] Time Loop 20 giÃ¢y
 - [x] Loop HUD
 - [x] loop counter
 - [x] Player reset
 - [x] Enemy reset
 - [x] resettable architecture
 - [x] dead Enemy restoration
-- [x] Game Over interaction với timer
-- [x] không reload scene khi normal rewind
+- [x] Game Over interaction vá»›i timer
+- [x] khÃ´ng reload scene khi normal rewind
 
 ---
 
-# PHASE 1 — Temporal Ghost Core
+# PHASE 1 â€” Temporal Ghost Core
 
-## M1.1 — Ghi và Replay chuyển động
+## M1.1 â€” Ghi vÃ  Replay chuyá»ƒn Ä‘á»™ng
 
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
-Mục tiêu:  
-Biến lịch sử chuyển động của Player thành Ghost nhìn thấy được sau rewind.
+Má»¥c tiÃªu:  
+Biáº¿n lá»‹ch sá»­ chuyá»ƒn Ä‘á»™ng cá»§a Player thÃ nh Ghost nhÃ¬n tháº¥y Ä‘Æ°á»£c sau rewind.
 
-Yêu cầu:
+YÃªu cáº§u:
 - [x] timeline data structure
 - [x] Player timeline recorder
 - [x] ghi time + position
-- [x] ghi facing/rotation khi phù hợp
-- [x] sample interval hợp lý
+- [x] ghi facing/rotation khi phÃ¹ há»£p
+- [x] sample interval há»£p lÃ½
 - [x] Ghost visual
 - [x] Ghost playback
 - [x] smooth interpolation
-- [x] Ghost độc lập với joystick
-- [x] Ghost không nhận Player damage
-- [x] Ghost playback pause cùng gameplay
-- [x] Ghost giữ trạng thái tới hết loop
-- [x] không ghi lại Ghost như Player
+- [x] Ghost Ä‘á»™c láº­p vá»›i joystick
+- [x] Ghost khÃ´ng nháº­n Player damage
+- [x] Ghost playback pause cÃ¹ng gameplay
+- [x] Ghost giá»¯ tráº¡ng thÃ¡i tá»›i háº¿t loop
+- [x] khÃ´ng ghi láº¡i Ghost nhÆ° Player
 
 Acceptance:
 - Loop 1 record Player.
 - Loop 2 spawn Ghost1 replay Loop1.
-- Player hiện tại vẫn điều khiển độc lập.
+- Player hiá»‡n táº¡i váº«n Ä‘iá»u khiá»ƒn Ä‘á»™c láº­p.
 
-Verification: 22 automated checks trong Play Mode qua Unity MCP; rewind tự nhiên
-20 giây, 782 frame so sánh playback (sai số vị trí đo được = 0), pause/Game Over,
-Player/Enemy HP reset, Enemy death restoration, attack/contact damage đều PASS.
-Restart về Loop 1, recording mới, không Ghost; Main Menu return PASS qua API.
-Console cuối không error/warning; đã exit Play Mode và save GameScene, không missing script.
+Verification: 22 automated checks trong Play Mode qua Unity MCP; rewind tá»± nhiÃªn
+20 giÃ¢y, 782 frame so sÃ¡nh playback (sai sá»‘ vá»‹ trÃ­ Ä‘o Ä‘Æ°á»£c = 0), pause/Game Over,
+Player/Enemy HP reset, Enemy death restoration, attack/contact damage Ä‘á»u PASS.
+Restart vá» Loop 1, recording má»›i, khÃ´ng Ghost; Main Menu return PASS qua API.
+Console cuá»‘i khÃ´ng error/warning; Ä‘Ã£ exit Play Mode vÃ  save GameScene, khÃ´ng missing script.
 
-Giới hạn M1.1: một Ghost của loop ngay trước, visual primitive tím bán trong suốt;
-ghi rotation và sprite flip hiện có (Player chưa có directional facing system).
-Action channel chỉ là cấu trúc mở rộng, chưa record/replay attack/dash/interaction.
-Chưa xác nhận touch/multitouch Android hoặc độ mượt cảm nhận trên thiết bị.
-Chi tiết và manual checklist: [M1.1 review](Docs/Testing/M1.1/REVIEW.md).
+Giá»›i háº¡n M1.1: má»™t Ghost cá»§a loop ngay trÆ°á»›c, visual primitive tÃ­m bÃ¡n trong suá»‘t;
+ghi rotation vÃ  sprite flip hiá»‡n cÃ³ (Player chÆ°a cÃ³ directional facing system).
+Action channel chá»‰ lÃ  cáº¥u trÃºc má»Ÿ rá»™ng, chÆ°a record/replay attack/dash/interaction.
+ChÆ°a xÃ¡c nháº­n touch/multitouch Android hoáº·c Ä‘á»™ mÆ°á»£t cáº£m nháº­n trÃªn thiáº¿t bá»‹.
+Chi tiáº¿t vÃ  manual checklist: [M1.1 review](Docs/Testing/M1.1/REVIEW.md).
 
-## M1.2 — Multiple Ghosts
+## M1.2 â€” Multiple Ghosts
 
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
-- [x] Ghost1 đại diện Loop1
-- [x] Ghost2 đại diện Loop2
-- [x] Ghost3 đại diện Loop3
+- [x] Ghost1 Ä‘áº¡i diá»‡n Loop1
+- [x] Ghost2 Ä‘áº¡i diá»‡n Loop2
+- [x] Ghost3 Ä‘áº¡i diá»‡n Loop3
 - [x] maxGhosts = 3
-- [x] loại Ghost cũ nhất khi vượt giới hạn
-- [x] Restart xóa recordings/Ghosts
-- [x] Game Over không làm hỏng recording state
+- [x] loáº¡i Ghost cÅ© nháº¥t khi vÆ°á»£t giá»›i háº¡n
+- [x] Restart xÃ³a recordings/Ghosts
+- [x] Game Over khÃ´ng lÃ m há»ng recording state
 
 Acceptance:  
-Test ít nhất 4 lần chuyển loop và không bao giờ có hơn 3 active Ghost.
+Test Ã­t nháº¥t 4 láº§n chuyá»ƒn loop vÃ  khÃ´ng bao giá» cÃ³ hÆ¡n 3 active Ghost.
 
-Verification: 81 checks PASS qua Unity MCP/Play Mode, bốn rewind tự nhiên
-20 giây liên tiếp và một rewind sau Restart. Loop 2/3/4 lần lượt giữ lịch sử
-[1], [1,2], [1,2,3]; Loop 5 giữ [2,3,4]. Theo dõi 38.107 frame: tối đa 3 Ghost,
-sai số vị trí so với recording lưu riêng = 0. Mỗi Ghost giữ snapshot riêng,
-không bị recorder ghi đè; slot cũ nhất được tái sử dụng khi đủ ba Ghost.
+Verification: 81 checks PASS qua Unity MCP/Play Mode, bá»‘n rewind tá»± nhiÃªn
+20 giÃ¢y liÃªn tiáº¿p vÃ  má»™t rewind sau Restart. Loop 2/3/4 láº§n lÆ°á»£t giá»¯ lá»‹ch sá»­
+[1], [1,2], [1,2,3]; Loop 5 giá»¯ [2,3,4]. Theo dÃµi 38.107 frame: tá»‘i Ä‘a 3 Ghost,
+sai sá»‘ vá»‹ trÃ­ so vá»›i recording lÆ°u riÃªng = 0. Má»—i Ghost giá»¯ snapshot riÃªng,
+khÃ´ng bá»‹ recorder ghi Ä‘Ã¨; slot cÅ© nháº¥t Ä‘Æ°á»£c tÃ¡i sá»­ dá»¥ng khi Ä‘á»§ ba Ghost.
 
-PASS: joystick pointer giả lập điều khiển Player độc lập; Ghost không có input,
-Health/collider/Player tag; Enemy overlap Ghost không gây Player damage;
-pause/Game Over giữ nguyên timeline; combat, Enemy chase/contact và reset HP/dead
-Enemy hoạt động. Restart từ Game Over và khi đang chơi xóa lịch sử; rewind đầu
-sau Restart tạo đúng một Ghost mới; Main Menu không còn Ghost tồn dư.
+PASS: joystick pointer giáº£ láº­p Ä‘iá»u khiá»ƒn Player Ä‘á»™c láº­p; Ghost khÃ´ng cÃ³ input,
+Health/collider/Player tag; Enemy overlap Ghost khÃ´ng gÃ¢y Player damage;
+pause/Game Over giá»¯ nguyÃªn timeline; combat, Enemy chase/contact vÃ  reset HP/dead
+Enemy hoáº¡t Ä‘á»™ng. Restart tá»« Game Over vÃ  khi Ä‘ang chÆ¡i xÃ³a lá»‹ch sá»­; rewind Ä‘áº§u
+sau Restart táº¡o Ä‘Ãºng má»™t Ghost má»›i; Main Menu khÃ´ng cÃ²n Ghost tá»“n dÆ°.
 
-Đã exit Play Mode, gỡ probe, save GameScene; reference đầy đủ, không missing script.
-Unity native Console cuối: 0 errors, 0 warnings. Chưa xác nhận touch/multitouch
-hay performance Android. Chi tiết: [M1.2 review](Docs/Testing/M1.2/REVIEW.md).
+ÄÃ£ exit Play Mode, gá»¡ probe, save GameScene; reference Ä‘áº§y Ä‘á»§, khÃ´ng missing script.
+Unity native Console cuá»‘i: 0 errors, 0 warnings. ChÆ°a xÃ¡c nháº­n touch/multitouch
+hay performance Android. Chi tiáº¿t: [M1.2 review](Docs/Testing/M1.2/REVIEW.md).
 
-## M1.3 — Action Timeline
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M1.3 â€” Action Timeline
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
-Mở rộng timeline mà không viết lại movement system.
+Má»Ÿ rá»™ng timeline mÃ  khÃ´ng viáº¿t láº¡i movement system.
 
-Event support bắt buộc:
+Event support báº¯t buá»™c:
 - [x] Attack event
 - [x] facing/attack direction
 - [x] Ghost attack playback
-- [x] Ghost có thể damage Enemy hợp lệ
-- [x] Ghost attack không ảnh hưởng Player
-- [x] attack timing khớp timeline đã record
+- [x] Ghost cÃ³ thá»ƒ damage Enemy há»£p lá»‡
+- [x] Ghost attack khÃ´ng áº£nh hÆ°á»Ÿng Player
+- [x] attack timing khá»›p timeline Ä‘Ã£ record
 
-Kiến trúc phải sẵn sàng cho:
-- [x] Dash event (extension point; chưa implement mechanic)
-- [x] Interaction event (extension point; chưa implement mechanic)
-- [x] Skill event (extension point; chưa implement mechanic)
+Kiáº¿n trÃºc pháº£i sáºµn sÃ ng cho:
+- [x] Dash event (extension point; chÆ°a implement mechanic)
+- [x] Interaction event (extension point; chÆ°a implement mechanic)
+- [x] Skill event (extension point; chÆ°a implement mechanic)
 
 Acceptance:  
 Player attack trong Loop1.  
-Ghost1 lặp lại attack gần đúng timeline moment đó trong Loop2.
+Ghost1 láº·p láº¡i attack gáº§n Ä‘Ãºng timeline moment Ä‘Ã³ trong Loop2.
 
-Verification: 31 checks PASS qua Unity MCP/Play Mode, bốn rewind tự nhiên 20 giây.
-9 attack replay đúng một lần/event, sai lệch thời điểm tối đa 0,0304 giây (trong một frame).
-Theo dõi 4.715 frame, sai số movement replay = 0. Player/Ghost gây đúng 25 damage/đòn,
-Enemy hai collider không bị damage lặp; Player và Health không được đánh dấu Enemy đều an toàn.
-Hai Ghost gây tổng 75 damage từ ba event; ba Ghost và eviction giữ đúng lịch sử,
-slot tái sử dụng không replay attack cũ. Pause, Game Over và Restart PASS.
+Verification: 31 checks PASS qua Unity MCP/Play Mode, bá»‘n rewind tá»± nhiÃªn 20 giÃ¢y.
+9 attack replay Ä‘Ãºng má»™t láº§n/event, sai lá»‡ch thá»i Ä‘iá»ƒm tá»‘i Ä‘a 0,0304 giÃ¢y (trong má»™t frame).
+Theo dÃµi 4.715 frame, sai sá»‘ movement replay = 0. Player/Ghost gÃ¢y Ä‘Ãºng 25 damage/Ä‘Ã²n,
+Enemy hai collider khÃ´ng bá»‹ damage láº·p; Player vÃ  Health khÃ´ng Ä‘Æ°á»£c Ä‘Ã¡nh dáº¥u Enemy Ä‘á»u an toÃ n.
+Hai Ghost gÃ¢y tá»•ng 75 damage tá»« ba event; ba Ghost vÃ  eviction giá»¯ Ä‘Ãºng lá»‹ch sá»­,
+slot tÃ¡i sá»­ dá»¥ng khÃ´ng replay attack cÅ©. Pause, Game Over vÃ  Restart PASS.
 
-Đã thoát Play Mode, save GameScene; Enemy có EnemyAttackTarget, maxGhosts = 3,
-không missing script/probe lưu trong scene. Console cuối: 0 errors, 0 warnings.
-Tại thời điểm M1.3 attack còn radial; hướng đã được record để mở rộng. Directional hit shape/VFX
-được hoàn tất trong M3.1.
-Action buffer giới hạn 256 event/loop; overflow cảnh báo một lần và bỏ event vượt giới hạn.
-Chưa test touch/Android. Chi tiết: [M1.3 review](Docs/Testing/M1.3/REVIEW.md).
+ÄÃ£ thoÃ¡t Play Mode, save GameScene; Enemy cÃ³ EnemyAttackTarget, maxGhosts = 3,
+khÃ´ng missing script/probe lÆ°u trong scene. Console cuá»‘i: 0 errors, 0 warnings.
+Táº¡i thá»i Ä‘iá»ƒm M1.3 attack cÃ²n radial; hÆ°á»›ng Ä‘Ã£ Ä‘Æ°á»£c record Ä‘á»ƒ má»Ÿ rá»™ng. Directional hit shape/VFX
+Ä‘Æ°á»£c hoÃ n táº¥t trong M3.1.
+Action buffer giá»›i háº¡n 256 event/loop; overflow cáº£nh bÃ¡o má»™t láº§n vÃ  bá» event vÆ°á»£t giá»›i háº¡n.
+ChÆ°a test touch/Android. Chi tiáº¿t: [M1.3 review](Docs/Testing/M1.3/REVIEW.md).
 
 ---
 
-# PHASE 2 — First Complete Time Puzzle
+# PHASE 2 â€” First Complete Time Puzzle
 
-## M2.1 — Pressure Switch
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M2.1 â€” Pressure Switch
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] reusable PressureSwitch
-- [x] Player activate được
-- [x] Ghost tương thích activate được
-- [x] visual state active/inactive rõ
+- [x] Player activate Ä‘Æ°á»£c
+- [x] Ghost tÆ°Æ¡ng thÃ­ch activate Ä‘Æ°á»£c
+- [x] visual state active/inactive rÃµ
 - [x] resettable khi rewind
 
-Prefab PressureSwitch dùng opt-in PressureSwitchActor, đếm actor độc lập với số collider.
-Player dùng collider overlap; Ghost dùng vị trí replay nằm trong plate, không thêm physics collider.
-Có IsActive/OccupantCount, C# StateChanged(bool) và Inspector UnityEvent<bool> để nối mechanism sau.
-Rewind reset inactive/zero occupants ngay lập tức, đánh giá lại ở frame gameplay tiếp theo.
+Prefab PressureSwitch dÃ¹ng opt-in PressureSwitchActor, Ä‘áº¿m actor Ä‘á»™c láº­p vá»›i sá»‘ collider.
+Player dÃ¹ng collider overlap; Ghost dÃ¹ng vá»‹ trÃ­ replay náº±m trong plate, khÃ´ng thÃªm physics collider.
+CÃ³ IsActive/OccupantCount, C# StateChanged(bool) vÃ  Inspector UnityEvent<bool> Ä‘á»ƒ ná»‘i mechanism sau.
+Rewind reset inactive/zero occupants ngay láº­p tá»©c, Ä‘Ã¡nh giÃ¡ láº¡i á»Ÿ frame gameplay tiáº¿p theo.
 
-Verification: 38 checks PASS qua Unity MCP/Play Mode, hai rewind tự nhiên 20 giây,
-14.641 frame theo dõi, sai số Ghost movement = 0. Player hai collider đếm một actor;
-Player + Ghost đếm hai; một actor rời thì actor còn lại vẫn giữ switch, không phát false event.
-PASS: collider disable/exit, actor disable/destroy, switch disable/re-enable, Enemy bị loại,
-reset khi Player/Ghost giữ plate, Ghost attack đúng 25 damage một lần và không damage Player,
-Enemy chase/contact, Game Over/freeze, Restart và C#/Inspector events đồng nhất (18 transitions).
+Verification: 38 checks PASS qua Unity MCP/Play Mode, hai rewind tá»± nhiÃªn 20 giÃ¢y,
+14.641 frame theo dÃµi, sai sá»‘ Ghost movement = 0. Player hai collider Ä‘áº¿m má»™t actor;
+Player + Ghost Ä‘áº¿m hai; má»™t actor rá»i thÃ¬ actor cÃ²n láº¡i váº«n giá»¯ switch, khÃ´ng phÃ¡t false event.
+PASS: collider disable/exit, actor disable/destroy, switch disable/re-enable, Enemy bá»‹ loáº¡i,
+reset khi Player/Ghost giá»¯ plate, Ghost attack Ä‘Ãºng 25 damage má»™t láº§n vÃ  khÃ´ng damage Player,
+Enemy chase/contact, Game Over/freeze, Restart vÃ  C#/Inspector events Ä‘á»“ng nháº¥t (18 transitions).
 
-Đã kiểm tra hình ảnh active/inactive, save prefab và GameScene, thoát Play Mode;
-không probe/missing script trong scene, maxGhosts = 3. Console cuối: 0 errors, 0 warnings.
-Chưa test mobile touch/Android. Khi record nên đứng rõ trên plate: Ghost dùng anchor point,
-Player dùng collider nên ngưỡng kích hoạt ở mép khác nhau. Chưa triển khai Door/M2.2.
-Chi tiết: [M2.1 review](Docs/Testing/M2.1/REVIEW.md).
+ÄÃ£ kiá»ƒm tra hÃ¬nh áº£nh active/inactive, save prefab vÃ  GameScene, thoÃ¡t Play Mode;
+khÃ´ng probe/missing script trong scene, maxGhosts = 3. Console cuá»‘i: 0 errors, 0 warnings.
+ChÆ°a test mobile touch/Android. Khi record nÃªn Ä‘á»©ng rÃµ trÃªn plate: Ghost dÃ¹ng anchor point,
+Player dÃ¹ng collider nÃªn ngÆ°á»¡ng kÃ­ch hoáº¡t á»Ÿ mÃ©p khÃ¡c nhau. ChÆ°a triá»ƒn khai Door/M2.2.
+Chi tiáº¿t: [M2.1 review](Docs/Testing/M2.1/REVIEW.md).
 
-## M2.2 — Door
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M2.2 â€” Door
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] reusable Door
 - [x] locked/open state
-- [x] opening animation hoặc visual feedback rõ
-- [x] reset support khi cần
-- [x] không trap Player vì collider/state mismatch
+- [x] opening animation hoáº·c visual feedback rÃµ
+- [x] reset support khi cáº§n
+- [x] khÃ´ng trap Player vÃ¬ collider/state mismatch
 
-Door có API `Open`, `Close`, `SetOpen(bool)`, `IsOpen`, `IsLocked`, `StateChanged(bool)` và
-Inspector UnityEvent<bool>; không hard-code switch/cửa cụ thể. Collider blocking và visual panel
-được cập nhật cùng một state. Lệnh đóng khi actor còn trong passage được trì hoãn an toàn tới khi
-clear, tránh kẹt Player/Enemy. Rewind trả về trạng thái authored ban đầu; prefab reusable.
+Door cÃ³ API `Open`, `Close`, `SetOpen(bool)`, `IsOpen`, `IsLocked`, `StateChanged(bool)` vÃ 
+Inspector UnityEvent<bool>; khÃ´ng hard-code switch/cá»­a cá»¥ thá»ƒ. Collider blocking vÃ  visual panel
+Ä‘Æ°á»£c cáº­p nháº­t cÃ¹ng má»™t state. Lá»‡nh Ä‘Ã³ng khi actor cÃ²n trong passage Ä‘Æ°á»£c trÃ¬ hoÃ£n an toÃ n tá»›i khi
+clear, trÃ¡nh káº¹t Player/Enemy. Rewind tráº£ vá» tráº¡ng thÃ¡i authored ban Ä‘áº§u; prefab reusable.
 
-Verification: 25 checks PASS qua Unity MCP/Play Mode, 8.204 frame, sai số Ghost movement = 0.
-PASS: cửa đóng chặn Rigidbody2D Player, mở cho đi qua, event bool điều khiển đúng, repeated command
-không phát event trùng, đóng an toàn khi Player/Enemy còn trong passage, PressureSwitch nối event
-mở/đóng Door, visual/collider đồng bộ, rewind reset Door + switch, Ghost replay switch/attack,
-combat, Game Over/freeze và Restart. Console cuối: 0 errors, 0 warnings.
+Verification: 25 checks PASS qua Unity MCP/Play Mode, 8.204 frame, sai sá»‘ Ghost movement = 0.
+PASS: cá»­a Ä‘Ã³ng cháº·n Rigidbody2D Player, má»Ÿ cho Ä‘i qua, event bool Ä‘iá»u khiá»ƒn Ä‘Ãºng, repeated command
+khÃ´ng phÃ¡t event trÃ¹ng, Ä‘Ã³ng an toÃ n khi Player/Enemy cÃ²n trong passage, PressureSwitch ná»‘i event
+má»Ÿ/Ä‘Ã³ng Door, visual/collider Ä‘á»“ng bá»™, rewind reset Door + switch, Ghost replay switch/attack,
+combat, Game Over/freeze vÃ  Restart. Console cuá»‘i: 0 errors, 0 warnings.
 
-Đã save GameScene và `Assets/Prefabs/Door.prefab`, exit Play Mode; không probe/missing script
-được lưu trong scene. Chưa test touch/Android. Chưa triển khai M2.3.
-Chi tiết: [M2.2 review](Docs/Testing/M2.2/REVIEW.md).
+ÄÃ£ save GameScene vÃ  `Assets/Prefabs/Door.prefab`, exit Play Mode; khÃ´ng probe/missing script
+Ä‘Æ°á»£c lÆ°u trong scene. ChÆ°a test touch/Android. ChÆ°a triá»ƒn khai M2.3.
+Chi tiáº¿t: [M2.2 review](Docs/Testing/M2.2/REVIEW.md).
 
-## M2.3 — Dual-Switch Puzzle
-- **[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M2.3 â€” Dual-Switch Puzzle
+- **[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
-Scenario bắt buộc:
+Scenario báº¯t buá»™c:
 - [x] Loop1 Player activate Switch A
 - [x] rewind
 - [x] Ghost1 activate Switch A
-- [x] Player hiện tại activate Switch B
-- [x] Door mở
-- [x] Player đi qua được
+- [x] Player hiá»‡n táº¡i activate Switch B
+- [x] Door má»Ÿ
+- [x] Player Ä‘i qua Ä‘Æ°á»£c
 
 Acceptance:  
-Puzzle chỉ solve được khi dùng ít nhất một Ghost.
+Puzzle chá»‰ solve Ä‘Æ°á»£c khi dÃ¹ng Ã­t nháº¥t má»™t Ghost.
 
-DualPressureDoor nhận hai PressureSwitch reference và một Door reference; chỉ mở khi cả hai
-switch active. Không hard-code scene object; mechanism có thể tái sử dụng với cặp input/output khác.
-Rewind reset cả gate và Door về locked; PressureSwitch events tiếp tục điều khiển state.
+DualPressureDoor nháº­n hai PressureSwitch reference vÃ  má»™t Door reference; chá»‰ má»Ÿ khi cáº£ hai
+switch active. KhÃ´ng hard-code scene object; mechanism cÃ³ thá»ƒ tÃ¡i sá»­ dá»¥ng vá»›i cáº·p input/output khÃ¡c.
+Rewind reset cáº£ gate vÃ  Door vá» locked; PressureSwitch events tiáº¿p tá»¥c Ä‘iá»u khiá»ƒn state.
 
-Verification: 16 checks PASS qua Unity MCP/Play Mode, 14.351 frame, sai số Ghost movement = 0.
-Loop 1 Player giữ A không mở cửa; Loop 2 Ghost giữ A + Player giữ B mở cửa; rời B đóng cửa,
-trở lại B mở lại. Combat Player vẫn gây đúng 25 damage; rewind/reset và Restart PASS.
-Console cuối: 0 errors, 0 warnings. Chưa test touch/Android. Chưa triển khai M2.4.
-Chi tiết: [M2.3 review](Docs/Testing/M2.3/REVIEW.md).
+Verification: 16 checks PASS qua Unity MCP/Play Mode, 14.351 frame, sai sá»‘ Ghost movement = 0.
+Loop 1 Player giá»¯ A khÃ´ng má»Ÿ cá»­a; Loop 2 Ghost giá»¯ A + Player giá»¯ B má»Ÿ cá»­a; rá»i B Ä‘Ã³ng cá»­a,
+trá»Ÿ láº¡i B má»Ÿ láº¡i. Combat Player váº«n gÃ¢y Ä‘Ãºng 25 damage; rewind/reset vÃ  Restart PASS.
+Console cuá»‘i: 0 errors, 0 warnings. ChÆ°a test touch/Android. ChÆ°a triá»ƒn khai M2.4.
+Chi tiáº¿t: [M2.3 review](Docs/Testing/M2.3/REVIEW.md).
 
-## M2.4 — Puzzle Feedback
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M2.4 â€” Puzzle Feedback
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] switch SFX/VFX
 - [x] door SFX/VFX
-- [x] connection giữa switch và door dễ hiểu
-- [x] basic tutorial hint cho temporal puzzle đầu tiên
+- [x] connection giá»¯a switch vÃ  door dá»… hiá»ƒu
+- [x] basic tutorial hint cho temporal puzzle Ä‘áº§u tiÃªn
 
-`PuzzleFeedback` là presentation-only adapter lắng nghe PressureSwitch/Door events:
-switch/door pulse, runtime tone feedback, LineRenderer nối hai switch với Door, và hint
-"STAND ON BOTH TIME PLATES" / "ONE MORE SWITCH" / "TIME LINK COMPLETE". Không đổi puzzle logic.
+`PuzzleFeedback` lÃ  presentation-only adapter láº¯ng nghe PressureSwitch/Door events:
+switch/door pulse, runtime tone feedback, LineRenderer ná»‘i hai switch vá»›i Door, vÃ  hint
+"STAND ON BOTH TIME PLATES" / "ONE MORE SWITCH" / "TIME LINK COMPLETE". KhÃ´ng Ä‘á»•i puzzle logic.
 
-Verification: 8 checks PASS qua Unity MCP/Play Mode, 257 frame; feedback adapter có line/hint/audio,
-inactive state đúng, một switch bật line + hint + pulse, hai switch hiển thị solved connection và
-Door-open feedback, release dọn connection/hint, pause freeze và Restart cleanup PASS.
-Console cuối: 0 errors, 0 warnings. Đã save GameScene, exit Play Mode; chưa test touch/Android.
-Chi tiết: [M2.4 review](Docs/Testing/M2.4/REVIEW.md).
+Verification: 8 checks PASS qua Unity MCP/Play Mode, 257 frame; feedback adapter cÃ³ line/hint/audio,
+inactive state Ä‘Ãºng, má»™t switch báº­t line + hint + pulse, hai switch hiá»ƒn thá»‹ solved connection vÃ 
+Door-open feedback, release dá»n connection/hint, pause freeze vÃ  Restart cleanup PASS.
+Console cuá»‘i: 0 errors, 0 warnings. ÄÃ£ save GameScene, exit Play Mode; chÆ°a test touch/Android.
+Chi tiáº¿t: [M2.4 review](Docs/Testing/M2.4/REVIEW.md).
 
 ---
 
-# PHASE 3 — Player Combat Polish
+# PHASE 3 â€” Player Combat Polish
 
-## M3.1 — Directional Combat
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M3.1 â€” Directional Combat
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] attack direction/facing
 - [x] attack visual
-- [x] hit feedback rõ
+- [x] hit feedback rÃµ
 - [x] attack cooldown
-- [x] ngăn accidental multi-hit bug
+- [x] ngÄƒn accidental multi-hit bug
 
-`PlayerAttack` dùng `PlayerMovement.FacingDirection`, ghi `ArcAngle` vào `AttackSnapshot`
-và dùng cùng payload cho Player/Ghost. `AttackResolver` lọc mục tiêu theo hướng, vẫn deduplicate
-Enemy có nhiều collider. Cooldown mặc định 0,35 giây chặn swing trùng; `AttackFeedback` hiển thị
-slash line theo hướng, còn `DamageFeedback` flash SpriteRenderer của Enemy khi trúng đòn.
+`PlayerAttack` dÃ¹ng `PlayerMovement.FacingDirection`, ghi `ArcAngle` vÃ o `AttackSnapshot`
+vÃ  dÃ¹ng cÃ¹ng payload cho Player/Ghost. `AttackResolver` lá»c má»¥c tiÃªu theo hÆ°á»›ng, váº«n deduplicate
+Enemy cÃ³ nhiá»u collider. Cooldown máº·c Ä‘á»‹nh 0,35 giÃ¢y cháº·n swing trÃ¹ng; `AttackFeedback` hiá»ƒn thá»‹
+slash line theo hÆ°á»›ng, cÃ²n `DamageFeedback` flash SpriteRenderer cá»§a Enemy khi trÃºng Ä‘Ã²n.
 
-Verification: 10 checks PASS qua Unity MCP/Play Mode: hit phía trước, không hit phía sau,
-đổi hướng, cooldown, slash visual, Enemy hit flash, timeline giữ ArcAngle và pause giữ nguyên
-combat/loop. Console cuối không có error/warning mới; đã exit Play Mode và xóa probe khỏi scene.
-Regression M1.3 được giữ nguyên trong code path hiện tại; touch/Android chưa mô phỏng đáng tin cậy
-qua MCP và cần test thủ công trên thiết bị.
+Verification: 10 checks PASS qua Unity MCP/Play Mode: hit phÃ­a trÆ°á»›c, khÃ´ng hit phÃ­a sau,
+Ä‘á»•i hÆ°á»›ng, cooldown, slash visual, Enemy hit flash, timeline giá»¯ ArcAngle vÃ  pause giá»¯ nguyÃªn
+combat/loop. Console cuá»‘i khÃ´ng cÃ³ error/warning má»›i; Ä‘Ã£ exit Play Mode vÃ  xÃ³a probe khá»i scene.
+Regression M1.3 Ä‘Æ°á»£c giá»¯ nguyÃªn trong code path hiá»‡n táº¡i; touch/Android chÆ°a mÃ´ phá»ng Ä‘Ã¡ng tin cáº­y
+qua MCP vÃ  cáº§n test thá»§ cÃ´ng trÃªn thiáº¿t bá»‹.
 
-## M3.2 — Dash
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M3.2 â€” Dash
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] Dash button
 - [x] dash movement
 - [x] cooldown
 - [x] mobile-friendly behavior
 - [x] visual feedback
-- [x] Ghost timeline support nếu cần
+- [x] Ghost timeline support náº¿u cáº§n
 
-`PlayerDash` là component riêng, dùng hướng di chuyển/facing hiện tại, dash distance mặc định
-2,5 và cooldown 0,8 giây. `DashButton` là UI adapter nhận pointer click trên Canvas, tự hiển thị
-trạng thái ready/cooldown và tạo nhãn DASH khi chạy. `DashFeedback` hiển thị vệt cyan; Dash được
-ghi vào timeline với hướng và distance payload. Ghost replay lại action/feedback đúng thời điểm;
-pose timeline giữ quãng di chuyển nên không bị dash hai lần.
+`PlayerDash` lÃ  component riÃªng, dÃ¹ng hÆ°á»›ng di chuyá»ƒn/facing hiá»‡n táº¡i, dash distance máº·c Ä‘á»‹nh
+2,5 vÃ  cooldown 0,8 giÃ¢y. `DashButton` lÃ  UI adapter nháº­n pointer click trÃªn Canvas, tá»± hiá»ƒn thá»‹
+tráº¡ng thÃ¡i ready/cooldown vÃ  táº¡o nhÃ£n DASH khi cháº¡y. `DashFeedback` hiá»ƒn thá»‹ vá»‡t cyan; Dash Ä‘Æ°á»£c
+ghi vÃ o timeline vá»›i hÆ°á»›ng vÃ  distance payload. Ghost replay láº¡i action/feedback Ä‘Ãºng thá»i Ä‘iá»ƒm;
+pose timeline giá»¯ quÃ£ng di chuyá»ƒn nÃªn khÃ´ng bá»‹ dash hai láº§n.
 
-Verification: 11 checks PASS qua Unity MCP/Play Mode: movement theo hướng, cooldown chặn lặp,
-cooldown hồi phục, visual feedback, mobile button reference, pause freeze, natural rewind, Ghost
-nhận timeline và replay Dash. Console cuối không có error/warning mới; đã save GameScene, exit Play
-Mode và xóa probe khỏi scene. MCP không mô phỏng touch Android đáng tin cậy; cần test tap Dash trên
-thiết bị/emulator thủ công.
+Verification: 11 checks PASS qua Unity MCP/Play Mode: movement theo hÆ°á»›ng, cooldown cháº·n láº·p,
+cooldown há»“i phá»¥c, visual feedback, mobile button reference, pause freeze, natural rewind, Ghost
+nháº­n timeline vÃ  replay Dash. Console cuá»‘i khÃ´ng cÃ³ error/warning má»›i; Ä‘Ã£ save GameScene, exit Play
+Mode vÃ  xÃ³a probe khá»i scene. MCP khÃ´ng mÃ´ phá»ng touch Android Ä‘Ã¡ng tin cáº­y; cáº§n test tap Dash trÃªn
+thiáº¿t bá»‹/emulator thá»§ cÃ´ng.
 
-## M3.3 — Player Feedback
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M3.3 â€” Player Feedback
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] hit flash
 - [x] damage feedback
 - [x] attack SFX
 - [x] damage SFX
 - [x] death feedback
-- [ ] optional restrained camera shake (deferred; không cần cho acceptance)
+- [ ] optional restrained camera shake (deferred; khÃ´ng cáº§n cho acceptance)
 
-`CombatFeedback` là component presentation dùng chung cho Player và Enemy. `Health` phát hit/death
-feedback tập trung, `PlayerAttack` phát attack SFX, còn `AttackResolver` giữ hit flash/damage SFX
-cho Enemy nhiều collider. Audio dùng clip procedural ngắn, không thêm package/asset dependency.
+`CombatFeedback` lÃ  component presentation dÃ¹ng chung cho Player vÃ  Enemy. `Health` phÃ¡t hit/death
+feedback táº­p trung, `PlayerAttack` phÃ¡t attack SFX, cÃ²n `AttackResolver` giá»¯ hit flash/damage SFX
+cho Enemy nhiá»u collider. Audio dÃ¹ng clip procedural ngáº¯n, khÃ´ng thÃªm package/asset dependency.
 
-Verification: 10 checks PASS qua Unity MCP/Play Mode: Player/Enemy feedback component và audio
+Verification: 10 checks PASS qua Unity MCP/Play Mode: Player/Enemy feedback component vÃ  audio
 source, attack SFX, Enemy hit flash + damage SFX, Player contact damage + feedback, death feedback,
-cooldown chống duplicate và gameplay time vẫn hoạt động. Console cuối không có error/warning mới;
-đã save GameScene, exit Play Mode và xóa probe khỏi scene. Touch/Android audio vẫn cần test thủ công.
+cooldown chá»‘ng duplicate vÃ  gameplay time váº«n hoáº¡t Ä‘á»™ng. Console cuá»‘i khÃ´ng cÃ³ error/warning má»›i;
+Ä‘Ã£ save GameScene, exit Play Mode vÃ  xÃ³a probe khá»i scene. Touch/Android audio váº«n cáº§n test thá»§ cÃ´ng.
 
 Acceptance:  
-Combat responsive và dễ hiểu mà không cần debug visual.
+Combat responsive vÃ  dá»… hiá»ƒu mÃ  khÃ´ng cáº§n debug visual.
 
 ---
 
-# PHASE 4 — Dungeon Room System
+# PHASE 4 â€” Dungeon Room System
 
-## M4.1 — Room Architecture
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M4.1 â€” Room Architecture
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] Room component
 - [x] room lifecycle
 - [x] enter room
-- [x] lock room nếu cần
+- [x] lock room náº¿u cáº§n
 - [x] clear condition
 - [x] completion
 - [x] unlock exit
-- [x] transition sang room tiếp theo
+- [x] transition sang room tiáº¿p theo
 
-`Room` quản lý NotEntered/Active/Completed/Exited và điều kiện OnEntry/DefeatEnemies/SolvePuzzle;
-`RoomManager` điều phối sequence, `RoomExit` chỉ nhận Player, `RoomHUD` hiển thị objective/exit.
-GameScene có hai encounter dùng chung arena: combat dùng Enemy hiện có, rồi dual-switch puzzle.
-Mỗi encounter có cửa thoát riêng dùng lại `Door`; cửa puzzle gốc vẫn do `DualPressureDoor` điều khiển.
+`Room` quáº£n lÃ½ NotEntered/Active/Completed/Exited vÃ  Ä‘iá»u kiá»‡n OnEntry/DefeatEnemies/SolvePuzzle;
+`RoomManager` Ä‘iá»u phá»‘i sequence, `RoomExit` chá»‰ nháº­n Player, `RoomHUD` hiá»ƒn thá»‹ objective/exit.
+GameScene cÃ³ hai encounter dÃ¹ng chung arena: combat dÃ¹ng Enemy hiá»‡n cÃ³, rá»“i dual-switch puzzle.
+Má»—i encounter cÃ³ cá»­a thoÃ¡t riÃªng dÃ¹ng láº¡i `Door`; cá»­a puzzle gá»‘c váº«n do `DualPressureDoor` Ä‘iá»u khiá»ƒn.
 
-Dependency trực tiếp: chuyển phòng giữ HP, đưa Player tới spawn mới, bắt đầu Loop 1 và timeline mới,
-dọn Ghost cũ; rewind chỉ reset Player và room hiện tại. Clear được giữ tới rewind để Player đi tới exit;
-rewind mở lại encounter. Exit cuối phát trạng thái completion và dừng timer, chưa phải Victory flow.
+Dependency trá»±c tiáº¿p: chuyá»ƒn phÃ²ng giá»¯ HP, Ä‘Æ°a Player tá»›i spawn má»›i, báº¯t Ä‘áº§u Loop 1 vÃ  timeline má»›i,
+dá»n Ghost cÅ©; rewind chá»‰ reset Player vÃ  room hiá»‡n táº¡i. Clear Ä‘Æ°á»£c giá»¯ tá»›i rewind Ä‘á»ƒ Player Ä‘i tá»›i exit;
+rewind má»Ÿ láº¡i encounter. Exit cuá»‘i phÃ¡t tráº¡ng thÃ¡i completion vÃ  dá»«ng timer, chÆ°a pháº£i Victory flow.
 
-Verification: 30 checks PASS qua Unity MCP/Play Mode, gồm hai rewind tự nhiên 20 giây,
-combat/lock/unlock, transition bằng physics trigger, pause, Ghost puzzle, room-local reset,
-Restart, Game Over và Main Menu. Đã sửa warning API deprecated trong test, compile lại;
-kiểm tra Play Mode bổ sung xác nhận HUD không đè hint puzzle và transition vẫn hoạt động.
-Console cuối: 0 errors, 0 warnings. Đã exit Play Mode, save GameScene, không gắn probe vào scene.
-Chưa test touch/Android. Chi tiết: [M4.1 review](Docs/Testing/M4.1/REVIEW.md).
+Verification: 30 checks PASS qua Unity MCP/Play Mode, gá»“m hai rewind tá»± nhiÃªn 20 giÃ¢y,
+combat/lock/unlock, transition báº±ng physics trigger, pause, Ghost puzzle, room-local reset,
+Restart, Game Over vÃ  Main Menu. ÄÃ£ sá»­a warning API deprecated trong test, compile láº¡i;
+kiá»ƒm tra Play Mode bá»• sung xÃ¡c nháº­n HUD khÃ´ng Ä‘Ã¨ hint puzzle vÃ  transition váº«n hoáº¡t Ä‘á»™ng.
+Console cuá»‘i: 0 errors, 0 warnings. ÄÃ£ exit Play Mode, save GameScene, khÃ´ng gáº¯n probe vÃ o scene.
+ChÆ°a test touch/Android. Chi tiáº¿t: [M4.1 review](Docs/Testing/M4.1/REVIEW.md).
 
-## M4.2 — Dungeon Layout
-**[x] DONE — authored layout verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M4.2 â€” Dungeon Layout
+**[x] DONE â€” authored layout verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
-Tám room riêng trong GameScene, authored thủ công và nối bằng RoomManager.
-DONE ở milestone này là layout/progression; không đồng nghĩa đã hoàn thành trap, upgrade, elite hay boss gameplay.
+TÃ¡m room riÃªng trong GameScene, authored thá»§ cÃ´ng vÃ  ná»‘i báº±ng RoomManager.
+DONE á»Ÿ milestone nÃ y lÃ  layout/progression; khÃ´ng Ä‘á»“ng nghÄ©a Ä‘Ã£ hoÃ n thÃ nh trap, upgrade, elite hay boss gameplay.
 
 Target:
-- [x] Start Room — Threshold
-- [x] Combat Room — Guard Hall (2 Enemy hiện có)
-- [x] Time Puzzle Room — Echo Chamber (dual-switch + Ghost)
-- [x] Trap Room — Pendulum Gallery (layout + 3 hazard sockets; trap mechanics ở M6.4)
-- [x] Upgrade/Treasure Room — Timewell Treasury (layout + reward socket; upgrade ở Phase 7)
-- [x] Combat/Puzzle Room thứ hai — Split Bastion (3 Enemy hiện có)
-- [x] Elite Room — Warden Antechamber (layout + 1 guard stand-in; elite behavior ở M5.5)
-- [x] Boss Room — Chrono Sanctum (arena + boss/mechanism sockets; boss ở Phase 8)
+- [x] Start Room â€” Threshold
+- [x] Combat Room â€” Guard Hall (2 Enemy hiá»‡n cÃ³)
+- [x] Time Puzzle Room â€” Echo Chamber (dual-switch + Ghost)
+- [x] Trap Room â€” Pendulum Gallery (layout + 3 hazard sockets; trap mechanics á»Ÿ M6.4)
+- [x] Upgrade/Treasure Room â€” Timewell Treasury (layout + reward socket; upgrade á»Ÿ Phase 7)
+- [x] Combat/Puzzle Room thá»© hai â€” Split Bastion (3 Enemy hiá»‡n cÃ³)
+- [x] Elite Room â€” Warden Antechamber (layout + 1 guard stand-in; elite behavior á»Ÿ M5.5)
+- [x] Boss Room â€” Chrono Sanctum (arena + boss/mechanism sockets; boss á»Ÿ Phase 8)
 
-Mỗi phòng có spawn, camera anchor, exit, floor/border blockout và vị trí nội dung riêng.
-`RoomCamera` theo room hiện tại qua event, không tìm object bằng tên trong runtime.
-Start/Trap/Treasure/Boss dùng OnEntry để kiểm thử tuyến layout; combat và puzzle vẫn yêu cầu clear.
-Chỉ Content của room hiện tại active. DashButton scale được sửa từ 2,5 về 1 để không che layout.
+Má»—i phÃ²ng cÃ³ spawn, camera anchor, exit, floor/border blockout vÃ  vá»‹ trÃ­ ná»™i dung riÃªng.
+`RoomCamera` theo room hiá»‡n táº¡i qua event, khÃ´ng tÃ¬m object báº±ng tÃªn trong runtime.
+Start/Trap/Treasure/Boss dÃ¹ng OnEntry Ä‘á»ƒ kiá»ƒm thá»­ tuyáº¿n layout; combat vÃ  puzzle váº«n yÃªu cáº§u clear.
+Chá»‰ Content cá»§a room hiá»‡n táº¡i active. DashButton scale Ä‘Æ°á»£c sá»­a tá»« 2,5 vá» 1 Ä‘á»ƒ khÃ´ng che layout.
 
-Verification: 153 checks PASS qua Unity MCP/Play Mode: đủ 8 role/footprint riêng, full progression
-qua physics exit, spawn/camera đúng phòng, content isolation, combat clear, hai rewind tự nhiên,
-Ghost puzzle ở tọa độ mới, pause, HP preservation, Restart/Game Over/Main Menu.
-Đã inspect screenshot Guard Hall/Echo Chamber/Pendulum Gallery/Chrono Sanctum.
-Console cuối: 0 errors, 0 warnings; không missing script/reference được kiểm tra.
-Đã exit Play Mode, save GameScene; chưa test touch/Android.
-Chi tiết, map và deferred content: [M4.2 review](Docs/Testing/M4.2/REVIEW.md).
+Verification: 153 checks PASS qua Unity MCP/Play Mode: Ä‘á»§ 8 role/footprint riÃªng, full progression
+qua physics exit, spawn/camera Ä‘Ãºng phÃ²ng, content isolation, combat clear, hai rewind tá»± nhiÃªn,
+Ghost puzzle á»Ÿ tá»a Ä‘á»™ má»›i, pause, HP preservation, Restart/Game Over/Main Menu.
+ÄÃ£ inspect screenshot Guard Hall/Echo Chamber/Pendulum Gallery/Chrono Sanctum.
+Console cuá»‘i: 0 errors, 0 warnings; khÃ´ng missing script/reference Ä‘Æ°á»£c kiá»ƒm tra.
+ÄÃ£ exit Play Mode, save GameScene; chÆ°a test touch/Android.
+Chi tiáº¿t, map vÃ  deferred content: [M4.2 review](Docs/Testing/M4.2/REVIEW.md).
 
-KHÔNG ưu tiên procedural generation.
+KHÃ”NG Æ°u tiÃªn procedural generation.
 
-## M4.3 — Tilemap / Environment
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M4.3 â€” Tilemap / Environment
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] floor
 - [x] walls
 - [x] collision
 - [x] room boundaries
 - [x] visual theme consistency
-- [x] Player không thoát khỏi level geometry
+- [x] Player khÃ´ng thoÃ¡t khá»i level geometry
 
-Mỗi room có authored floor/border blockout và `RoomBoundary` với năm BoxCollider2D: north,
-south, west, east-upper/east-lower, giữ khe exit ở phía đông. `PlayerDash` dùng Rigidbody2D cast
-để dừng trước collider thay vì teleport xuyên tường. Main Camera vẫn đổi theo `RoomCamera`.
-Environment cũ dùng chung đã tắt; layout hiện tại dùng nền và trim theo từng room, màu cyan cho
-temporal path và amber cho hazard blockout.
+Má»—i room cÃ³ authored floor/border blockout vÃ  `RoomBoundary` vá»›i nÄƒm BoxCollider2D: north,
+south, west, east-upper/east-lower, giá»¯ khe exit á»Ÿ phÃ­a Ä‘Ã´ng. `PlayerDash` dÃ¹ng Rigidbody2D cast
+Ä‘á»ƒ dá»«ng trÆ°á»›c collider thay vÃ¬ teleport xuyÃªn tÆ°á»ng. Main Camera váº«n Ä‘á»•i theo `RoomCamera`.
+Environment cÅ© dÃ¹ng chung Ä‘Ã£ táº¯t; layout hiá»‡n táº¡i dÃ¹ng ná»n vÃ  trim theo tá»«ng room, mÃ u cyan cho
+temporal path vÃ  amber cho hazard blockout.
 
-Verification: 76 checks PASS qua Unity MCP/Play Mode trên cả 8 room: boundary/collider count,
-movement bị giữ ở tường tây, dash bị chặn ở tường đông phía trên khe, khe exit còn mở,
-pause giữ timer, Restart khôi phục boundary/dash, Main Menu unload scene. Console cuối:
-0 errors, 0 warnings; không missing script, 8 RoomBoundary/8 room; GameScene đã save và exit Play Mode.
-Chưa test touch/Android. Chi tiết: [M4.3 review](Docs/Testing/M4.3/REVIEW.md).
+Verification: 76 checks PASS qua Unity MCP/Play Mode trÃªn cáº£ 8 room: boundary/collider count,
+movement bá»‹ giá»¯ á»Ÿ tÆ°á»ng tÃ¢y, dash bá»‹ cháº·n á»Ÿ tÆ°á»ng Ä‘Ã´ng phÃ­a trÃªn khe, khe exit cÃ²n má»Ÿ,
+pause giá»¯ timer, Restart khÃ´i phá»¥c boundary/dash, Main Menu unload scene. Console cuá»‘i:
+0 errors, 0 warnings; khÃ´ng missing script, 8 RoomBoundary/8 room; GameScene Ä‘Ã£ save vÃ  exit Play Mode.
+ChÆ°a test touch/Android. Chi tiáº¿t: [M4.3 review](Docs/Testing/M4.3/REVIEW.md).
 
-## M4.4 — Room + Time Loop Interaction
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-21.**
+## M4.4 â€” Room + Time Loop Interaction
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-21.**
 
 - [x] loop restart position behavior theo room
 - [x] room-local reset behavior
-- [x] Ghost lifecycle giữa các room
-- [x] timeline có reset khi sang room hay không
-- [x] ngăn Ghost cũ phá gameplay room mới
+- [x] Ghost lifecycle giá»¯a cÃ¡c room
+- [x] timeline cÃ³ reset khi sang room hay khÃ´ng
+- [x] ngÄƒn Ghost cÅ© phÃ¡ gameplay room má»›i
 
-Policy đã chốt: mỗi room là một local temporal encounter. Khi room bắt đầu, `TimeLoopManager.BeginEncounter`
-chụp Player + current Room, reset Loop 1 và phát `EncounterStarted`; `PlayerTimelineRecorder` bắt đầu
-timeline mới còn `TemporalGhostManager` xóa pending/active Ghost. Rewind trong room giữ room hiện tại,
-trả Player về spawn, khôi phục enemy/puzzle resettable và tạo Ghost của loop vừa hoàn thành.
-Transition chỉ bật Content room mới, tắt room cũ, giữ HP, đưa Player tới spawn và không mang Ghost/timeline
-cũ sang room mới. Room cũ không thể advance lại; Pause giữ timer và Ghost state.
+Policy Ä‘Ã£ chá»‘t: má»—i room lÃ  má»™t local temporal encounter. Khi room báº¯t Ä‘áº§u, `TimeLoopManager.BeginEncounter`
+chá»¥p Player + current Room, reset Loop 1 vÃ  phÃ¡t `EncounterStarted`; `PlayerTimelineRecorder` báº¯t Ä‘áº§u
+timeline má»›i cÃ²n `TemporalGhostManager` xÃ³a pending/active Ghost. Rewind trong room giá»¯ room hiá»‡n táº¡i,
+tráº£ Player vá» spawn, khÃ´i phá»¥c enemy/puzzle resettable vÃ  táº¡o Ghost cá»§a loop vá»«a hoÃ n thÃ nh.
+Transition chá»‰ báº­t Content room má»›i, táº¯t room cÅ©, giá»¯ HP, Ä‘Æ°a Player tá»›i spawn vÃ  khÃ´ng mang Ghost/timeline
+cÅ© sang room má»›i. Room cÅ© khÃ´ng thá»ƒ advance láº¡i; Pause giá»¯ timer vÃ  Ghost state.
 
 Verification: 20 checks PASS qua Unity MCP/Play Mode: combat action recording, room-local rewind,
 Ghost snapshot/source loop, enemy health restore, independent Ghost actor, room transition/content isolation,
 fresh Loop 1/timeline, stale Ghost rejection in puzzle, Ghost A + Player B cooperation, physical-exit hold,
-pause, Restart and Main Menu. Console cuối 0 errors, 0 warnings; đã exit Play Mode.
-Chi tiết: [M4.4 review](Docs/Testing/M4.4/REVIEW.md).
+pause, Restart and Main Menu. Console cuá»‘i 0 errors, 0 warnings; Ä‘Ã£ exit Play Mode.
+Chi tiáº¿t: [M4.4 review](Docs/Testing/M4.4/REVIEW.md).
 
 Recommended default:  
-Mỗi major room là một local temporal encounter; khi vào room mới nên reset/clear Ghost history trừ khi gameplay testing chứng minh rule khác tốt hơn.
+Má»—i major room lÃ  má»™t local temporal encounter; khi vÃ o room má»›i nÃªn reset/clear Ghost history trá»« khi gameplay testing chá»©ng minh rule khÃ¡c tá»‘t hÆ¡n.
 
 ---
 
-# PHASE 5 — Enemy Roster
+# PHASE 5 â€” Enemy Roster
 
-## M5.1 — Enemy Base Improvements
-**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+## M5.1 â€” Enemy Base Improvements
+**[x] DONE â€” verified trong Unity 6000.6.0f1 ngÃ y 2026-09-22.**
 
 - [x] reusable damage/death behavior
 - [x] telegraphing
 - [x] loop reset compatibility
 - [x] room integration
 
-Tái sử dụng Health, EnemyAttackTarget, TimeLoopActor và Room; không thêm enemy base trùng chức năng.
-EnemyContactDamage có wind-up 0,45 giây, vòng cảnh báo amber→red, dừng chase khi chuẩn bị đánh,
-kiểm tra lại overlap ở impact, 20 damage một lần rồi cooldown 1 giây. Query tái sử dụng buffer.
-Sáu Enemy hiện có được nối EnemyAttackTelegraph qua serialized reference trong GameScene.
-Rewind/death/disable hủy đòn đang chờ; death–revive khôi phục màu/scale feedback.
-Sửa dependency phát hiện trong test: AttackFeedback/DashFeedback dùng renderer riêng để Ghost replay
-attack không còn lỗi LineRenderer index out of bounds.
+TÃ¡i sá»­ dá»¥ng Health, EnemyAttackTarget, TimeLoopActor vÃ  Room; khÃ´ng thÃªm enemy base trÃ¹ng chá»©c nÄƒng.
+EnemyContactDamage cÃ³ wind-up 0,45 giÃ¢y, vÃ²ng cáº£nh bÃ¡o amberâ†’red, dá»«ng chase khi chuáº©n bá»‹ Ä‘Ã¡nh,
+kiá»ƒm tra láº¡i overlap á»Ÿ impact, 20 damage má»™t láº§n rá»“i cooldown 1 giÃ¢y. Query tÃ¡i sá»­ dá»¥ng buffer.
+SÃ¡u Enemy hiá»‡n cÃ³ Ä‘Æ°á»£c ná»‘i EnemyAttackTelegraph qua serialized reference trong GameScene.
+Rewind/death/disable há»§y Ä‘Ã²n Ä‘ang chá»; deathâ€“revive khÃ´i phá»¥c mÃ u/scale feedback.
+Sá»­a dependency phÃ¡t hiá»‡n trong test: AttackFeedback/DashFeedback dÃ¹ng renderer riÃªng Ä‘á»ƒ Ghost replay
+attack khÃ´ng cÃ²n lá»—i LineRenderer index out of bounds.
 
-Verification lean: 19 checks M5.1 + 20 regression checks M4.4 PASS (wind-up, dash tránh đòn,
+Verification lean: 19 checks M5.1 + 20 regression checks M4.4 PASS (wind-up, dash trÃ¡nh Ä‘Ã²n,
 multi-collider damage, pause, live/dead rewind, Ghost damage, room clear/transition, puzzle,
-Restart/Main Menu). Compile thành công; Console cuối 0 errors, 0 warnings; 6/6 reference hợp lệ,
-không missing script/probe trong scene. Đã exit Play Mode và save GameScene.
-MCP screenshot phát sinh lỗi nội bộ ScreenshotUtility/recursive PlayerLoop; đã xác định stack trace
-và chạy lại 19 checks không chụp ảnh, PASS với Console sạch. Chưa test touch/Android hoặc cân bằng cuối.
-Chi tiết, file thay đổi và manual checklist: [M5.1 review](Docs/Testing/M5.1/REVIEW.md).
+Restart/Main Menu). Compile thÃ nh cÃ´ng; Console cuá»‘i 0 errors, 0 warnings; 6/6 reference há»£p lá»‡,
+khÃ´ng missing script/probe trong scene. ÄÃ£ exit Play Mode vÃ  save GameScene.
+MCP screenshot phÃ¡t sinh lá»—i ná»™i bá»™ ScreenshotUtility/recursive PlayerLoop; Ä‘Ã£ xÃ¡c Ä‘á»‹nh stack trace
+vÃ  cháº¡y láº¡i 19 checks khÃ´ng chá»¥p áº£nh, PASS vá»›i Console sáº¡ch. ChÆ°a test touch/Android hoáº·c cÃ¢n báº±ng cuá»‘i.
+Chi tiáº¿t, file thay Ä‘á»•i vÃ  manual checklist: [M5.1 review](Docs/Testing/M5.1/REVIEW.md).
 
-## M5.2 — Enemy 1: Chaser / Slime
-**[x] DONE — Ember Chaser verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+## M5.2 â€” Enemy 1: Chaser / Slime
+**[x] DONE â€” Ember Chaser verified trong Unity 6000.6.0f1 ngÃ y 2026-09-22.**
 
 - [x] chase
 - [x] contact/melee attack
-- [x] visual rõ
+- [x] visual rÃµ
 - [x] tuned speed/damage
 
-Năm guard ở Guard Hall/Split Bastion được cấu hình thành Ember Chaser: 75 HP (3 đòn Player
-25 damage), speed 2,2 so với Player 5, detection 18, stopping distance 0,75. EnemyFollow clamp
-bước di chuyển để không vượt khoảng dừng. Giữ melee M5.1: 20 damage, wind-up 0,45 giây,
-cooldown 1 giây, radius 0,65. Visual sprite ghép đỏ cam có viền tối/mắt/fang phân biệt với Player/Ghost.
-Có prefab EmberChaser với HealthBar/telegraph reference nội bộ; cần gán Player khi đặt prefab.
-Warden vẫn là stand-in, chưa triển khai elite. Không thêm AI/Health/reset system trùng chức năng.
+NÄƒm guard á»Ÿ Guard Hall/Split Bastion Ä‘Æ°á»£c cáº¥u hÃ¬nh thÃ nh Ember Chaser: 75 HP (3 Ä‘Ã²n Player
+25 damage), speed 2,2 so vá»›i Player 5, detection 18, stopping distance 0,75. EnemyFollow clamp
+bÆ°á»›c di chuyá»ƒn Ä‘á»ƒ khÃ´ng vÆ°á»£t khoáº£ng dá»«ng. Giá»¯ melee M5.1: 20 damage, wind-up 0,45 giÃ¢y,
+cooldown 1 giÃ¢y, radius 0,65. Visual sprite ghÃ©p Ä‘á» cam cÃ³ viá»n tá»‘i/máº¯t/fang phÃ¢n biá»‡t vá»›i Player/Ghost.
+CÃ³ prefab EmberChaser vá»›i HealthBar/telegraph reference ná»™i bá»™; cáº§n gÃ¡n Player khi Ä‘áº·t prefab.
+Warden váº«n lÃ  stand-in, chÆ°a triá»ƒn khai elite. KhÃ´ng thÃªm AI/Health/reset system trÃ¹ng chá»©c nÄƒng.
 
-Verification lean: 7 checks M5.2 + 19 regression M5.1 PASS qua MCP/Play Mode: chase/tốc độ,
-pause, khoảng dừng, 3-hit kill, wind-up/dash né/multi-collider damage/cooldown, death–revive,
-Ghost damage, room clear/transition. Compile thành công; Console cuối 0 errors/warnings.
-Đã inspect hình ảnh Guard Hall, prefab/reference, exit Play Mode và save GameScene.
-Chưa test touch/Android, final balancing; AI đuổi trực tiếp, chưa pathfinding quanh vật cản phức tạp.
-Chi tiết và manual checklist: [M5.2 review](Docs/Testing/M5.2/REVIEW.md).
+Verification lean: 7 checks M5.2 + 19 regression M5.1 PASS qua MCP/Play Mode: chase/tá»‘c Ä‘á»™,
+pause, khoáº£ng dá»«ng, 3-hit kill, wind-up/dash nÃ©/multi-collider damage/cooldown, deathâ€“revive,
+Ghost damage, room clear/transition. Compile thÃ nh cÃ´ng; Console cuá»‘i 0 errors/warnings.
+ÄÃ£ inspect hÃ¬nh áº£nh Guard Hall, prefab/reference, exit Play Mode vÃ  save GameScene.
+ChÆ°a test touch/Android, final balancing; AI Ä‘uá»•i trá»±c tiáº¿p, chÆ°a pathfinding quanh váº­t cáº£n phá»©c táº¡p.
+Chi tiáº¿t vÃ  manual checklist: [M5.2 review](Docs/Testing/M5.2/REVIEW.md).
 
-## M5.3 — Enemy 2: Archer
-**[x] DONE — Ash Archer verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+## M5.3 â€” Enemy 2: Archer
+**[x] DONE â€” Ash Archer verified trong Unity 6000.6.0f1 ngÃ y 2026-09-22.**
 
 - [x] ranged behavior
 - [x] distance management
 - [x] projectile
-- [x] projectile pooling hoặc reuse hiệu quả nếu cần
+- [x] projectile pooling hoáº·c reuse hiá»‡u quáº£ náº¿u cáº§n
 - [x] projectile reset/cleanup khi rewind
 - [x] telegraphed attack
 
-Split Bastion dùng roster hỗn hợp: 2 Ember Chaser + 1 Ash Archer. Archer có 50 HP, bắn mũi tên
-15 damage ở tốc độ 7, khoảng đánh 9, giữ Player trong khoảng 3–5 và di chuyển trực tiếp,
-không pathfinding. Đường ngắm amber→red khóa hướng trong 0,75 giây; Player có thể sidestep.
-`EnemyProjectilePool` giữ tối đa 3 arrow, không Instantiate thêm trong combat. `EnemyProjectile`
-dùng CircleCast theo quãng đường, chặn bởi tường, tự hết hạn sau 3 giây, chỉ damage Player.
-Archer, pool và projectile đều reset khi rewind/disable/death; pool nằm dưới room Content.
-Visual Ash Archer dùng hood/face/eyes/bow từ sprite hiện có; prefab Arrow và AshArcher được lưu.
+Split Bastion dÃ¹ng roster há»—n há»£p: 2 Ember Chaser + 1 Ash Archer. Archer cÃ³ 50 HP, báº¯n mÅ©i tÃªn
+15 damage á»Ÿ tá»‘c Ä‘á»™ 7, khoáº£ng Ä‘Ã¡nh 9, giá»¯ Player trong khoáº£ng 3â€“5 vÃ  di chuyá»ƒn trá»±c tiáº¿p,
+khÃ´ng pathfinding. ÄÆ°á»ng ngáº¯m amberâ†’red khÃ³a hÆ°á»›ng trong 0,75 giÃ¢y; Player cÃ³ thá»ƒ sidestep.
+`EnemyProjectilePool` giá»¯ tá»‘i Ä‘a 3 arrow, khÃ´ng Instantiate thÃªm trong combat. `EnemyProjectile`
+dÃ¹ng CircleCast theo quÃ£ng Ä‘Æ°á»ng, cháº·n bá»Ÿi tÆ°á»ng, tá»± háº¿t háº¡n sau 3 giÃ¢y, chá»‰ damage Player.
+Archer, pool vÃ  projectile Ä‘á»u reset khi rewind/disable/death; pool náº±m dÆ°á»›i room Content.
+Visual Ash Archer dÃ¹ng hood/face/eyes/bow tá»« sprite hiá»‡n cÃ³; prefab Arrow vÃ  AshArcher Ä‘Æ°á»£c lÆ°u.
 
 Verification lean: 20 checks Archer + 19 regression M5.1 PASS qua MCP/Play Mode (telegraph,
-locked aim, projectile damage/né/pause, retreat/approach, pool cap, wall collision/lifetime,
-rewind cleanup, Player/Ghost damage, death, mixed-room clear/transition). Compile sạch; Console
-cuối 0 errors/warnings; 1 Archer, 0 runtime projectile, 0 missing script/probe, scene saved.
-Đã inspect screenshot Split Bastion. Chưa test touch/Android, build/performance và cân bằng cuối.
-Chi tiết: [M5.3 review](Docs/Testing/M5.3/REVIEW.md).
+locked aim, projectile damage/nÃ©/pause, retreat/approach, pool cap, wall collision/lifetime,
+rewind cleanup, Player/Ghost damage, death, mixed-room clear/transition). Compile sáº¡ch; Console
+cuá»‘i 0 errors/warnings; 1 Archer, 0 runtime projectile, 0 missing script/probe, scene saved.
+ÄÃ£ inspect screenshot Split Bastion. ChÆ°a test touch/Android, build/performance vÃ  cÃ¢n báº±ng cuá»‘i.
+Chi tiáº¿t: [M5.3 review](Docs/Testing/M5.3/REVIEW.md).
 
-## M5.4 — Enemy 3: Knight HOẶC Mage
-**[x] DONE — Chrono Knight verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+## M5.4 â€” Enemy 3: Knight HOáº¶C Mage
+**[x] DONE â€” Chrono Knight verified trong Unity 6000.6.0f1 ngÃ y 2026-09-22.**
 
 Knight option:
 - [x] charge
@@ -552,9 +552,9 @@ remain manual follow-up. Details: [M5.5 review](Docs/Testing/M5.5/REVIEW.md).
 
 ---
 
-# PHASE 6 — Puzzle Variety
+# PHASE 6 â€” Puzzle Variety
 
-Final game cần ít nhất 3 temporal puzzle pattern có ý nghĩa.
+Final game cáº§n Ã­t nháº¥t 3 temporal puzzle pattern cÃ³ Ã½ nghÄ©a.
 
 ## M6.1 - Puzzle Pattern A
 - [x] Dual Pressure Switch
@@ -628,69 +628,96 @@ Ghost-loop guidance, solved completion state). Compile clean; Console after stop
 
 ---
 
-# PHASE 7 — Roguelite Progression
+# PHASE 7 â€” Roguelite Progression
 
-## M7.1 — Upgrade Framework
-- [ ] Upgrade data representation
-- [ ] apply upgrade
-- [ ] giữ hiệu lực trong current run
-- [ ] reset đúng khi new run
+## M7.1 - Upgrade Framework
+- [x] Upgrade data representation
+- [x] apply upgrade
+- [x] preserve upgrade for current run
+- [x] reset correctly on new run
 
-## M7.2 — 1-of-3 Upgrade UI
-- [ ] 3 choices
-- [ ] title
-- [ ] description
-- [ ] effect/value hiển thị rõ
-- [ ] mobile touch support
-- [ ] gameplay pause trong lúc chọn
+`UpgradeData` + `UpgradeType` provide reusable upgrade definitions. `UpgradeManager` applies Attack Damage,
+Movement Speed, Max HP, Dash Cooldown and Heal effects. Rewind preserves current-run upgrades; `GameManager.Restart()`
+resets the run baseline and clears stacks. GameScene now wires the reusable `PlayerDash` component.
 
-## M7.3 — Upgrade Pool
-Target các upgrade có ý nghĩa:
-- [ ] Attack Damage
-- [ ] Movement Speed
-- [ ] Max HP
-- [ ] Heal
-- [ ] Dash Cooldown
-- [ ] Loop Duration
-- [ ] Ghost Damage
-- [ ] Temporal/Ghost upgrade
+Verification lean: `UpgradeFrameworkPlayModeChecks` **4/4 PASS** (clean start, four stat effects, rewind
+persistence, explicit new-run reset). Compile clean; final Console 0 errors, 0 warnings; scene saved and
+Play Mode exited. Mobile selection and balance remain follow-up work in M7.2/M7.3.
+## M7.2 - 1-of-3 Upgrade UI
+- [x] 3 choices
+- [x] title
+- [x] description
+- [x] effect/value displayed clearly
+- [x] mobile touch support
+- [x] gameplay pauses during selection
 
-Target khoảng 8–12 upgrade definition có ý nghĩa, không tạo hàng chục lựa chọn filler.
+GameScene Canvas now includes `UpgradeChoiceUI`. It builds three large touch-capable choices with title,
+description and clear effect value. `ShowChoices()` pauses gameplay and selecting one applies the `UpgradeData`
+then resumes gameplay. The panel is intentionally hidden until reward integration calls it.
 
-## M7.4 — Reward Integration
-- [ ] reward sau room phù hợp
-- [ ] treasure room
-- [ ] elite reward
-- [ ] upgrade choice không phá loop state
+Verification lean: `UpgradeChoiceUIPlayModeChecks` **7/7 PASS** (availability, three choices, hidden start,
+pause, three buttons, button wiring, apply/resume). Compile clean; final Console 0 errors, 0 warnings; scene
+saved and Play Mode exited. Android touch and visual balance remain manual follow-up.
+## M7.3 - Upgrade Pool
+Target meaningful upgrade definitions:
+- [x] Attack Damage
+- [x] Movement Speed
+- [x] Max HP
+- [x] Heal
+- [x] Dash Cooldown
+- [x] Loop Duration
+- [x] Ghost Damage
+- [x] Temporal/Ghost upgrade
 
+`UpgradeManager` now owns a focused pool of 8 unique definitions with stable IDs, readable titles,
+descriptions and values. The M7.2 choice UI consumes the first three pool entries, so future reward integration
+can select from one shared source instead of duplicating definitions. Loop/Ghost/Temporal entries are defined
+for their later system integrations; their application behavior remains in the relevant follow-up milestones.
+
+Verification lean: `UpgradePoolPlayModeChecks` **12/12 PASS** (pool availability, 8 unique labeled entries,
+all target categories, UI consumption). Compile clean; final Console 0 errors, 0 warnings; scene saved and
+Play Mode exited. Balance and final reward selection remain follow-up work in M7.4.
+## M7.4 - Reward Integration
+- [x] reward after suitable room
+- [x] treasure room
+- [x] elite reward hook
+- [x] upgrade choice preserves loop state
+
+`UpgradeRewardManager` listens to room progression and opens the shared `UpgradeChoiceUI` once for Treasure,
+Elite or CombatChallenge completion. Selection applies one pool entry, resumes gameplay and does not rewind or
+replace the current loop state. Duplicate ProgressChanged notifications cannot reopen the same room reward.
+
+Verification lean: `UpgradeRewardIntegrationPlayModeChecks` **5/5 PASS** (wiring, clean start, ineligible role,
+treasure completion opens paused reward, selection closes/resumes). Compile clean; final Console 0 errors, 0
+warnings; scene saved and Play Mode exited. Elite room end-to-end balance remains manual follow-up.
 ---
 
-# PHASE 8 — Chrono Guardian Boss
+# PHASE 8 â€” Chrono Guardian Boss
 
-## M8.1 — Boss Foundation
+## M8.1 â€” Boss Foundation
 - [ ] boss Health
 - [ ] boss HUD
 - [ ] boss reset/lifecycle rule
 - [ ] boss arena
 - [ ] boss intro
 
-## M8.2 — Phase 1
+## M8.2 â€” Phase 1
 - [ ] readable normal attack
 - [ ] melee/ranged pattern
 - [ ] hazard telegraph
 
-## M8.3 — Phase 2: Temporal Mechanic
-- [ ] boss shield hoặc vulnerability mechanic
-- [ ] yêu cầu Ghost cooperation
-- [ ] Player hiểu vì sao cần Ghost
+## M8.3 â€” Phase 2: Temporal Mechanic
+- [ ] boss shield hoáº·c vulnerability mechanic
+- [ ] yÃªu cáº§u Ghost cooperation
+- [ ] Player hiá»ƒu vÃ¬ sao cáº§n Ghost
 
-## M8.4 — Phase 3: Finale
-- [ ] tăng pressure
+## M8.4 â€” Phase 3: Finale
+- [ ] tÄƒng pressure
 - [ ] temporal hazard
-- [ ] boss có thể disrupt Ghost hoặc manipulate timeline một cách fair
-- [ ] final vulnerability window rõ
+- [ ] boss cÃ³ thá»ƒ disrupt Ghost hoáº·c manipulate timeline má»™t cÃ¡ch fair
+- [ ] final vulnerability window rÃµ
 
-## M8.5 — Boss Polish
+## M8.5 â€” Boss Polish
 - [ ] hit feedback
 - [ ] phase transition feedback
 - [ ] SFX
@@ -699,73 +726,73 @@ Target khoảng 8–12 upgrade definition có ý nghĩa, không tạo hàng ch�
 - [ ] Victory trigger
 
 Acceptance:  
-Boss đánh được, dễ hiểu, và thể hiện rõ core mechanic của game.
+Boss Ä‘Ã¡nh Ä‘Æ°á»£c, dá»… hiá»ƒu, vÃ  thá»ƒ hiá»‡n rÃµ core mechanic cá»§a game.
 
 ---
 
-# PHASE 9 — Complete Game Flow
+# PHASE 9 â€” Complete Game Flow
 
-## M9.1 — Run State
+## M9.1 â€” Run State
 - [ ] Start new run
 - [ ] room progression
-- [ ] upgrade giữ trong run
-- [ ] Game Over reset đúng
-- [ ] Victory kết thúc run
+- [ ] upgrade giá»¯ trong run
+- [ ] Game Over reset Ä‘Ãºng
+- [ ] Victory káº¿t thÃºc run
 
-## M9.2 — Pause
+## M9.2 â€” Pause
 - [ ] Pause button
 - [ ] Resume
 - [ ] Restart Run
 - [ ] Main Menu
-- [ ] pause không phá Time Loop/Ghost timeline
+- [ ] pause khÃ´ng phÃ¡ Time Loop/Ghost timeline
 
-## M9.3 — Settings
-Settings implementation được DEFER từ M0.1 sang milestone này; chưa triển khai trong M4.1.
+## M9.3 â€” Settings
+Settings implementation Ä‘Æ°á»£c DEFER tá»« M0.1 sang milestone nÃ y; chÆ°a triá»ƒn khai trong M4.1.
 
-Tối thiểu:
+Tá»‘i thiá»ƒu:
 - [ ] master volume
-- [ ] music volume hoặc music toggle đơn giản
-- [ ] SFX volume hoặc SFX toggle đơn giản
+- [ ] music volume hoáº·c music toggle Ä‘Æ¡n giáº£n
+- [ ] SFX volume hoáº·c SFX toggle Ä‘Æ¡n giáº£n
 
-Optional nếu dễ:
+Optional náº¿u dá»…:
 - [ ] vibration toggle
 - [ ] quality setting
 
-## M9.4 — Victory
+## M9.4 â€” Victory
 - [ ] Victory screen
 - [ ] replay/new run
 - [ ] Main Menu
 - [ ] optional run summary
 
-## M9.5 — Tutorial
+## M9.5 â€” Tutorial
 - [ ] movement
 - [ ] attack
 - [ ] time loop
 - [ ] Ghost concept
-- [ ] temporal puzzle đầu tiên
-- [ ] dash khi được giới thiệu
+- [ ] temporal puzzle Ä‘áº§u tiÃªn
+- [ ] dash khi Ä‘Æ°á»£c giá»›i thiá»‡u
 
-Dùng contextual guidance ngắn gọn.
+DÃ¹ng contextual guidance ngáº¯n gá»n.
 
 ---
 
-# PHASE 10 — Art, Animation, Audio, VFX
+# PHASE 10 â€” Art, Animation, Audio, VFX
 
-Phase này có thể làm nhẹ từ sớm, nhưng final polish tập trung ở đây.
+Phase nÃ y cÃ³ thá»ƒ lÃ m nháº¹ tá»« sá»›m, nhÆ°ng final polish táº­p trung á»Ÿ Ä‘Ã¢y.
 
-## M10.1 — Visual Replacement
-- [ ] thay hoặc cải thiện rõ các primitive placeholder
-- [ ] Player visual nhất quán
+## M10.1 â€” Visual Replacement
+- [ ] thay hoáº·c cáº£i thiá»‡n rÃµ cÃ¡c primitive placeholder
+- [ ] Player visual nháº¥t quÃ¡n
 - [ ] Ghost visual
 - [ ] Enemy visual
 - [ ] dungeon tile/environment
 - [ ] switch/door visual
 - [ ] boss visual
 
-Asset có thể đơn giản, nhưng final game phải trông có chủ đích.
+Asset cÃ³ thá»ƒ Ä‘Æ¡n giáº£n, nhÆ°ng final game pháº£i trÃ´ng cÃ³ chá»§ Ä‘Ã­ch.
 
-## M10.2 — Animation
-Ưu tiên:
+## M10.2 â€” Animation
+Æ¯u tiÃªn:
 - [ ] Player idle/move
 - [ ] Player attack
 - [ ] dash feedback
@@ -774,7 +801,7 @@ Asset có thể đơn giản, nhưng final game phải trông có chủ đích.
 - [ ] door
 - [ ] Ghost readability
 
-## M10.3 — VFX
+## M10.3 â€” VFX
 - [ ] attack impact
 - [ ] damage
 - [ ] enemy death
@@ -786,10 +813,10 @@ Asset có thể đơn giản, nhưng final game phải trông có chủ đích.
 - [ ] boss phase
 - [ ] Victory
 
-## M10.4 — Audio
+## M10.4 â€” Audio
 - [ ] menu music
 - [ ] dungeon music
-- [ ] boss music hoặc intensified variant
+- [ ] boss music hoáº·c intensified variant
 - [ ] attack
 - [ ] hit
 - [ ] damage
@@ -803,50 +830,50 @@ Asset có thể đơn giản, nhưng final game phải trông có chủ đích.
 
 ---
 
-# PHASE 11 — Android & UX Polish
+# PHASE 11 â€” Android & UX Polish
 
-## M11.1 — Responsive UI
-Test các landscape ratio phổ biến:
+## M11.1 â€” Responsive UI
+Test cÃ¡c landscape ratio phá»• biáº¿n:
 - [ ] 16:9
 - [ ] wider phone ratio
 - [ ] safe positioning
-- [ ] không clipped HUD
-- [ ] không overlapping controls
+- [ ] khÃ´ng clipped HUD
+- [ ] khÃ´ng overlapping controls
 
-## M11.2 — Touch Testing
-Test thủ công:
+## M11.2 â€” Touch Testing
+Test thá»§ cÃ´ng:
 - [ ] joystick
-- [ ] move + attack đồng thời
+- [ ] move + attack Ä‘á»“ng thá»i
 - [ ] move + dash
 - [ ] rapid button presses
 - [ ] Game Over button
 - [ ] Pause UI
 - [ ] Upgrade selection
 
-## M11.3 — Performance
+## M11.3 â€” Performance
 - [ ] profiler sanity check
-- [ ] không có per-frame allocation lộ liễu từ system mới
-- [ ] Ghost recording memory có giới hạn
-- [ ] max Ghost count được giữ
-- [ ] projectile/VFX được kiểm soát
-- [ ] target frame rate ổn định trên Android device dự kiến
+- [ ] khÃ´ng cÃ³ per-frame allocation lá»™ liá»…u tá»« system má»›i
+- [ ] Ghost recording memory cÃ³ giá»›i háº¡n
+- [ ] max Ghost count Ä‘Æ°á»£c giá»¯
+- [ ] projectile/VFX Ä‘Æ°á»£c kiá»ƒm soÃ¡t
+- [ ] target frame rate á»•n Ä‘á»‹nh trÃªn Android device dá»± kiáº¿n
 
-## M11.4 — Android Build
-- [ ] final Exit/platform behavior verification (DEFER từ M0.1; kết hợp final platform QA)
-- [ ] Android build thành công
-- [ ] install lên real device
-- [ ] launch thành công
-- [ ] scene flow hoạt động
-- [ ] touch hoạt động
-- [ ] audio hoạt động
-- [ ] app pause/resume behavior được kiểm tra
+## M11.4 â€” Android Build
+- [ ] final Exit/platform behavior verification (DEFER tá»« M0.1; káº¿t há»£p final platform QA)
+- [ ] Android build thÃ nh cÃ´ng
+- [ ] install lÃªn real device
+- [ ] launch thÃ nh cÃ´ng
+- [ ] scene flow hoáº¡t Ä‘á»™ng
+- [ ] touch hoáº¡t Ä‘á»™ng
+- [ ] audio hoáº¡t Ä‘á»™ng
+- [ ] app pause/resume behavior Ä‘Æ°á»£c kiá»ƒm tra
 
 ---
 
-# PHASE 12 — Final Balancing and QA
+# PHASE 12 â€” Final Balancing and QA
 
-## M12.1 — Full Run Testing
-Chạy nhiều full run:
+## M12.1 â€” Full Run Testing
+Cháº¡y nhiá»u full run:
 
 Main Menu  
 -> Dungeon  
@@ -856,7 +883,7 @@ Main Menu
 -> Boss  
 -> Victory
 
-Đồng thời test failure flow:
+Äá»“ng thá»i test failure flow:
 
 Main Menu  
 -> Dungeon  
@@ -864,7 +891,7 @@ Main Menu
 -> Restart  
 -> Main Menu
 
-## M12.2 — Difficulty
+## M12.2 â€” Difficulty
 Tune:
 - [ ] Player damage
 - [ ] Enemy HP
@@ -877,44 +904,44 @@ Tune:
 - [ ] boss attack timing
 
 Goal:  
-đủ thử thách để thể hiện mechanic nhưng không gây khó chịu khi presentation.
+Ä‘á»§ thá»­ thÃ¡ch Ä‘á»ƒ thá»ƒ hiá»‡n mechanic nhÆ°ng khÃ´ng gÃ¢y khÃ³ chá»‹u khi presentation.
 
-## M12.3 — Bug Checklist
-- [ ] không NullReferenceException
-- [ ] không MissingReferenceException
-- [ ] không broken serialized reference
-- [ ] không Ghost duplication sau Restart
-- [ ] timer không tiếp tục khi pause/Game Over
-- [ ] dead Enemy reset đúng
-- [ ] không puzzle soft-lock
-- [ ] không door collider desync
-- [ ] Player không bị kẹt sau rewind
-- [ ] không upgrade stacking bug
-- [ ] không boss phase soft-lock
+## M12.3 â€” Bug Checklist
+- [ ] khÃ´ng NullReferenceException
+- [ ] khÃ´ng MissingReferenceException
+- [ ] khÃ´ng broken serialized reference
+- [ ] khÃ´ng Ghost duplication sau Restart
+- [ ] timer khÃ´ng tiáº¿p tá»¥c khi pause/Game Over
+- [ ] dead Enemy reset Ä‘Ãºng
+- [ ] khÃ´ng puzzle soft-lock
+- [ ] khÃ´ng door collider desync
+- [ ] Player khÃ´ng bá»‹ káº¹t sau rewind
+- [ ] khÃ´ng upgrade stacking bug
+- [ ] khÃ´ng boss phase soft-lock
 
-## M12.4 — Presentation Polish
-- [ ] font nhất quán
-- [ ] màu sắc nhất quán
-- [ ] button style nhất quán
-- [ ] HUD dễ đọc
-- [ ] transition sạch
-- [ ] feedback rõ
-- [ ] không còn debug text chỉ dành cho development
-- [ ] không còn visible placeholder label
+## M12.4 â€” Presentation Polish
+- [ ] font nháº¥t quÃ¡n
+- [ ] mÃ u sáº¯c nháº¥t quÃ¡n
+- [ ] button style nháº¥t quÃ¡n
+- [ ] HUD dá»… Ä‘á»c
+- [ ] transition sáº¡ch
+- [ ] feedback rÃµ
+- [ ] khÃ´ng cÃ²n debug text chá»‰ dÃ nh cho development
+- [ ] khÃ´ng cÃ²n visible placeholder label
 
 ---
 
-# PHASE 13 — Final Deliverable
+# PHASE 13 â€” Final Deliverable
 
-## M13.1 — Final Build
-- [ ] clean Android APK/AAB theo yêu cầu
+## M13.1 â€” Final Build
+- [ ] clean Android APK/AAB theo yÃªu cáº§u
 - [ ] final version number
 - [ ] final icon
 - [ ] final app/game title
 - [ ] test install
 
-## M13.2 — Demo Readiness
-Chuẩn bị một demo path ổn định thể hiện:
+## M13.2 â€” Demo Readiness
+Chuáº©n bá»‹ má»™t demo path á»•n Ä‘á»‹nh thá»ƒ hiá»‡n:
 - [ ] movement/combat
 - [ ] rewind
 - [ ] Ghost replay
@@ -924,38 +951,44 @@ Chuẩn bị một demo path ổn định thể hiện:
 - [ ] boss
 - [ ] Victory
 
-Evaluator phải hiểu được unique mechanic của game nhanh chóng.
+Evaluator pháº£i hiá»ƒu Ä‘Æ°á»£c unique mechanic cá»§a game nhanh chÃ³ng.
 
-## M13.3 — Completion Definition
+## M13.3 â€” Completion Definition
 
-ChronoDungeon chỉ được coi là DONE khi:
+ChronoDungeon chá»‰ Ä‘Æ°á»£c coi lÃ  DONE khi:
 
-- [ ] full run chơi được từ launch tới Victory;
-- [ ] core Temporal Ghost mechanic là thiết yếu;
-- [ ] có ít nhất 3 temporal puzzle pattern;
-- [ ] combat có enemy variety rõ;
-- [ ] upgrade progression hoạt động;
-- [ ] boss hoàn chỉnh;
-- [ ] UI/audio/VFX khiến game có cảm giác intentional;
-- [ ] Android build hoạt động;
-- [ ] final manual QA hoàn thành;
-- [ ] không còn known game-breaking bug.
+- [ ] full run chÆ¡i Ä‘Æ°á»£c tá»« launch tá»›i Victory;
+- [ ] core Temporal Ghost mechanic lÃ  thiáº¿t yáº¿u;
+- [ ] cÃ³ Ã­t nháº¥t 3 temporal puzzle pattern;
+- [ ] combat cÃ³ enemy variety rÃµ;
+- [ ] upgrade progression hoáº¡t Ä‘á»™ng;
+- [ ] boss hoÃ n chá»‰nh;
+- [ ] UI/audio/VFX khiáº¿n game cÃ³ cáº£m giÃ¡c intentional;
+- [ ] Android build hoáº¡t Ä‘á»™ng;
+- [ ] final manual QA hoÃ n thÃ nh;
+- [ ] khÃ´ng cÃ²n known game-breaking bug.
 
 ---
 
 # NEXT MILESTONE
 
-Codex phải inspect project trước khi tin marker này.
+Codex pháº£i inspect project trÆ°á»›c khi tin marker nÃ y.
 
-Next milestone after M6.5 verification on 2026-09-22:
+Next milestone after M7.4 verification on 2026-09-22:
 
-**M7.1 - Upgrade Framework**
+**M8.1 - Boss Foundation**
 
-M6.5 is complete; stop at the review checkpoint. M7.1 will add upgrade data, application and current-run
-persistence/reset behavior.
-M0.1 là foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
-Phase 11/final platform QA theo scope clarification của user. Các hạng mục device touch và
-responsive layout của M0.2 vẫn cần final QA; không chặn milestone phát triển chính Room System.
+M7.4 is complete; stop at the review checkpoint. M8.1 will establish the Chrono Guardian boss foundation.
+M0.1 lÃ  foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
+Phase 11/final platform QA theo scope clarification cá»§a user. CÃ¡c háº¡ng má»¥c device touch vÃ 
+responsive layout cá»§a M0.2 váº«n cáº§n final QA; khÃ´ng cháº·n milestone phÃ¡t triá»ƒn chÃ­nh Room System.
 
-Không tự skip sang milestone sau chỉ vì nó hấp dẫn hơn.  
-Hoàn thành, test và integrate milestone chưa hoàn thành sớm nhất trước.
+KhÃ´ng tá»± skip sang milestone sau chá»‰ vÃ¬ nÃ³ háº¥p dáº«n hÆ¡n.  
+HoÃ n thÃ nh, test vÃ  integrate milestone chÆ°a hoÃ n thÃ nh sá»›m nháº¥t trÆ°á»›c.
+
+
+
+
+
+
+

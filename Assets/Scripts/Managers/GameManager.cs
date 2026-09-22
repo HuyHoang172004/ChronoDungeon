@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Health playerHealth;
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private string mainMenuScene = "MainMenuScene";
+    [SerializeField] private UpgradeManager upgradeManager;
     public bool IsGameOver { get; private set; }
 
     private void Awake()
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     public void Restart()
     {
+        if (upgradeManager != null) upgradeManager.ResetRun();
         Time.timeScale = 1f;
         SceneManager.LoadScene(gameObject.scene.path);
     }

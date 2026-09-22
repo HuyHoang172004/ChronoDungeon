@@ -5341,6 +5341,8 @@ GameObject:
   - component: {fileID: 298039190}
   - component: {fileID: 298039191}
   - component: {fileID: 298039192}
+  - component: {fileID: 298039193}
+  - component: {fileID: 298039194}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -5378,6 +5380,7 @@ MonoBehaviour:
   playerHealth: {fileID: 1130303117}
   gameOverPanel: {fileID: 1410011859}
   mainMenuScene: MainMenuScene
+  upgradeManager: {fileID: 298039193}
 --- !u!114 &298039190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5432,6 +5435,37 @@ MonoBehaviour:
   - {fileID: 243412283}
   player: {fileID: 1130303115}
   loop: {fileID: 298039190}
+--- !u!114 &298039193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae863fd5adb59a54b8fea00c5a482baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeManager
+  playerMovement: {fileID: 1130303115}
+  playerAttack: {fileID: 1130303116}
+  playerDash: {fileID: 1130303121}
+  playerHealth: {fileID: 1130303117}
+  upgradePool: []
+--- !u!114 &298039194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487f74d428c286c4faa80aa884d9ac85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeRewardManager
+  roomManager: {fileID: 298039192}
+  choiceUI: {fileID: 401301887}
 --- !u!1 &300668547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,6 +7900,7 @@ GameObject:
   - component: {fileID: 401301885}
   - component: {fileID: 401301884}
   - component: {fileID: 401301883}
+  - component: {fileID: 401301887}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7963,6 +7998,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &401301887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401301882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3328dbc7655dbab469c9f11868c1fe1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeChoiceUI
+  upgradeManager: {fileID: 298039193}
+  buildOnStart: 1
 --- !u!1 &406388934
 GameObject:
   m_ObjectHideFlags: 0
@@ -21681,6 +21730,7 @@ GameObject:
   - component: {fileID: 1130303118}
   - component: {fileID: 1130303119}
   - component: {fileID: 1130303120}
+  - component: {fileID: 1130303121}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -21949,6 +21999,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PressureSwitchActor
   useReplayPoint: 0
+--- !u!114 &1130303121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130303110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d667e79ad33f045a23f93ec8a265b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  dashDistance: 2.5
+  dashCooldown: 0.8
+  loop: {fileID: 0}
 --- !u!1 &1130366183
 GameObject:
   m_ObjectHideFlags: 0

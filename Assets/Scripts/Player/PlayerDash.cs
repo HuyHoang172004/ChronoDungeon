@@ -21,6 +21,7 @@ public sealed class PlayerDash : MonoBehaviour, ITimeLoopResettable
     public event Action<Vector2> DashPerformed;
     public float DashDistance => dashDistance;
     public float DashCooldown => dashCooldown;
+    public void SetDashCooldown(float value) => dashCooldown = Mathf.Max(0.1f, value);
     public float CooldownRemaining => Mathf.Max(0f, nextDashTime - Time.time);
     public bool CanDash => CooldownRemaining <= 0f && Time.timeScale > 0f;
     public Vector2 LastDashDirection { get; private set; }
