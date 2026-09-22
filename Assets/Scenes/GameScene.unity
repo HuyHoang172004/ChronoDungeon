@@ -5358,6 +5358,9 @@ GameObject:
   - component: {fileID: 298039192}
   - component: {fileID: 298039193}
   - component: {fileID: 298039194}
+  - component: {fileID: 298039195}
+  - component: {fileID: 298039196}
+  - component: {fileID: 298039197}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -5482,6 +5485,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeRewardManager
   roomManager: {fileID: 298039192}
   choiceUI: {fileID: 401301887}
+--- !u!114 &298039195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610fe8e0bef516f4e9b3038b75e69ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RunStateManager
+  gameManager: {fileID: 298039189}
+  roomManager: {fileID: 298039192}
+  upgradeManager: {fileID: 298039193}
+  playerHealth: {fileID: 1130303117}
+--- !u!114 &298039196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257b84041bc036f4ba0f8ee4a7a94084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseManager
+  gameManager: {fileID: 298039189}
+--- !u!114 &298039197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298039187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fdf03c8920fca4cbcfd76a9560be62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SettingsManager
 --- !u!1 &300668547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7919,6 +7963,9 @@ GameObject:
   - component: {fileID: 401301887}
   - component: {fileID: 401301888}
   - component: {fileID: 401301889}
+  - component: {fileID: 401301890}
+  - component: {fileID: 401301891}
+  - component: {fileID: 401301892}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -8056,6 +8103,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VictoryFlowUI
   gameManager: {fileID: 298039189}
+--- !u!114 &401301890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401301882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef0e4ac29e16044aae3db0849307fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseFlowUI
+  pauseManager: {fileID: 298039196}
+--- !u!114 &401301891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401301882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d16fc62b5db004fb13e6996a43d09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SettingsFlowUI
+  settings: {fileID: 298039197}
+--- !u!114 &401301892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401301882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb820badbd1d3249a570a3882f612bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialGuideUI
+  player: {fileID: 0}
+  attack: {fileID: 0}
+  dash: {fileID: 0}
+  loop: {fileID: 0}
+  ghosts: {fileID: 0}
+  puzzle: {fileID: 0}
 --- !u!1 &406388934
 GameObject:
   m_ObjectHideFlags: 0
@@ -19859,6 +19950,9 @@ MonoBehaviour:
   hitColor: {r: 1, g: 1, b: 1, a: 1}
   phaseColor: {r: 1, g: 0.35, b: 0.9, a: 1}
   deathColor: {r: 0.25, g: 0.15, b: 0.45, a: 0.45}
+  hitClip: {fileID: 0}
+  phaseClip: {fileID: 0}
+  deathClip: {fileID: 0}
 --- !u!1 &1010309700
 GameObject:
   m_ObjectHideFlags: 0

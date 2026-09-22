@@ -6,14 +6,25 @@ public sealed class VictoryFlowUI : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
     private GameObject panel;
+    private bool subscribed;
     public bool IsVisible => panel != null && panel.activeSelf;
 
     private void Awake()
     {
         if (gameManager == null) gameManager = FindAnyObjectByType<GameManager>();
         BuildPanel();
-        if (gameManager != null) gameManager.VictoryTriggered += Show;
+        Subscribe();
         panel.SetActive(false);
+    }
+
+    private void Start() { Subscribe(); }
+
+    private void Subscribe()
+    {
+        if (subscribed || gameManager == null) return;
+        gameManager.VictoryTriggered += Show;
+        gameManager.RunReset += Hide;
+        subscribed = true;
     }
 
     private void BuildPanel()
@@ -31,15 +42,26 @@ public sealed class VictoryFlowUI : MonoBehaviour
         title.color = new Color(.55f, .95f, 1f); title.gameObject.AddComponent<LayoutElement>().preferredHeight = 70f;
         var detail = CreateText("CHRONO GUARDIAN DEFEATED", 20, TextAnchor.MiddleCenter);
         detail.gameObject.AddComponent<LayoutElement>().preferredHeight = 44f;
+        var rooms = FindAnyObjectByType<RoomManager>();
+        var upgrades = FindAnyObjectByType<UpgradeManager>();
+        var summary = CreateText("ROOMS: " + (rooms == null ? 0 : rooms.RoomCount) + "   UPGRADES: " + (upgrades == null ? 0 : upgrades.AppliedUpgradeCount), 17, TextAnchor.MiddleCenter);
+        summary.gameObject.AddComponent<LayoutElement>().preferredHeight = 32f;
+        AddButton("REPLAY RUN", () => gameManager.ReplayRun());
+        AddButton("MAIN MENU", () => gameManager.MainMenu());
+    }
+
+    private void AddButton(string label, UnityEngine.Events.UnityAction action)
+    {
         var buttonObject = new GameObject("Victory Main Menu", typeof(RectTransform), typeof(Image), typeof(Button));
         buttonObject.transform.SetParent(panel.transform, false);
         buttonObject.GetComponent<Image>().color = new Color(.12f, .35f, .5f, 1f);
         buttonObject.AddComponent<LayoutElement>().preferredHeight = 64f;
-        var buttonText = CreateText("MAIN MENU", 22, TextAnchor.MiddleCenter);
+        buttonObject.name = label;
+        var buttonText = CreateText(label, 22, TextAnchor.MiddleCenter);
         buttonText.transform.SetParent(buttonObject.transform, false);
         var buttonRect = buttonText.rectTransform; buttonRect.anchorMin = Vector2.zero; buttonRect.anchorMax = Vector2.one;
         buttonRect.offsetMin = Vector2.zero; buttonRect.offsetMax = Vector2.zero;
-        buttonObject.GetComponent<Button>().onClick.AddListener(() => gameManager.MainMenu());
+        buttonObject.GetComponent<Button>().onClick.AddListener(action);
     }
 
     private Text CreateText(string value, int size, TextAnchor alignment)
@@ -54,8 +76,12 @@ public sealed class VictoryFlowUI : MonoBehaviour
 
     private void Show() { panel.SetActive(true); }
 
+    private void Hide() { panel.SetActive(false); }
+
     private void OnDestroy()
     {
+        if (!subscribed) return;
         if (gameManager != null) gameManager.VictoryTriggered -= Show;
+        if (gameManager != null) gameManager.RunReset -= Hide;
     }
 }

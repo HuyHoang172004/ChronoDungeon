@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public bool IsGameOver { get; private set; }
     public bool IsVictory { get; private set; }
     public event Action VictoryTriggered;
+    public event Action GameOverTriggered;
+    public event Action RunReset;
 
     private void Awake()
     {
@@ -27,19 +29,37 @@ public class GameManager : MonoBehaviour
         IsGameOver = true;
         gameOverPanel.SetActive(true);
         Time.timeScale = 0f;
+        GameOverTriggered?.Invoke();
     }
 
     public void Restart()
     {
-        if (upgradeManager != null) upgradeManager.ResetRun();
+        BeginNewRunState();
         Time.timeScale = 1f;
         SceneManager.LoadScene(gameObject.scene.path);
+    }
+
+    public void BeginNewRunState()
+    {
+        if (upgradeManager != null) upgradeManager.ResetRun();
+        IsGameOver = false;
+        IsVictory = false;
+        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+        if (victoryPanel != null) victoryPanel.SetActive(false);
+        Time.timeScale = 1f;
+        RunReset?.Invoke();
     }
 
     public void MainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenuScene);
+    }
+
+    public void ReplayRun()
+    {
+        BeginNewRunState();
+        SceneManager.LoadScene(gameObject.scene.path);
     }
 
     public void Victory()

@@ -767,47 +767,75 @@ Audio clips and final visual tuning remain manual presentation work.
 
 # PHASE 9 â€” Complete Game Flow
 
-## M9.1 â€” Run State
-- [ ] Start new run
-- [ ] room progression
-- [ ] upgrade giá»¯ trong run
-- [ ] Game Over reset Ä‘Ãºng
-- [ ] Victory káº¿t thÃºc run
+## M9.1 - Run State
+- [x] Start new run
+- [x] room progression
+- [x] upgrade persists in run
+- [x] Game Over resets correctly
+- [x] Victory ends run
 
-## M9.2 â€” Pause
-- [ ] Pause button
-- [ ] Resume
-- [ ] Restart Run
-- [ ] Main Menu
-- [ ] pause khÃ´ng phÃ¡ Time Loop/Ghost timeline
+`RunStateManager` now coordinates the authored run lifecycle as Booting, Running, GameOver or Victory. It listens
+to room progress, player death and Victory events, while `BeginNewRun()` resets GameManager state, Player health
+and UpgradeManager stacks before resuming. Existing RoomManager progression remains the source of room index/state.
 
-## M9.3 â€” Settings
-Settings implementation Ä‘Æ°á»£c DEFER tá»« M0.1 sang milestone nÃ y; chÆ°a triá»ƒn khai trong M4.1.
+Verification lean: `RunStatePlayModeChecks` **7/7 PASS** (dependencies, first room start, upgrade retention, Victory
+end state, new-run reset, Game Over transition, Game Over reset). Compile clean; final Console 0 errors, 0 warnings;
+scene saved and Play Mode exited.
+## M9.2 - Pause
+- [x] Pause button
+- [x] Resume
+- [x] Restart Run
+- [x] Main Menu
+- [x] pause does not break Time Loop/Ghost timeline
 
-Tá»‘i thiá»ƒu:
-- [ ] master volume
-- [ ] music volume hoáº·c music toggle Ä‘Æ¡n giáº£n
-- [ ] SFX volume hoáº·c SFX toggle Ä‘Æ¡n giáº£n
+`PauseManager` and `PauseFlowUI` now provide a large touch-friendly pause overlay with Resume, Restart Run and
+Main Menu actions. Pausing stores the active time scale, sets gameplay time to zero and leaves RunStateManager,
+TimeLoopManager and Ghost history intact. Restart and Main Menu delegate to the existing GameManager transitions.
 
-Optional náº¿u dá»…:
-- [ ] vibration toggle
-- [ ] quality setting
+Verification lean: `PauseFlowPlayModeChecks` **5/5 PASS** (dependencies, pause UI/freeze, timer/run preservation,
+resume, repeated pause/resume). Compile clean; final Console 0 errors, 0 warnings; scene saved and Play Mode exited.
+Android touch target and device aspect-ratio checks remain manual.
+## M9.3 - Settings
+- [x] master volume
+- [x] music volume or toggle
+- [x] SFX volume or toggle
 
+`SettingsManager` stores Master, Music and SFX values in PlayerPrefs. Master volume applies immediately through
+`AudioListener.volume`; Music and SFX values are exposed for routed sources. `SettingsFlowUI` provides sliders,
+Reset Defaults and Close controls using large touch-friendly rows.
+
+Verification lean: `SettingsPlayModeChecks` **6/6 PASS** (manager/UI, master apply, music/SFX values, panel open,
+panel close, default reset). Compile clean; final Console 0 errors, 0 warnings; scene saved and Play Mode exited.
+Android touch and final audio routing remain manual follow-up.
 ## M9.4 â€” Victory
-- [ ] Victory screen
-- [ ] replay/new run
-- [ ] Main Menu
-- [ ] optional run summary
+- [x] Victory screen
+- [x] replay/new run
+- [x] Main Menu
+- [x] optional run summary
+
+VictoryFlowUI now presents the completed run state with Chrono Guardian defeat messaging,
+room/upgrade summary, Replay Run, and Main Menu actions. GameManager resets the run state
+before replaying the GameScene; RunStateManager and VictoryFlowUI clear their state on reset.
+
+Verification lean: `VictoryFlowPlayModeChecks` **4/4 PASS** (dependencies, Victory pause,
+new-run reset, Replay Run action). Compile clean; final Console 0 errors, 0 warnings;
+scene saved and Play Mode exited. Android touch and final visual layout remain manual follow-up.
 
 ## M9.5 â€” Tutorial
-- [ ] movement
-- [ ] attack
-- [ ] time loop
-- [ ] Ghost concept
-- [ ] temporal puzzle Ä‘áº§u tiÃªn
-- [ ] dash khi Ä‘Æ°á»£c giá»›i thiá»‡u
+- [x] movement
+- [x] attack
+- [x] time loop
+- [x] Ghost concept
+- [x] temporal puzzle Ä‘áº§u tiÃªn
+- [x] dash khi Ä‘Æ°á»£c giá»›i thiá»‡u
 
-DÃ¹ng contextual guidance ngáº¯n gá»n.
+DÃ¹ng contextual guidance ngáº¯n gá»n. `TutorialGuideUI` hiá»ƒn thá»‹ guide trÃªn Canvas vÃ  tá»± chuyá»ƒn
+movement â†’ attack â†’ dash â†’ time loop â†’ Ghost â†’ puzzle; guide tá»± áº©n sau khi hoÃ n táº¥t.
+
+Verification lean: `TutorialGuidePlayModeChecks` **5/5 PASS** (dependencies, initial movement prompt,
+movement â†’ attack, attack â†’ dash, dash â†’ time-loop guidance). Compile thÃ nh cÃ´ng; scene saved,
+Play Mode exited, final Console cleared. Ghost replay, first puzzle completion, vÃ  Android touch flow
+cáº§n manual playtest trong full run.
 
 ---
 
@@ -1009,17 +1037,20 @@ ChronoDungeon chá»‰ Ä‘Æ°á»£c coi lÃ  DONE khi:
 
 Codex pháº£i inspect project trÆ°á»›c khi tin marker nÃ y.
 
-Next milestone after M8.5 verification on 2026-09-22:
+Next milestone after M9.5 verification on 2026-09-22:
 
-**M9.1 - Run State**
+**M10.1 - Visual Replacement**
 
-M8.5 is complete; stop at the review checkpoint. M9.1 will connect start, progression, upgrade persistence, Game Over and Victory into one run state.
+M9.5 is complete; stop at the review checkpoint. M10.1 will replace or improve visible primitive placeholders across the player, Ghost, enemies, dungeon, switches/doors, and boss.
 M0.1 lÃ  foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
 Phase 11/final platform QA theo scope clarification cá»§a user. CÃ¡c háº¡ng má»¥c device touch vÃ 
 responsive layout cá»§a M0.2 váº«n cáº§n final QA; khÃ´ng cháº·n milestone phÃ¡t triá»ƒn chÃ­nh Room System.
 
 KhÃ´ng tá»± skip sang milestone sau chá»‰ vÃ¬ nÃ³ háº¥p dáº«n hÆ¡n.  
 HoÃ n thÃ nh, test vÃ  integrate milestone chÆ°a hoÃ n thÃ nh sá»›m nháº¥t trÆ°á»›c.
+
+
+
 
 
 
