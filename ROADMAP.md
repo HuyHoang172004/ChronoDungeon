@@ -694,40 +694,75 @@ warnings; scene saved and Play Mode exited. Elite room end-to-end balance remain
 
 # PHASE 8 â€” Chrono Guardian Boss
 
-## M8.1 â€” Boss Foundation
-- [ ] boss Health
-- [ ] boss HUD
-- [ ] boss reset/lifecycle rule
-- [ ] boss arena
-- [ ] boss intro
+## M8.1 - Boss Foundation
+- [x] boss Health
+- [x] boss HUD
+- [x] boss reset/lifecycle rule
+- [x] boss arena
+- [x] boss intro
 
-## M8.2 â€” Phase 1
-- [ ] readable normal attack
-- [ ] melee/ranged pattern
-- [ ] hazard telegraph
+GameScene now contains the Chrono Guardian foundation in the authored boss room. `ChronoGuardian` owns a
+500 HP resettable boss lifecycle and intro event, `ChronoGuardianHUD` displays the title, intro and health bar,
+and `ChronoGuardianArena` marks the bounded boss arena. The boss remains inactive until its room content is
+entered; later phase milestones will add attacks and vulnerability rules.
 
-## M8.3 â€” Phase 2: Temporal Mechanic
-- [ ] boss shield hoáº·c vulnerability mechanic
-- [ ] yÃªu cáº§u Ghost cooperation
-- [ ] Player hiá»ƒu vÃ¬ sao cáº§n Ghost
+Verification lean: `ChronoGuardianFoundationPlayModeChecks` **5/5 PASS** (foundation presence, authored health,
+arena wiring, intro HUD activation, full-health reset). Compile clean; final Console 0 errors, 0 warnings; scene
+saved and Play Mode exited. Boss combat behavior remains follow-up work in M8.2-M8.4.
+## M8.2 - Phase 1
+- [x] readable normal attack
+- [x] melee/ranged pattern
+- [x] hazard telegraph
 
-## M8.4 â€” Phase 3: Finale
-- [ ] tÄƒng pressure
-- [ ] temporal hazard
-- [ ] boss cÃ³ thá»ƒ disrupt Ghost hoáº·c manipulate timeline má»™t cÃ¡ch fair
-- [ ] final vulnerability window rÃµ
+`ChronoGuardianPhase1` adds a close-range radial strike with a 0.8 second warning window, visible through the
+reusable `EnemyAttackTelegraph`. The impact rechecks the Player at the end of the warning, deals 30 damage once,
+and respects cooldown and death state. The component resets its windup, cooldown and attack count with the loop.
 
-## M8.5 â€” Boss Polish
-- [ ] hit feedback
-- [ ] phase transition feedback
-- [ ] SFX
-- [ ] VFX
-- [ ] death sequence
-- [ ] Victory trigger
+Verification lean: `ChronoGuardianPhase1PlayModeChecks` **5/5 PASS** (component, authored timing/radius, windup,
+single impact, reset). Compile clean; final Console 0 errors, 0 warnings; scene saved and Play Mode exited.
+The attack is intentionally a foundation pattern; Phase 2 will add temporal vulnerability and Ghost cooperation.
+## M8.3 - Phase 2: Temporal Mechanic
+- [x] boss shield or vulnerability mechanic
+- [x] require Ghost cooperation
+- [x] Player understands why Ghost is needed
 
-Acceptance:  
-Boss Ä‘Ã¡nh Ä‘Æ°á»£c, dá»… hiá»ƒu, vÃ  thá»ƒ hiá»‡n rÃµ core mechanic cá»§a game.
+`ChronoGuardianTemporalShield` starts with a visible shield that blocks current Player damage. A Ghost attack
+breaks the shield, changes the boss visual to a vulnerable cyan state and opens the damage window. The HUD states
+`SHIELD ACTIVE - GHOST ATTACK REQUIRED` and updates to `TEMPORAL SHIELD BROKEN`. Shield state resets on rewind.
+`AttackResolver` now respects the shield for both Player and Ghost attacks.
 
+Verification lean: `ChronoGuardianTemporalMechanicPlayModeChecks` **7/7 PASS** (shield present, Player blocked,
+Player alone cannot open it, Ghost opens it, Player damage accepted, reset). Compile clean; final Console 0 errors,
+0 warnings; scene saved and Play Mode exited. Multi-phase pressure remains follow-up work in M8.4.
+## M8.4 - Phase 3: Finale
+- [x] increase pressure
+- [x] temporal hazard
+- [x] fair Ghost disruption
+- [x] clear final vulnerability window
+
+`ChronoGuardianFinale` enters at 50% boss health and repeatedly telegraphs a temporal pulse. The pulse deals
+one area hit, briefly disrupts active Ghost playback and opens a 2.5 second vulnerability window. The finale
+state and hazard reset cleanly. Ghost disruption is visual and short, so it creates pressure without deleting
+player history.
+
+Verification lean: `ChronoGuardianFinalePlayModeChecks` **4/4 PASS** (phase entry, hazard windup, resolved hazard
+and vulnerability window, reset). Compile clean; final Console 0 errors, 0 warnings; scene saved and Play Mode
+exited. Boss death, VFX and audio polish remain follow-up work in M8.5.
+## M8.5 - Boss Polish
+- [x] hit feedback
+- [x] phase transition feedback
+- [x] SFX hook
+- [x] VFX hook
+- [x] death sequence
+- [x] Victory trigger
+
+`ChronoGuardianPolish` adds hit flash, phase color transition, optional audio hook points, a short unscaled death
+sequence and collider shutdown. `GameManager.Victory()` now pauses the run, while `VictoryFlowUI` presents a clear
+completion panel with a Main Menu button. The boss room remains the authored trigger point for the full sequence.
+
+Verification lean: `ChronoGuardianPolishPlayModeChecks` **4/4 PASS** (foundation wiring, hit path, lethal death
+sequence, paused Victory flow). Compile clean; final Console 0 errors, 0 warnings; scene saved and Play Mode exited.
+Audio clips and final visual tuning remain manual presentation work.
 ---
 
 # PHASE 9 â€” Complete Game Flow
@@ -974,17 +1009,22 @@ ChronoDungeon chá»‰ Ä‘Æ°á»£c coi lÃ  DONE khi:
 
 Codex pháº£i inspect project trÆ°á»›c khi tin marker nÃ y.
 
-Next milestone after M7.4 verification on 2026-09-22:
+Next milestone after M8.5 verification on 2026-09-22:
 
-**M8.1 - Boss Foundation**
+**M9.1 - Run State**
 
-M7.4 is complete; stop at the review checkpoint. M8.1 will establish the Chrono Guardian boss foundation.
+M8.5 is complete; stop at the review checkpoint. M9.1 will connect start, progression, upgrade persistence, Game Over and Victory into one run state.
 M0.1 lÃ  foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
 Phase 11/final platform QA theo scope clarification cá»§a user. CÃ¡c háº¡ng má»¥c device touch vÃ 
 responsive layout cá»§a M0.2 váº«n cáº§n final QA; khÃ´ng cháº·n milestone phÃ¡t triá»ƒn chÃ­nh Room System.
 
 KhÃ´ng tá»± skip sang milestone sau chá»‰ vÃ¬ nÃ³ háº¥p dáº«n hÆ¡n.  
 HoÃ n thÃ nh, test vÃ  integrate milestone chÆ°a hoÃ n thÃ nh sá»›m nháº¥t trÆ°á»›c.
+
+
+
+
+
 
 
 

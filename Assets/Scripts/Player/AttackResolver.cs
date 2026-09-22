@@ -46,6 +46,12 @@ public sealed class AttackResolver
                     continue;
                 }
                 var cooperationTarget = target.GetComponent<CombatCooperationTarget>();
+                var temporalShield = target.GetComponent<ChronoGuardianTemporalShield>();
+                if (temporalShield != null && !temporalShield.TryReceiveDamage(fromGhost))
+                {
+                    if (cooperationTarget != null) cooperationTarget.NotifyDamage(fromGhost);
+                    continue;
+                }
                 if (cooperationTarget != null) cooperationTarget.NotifyDamage(fromGhost);
                 var feedback = target.GetComponent<DamageFeedback>();
                 if (feedback == null) feedback = target.gameObject.AddComponent<DamageFeedback>();

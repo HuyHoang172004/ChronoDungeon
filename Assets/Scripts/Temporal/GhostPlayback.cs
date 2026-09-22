@@ -9,6 +9,8 @@ public sealed class GhostPlayback : MonoBehaviour
     private PressureSwitchActor switchActor;
     private readonly AttackResolver attacks = new AttackResolver();
     private int nextAction;
+    private float disruptedUntil;
+    private Color playbackColor;
     public event System.Action<PlayerTimeline.ActionEvent> ActionReplayed;
     public PlayerTimeline Timeline { get; private set; }
 
@@ -22,6 +24,7 @@ public sealed class GhostPlayback : MonoBehaviour
         visual.sortingLayerID = source.sortingLayerID;
         visual.sortingOrder = source.sortingOrder + 1;
         visual.color = tint;
+        playbackColor = tint;
         transform.localScale = source.transform.lossyScale;
         visual.enabled = false;
         switchActor = gameObject.AddComponent<PressureSwitchActor>();
@@ -44,8 +47,19 @@ public sealed class GhostPlayback : MonoBehaviour
     private void LateUpdate()
     {
         if (loop == null || !loop.IsRunning) return;
+        if (Time.time < disruptedUntil)
+        {
+            visual.color = new Color(playbackColor.r, playbackColor.g, playbackColor.b, playbackColor.a * .25f);
+            return;
+        }
+        visual.color = playbackColor;
         ApplyPose(loop.ElapsedTime);
         ReplayActions(loop.ElapsedTime);
+    }
+
+    public void SetDisrupted(float duration)
+    {
+        disruptedUntil = Mathf.Max(disruptedUntil, Time.time + Mathf.Max(0f, duration));
     }
 
     // Flush the final frame before world reset, even if Update reached the

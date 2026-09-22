@@ -19,6 +19,12 @@ public sealed class TemporalGhostManager : MonoBehaviour
     // Keep the M1.1 consumer API: this is the most recent recording's Ghost.
     public GhostPlayback ActiveGhost => ghosts.Count == 0 ? null : ghosts[ghosts.Count - 1];
 
+    public void DisruptGhosts(float duration)
+    {
+        foreach (GhostPlayback ghost in ghosts)
+            if (ghost != null) ghost.SetDisrupted(duration);
+    }
+
     private void OnValidate() => maxGhosts = Mathf.Clamp(maxGhosts, 1, 3);
     private void Awake() => capacity = Mathf.Clamp(maxGhosts, 1, 3);
 
