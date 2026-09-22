@@ -68,6 +68,15 @@ public sealed class CombatFeedback : MonoBehaviour
             if (sprites[i] != null) sprites[i].color = baseColors[i];
     }
 
+    private void OnDisable()
+    {
+        flashUntil = 0f;
+        transform.localScale = baseScale;
+        if (sprites == null) return;
+        for (int i = 0; i < sprites.Length; i++)
+            if (sprites[i] != null) sprites[i].color = baseColors[i];
+    }
+
     private static AudioClip MakeTone(string name, float frequency, float duration, float volume)
     {
         int rate = 22050;

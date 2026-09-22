@@ -34,6 +34,12 @@ public sealed class AttackResolver
             var enemy = target.GetComponent<EnemyAttackTarget>();
             if (enemy != null && enemy.isActiveAndEnabled && damaged.Add(target))
             {
+                var knight = target.GetComponent<EnemyKnight>();
+                if (knight != null && knight.IsBlocking)
+                {
+                    knight.NotifyBlockedAttack();
+                    continue;
+                }
                 var feedback = target.GetComponent<DamageFeedback>();
                 if (feedback == null) feedback = target.gameObject.AddComponent<DamageFeedback>();
                 target.TakeDamage(attack.Damage);

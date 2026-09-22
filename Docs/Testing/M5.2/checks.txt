@@ -1,0 +1,28 @@
+M5.2 PASS: Chaser has 75 HP and 2.2 speed below Player speed
+M5.2 PASS: Distinct Ember Chaser face is present
+M5.2 PASS: Chaser closes distance at authored speed toward Player
+M5.2 PASS: Pause freezes chase
+M5.2 PASS: Chase stops at 0.75 without overshoot
+M5.2 PASS: Two directional attacks leave Chaser alive at 25 HP
+M5.2 PASS: Third attack kills Chaser
+M5.2 ALL CHECKS PASSED; checks=7
+M5.1 PASS: Start room advances through public progression API
+M5.1 PASS: Proximity starts visible wind-up without instant damage
+M5.1 PASS: Enemy stops chasing during wind-up
+M5.1 PASS: Pause freezes pending attack
+M5.1 PASS: Dash out of warning avoids impact
+M5.1 PASS: One strike deals 20 damage once despite two Player colliders
+M5.1 PASS: Cooldown prevents repeated contact damage
+M5.1 PASS: Next attack can start after reset
+M5.1 PASS: Rewind cancels live wind-up and restores Player health
+M5.1 PASS: Rewind still creates Ghost
+M5.1 PASS: Directional Player attack still damages Enemy
+M5.1 PASS: Death deactivates Enemy and cancels attack/telegraph
+M5.1 PASS: All dead enemies clear room and unlock exit
+M5.1 PASS: Dead Enemy revives at full HP with clean visual state
+M5.1 PASS: Rewind restores combat lock and clean attack state
+M5.1 PASS: Ghost replays recorded attack against revived Enemy
+M5.1 PASS: Ghost attack and dash own independent renderers
+M5.1 PASS: Cleared combat room advances to puzzle
+M5.1 PASS: Transition disables old Enemy content and clears Ghosts
+M5.1 ALL CHECKS PASSED; checks=19

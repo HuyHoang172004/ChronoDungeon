@@ -28,4 +28,12 @@ public sealed class DamageFeedback : MonoBehaviour
         for (int i = 0; i < sprites.Length; i++)
             if (sprites[i] != null) sprites[i].color = baseColors[i];
     }
+
+    private void OnDisable()
+    {
+        until = 0f;
+        if (sprites == null) return;
+        for (int i = 0; i < sprites.Length; i++)
+            if (sprites[i] != null) sprites[i].color = baseColors[i];
+    }
 }

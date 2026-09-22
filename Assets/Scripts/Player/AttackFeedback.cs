@@ -6,17 +6,20 @@ public sealed class AttackFeedback : MonoBehaviour
     [SerializeField] private Color slashColor = new Color(1f, 0.82f, 0.25f, 0.9f);
     [SerializeField, Min(0.01f)] private float duration = 0.1f;
     private LineRenderer line;
+    private Material material;
     private float until;
 
     private void Awake()
     {
-        line = gameObject.GetComponent<LineRenderer>();
-        if (line == null) line = gameObject.AddComponent<LineRenderer>();
+        var visual = new GameObject("Attack Slash");
+        visual.transform.SetParent(transform, false);
+        line = visual.AddComponent<LineRenderer>();
         line.positionCount = 3;
         line.useWorldSpace = true;
         line.widthMultiplier = 0.09f;
         line.numCapVertices = 2;
-        line.material = new Material(Shader.Find("Sprites/Default"));
+        material = new Material(Shader.Find("Sprites/Default"));
+        line.sharedMaterial = material;
         line.startColor = slashColor;
         line.endColor = new Color(slashColor.r, slashColor.g, slashColor.b, 0f);
         line.enabled = false;
@@ -38,5 +41,12 @@ public sealed class AttackFeedback : MonoBehaviour
     private void Update()
     {
         if (line != null && line.enabled && Time.time >= until) line.enabled = false;
+    }
+
+    private void OnDisable() { if (line != null) line.enabled = false; }
+    private void OnDestroy()
+    {
+        if (material != null) Destroy(material);
+        if (line != null) Destroy(line.gameObject);
     }
 }

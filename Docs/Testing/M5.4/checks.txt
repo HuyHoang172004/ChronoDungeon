@@ -1,0 +1,15 @@
+M5.4 PASS: Elite room contains configured Chrono Knight using shared Enemy target
+M5.4 PASS: Knight visual has crest and blade readability
+M5.4 PASS: Charge wind-up displays a readable line before movement
+M5.4 PASS: Charge begins after wind-up without immediate damage
+M5.4 PASS: Charge heavy hit deals 35 damage on contact
+M5.4 PASS: Charge ends after impact
+M5.4 PASS: Knight enters visible blue block state at close range
+M5.4 PASS: Player attack is blocked during defense state
+M5.4 PASS: Block state expires cleanly
+M5.4 PASS: Player attack damages Knight after block ends
+M5.4 PASS: Rewind cancels charge/block and restores Knight health
+M5.4 PASS: Knight rewind still creates Ghost
+M5.4 PASS: Defeating Knight deactivates it and unlocks Elite exit
+M5.4 PASS: Elite room transitions after Knight defeat
+M5.4 ALL CHECKS PASSED; checks=14

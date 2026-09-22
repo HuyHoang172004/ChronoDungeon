@@ -447,46 +447,108 @@ Mỗi major room là một local temporal encounter; khi vào room mới nên re
 # PHASE 5 — Enemy Roster
 
 ## M5.1 — Enemy Base Improvements
-- [ ] reusable damage/death behavior
-- [ ] telegraphing
-- [ ] loop reset compatibility
-- [ ] room integration
+**[x] DONE — verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+
+- [x] reusable damage/death behavior
+- [x] telegraphing
+- [x] loop reset compatibility
+- [x] room integration
+
+Tái sử dụng Health, EnemyAttackTarget, TimeLoopActor và Room; không thêm enemy base trùng chức năng.
+EnemyContactDamage có wind-up 0,45 giây, vòng cảnh báo amber→red, dừng chase khi chuẩn bị đánh,
+kiểm tra lại overlap ở impact, 20 damage một lần rồi cooldown 1 giây. Query tái sử dụng buffer.
+Sáu Enemy hiện có được nối EnemyAttackTelegraph qua serialized reference trong GameScene.
+Rewind/death/disable hủy đòn đang chờ; death–revive khôi phục màu/scale feedback.
+Sửa dependency phát hiện trong test: AttackFeedback/DashFeedback dùng renderer riêng để Ghost replay
+attack không còn lỗi LineRenderer index out of bounds.
+
+Verification lean: 19 checks M5.1 + 20 regression checks M4.4 PASS (wind-up, dash tránh đòn,
+multi-collider damage, pause, live/dead rewind, Ghost damage, room clear/transition, puzzle,
+Restart/Main Menu). Compile thành công; Console cuối 0 errors, 0 warnings; 6/6 reference hợp lệ,
+không missing script/probe trong scene. Đã exit Play Mode và save GameScene.
+MCP screenshot phát sinh lỗi nội bộ ScreenshotUtility/recursive PlayerLoop; đã xác định stack trace
+và chạy lại 19 checks không chụp ảnh, PASS với Console sạch. Chưa test touch/Android hoặc cân bằng cuối.
+Chi tiết, file thay đổi và manual checklist: [M5.1 review](Docs/Testing/M5.1/REVIEW.md).
 
 ## M5.2 — Enemy 1: Chaser / Slime
-- [ ] chase
-- [ ] contact/melee attack
-- [ ] visual rõ
-- [ ] tuned speed/damage
+**[x] DONE — Ember Chaser verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+
+- [x] chase
+- [x] contact/melee attack
+- [x] visual rõ
+- [x] tuned speed/damage
+
+Năm guard ở Guard Hall/Split Bastion được cấu hình thành Ember Chaser: 75 HP (3 đòn Player
+25 damage), speed 2,2 so với Player 5, detection 18, stopping distance 0,75. EnemyFollow clamp
+bước di chuyển để không vượt khoảng dừng. Giữ melee M5.1: 20 damage, wind-up 0,45 giây,
+cooldown 1 giây, radius 0,65. Visual sprite ghép đỏ cam có viền tối/mắt/fang phân biệt với Player/Ghost.
+Có prefab EmberChaser với HealthBar/telegraph reference nội bộ; cần gán Player khi đặt prefab.
+Warden vẫn là stand-in, chưa triển khai elite. Không thêm AI/Health/reset system trùng chức năng.
+
+Verification lean: 7 checks M5.2 + 19 regression M5.1 PASS qua MCP/Play Mode: chase/tốc độ,
+pause, khoảng dừng, 3-hit kill, wind-up/dash né/multi-collider damage/cooldown, death–revive,
+Ghost damage, room clear/transition. Compile thành công; Console cuối 0 errors/warnings.
+Đã inspect hình ảnh Guard Hall, prefab/reference, exit Play Mode và save GameScene.
+Chưa test touch/Android, final balancing; AI đuổi trực tiếp, chưa pathfinding quanh vật cản phức tạp.
+Chi tiết và manual checklist: [M5.2 review](Docs/Testing/M5.2/REVIEW.md).
 
 ## M5.3 — Enemy 2: Archer
-- [ ] ranged behavior
-- [ ] distance management
-- [ ] projectile
-- [ ] projectile pooling hoặc reuse hiệu quả nếu cần
-- [ ] projectile reset/cleanup khi rewind
-- [ ] telegraphed attack
+**[x] DONE — Ash Archer verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
+
+- [x] ranged behavior
+- [x] distance management
+- [x] projectile
+- [x] projectile pooling hoặc reuse hiệu quả nếu cần
+- [x] projectile reset/cleanup khi rewind
+- [x] telegraphed attack
+
+Split Bastion dùng roster hỗn hợp: 2 Ember Chaser + 1 Ash Archer. Archer có 50 HP, bắn mũi tên
+15 damage ở tốc độ 7, khoảng đánh 9, giữ Player trong khoảng 3–5 và di chuyển trực tiếp,
+không pathfinding. Đường ngắm amber→red khóa hướng trong 0,75 giây; Player có thể sidestep.
+`EnemyProjectilePool` giữ tối đa 3 arrow, không Instantiate thêm trong combat. `EnemyProjectile`
+dùng CircleCast theo quãng đường, chặn bởi tường, tự hết hạn sau 3 giây, chỉ damage Player.
+Archer, pool và projectile đều reset khi rewind/disable/death; pool nằm dưới room Content.
+Visual Ash Archer dùng hood/face/eyes/bow từ sprite hiện có; prefab Arrow và AshArcher được lưu.
+
+Verification lean: 20 checks Archer + 19 regression M5.1 PASS qua MCP/Play Mode (telegraph,
+locked aim, projectile damage/né/pause, retreat/approach, pool cap, wall collision/lifetime,
+rewind cleanup, Player/Ghost damage, death, mixed-room clear/transition). Compile sạch; Console
+cuối 0 errors/warnings; 1 Archer, 0 runtime projectile, 0 missing script/probe, scene saved.
+Đã inspect screenshot Split Bastion. Chưa test touch/Android, build/performance và cân bằng cuối.
+Chi tiết: [M5.3 review](Docs/Testing/M5.3/REVIEW.md).
 
 ## M5.4 — Enemy 3: Knight HOẶC Mage
-Chọn một dựa trên gameplay quality và development cost.
+**[x] DONE — Chrono Knight verified trong Unity 6000.6.0f1 ngày 2026-09-22.**
 
 Knight option:
-- [ ] charge
-- [ ] heavy attack
-- [ ] block/defense state
+- [x] charge
+- [x] heavy attack
+- [x] block/defense state
 
 Mage option:
 - [ ] ranged spell
 - [ ] AoE marker
 - [ ] teleport/reposition
 
-## M5.5 — Elite Enemy
-- [ ] reuse enemy foundation hiện có
-- [ ] stronger stats/pattern
-- [ ] distinctive visual
-- [ ] meaningful reward
+## M5.5 - Elite Enemy
+- [x] reuse existing enemy foundation
+- [x] stronger stats/pattern
+- [x] distinctive visual
+- [x] meaningful reward
 
-Acceptance:  
-Ba normal enemy archetype tạo ra ba kiểu quyết định combat khác nhau rõ rệt.
+Acceptance:
+Three normal enemy archetypes create clearly different combat decisions.
+
+Chrono Knight in the Elite room is upgraded to an Elite Enemy: 220 HP, 50 charge damage, 0.5 s wind-up,
+charge speed 8, 1.1 s block duration, and 2.3 s block interval. A gold aura identifies the elite. It keeps
+Health/EnemyAttackTarget/Room/TimeLoopActor and rewind compatibility. On death it clears the room and spawns
+a Temporal Elite Reward that heals 35 HP. The reward resets on rewind and can spawn again after a later death.
+Saved prefabs: `ChronoElite`, `EliteRewardPickup`.
+
+Verification lean: 8 M5.5 checks plus 19 M5.1 regression checks PASS through Unity MCP/Play Mode (tuning,
+aura, elite death, room clear/exit, reward heal, rewind reset, reward reuse). Compile clean; final Console
+has 0 errors and 0 warnings; scene saved and Play Mode exited. Touch/Android, performance, and final balance
+remain manual follow-up. Details: [M5.5 review](Docs/Testing/M5.5/REVIEW.md).
 
 ---
 
@@ -846,12 +908,12 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone sau khi verify M4.4 ngày 2026-09-21:
+Next milestone after M5.5 verification on 2026-09-22:
 
-**M5.1 — Enemy Base Improvements**
+**M6.1 - Puzzle Pattern A: Dual Pressure Switch**
 
-M4.4 đã hoàn thành; dừng tại checkpoint review, chưa triển khai M5.1.
-Trap, upgrade, elite và boss gameplay vẫn ở các milestone tương ứng; không đánh dấu chúng DONE.
+M5.5 is complete; stop at the review checkpoint. M6.1 will verify and polish the two-switch Temporal Ghost
+puzzle, although part of the room/puzzle foundation already exists from M2.3.
 M0.1 là foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
 Phase 11/final platform QA theo scope clarification của user. Các hạng mục device touch và
 responsive layout của M0.2 vẫn cần final QA; không chặn milestone phát triển chính Room System.

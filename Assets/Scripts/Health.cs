@@ -70,4 +70,13 @@ public class Health : MonoBehaviour
         health = Mathf.Clamp(health + amount, 0f, maximumHealth);
         Changed?.Invoke(this);
     }
+
+    // Used by authored elite variants during scene setup; ordinary upgrades should use separate systems.
+    public void SetMaximumHealth(float value, bool refill)
+    {
+        if (float.IsNaN(value) || float.IsInfinity(value)) return;
+        maximumHealth = Mathf.Max(1f, value);
+        health = refill ? maximumHealth : Mathf.Clamp(health, 0f, maximumHealth);
+        Changed?.Invoke(this);
+    }
 }
