@@ -556,36 +556,75 @@ remain manual follow-up. Details: [M5.5 review](Docs/Testing/M5.5/REVIEW.md).
 
 Final game cần ít nhất 3 temporal puzzle pattern có ý nghĩa.
 
-## M6.1 — Puzzle Pattern A
-- [ ] Dual Pressure Switch
+## M6.1 - Puzzle Pattern A
+- [x] Dual Pressure Switch
 
-## M6.2 — Puzzle Pattern B
+Acceptance:
+A Ghost holds Pressure Switch A from the previous loop while the current Player activates Switch B. The Door
+opens only when both are active. Leaving B closes it again; rewind resets both switches, gate and Door; Restart
+clears Ghost and puzzle state.
+
+M6.1 is verified by the existing `PressureSwitch`, `PressureSwitchActor`, `DualPressureDoor`, Ghost replay
+anchor and GameScene setup. Evidence: 16/16 Play Mode checks PASS in
+[M2.3 results](Docs/Testing/M2.3/playmode-results.txt); no duplicate system was created. Touch/multitouch
+and Android device testing remain manual.
+
+## M6.2 - Puzzle Pattern B
 Timed mechanism:
-- [ ] timed door/lever
-- [ ] Ghost action đúng recorded moment có ý nghĩa
-- [ ] Player hiện tại làm complementary action
+- [x] timed door/lever
+- [x] Ghost action at a recorded moment has meaningful effect
+- [x] Current Player performs the complementary passage action
 
-## M6.3 — Puzzle Pattern C
+Implemented in `TimedDoorMechanism` and the authored `Timed Echo Gate` in Echo Chamber. The gate listens to
+replayable Pressure Switch A, opens for 3 seconds, shows a cyan timer indicator, and resets closed on rewind.
+The corrected Play Mode probe passed **5/5 checks**: closed start, Player trigger, rewind reset, Ghost replay
+opening, and automatic timeout close. Existing M6.1 dual-switch behavior remains covered by its prior 16-check
+PASS evidence. Touch/Android testing remains manual.
+
+## M6.3 - Puzzle Pattern C
 Combat cooperation:
-- [ ] Ghost attack/distract target
-- [ ] Player thực hiện objective thứ hai
-HOẶC
-- [ ] simultaneous enemy/target interaction
+- [x] Ghost attack/distract target
+- [x] Player completes a second objective
+- [x] Rewind resets cooperation state
 
-## M6.4 — Trap Mechanics
-Có thể gồm:
-- [ ] spikes
-- [ ] timed hazard
+Split Bastion now contains a `Combat Cooperation Objective` with distinct Ghost and Player targets. Damage
+source is explicit in `AttackResolver`: Ghost attacks notify `CombatCooperationTarget` as Ghost damage while
+live Player attacks notify it as Player damage. The objective indicator changes from orange to mint after both
+roles contribute. The anchored Ghost target stays in place so the recorded attack remains readable; the other
+Chaser remains mobile. All target/objective flags reset on rewind.
+
+Verification lean: `CombatCooperationPlayModeChecks` **5/5 PASS** and M5.1 regression **19/19 PASS** through
+Unity MCP frame-stepped Play Mode. Final Console: 0 errors, 0 warnings; scene saved and Play Mode exited.
+Touch/Android and final encounter balance remain manual follow-up.
+
+## M6.4 - Trap Mechanics
+- [x] spikes
+- [x] timed hazard
 - [ ] projectile trap
 - [ ] moving hazard
 
-Ít nhất một trap phải tương tác hợp lý với rewind.
+Pendulum Gallery now contains a rewind-compatible `TemporalSpikeTrap`. Player contact starts a 0.6 second
+warning, then applies 20 damage during a short red spike pulse with cooldown. The idle/warning/active colors
+and warning indicator make the hazard readable. Trap state and Player health reset correctly on rewind.
 
-## M6.5 — Puzzle Tutorialization
-- [ ] giới thiệu mechanic đầu tiên trong môi trường an toàn
-- [ ] visual hint
-- [ ] failure state dễ hiểu
-- [ ] không cần text wall
+Verification lean: `TrapPlayModeChecks` **4/4 PASS** (idle setup, warning without damage, delayed damage,
+rewind reset). Existing M5.1 regression evidence remains **19/19 PASS**. Compile clean; final Console 0 errors,
+0 warnings; scene saved and Play Mode exited. Touch/Android and final hazard balance remain manual follow-up.
+
+## M6.5 - Puzzle Tutorialization
+- [x] introduce the mechanic in a safe first environment
+- [x] visual hint
+- [x] clear failure state
+- [x] no text wall
+
+Echo Chamber now has a compact world-space `Puzzle Tutorial Guide`. It starts with `STEP ON A TO BEGIN`,
+explains the first-loop setup as `HOLD A - REWIND - FOLLOW YOUR GHOST`, then points to the complementary B
+switch after Ghost replay. The solved state changes to `TIME LINK COMPLETE`; a small Ghost marker reinforces
+that the past Player is the active helper. The guide resets with the puzzle and uses short messages only.
+
+Verification lean: `PuzzleTutorialPlayModeChecks` **4/4 PASS** (safe entry, first-loop failure guidance,
+Ghost-loop guidance, solved completion state). Compile clean; Console after stopping/clearing: 0 errors,
+0 warnings; scene saved and Play Mode exited. Touch/Android and localization remain manual follow-up.
 
 ---
 
@@ -908,12 +947,12 @@ ChronoDungeon chỉ được coi là DONE khi:
 
 Codex phải inspect project trước khi tin marker này.
 
-Next milestone after M5.5 verification on 2026-09-22:
+Next milestone after M6.5 verification on 2026-09-22:
 
-**M6.1 - Puzzle Pattern A: Dual Pressure Switch**
+**M7.1 - Upgrade Framework**
 
-M5.5 is complete; stop at the review checkpoint. M6.1 will verify and polish the two-switch Temporal Ghost
-puzzle, although part of the room/puzzle foundation already exists from M2.3.
+M6.5 is complete; stop at the review checkpoint. M7.1 will add upgrade data, application and current-run
+persistence/reset behavior.
 M0.1 là foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
 Phase 11/final platform QA theo scope clarification của user. Các hạng mục device touch và
 responsive layout của M0.2 vẫn cần final QA; không chặn milestone phát triển chính Room System.

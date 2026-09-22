@@ -62,7 +62,7 @@ public sealed class GhostPlayback : MonoBehaviour
             switch (action.Kind)
             {
                 case PlayerTimeline.ActionKind.Attack:
-                    attacks.Execute(action.Attack);
+                    attacks.Execute(action.Attack, true);
                     var feedback = GetComponent<AttackFeedback>();
                     if (feedback != null) feedback.Play(action.Attack);
                     var combatFeedback = GetComponent<CombatFeedback>();

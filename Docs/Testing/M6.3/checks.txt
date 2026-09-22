@@ -1,0 +1,9 @@
+﻿M6.3 CombatCooperationPlayModeChecks: 5/5 PASS
+- Distinct Ghost and Player targets
+- Player attack alone does not satisfy Ghost requirement
+- Ghost replay damages assigned target
+- Player completes complementary target
+- Rewind resets both roles/objective
+
+M5.1 EnemyBasePlayModeChecks regression: 19/19 PASS
+Console final: 0 errors, 0 warnings

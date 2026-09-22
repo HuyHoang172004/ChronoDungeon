@@ -1,0 +1,8 @@
+﻿M6.4 TrapPlayModeChecks: 4/4 PASS
+- Pendulum Gallery trap starts idle and is room-configured
+- Player contact starts warning without immediate damage
+- Spike pulse damages Player after warning
+- Rewind clears trap state and restores Player health
+
+M5.1 regression evidence: 19/19 PASS
+Console final: 0 errors, 0 warnings

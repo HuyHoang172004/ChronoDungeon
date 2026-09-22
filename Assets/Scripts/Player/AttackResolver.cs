@@ -18,6 +18,11 @@ public sealed class AttackResolver
 
     public void Execute(AttackSnapshot attack)
     {
+        Execute(attack, false);
+    }
+
+    public void Execute(AttackSnapshot attack, bool fromGhost)
+    {
         damaged.Clear();
         var filter = new ContactFilter2D { useTriggers = Physics2D.queriesHitTriggers };
         Physics2D.OverlapCircle(attack.Position, attack.Range, filter, hits);
@@ -40,6 +45,8 @@ public sealed class AttackResolver
                     knight.NotifyBlockedAttack();
                     continue;
                 }
+                var cooperationTarget = target.GetComponent<CombatCooperationTarget>();
+                if (cooperationTarget != null) cooperationTarget.NotifyDamage(fromGhost);
                 var feedback = target.GetComponent<DamageFeedback>();
                 if (feedback == null) feedback = target.gameObject.AddComponent<DamageFeedback>();
                 target.TakeDamage(attack.Damage);

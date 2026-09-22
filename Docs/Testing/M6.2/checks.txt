@@ -1,0 +1,10 @@
+M6.2 TimedMechanismPlayModeChecks: 5/5 PASS
+- Timed Echo Gate starts closed with replayable trigger
+- Player activation opens gate and starts timed window
+- Rewind closes gate and clears trigger state
+- Ghost replay opens timed gate
+- Gate closes after the 3-second window
+Compile: clean
+Console after successful run: 0 errors, 0 warnings
+M6.1 existing evidence: DualPressurePuzzlePlayModeChecks 16/16 PASS
+Touch/Android: manual follow-up
