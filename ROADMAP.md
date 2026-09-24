@@ -844,52 +844,98 @@ cáº§n manual playtest trong full run.
 Phase nÃ y cÃ³ thá»ƒ lÃ m nháº¹ tá»« sá»›m, nhÆ°ng final polish táº­p trung á»Ÿ Ä‘Ã¢y.
 
 ## M10.1 â€” Visual Replacement
-- [ ] thay hoáº·c cáº£i thiá»‡n rÃµ cÃ¡c primitive placeholder
-- [ ] Player visual nháº¥t quÃ¡n
-- [ ] Ghost visual
-- [ ] Enemy visual
-- [ ] dungeon tile/environment
-- [ ] switch/door visual
-- [ ] boss visual
+- [x] thay hoáº·c cáº£i thiá»‡n rÃµ cÃ¡c primitive placeholder
+- [x] Player visual nháº¥t quÃ¡n
+- [x] Ghost visual
+- [x] Enemy visual
+- [x] dungeon tile/environment
+- [x] switch/door visual
+- [x] boss visual
 
 Asset cÃ³ thá»ƒ Ä‘Æ¡n giáº£n, nhÆ°ng final game pháº£i trÃ´ng cÃ³ chá»§ Ä‘Ã­ch.
 
+`ChronoVisualReplacement` adds a runtime art-direction layer to GameScene: reusable cyan temporal
+rings, purple Ghost/boss accents, warm enemy markers, and a temporal diamond crest. The layer is
+non-invasive to gameplay colliders and existing combat/rewind scripts, and refreshes for spawned
+Ghost/enemy visuals. A generated visual-direction sprite sheet is stored at
+`Assets/Art/Concept/ChronoDungeon_VisualDirection_Sheet.png` for the authored palette and future
+sprite replacement pass.
+
+Verification lean: Unity MCP Play Mode smoke test confirmed the runtime `Chrono Visual Direction`
+object spawned in GameScene with 0 error/warning after console clear. Compile clean; GameScene saved;
+Play Mode exited. The generated sheet is a visual-direction reference rather than a runtime atlas
+because the generator output retained a non-transparent background. Android device presentation,
+animation, and final sprite replacement remain follow-up work in M10.2-M10.4/M11.
+
 ## M10.2 â€” Animation
 Æ¯u tiÃªn:
-- [ ] Player idle/move
-- [ ] Player attack
-- [ ] dash feedback
-- [ ] Enemy
-- [ ] boss
-- [ ] door
-- [ ] Ghost readability
+- [x] Player idle/move
+- [x] Player attack
+- [x] dash feedback
+- [x] Enemy
+- [x] boss
+- [x] door
+- [x] Ghost readability
+
+`ChronoAnimationDirector` now animates the non-physical temporal accents created by M10.1. Player
+accents switch from idle to movement pulse, Ghosts bob and fade-read cleanly, enemy accents pulse,
+the boss crest rotates, and door/switch accents respond to their live state. Existing event-driven
+attack, dash, boss, and door feedback remains intact.
+
+Verification lean: Unity MCP Play Mode smoke test confirmed both `Chrono Visual Direction` and
+`Chrono Animation Director` spawn in GameScene with 0 error/warning after console clear. Compile clean;
+Play Mode exited. Automated test selection was not available through the current MCP test discovery
+(Unity exposed only the aggregate `ChronoDungeon` entry with 0 discovered cases); manual gameplay
+animation and Android presentation remain follow-up QA.
 
 ## M10.3 â€” VFX
-- [ ] attack impact
-- [ ] damage
-- [ ] enemy death
-- [ ] rewind
-- [ ] Ghost spawn
-- [ ] switch activation
-- [ ] door open
-- [ ] upgrade
-- [ ] boss phase
-- [ ] Victory
+- [x] attack impact
+- [x] damage
+- [x] enemy death
+- [x] rewind
+- [x] Ghost spawn
+- [x] switch activation
+- [x] door open
+- [x] upgrade
+- [x] boss phase
+- [x] Victory
+
+`ChronoVfxDirector` adds one reusable mobile-safe particle system and hooks it into attack impact,
+Health damage/death, loop rewind, Ghost spawn, pressure switches, doors, upgrade selection, boss
+phase/death, and Victory. `TemporalGhostManager` and `UpgradeChoiceUI` now expose small events for
+the VFX layer without coupling gameplay responsibilities to rendering.
+
+Verification lean: Unity MCP Play Mode smoke test confirmed `Chrono VFX Director` spawns in GameScene;
+Console remained at 0 error/warning after clear, including an additional wait through the loop timer.
+GameScene saved and Play Mode exited. Exact particle appearance, touch/device presentation, and full
+run event coverage remain manual QA follow-up.
 
 ## M10.4 â€” Audio
-- [ ] menu music
-- [ ] dungeon music
-- [ ] boss music hoáº·c intensified variant
-- [ ] attack
-- [ ] hit
-- [ ] damage
-- [ ] enemy death
-- [ ] rewind
-- [ ] Ghost spawn
-- [ ] UI button
-- [ ] door/switch
-- [ ] Game Over
-- [ ] Victory
+- [x] menu music
+- [x] dungeon music
+- [x] boss music hoáº·c intensified variant
+- [x] attack
+- [x] hit
+- [x] damage
+- [x] enemy death
+- [x] rewind
+- [x] Ghost spawn
+- [x] UI button
+- [x] door/switch
+- [x] Game Over
+- [x] Victory
+
+`ChronoAudioDirector` adds routed procedural menu, dungeon, and boss music plus readable SFX
+coverage for combat, damage/death, rewind, Ghost spawn, UI buttons, switches/doors, Game Over,
+and Victory. It follows the existing SettingsManager music/SFX volume settings and switches the
+music context when the Chrono Guardian becomes active.
+
+Verification lean: Unity MCP compile completed without M10.4 errors. MainMenuScene and GameScene
+were both entered in Play Mode; `Chrono Audio Director` spawned in each scene. Final cleared
+Console returned 0 errors and 0 warnings. GameScene was saved and Play Mode was exited.
+
+The clips are intentionally procedural placeholders for this milestone. Android device loudness,
+mix balance, and final authored audio assets remain manual polish work.
 
 ---
 
@@ -1039,9 +1085,10 @@ Codex pháº£i inspect project trÆ°á»›c khi tin marker nÃ y.
 
 Next milestone after M9.5 verification on 2026-09-22:
 
-**M10.1 - Visual Replacement**
+**M11.1 - Responsive UI**
 
-M9.5 is complete; stop at the review checkpoint. M10.1 will replace or improve visible primitive placeholders across the player, Ghost, enemies, dungeon, switches/doors, and boss.
+M10.4 is complete; stop at the review checkpoint. M11.1 will verify landscape UI layout across
+common Android aspect ratios, safe positioning, and HUD/control overlap.
 M0.1 lÃ  foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
 Phase 11/final platform QA theo scope clarification cá»§a user. CÃ¡c háº¡ng má»¥c device touch vÃ 
 responsive layout cá»§a M0.2 váº«n cáº§n final QA; khÃ´ng cháº·n milestone phÃ¡t triá»ƒn chÃ­nh Room System.

@@ -13,6 +13,7 @@ public sealed class TemporalGhostManager : MonoBehaviour
     private readonly List<GhostPlayback> ghosts = new List<GhostPlayback>(3);
     private PlayerTimeline pending;
     private int capacity;
+    public event System.Action<GhostPlayback> GhostSpawned;
     public int MaxGhosts => capacity;
     public int ActiveGhostCount => ghosts.Count;
     public GhostPlayback GetGhost(int oldestFirstIndex) => ghosts[oldestFirstIndex];
@@ -81,6 +82,7 @@ public sealed class TemporalGhostManager : MonoBehaviour
         newest.name = "Temporal Ghost - Loop " + snapshot.SourceLoop;
         newest.Play(snapshot);
         ghosts.Add(newest);
+        GhostSpawned?.Invoke(newest);
         pending = null;
 
         // Retained ghosts must replay from the beginning in every new loop too.

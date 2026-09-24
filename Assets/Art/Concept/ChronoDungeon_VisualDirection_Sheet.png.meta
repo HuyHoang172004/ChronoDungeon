@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 3c90dccbac658ce48a168c074231f6cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6814187411684415287
+    second: ChronoDungeon_VisualDirection_Sheet_0
+  - first:
+      213: 7179248217161849114
+    second: ChronoDungeon_VisualDirection_Sheet_1
+  - first:
+      213: 7295562015018277706
+    second: ChronoDungeon_VisualDirection_Sheet_2
+  - first:
+      213: -6071781353631315427
+    second: ChronoDungeon_VisualDirection_Sheet_3
+  - first:
+      213: -3048763049404046053
+    second: ChronoDungeon_VisualDirection_Sheet_4
+  - first:
+      213: -7270915418774965159
+    second: ChronoDungeon_VisualDirection_Sheet_5
+  - first:
+      213: 6627384467275522720
+    second: ChronoDungeon_VisualDirection_Sheet_6
+  - first:
+      213: 6752384868845240919
+    second: ChronoDungeon_VisualDirection_Sheet_7
+  - first:
+      213: 3089713446631015039
+    second: ChronoDungeon_VisualDirection_Sheet_8
+  - first:
+      213: 6014454324445556464
+    second: ChronoDungeon_VisualDirection_Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 491
+        width: 525
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737536a095bd09e50800000000000000
+      internalID: 6814187411684415287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 483
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19d94a5730d1a360800000000000000
+      internalID: 7179248217161849114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 485
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b5ff5cffa0f3560800000000000000
+      internalID: 7295562015018277706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 545
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a07fe4703bcbba0800000000000000
+      internalID: -6071781353631315427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 493
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b156febd82e90b5d0800000000000000
+      internalID: -3048763049404046053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 564
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954f10813f4881b90800000000000000
+      internalID: -7270915418774965159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 543
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a226e14f0339fb50800000000000000
+      internalID: 6627384467275522720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 536
+        width: 389
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7524e36334a45bd50800000000000000
+      internalID: 6752384868845240919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 545
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72803c720ed0ea20800000000000000
+      internalID: 3089713446631015039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoDungeon_VisualDirection_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 15
+        width: 539
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fea3669752a77350800000000000000
+      internalID: 6014454324445556464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChronoDungeon_VisualDirection_Sheet_0: 6814187411684415287
+      ChronoDungeon_VisualDirection_Sheet_1: 7179248217161849114
+      ChronoDungeon_VisualDirection_Sheet_2: 7295562015018277706
+      ChronoDungeon_VisualDirection_Sheet_3: -6071781353631315427
+      ChronoDungeon_VisualDirection_Sheet_4: -3048763049404046053
+      ChronoDungeon_VisualDirection_Sheet_5: -7270915418774965159
+      ChronoDungeon_VisualDirection_Sheet_6: 6627384467275522720
+      ChronoDungeon_VisualDirection_Sheet_7: 6752384868845240919
+      ChronoDungeon_VisualDirection_Sheet_8: 3089713446631015039
+      ChronoDungeon_VisualDirection_Sheet_9: 6014454324445556464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

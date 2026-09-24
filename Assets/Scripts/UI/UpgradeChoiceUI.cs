@@ -13,6 +13,7 @@ public sealed class UpgradeChoiceUI : MonoBehaviour
     private GameObject panel;
     private Text header;
     private bool wasPausedByChoice;
+    public event System.Action<UpgradeData> UpgradeSelected;
 
     public bool IsShowing => panel != null && panel.activeSelf;
     public IReadOnlyList<UpgradeData> CurrentChoices => choices;
@@ -123,6 +124,7 @@ public sealed class UpgradeChoiceUI : MonoBehaviour
     {
         if (!IsShowing || index < 0 || index >= choices.Count) return;
         if (upgradeManager != null) upgradeManager.ApplyUpgrade(choices[index]);
+        UpgradeSelected?.Invoke(choices[index]);
         HideChoices();
     }
 
