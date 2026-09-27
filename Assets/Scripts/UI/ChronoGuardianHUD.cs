@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public sealed class ChronoGuardianHUD : MonoBehaviour
 {
     [SerializeField] private ChronoGuardian boss;
+    [SerializeField] private RoomManager roomManager;
     private GameObject panel;
     private Text title;
     private Text intro;
@@ -17,6 +18,7 @@ public sealed class ChronoGuardianHUD : MonoBehaviour
     {
         BuildUI();
         if (boss == null) boss = FindAnyObjectByType<ChronoGuardian>();
+        if (roomManager == null) roomManager = FindAnyObjectByType<RoomManager>();
         if (boss != null)
         {
             boss.IntroStarted += ShowIntro;
@@ -26,6 +28,16 @@ public sealed class ChronoGuardianHUD : MonoBehaviour
             if (shield != null) shield.StateChanged += RefreshShield;
         }
         panel.SetActive(false);
+    }
+
+    private void LateUpdate()
+    {
+        // The guardian object is authored in a later room, but this HUD is
+        // created globally. Never let boss copy, shield text, or boss status
+        // leak into the normal Zone 1 review flow.
+        if (roomManager == null) roomManager = FindAnyObjectByType<RoomManager>();
+        if (roomManager != null && roomManager.CurrentRoom != null && !roomManager.CurrentRoom.RequiresTemporalLoop && panel.activeSelf)
+            panel.SetActive(false);
     }
 
     private void BuildUI()

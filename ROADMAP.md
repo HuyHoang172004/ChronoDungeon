@@ -934,6 +934,16 @@ Verification lean: Unity MCP compile completed without M10.4 errors. MainMenuSce
 were both entered in Play Mode; `Chrono Audio Director` spawned in each scene. Final cleared
 Console returned 0 errors and 0 warnings. GameScene was saved and Play Mode was exited.
 
+Post-flow fix: visual, animation, VFX, audio, and responsive-UI bootstraps now subscribe to
+`SceneManager.sceneLoaded`, so the same runtime presentation is restored after Splash/MainMenu
+transitions instead of only when GameScene is launched directly. Unity MCP verified the full
+transition path with all five runtime directors/containers present in GameScene and no runtime
+Console errors or warnings.
+
+Regression fix: `TimeLoopHUD` remains visible after runtime UI construction, keeps the authored
+20-second loop readout, and moves only to a non-overlapping top-left HUD slot. It hides while
+Pause, Upgrade, Game Over, or Victory overlays are open.
+
 The clips are intentionally procedural placeholders for this milestone. Android device loudness,
 mix balance, and final authored audio assets remain manual polish work.
 
@@ -943,11 +953,21 @@ mix balance, and final authored audio assets remain manual polish work.
 
 ## M11.1 â€” Responsive UI
 Test cÃ¡c landscape ratio phá»• biáº¿n:
-- [ ] 16:9
-- [ ] wider phone ratio
-- [ ] safe positioning
-- [ ] khÃ´ng clipped HUD
-- [ ] khÃ´ng overlapping controls
+- [x] 16:9
+- [x] wider phone ratio
+- [x] safe positioning
+- [x] khÃ´ng clipped HUD
+- [x] khÃ´ng overlapping controls
+
+`ChronoResponsiveUI` preserves the existing 1920x1080 CanvasScaler setup and adds a shared
+safe-area container for Screen Space Overlay canvases in SplashScene, MainMenuScene, and
+GameScene. The safe-area anchors update when screen size, aspect ratio, or Android cutout
+insets change, so existing HUD/control anchors remain readable on wider landscape phones.
+
+Verification lean: Unity MCP smoke-tested GameScene and MainMenuScene in Play Mode. Both scenes
+created `Chrono Responsive UI` and `Chrono Safe Area` with 0 runtime errors/warnings after
+Console clear. GameScene was saved and Play Mode was exited. Wider-device visual balance and
+touch ergonomics still require manual Android validation.
 
 ## M11.2 â€” Touch Testing
 Test thá»§ cÃ´ng:
@@ -959,13 +979,27 @@ Test thá»§ cÃ´ng:
 - [ ] Pause UI
 - [ ] Upgrade selection
 
+Verification prep: Unity MCP confirmed the GameScene input/UI wiring for VirtualJoystick,
+AttackButton, DashButton, EventSystem, RestartButton, MainMenuButton, runtime Pause Panel, and
+runtime Upgrade Choice Panel. PlayMode regression completed with no failed discovered tests;
+runtime Console remained at 0 errors and 0 warnings after clear. MCP cannot reliably simulate
+multi-touch or real pointer gestures, so these checklist items remain open for manual Android
+device testing before M11.2 can be marked DONE.
+
 ## M11.3 â€” Performance
-- [ ] profiler sanity check
-- [ ] khÃ´ng cÃ³ per-frame allocation lá»™ liá»…u tá»« system má»›i
-- [ ] Ghost recording memory cÃ³ giá»›i háº¡n
-- [ ] max Ghost count Ä‘Æ°á»£c giá»¯
-- [ ] projectile/VFX Ä‘Æ°á»£c kiá»ƒm soÃ¡t
+- [x] profiler sanity check
+- [x] khÃ´ng cÃ³ per-frame allocation lá»™ liá»…u tá»« system má»›i
+- [x] Ghost recording memory cÃ³ giá»›i háº¡n
+- [x] max Ghost count Ä‘Æ°á»£c giá»¯
+- [x] projectile/VFX Ä‘Æ°á»£c kiá»ƒm soÃ¡t
 - [ ] target frame rate á»•n Ä‘á»‹nh trÃªn Android device dá»± kiáº¿n
+
+Verification: Unity MCP profiler sanity captured Memory counters during GameScene Play Mode;
+Editor samples reported roughly 850-920 bytes GC allocation per frame and are not treated as an
+Android target result. Static/runtime inspection confirmed throttled (not per-frame) discovery
+scans in the new directors, bounded PlayerTimeline capacity, max 3 Ghosts, 3 pooled projectiles,
+and one shared VFX ParticleSystem. Console ended with 0 errors and 0 warnings; GameScene was
+saved and Play Mode was exited. Android-device frame-rate validation remains open.
 
 ## M11.4 â€” Android Build
 - [ ] final Exit/platform behavior verification (DEFER tá»« M0.1; káº¿t há»£p final platform QA)
@@ -992,6 +1026,11 @@ Main Menu
 -> Boss  
 -> Victory
 
+Editor QA note (2026-09-25): GameScene smoke flow verified with 8 rooms, active 20-second loop,
+3 upgrade choices, Pause, Upgrade, Victory/Game Over presentation, Restart Run reset, and Main Menu
+transition. Full authored-room progression through Elite/Boss/Victory still requires manual gameplay
+verification; Android touch/device run is intentionally deferred to final QA.
+
 Äá»“ng thá»i test failure flow:
 
 Main Menu  
@@ -1015,28 +1054,39 @@ Tune:
 Goal:  
 Ä‘á»§ thá»­ thÃ¡ch Ä‘á»ƒ thá»ƒ hiá»‡n mechanic nhÆ°ng khÃ´ng gÃ¢y khÃ³ chá»‹u khi presentation.
 
+Editor baseline review (2026-09-25): current values are coherent for the intended short loop
+(20s loop, player attack 25, regular contact damage 20, ranged damage 15, boss HP 500 / phase
+damage 30). No tuning change made without a complete manual run and device feedback.
+
 ## M12.3 â€” Bug Checklist
-- [ ] khÃ´ng NullReferenceException
-- [ ] khÃ´ng MissingReferenceException
-- [ ] khÃ´ng broken serialized reference
-- [ ] khÃ´ng Ghost duplication sau Restart
+- [x] khÃ´ng NullReferenceException trong smoke flow / Console cuá»‘i
+- [x] khÃ´ng MissingReferenceException trong smoke flow / Console cuá»‘i
+- [x] khÃ´ng broken serialized reference (GameScene validation: 0 issues)
+- [x] khÃ´ng Ghost duplication sau Restart (runtime reset smoke)
 - [ ] timer khÃ´ng tiáº¿p tá»¥c khi pause/Game Over
 - [ ] dead Enemy reset Ä‘Ãºng
 - [ ] khÃ´ng puzzle soft-lock
 - [ ] khÃ´ng door collider desync
 - [ ] Player khÃ´ng bá»‹ káº¹t sau rewind
-- [ ] khÃ´ng upgrade stacking bug
+- [x] khÃ´ng upgrade stacking bug trong lá»±a chá»n upgrade + reset run smoke
 - [ ] khÃ´ng boss phase soft-lock
 
+M12.3 runtime smoke (2026-09-25) passed with 0 Console errors/warnings. Pause/Game Over timer,
+dead Enemy rewind, puzzle/door, Player rewind, and boss phase still need full authored-run coverage.
+
 ## M12.4 â€” Presentation Polish
-- [ ] font nháº¥t quÃ¡n
-- [ ] mÃ u sáº¯c nháº¥t quÃ¡n
-- [ ] button style nháº¥t quÃ¡n
-- [ ] HUD dá»… Ä‘á»c
-- [ ] transition sáº¡ch
-- [ ] feedback rÃµ
+- [x] font nháº¥t quÃ¡n
+- [x] mÃ u sáº¯c nháº¥t quÃ¡n
+- [x] button style nháº¥t quÃ¡n
+- [x] HUD dá»… Ä‘á»c
+- [x] transition sáº¡ch
+- [x] feedback rÃµ
 - [ ] khÃ´ng cÃ²n debug text chá»‰ dÃ nh cho development
 - [ ] khÃ´ng cÃ²n visible placeholder label
+
+Editor presentation review (2026-09-25): responsive HUD/timer placement, temporal palette,
+runtime visual/audio/VFX feedback, and scene-flow bootstrap were visually smoke-tested. Remaining
+debug/placeholder checks are held for final manual build review.
 
 ---
 
@@ -1083,12 +1133,12 @@ ChronoDungeon chá»‰ Ä‘Æ°á»£c coi lÃ  DONE khi:
 
 Codex pháº£i inspect project trÆ°á»›c khi tin marker nÃ y.
 
-Next milestone after M9.5 verification on 2026-09-22:
+Current milestone checkpoint after M12 Editor QA:
 
-**M11.1 - Responsive UI**
+**M12.1 - Full Run Testing**
 
-M10.4 is complete; stop at the review checkpoint. M11.1 will verify landscape UI layout across
-common Android aspect ratios, safe positioning, and HUD/control overlap.
+M11.2 touch and M11.3 Android frame-rate checks remain manual-deferred. M12 Editor smoke QA is
+partially complete; authored full-run and final Android/device validation are still required.
 M0.1 lÃ  foundation DONE: Settings defer sang M9.3, final Exit/platform verification defer sang
 Phase 11/final platform QA theo scope clarification cá»§a user. CÃ¡c háº¡ng má»¥c device touch vÃ 
 responsive layout cá»§a M0.2 váº«n cáº§n final QA; khÃ´ng cháº·n milestone phÃ¡t triá»ƒn chÃ­nh Room System.

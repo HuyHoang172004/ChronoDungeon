@@ -44,8 +44,15 @@ public sealed class ChronoAudioDirector : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void Bootstrap()
     {
-        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-        if ((sceneName == "GameScene" || sceneName == "MainMenuScene") && FindAnyObjectByType<ChronoAudioDirector>() == null)
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+        OnSceneLoaded(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.LoadSceneMode.Single);
+    }
+
+    private static void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        if ((scene.name == "GameScene" || scene.name == "MainMenuScene") &&
+            FindAnyObjectByType<ChronoAudioDirector>() == null)
         {
             GameObject root = new GameObject("Chrono Audio Director");
             root.AddComponent<ChronoAudioDirector>();

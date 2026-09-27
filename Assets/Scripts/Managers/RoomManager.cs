@@ -35,27 +35,45 @@ public sealed class RoomManager : MonoBehaviour
     private void Enter(int index)
     {
         transitionFrame = Time.frameCount;
+        Room previousRoom = CurrentRoom;
+        Vector3 preservedWorldPosition = player != null ? player.transform.position : Vector3.zero;
+        var worldAreas = FindAnyObjectByType<WorldAreaManager>();
+        bool connectedWorldTransition = previousRoom != null && worldAreas != null &&
+            worldAreas.IsZoneRoom(previousRoom) && worldAreas.IsZoneRoom(rooms[index]);
         if (CurrentRoom != null) CurrentRoom.Leave();
         CurrentIndex = index;
         CurrentRoom = rooms[index];
+        loop.enabled = CurrentRoom.RequiresTemporalLoop;
+        CurrentRoom.ConfigureRuneKeyGate(FindAnyObjectByType<RuneKeyInventory>());
+        if (worldAreas != null) worldAreas.SetZoneActive(worldAreas.IsZoneRoom(CurrentRoom));
         // Cancel the previous dash/input before capturing the new spawn.
         var dash = player.GetComponent<PlayerDash>();
         if (dash != null) dash.ResetToInitialState();
         player.SetMoveDirection(Vector2.zero);
         var body = player.GetComponent<Rigidbody2D>();
-        player.transform.position = CurrentRoom.SpawnPoint.position;
-        body.position = CurrentRoom.SpawnPoint.position;
+        if (!connectedWorldTransition)
+        {
+            player.transform.position = CurrentRoom.SpawnPoint.position;
+            body.position = CurrentRoom.SpawnPoint.position;
+        }
         body.linearVelocity = Vector2.zero;
         body.angularVelocity = 0f;
         CurrentRoom.Enter();
-        loop.BeginEncounter(player.gameObject, CurrentRoom.gameObject);
+        if (loop.enabled) loop.BeginEncounter(player.gameObject, CurrentRoom.gameObject);
+        if (connectedWorldTransition)
+        {
+            player.transform.position = preservedWorldPosition;
+            body.position = preservedWorldPosition;
+            body.linearVelocity = Vector2.zero;
+            body.angularVelocity = 0f;
+        }
         ProgressChanged?.Invoke();
     }
 
     public bool TryAdvance(Room source, PlayerMovement actor)
     {
         if (!enabled || actor != player || IsComplete || CurrentRoom == null || source != CurrentRoom ||
-            !loop.IsRunning || transitionFrame == Time.frameCount || CurrentRoom.State != RoomState.Completed ||
+            (CurrentRoom.RequiresTemporalLoop && !loop.IsRunning) || transitionFrame == Time.frameCount || CurrentRoom.State != RoomState.Completed ||
             !CurrentRoom.ExitDoor.IsOpen) return false;
         if (CurrentIndex + 1 < rooms.Length) Enter(CurrentIndex + 1);
         else

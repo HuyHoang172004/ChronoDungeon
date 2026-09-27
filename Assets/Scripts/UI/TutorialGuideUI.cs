@@ -95,7 +95,8 @@ public sealed class TutorialGuideUI : MonoBehaviour
         panel = new GameObject("Tutorial Guide", typeof(RectTransform), typeof(Image));
         panel.transform.SetParent(transform, false);
         var rect = panel.GetComponent<RectTransform>();
-        rect.anchorMin = new Vector2(.18f, .82f); rect.anchorMax = new Vector2(.82f, .96f);
+        // Keep the authored TIME/LOOP readout at the top center unobstructed.
+        rect.anchorMin = new Vector2(.18f, .70f); rect.anchorMax = new Vector2(.82f, .80f);
         rect.offsetMin = Vector2.zero; rect.offsetMax = Vector2.zero;
         panel.GetComponent<Image>().color = new Color(.03f, .12f, .2f, .88f);
         label = new GameObject("Tutorial Text", typeof(RectTransform), typeof(TextMeshProUGUI)).GetComponent<TMP_Text>();

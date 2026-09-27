@@ -18,6 +18,10 @@ public sealed class Room : MonoBehaviour, ITimeLoopResettable
     [SerializeField] private Door exitDoor;
     [SerializeField] private Health[] enemies = Array.Empty<Health>();
     [SerializeField] private DualPressureDoor puzzle;
+    [SerializeField] private bool temporalZone = true;
+    [SerializeField] private bool requiresRuneKeyForExit;
+    [SerializeField] private RuneKeyInventory runeKeyInventory;
+    [SerializeField] private bool keepContentVisibleAfterLeave;
     private TimeLoopManager loop;
     public string DisplayName => displayName;
     public RoomRole Role => role;
@@ -25,6 +29,8 @@ public sealed class Room : MonoBehaviour, ITimeLoopResettable
     public GameObject Content => content;
     public RoomClearCondition ClearCondition => clearCondition;
     public RoomState State { get; private set; }
+    public bool RequiresTemporalLoop => temporalZone;
+    public bool KeepsContentVisibleAfterLeave => keepContentVisibleAfterLeave;
     public Transform SpawnPoint => spawnPoint;
     public Door ExitDoor => exitDoor;
     public event Action<Room> StateChanged;
@@ -43,6 +49,8 @@ public sealed class Room : MonoBehaviour, ITimeLoopResettable
         loop.LoopRewound += Evaluate;
     }
 
+    public void ConfigureRuneKeyGate(RuneKeyInventory inventory) => runeKeyInventory = inventory;
+
     public void Enter()
     {
         content.SetActive(true);
@@ -54,7 +62,7 @@ public sealed class Room : MonoBehaviour, ITimeLoopResettable
     public void Leave()
     {
         SetState(RoomState.Exited);
-        content.SetActive(false);
+        if (!keepContentVisibleAfterLeave) content.SetActive(false);
     }
 
     private void OnEnemyChanged(Health _) => Evaluate();
@@ -65,10 +73,11 @@ public sealed class Room : MonoBehaviour, ITimeLoopResettable
 
     public void Evaluate()
     {
-        if (State != RoomState.Active || loop == null || !loop.IsRunning) return;
+        if (State != RoomState.Active || loop == null || (temporalZone && !loop.IsRunning)) return;
         if (clearCondition == RoomClearCondition.DefeatEnemies)
             foreach (Health enemy in enemies) if (enemy != null && !enemy.IsDead) return;
         if (clearCondition == RoomClearCondition.SolvePuzzle && !puzzle.IsSolved) return;
+        if (requiresRuneKeyForExit && (runeKeyInventory == null || !runeKeyInventory.HasRuneKey)) return;
         SetState(RoomState.Completed);
         exitDoor.Open();
     }

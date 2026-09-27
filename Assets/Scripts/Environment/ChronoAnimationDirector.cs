@@ -13,8 +13,14 @@ public sealed class ChronoAnimationDirector : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void Bootstrap()
     {
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "GameScene" &&
-            FindAnyObjectByType<ChronoAnimationDirector>() == null)
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+        OnSceneLoaded(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.LoadSceneMode.Single);
+    }
+
+    private static void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        if (scene.name == "GameScene" && FindAnyObjectByType<ChronoAnimationDirector>() == null)
         {
             GameObject root = new GameObject("Chrono Animation Director");
             root.AddComponent<ChronoAnimationDirector>();

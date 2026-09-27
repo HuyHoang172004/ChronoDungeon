@@ -17,7 +17,14 @@ public sealed class ChronoVisualReplacement : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void Bootstrap()
     {
-        if (SceneIsGameplay() && FindAnyObjectByType<ChronoVisualReplacement>() == null)
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+        OnSceneLoaded(UnityEngine.SceneManagement.SceneManager.GetActiveScene(), UnityEngine.SceneManagement.LoadSceneMode.Single);
+    }
+
+    private static void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        if (scene.name == "GameScene" && FindAnyObjectByType<ChronoVisualReplacement>() == null)
         {
             GameObject visuals = new GameObject("Chrono Visual Direction");
             visuals.AddComponent<ChronoVisualReplacement>();
