@@ -5,18 +5,28 @@ using UnityEngine.UI;
 public sealed class PauseFlowUI : MonoBehaviour
 {
     [SerializeField] private PauseManager pauseManager;
+    [SerializeField] private PlayerStatsPanel statsPanel;
     private GameObject panel;
+    private bool statsOverlayOpen;
     public bool IsVisible => panel != null && panel.activeSelf;
 
     private void Awake()
     {
         if (pauseManager == null) pauseManager = FindAnyObjectByType<PauseManager>();
+        if (statsPanel == null) statsPanel = FindAnyObjectByType<PlayerStatsPanel>();
         BuildPanel();
         if (pauseManager != null) pauseManager.PauseChanged += Refresh;
         panel.SetActive(false);
     }
 
     public void TogglePause() => pauseManager.TogglePause();
+
+    public void SetStatsOverlay(bool open)
+    {
+        if (pauseManager == null) pauseManager = FindAnyObjectByType<PauseManager>();
+        statsOverlayOpen = open;
+        Refresh(pauseManager != null && pauseManager.IsPaused);
+    }
 
     private void BuildPanel()
     {
@@ -29,8 +39,15 @@ public sealed class PauseFlowUI : MonoBehaviour
         layout.childControlWidth = true; layout.childControlHeight = true;
         var title = CreateText("PAUSED", 34, TextAnchor.MiddleCenter); title.gameObject.AddComponent<LayoutElement>().preferredHeight = 60f;
         AddButton("RESUME", () => pauseManager.Resume());
+        AddButton("STATS", OpenStats);
         AddButton("RESTART RUN", () => pauseManager.RestartRun());
         AddButton("MAIN MENU", () => pauseManager.MainMenu());
+    }
+
+    private void OpenStats()
+    {
+        if (statsPanel == null) statsPanel = FindAnyObjectByType<PlayerStatsPanel>();
+        if (statsPanel != null) statsPanel.Open();
     }
 
     private void AddButton(string label, UnityEngine.Events.UnityAction action)
@@ -51,6 +68,9 @@ public sealed class PauseFlowUI : MonoBehaviour
         text.fontSize = size; text.alignment = alignment; text.color = Color.white; return text;
     }
 
-    private void Refresh(bool paused) { panel.SetActive(paused); }
+    private void Refresh(bool paused)
+    {
+        if (panel != null) panel.SetActive(paused && !statsOverlayOpen);
+    }
     private void OnDestroy() { if (pauseManager != null) pauseManager.PauseChanged -= Refresh; }
 }

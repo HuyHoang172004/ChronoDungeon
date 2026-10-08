@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: f7d20989c47132445aaa38a229786e3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2377878877379542510
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_0
+  - first:
+      213: -5730762790042393324
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_1
+  - first:
+      213: -6499477035802024629
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_2
+  - first:
+      213: -7122697841261619464
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_3
+  - first:
+      213: 94437438195141155
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_4
+  - first:
+      213: -455465483931433935
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_5
+  - first:
+      213: 7529679103436554255
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_6
+  - first:
+      213: 7037381197147112214
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_7
+  - first:
+      213: -7095148636022220146
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_8
+  - first:
+      213: -3595010812612578741
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_9
+  - first:
+      213: 8737617685640571361
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_10
+  - first:
+      213: 839864912361481192
+    second: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 385
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21243e272c3100fd0800000000000000
+      internalID: -2377878877379542510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 527
+        width: 363
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4152f77fa9d3870b0800000000000000
+      internalID: -5730762790042393324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 767
+        width: 299
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45263752183dc5a0800000000000000
+      internalID: -6499477035802024629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 769
+        width: 397
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6d8211d08172d90800000000000000
+      internalID: -7122697841261619464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 427
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a8e1589528f4100800000000000000
+      internalID: 94437438195141155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 525
+        width: 309
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134c0d63e8cdda9f0800000000000000
+      internalID: -455465483931433935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 527
+        width: 300
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f008409204bce7860800000000000000
+      internalID: 7529679103436554255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 294
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61387f4c9ecc9a160800000000000000
+      internalID: 7037381197147112214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 33
+        width: 339
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a5c4148e7f88d90800000000000000
+      internalID: -7095148636022220146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 31
+        width: 307
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42f98e86b4fb1ec0800000000000000
+      internalID: -3595010812612578741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 31
+        width: 331
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9e6cfbdf0424970800000000000000
+      internalID: 8737617685640571361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 99
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3ee9020bcc7ab00800000000000000
+      internalID: 839864912361481192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_0: -2377878877379542510
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_1: -5730762790042393324
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_10: 8737617685640571361
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_11: 839864912361481192
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_2: -6499477035802024629
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_3: -7122697841261619464
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_4: 94437438195141155
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_5: -455465483931433935
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_6: 7529679103436554255
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_7: 7037381197147112214
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_8: -7095148636022220146
+      CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_9: -3595010812612578741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

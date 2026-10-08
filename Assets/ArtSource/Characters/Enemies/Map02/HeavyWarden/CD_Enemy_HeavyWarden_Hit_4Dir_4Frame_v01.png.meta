@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 17704ca59d0d9604e9f7ce697afa01a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8440659774726622490
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_0
+  - first:
+      213: -1503574548846533095
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_1
+  - first:
+      213: -702404102922488433
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_2
+  - first:
+      213: -2162403769011053772
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_3
+  - first:
+      213: -173823060041722223
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_4
+  - first:
+      213: -4844538916491738569
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_5
+  - first:
+      213: 6309226615037684573
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_6
+  - first:
+      213: -4717487244735898466
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_7
+  - first:
+      213: -8097133110657913889
+    second: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 755
+        width: 321
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d4286385f332570800000000000000
+      internalID: 8440659774726622490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 22
+        width: 377
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9162fa20aea322be0800000000000000
+      internalID: -1503574548846533095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 748
+        width: 240
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85378c903f8046f0800000000000000
+      internalID: -702404102922488433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 261
+        width: 353
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b512f9a399df1e0800000000000000
+      internalID: -2162403769011053772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 407
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196117c09d4769df0800000000000000
+      internalID: -173823060041722223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 493
+        width: 290
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73244fdd58db4ccb0800000000000000
+      internalID: -4844538916491738569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 256
+        width: 320
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5be2ccbd20ee8750800000000000000
+      internalID: 6309226615037684573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 21
+        width: 321
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c9411685e188eb0800000000000000
+      internalID: -4717487244735898466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 15
+        width: 278
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb6e28165431af80800000000000000
+      internalID: -8097133110657913889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_0: 8440659774726622490
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_1: -1503574548846533095
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_2: -702404102922488433
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_3: -2162403769011053772
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_4: -173823060041722223
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_5: -4844538916491738569
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_6: 6309226615037684573
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_7: -4717487244735898466
+      CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_8: -8097133110657913889
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

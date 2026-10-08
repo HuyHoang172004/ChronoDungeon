@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 94bf1d99b8ecc8b438001de3293a1c2c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1273610689027811647
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_0
+  - first:
+      213: -5111068769631779821
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_1
+  - first:
+      213: -1196083077074965750
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_2
+  - first:
+      213: 3462308347019551168
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_3
+  - first:
+      213: 7182160068117013913
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_4
+  - first:
+      213: 4318619424738164224
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_5
+  - first:
+      213: -8386612614848013367
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_6
+  - first:
+      213: 1605173559135997108
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_7
+  - first:
+      213: 3309050150697216874
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_8
+  - first:
+      213: -7756780959571962364
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_9
+  - first:
+      213: 5481494876815638687
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 420
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_BladeBurst_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb36982e027024b44afbee41d0c16994
+      internalID: -1494615148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Down_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5dbbcbb9901a146bc0937425df67ff
+      internalID: 1077507980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Down_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06512a1610fa974cb61aae50d45e727
+      internalID: 1945218278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Down_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a909b55d79b2539458d804a1bb6f9298
+      internalID: 231365181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ba1c047c05d2b428ce38fe1b22e5aa
+      internalID: -545161495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Left_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62936b59f44901245b42bfd1233f2bf4
+      internalID: -1314462753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Left_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5782f6bf8f7cb4ca17c67b3042ffa7
+      internalID: -675357309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Left_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393217f89d9bd1146bdf81980887ed31
+      internalID: -329519317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9157f64631148ff47b9f57dd81aece77
+      internalID: -1849324157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Right_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70e17b7decefa74e9e1a99ac9e2c40e
+      internalID: -143497843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Right_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0025f3e6f7a379b48801aa33c0f33ab9
+      internalID: -1539397572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Right_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797e470215e11f24d87abf42a8677a56
+      internalID: 954585095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4ee65cbbbc2ca4da4039cda75645f1
+      internalID: 138226599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Up_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55f8da89abf684db67a4ebe6c82725
+      internalID: -136485043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Up_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0b04d4a168f7149b0320d58941bf0f
+      internalID: -358320728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeBurst_Up_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc7cc9359220f41b3147dd0c8e3fbc
+      internalID: -2030834435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ae6d1e705ea0a7149b39f0dc1cbf1552
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_BladeBurst_Down_0: -1494615148
+      CD_BladeBurst_Down_1: 1077507980
+      CD_BladeBurst_Down_2: 1945218278
+      CD_BladeBurst_Down_3: 231365181
+      CD_BladeBurst_Left_0: -545161495
+      CD_BladeBurst_Left_1: -1314462753
+      CD_BladeBurst_Left_2: -675357309
+      CD_BladeBurst_Left_3: -329519317
+      CD_BladeBurst_Right_0: -1849324157
+      CD_BladeBurst_Right_1: -143497843
+      CD_BladeBurst_Right_2: -1539397572
+      CD_BladeBurst_Right_3: 954585095
+      CD_BladeBurst_Up_0: 138226599
+      CD_BladeBurst_Up_1: -136485043
+      CD_BladeBurst_Up_2: -358320728
+      CD_BladeBurst_Up_3: -2030834435
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_0: -1273610689027811647
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_1: -5111068769631779821
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_10: 5481494876815638687
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_2: -1196083077074965750
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_3: 3462308347019551168
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_4: 7182160068117013913
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_5: 4318619424738164224
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_6: -8386612614848013367
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_7: 1605173559135997108
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_8: 3309050150697216874
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v01_9: -7756780959571962364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

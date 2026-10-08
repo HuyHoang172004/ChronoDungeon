@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 6f8f6a42c801ac8408be1d9c3c9a1ea5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2255997270187373091
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_0
+  - first:
+      213: -6900739476405287033
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_1
+  - first:
+      213: 4924742993517513156
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_2
+  - first:
+      213: 6792287049343375362
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_3
+  - first:
+      213: -5549693851387202024
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_4
+  - first:
+      213: -4204654195007113073
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_5
+  - first:
+      213: 2550181794556761903
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_6
+  - first:
+      213: -526860588322186347
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_7
+  - first:
+      213: -8655193515258119156
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_8
+  - first:
+      213: 3872916098389985006
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_9
+  - first:
+      213: -3422147064177357047
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_10
+  - first:
+      213: -2643828396019730641
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_11
+  - first:
+      213: 4795996932632301109
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_12
+  - first:
+      213: 6271753146982403090
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_13
+  - first:
+      213: 312941989684285303
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_14
+  - first:
+      213: -3144933490546965908
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_15
+  - first:
+      213: -7517588481685308537
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_16
+  - first:
+      213: 3250779891763961300
+    second: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 313
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd0b308f6611b0e0800000000000000
+      internalID: -2255997270187373091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 936
+        width: 301
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78709550206ab30a0800000000000000
+      internalID: -6900739476405287033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 930
+        width: 315
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c984b209a3385440800000000000000
+      internalID: 4924742993517513156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 920
+        width: 291
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2081994951d034e50800000000000000
+      internalID: 6792287049343375362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 325
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81675ef78d68bf2b0800000000000000
+      internalID: -5549693851387202024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 624
+        width: 313
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88be3f694116a5c0800000000000000
+      internalID: -4204654195007113073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 602
+        width: 337
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f275939a4d0146320800000000000000
+      internalID: 2550181794556761903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 614
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b17ea161730b8f0800000000000000
+      internalID: -526860588322186347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 606
+        width: 310
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c76c4ea5392e780800000000000000
+      internalID: -8655193515258119156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 311
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee64d610cac5fb530800000000000000
+      internalID: 3872916098389985006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 616
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f009e50671280d0800000000000000
+      internalID: -3422147064177357047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 315
+        width: 319
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f273728d41c3f4bd0800000000000000
+      internalID: -2643828396019730641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 320
+        width: 304
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e4969cccdce8240800000000000000
+      internalID: 4795996932632301109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 319
+        width: 313
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c03dc024eb90750800000000000000
+      internalID: 6271753146982403090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 25
+        width: 296
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f8f62e41bc75400800000000000000
+      internalID: 312941989684285303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 11
+        width: 305
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6208b527a3fa54d0800000000000000
+      internalID: -3144933490546965908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 0
+        width: 300
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b34951b192ca790800000000000000
+      internalID: -7517588481685308537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 308
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddd29396171d1d20800000000000000
+      internalID: 3250779891763961300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_0: -2255997270187373091
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_1: -6900739476405287033
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_10: -3422147064177357047
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_11: -2643828396019730641
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_12: 4795996932632301109
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_13: 6271753146982403090
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_14: 312941989684285303
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_15: -3144933490546965908
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_16: -7517588481685308537
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_17: 3250779891763961300
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_2: 4924742993517513156
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_3: 6792287049343375362
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_4: -5549693851387202024
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_5: -4204654195007113073
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_6: 2550181794556761903
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_7: -526860588322186347
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_8: -8655193515258119156
+      CD_NPC_PrisonerEcho_Chained_4Dir_4Frame_v01_9: 3872916098389985006
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

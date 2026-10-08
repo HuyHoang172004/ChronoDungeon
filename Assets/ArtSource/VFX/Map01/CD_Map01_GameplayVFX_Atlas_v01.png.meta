@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: b8a7a795507912b46a5e673bd5c5e652
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3318205222084407467
+    second: CD_Map01_GameplayVFX_Atlas_v01_0
+  - first:
+      213: 31443705389137434
+    second: CD_Map01_GameplayVFX_Atlas_v01_1
+  - first:
+      213: -2027089324479760448
+    second: CD_Map01_GameplayVFX_Atlas_v01_2
+  - first:
+      213: 6331756716601801470
+    second: CD_Map01_GameplayVFX_Atlas_v01_3
+  - first:
+      213: -1284654096299468638
+    second: CD_Map01_GameplayVFX_Atlas_v01_4
+  - first:
+      213: -4370665287027678935
+    second: CD_Map01_GameplayVFX_Atlas_v01_5
+  - first:
+      213: -7643426644412046472
+    second: CD_Map01_GameplayVFX_Atlas_v01_6
+  - first:
+      213: 4971713474839159547
+    second: CD_Map01_GameplayVFX_Atlas_v01_7
+  - first:
+      213: -5636780264656361998
+    second: CD_Map01_GameplayVFX_Atlas_v01_8
+  - first:
+      213: 8949770399636615289
+    second: CD_Map01_GameplayVFX_Atlas_v01_9
+  - first:
+      213: -7603377994653412692
+    second: CD_Map01_GameplayVFX_Atlas_v01_10
+  - first:
+      213: 820099877862724835
+    second: CD_Map01_GameplayVFX_Atlas_v01_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 455
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f00dd5eed53f1d0800000000000000
+      internalID: -3318205222084407467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_1
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 565
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e342a22e5bf6000800000000000000
+      internalID: 31443705389137434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_2
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 517
+        width: 471
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7b566dff45ed3e0800000000000000
+      internalID: -2027089324479760448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 593
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa7e39cf2beed750800000000000000
+      internalID: 6331756716601801470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 563
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8d1d2e7edfb2ee0800000000000000
+      internalID: -1284654096299468638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 549
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921a59604174853c0800000000000000
+      internalID: -4370665287027678935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 485
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8736019a6f71de590800000000000000
+      internalID: -7643426644412046472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 448
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2afc860131ff440800000000000000
+      internalID: 4971713474839159547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 0
+        width: 494
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5a938d63226c1b0800000000000000
+      internalID: -5636780264656361998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 63
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97075a3b2c8f33c70800000000000000
+      internalID: 8949770399636615289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca259af8fff5b7690800000000000000
+      internalID: -7603377994653412692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map01_GameplayVFX_Atlas_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 31
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4595c6e74916b00800000000000000
+      internalID: 820099877862724835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Map01_GameplayVFX_Atlas_v01_0: -3318205222084407467
+      CD_Map01_GameplayVFX_Atlas_v01_1: 31443705389137434
+      CD_Map01_GameplayVFX_Atlas_v01_10: -7603377994653412692
+      CD_Map01_GameplayVFX_Atlas_v01_11: 820099877862724835
+      CD_Map01_GameplayVFX_Atlas_v01_2: -2027089324479760448
+      CD_Map01_GameplayVFX_Atlas_v01_3: 6331756716601801470
+      CD_Map01_GameplayVFX_Atlas_v01_4: -1284654096299468638
+      CD_Map01_GameplayVFX_Atlas_v01_5: -4370665287027678935
+      CD_Map01_GameplayVFX_Atlas_v01_6: -7643426644412046472
+      CD_Map01_GameplayVFX_Atlas_v01_7: 4971713474839159547
+      CD_Map01_GameplayVFX_Atlas_v01_8: -5636780264656361998
+      CD_Map01_GameplayVFX_Atlas_v01_9: 8949770399636615289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

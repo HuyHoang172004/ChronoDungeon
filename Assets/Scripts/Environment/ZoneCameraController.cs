@@ -35,7 +35,10 @@ public sealed class ZoneCameraController : MonoBehaviour
 
     private void FollowPlayer()
     {
-        if (areas == null || player == null || !areas.IsZoneActive) return;
+        // Zone 1 uses authored global bounds and must follow immediately even
+        // when the legacy WorldAreaManager has not entered a temporal sub-area.
+        // Sub-area gating remains for future area-local camera bounds.
+        if (player == null || (areas != null && !areas.IsZoneActive && !useGlobalZoneBounds)) return;
         Bounds bounds = new Bounds(globalBoundsCenter, globalBoundsSize);
         if (!useGlobalZoneBounds && areas.CurrentSubArea != null && areas.CurrentSubArea.Bounds != null)
             bounds = areas.CurrentSubArea.Bounds.WorldBounds;

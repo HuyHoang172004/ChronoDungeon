@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 164959881a25dbc43b953735e72e81b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6891184218190746115
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_0
+  - first:
+      213: 3426984983872443620
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_1
+  - first:
+      213: -4201985405900979012
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_2
+  - first:
+      213: -7471716459054784332
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_3
+  - first:
+      213: 8485996658239696123
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_4
+  - first:
+      213: 2947146200090327387
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_5
+  - first:
+      213: 1909739494839371918
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_6
+  - first:
+      213: 3497858908182356247
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_7
+  - first:
+      213: -5872114130819545518
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_8
+  - first:
+      213: 161451651238652722
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_9
+  - first:
+      213: 3476228829740476270
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_10
+  - first:
+      213: -480472055415207084
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_11
+  - first:
+      213: -6863467648746429720
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_12
+  - first:
+      213: 838356144207405591
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_13
+  - first:
+      213: 7302645160150313876
+    second: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 424
+        width: 485
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd66f0f6789d50a0800000000000000
+      internalID: -6891184218190746115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_1
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 751
+        width: 79
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e490569fa81f8f20800000000000000
+      internalID: 3426984983872443620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_2
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 945
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb485e1598c8fa5c0800000000000000
+      internalID: -4201985405900979012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 513
+        width: 483
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0a993a7712f4890800000000000000
+      internalID: -7471716459054784332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 551
+        width: 449
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc678bfff054c570800000000000000
+      internalID: 8485996658239696123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 909
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59b685badd56e820800000000000000
+      internalID: 2947146200090327387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 823
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e884f6bc3f1c08a10800000000000000
+      internalID: 1909739494839371918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 797
+        width: 51
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71125a00524ea8030800000000000000
+      internalID: 3497858908182356247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25603ff4f4f028ea0800000000000000
+      internalID: -5872114130819545518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 505
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bea70eb679d3200800000000000000
+      internalID: 161451651238652722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 15
+        width: 520
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6727aae3bb0e3030800000000000000
+      internalID: 3476228829740476270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_11
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 25
+        width: 487
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b897416350559f0800000000000000
+      internalID: -480472055415207084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_12
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 423
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e26515a98010c0a0800000000000000
+      internalID: -6863467648746429720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 49
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712afbaa87072ab00800000000000000
+      internalID: 838356144207405591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b2c730515385560800000000000000
+      internalID: 7302645160150313876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_0: -6891184218190746115
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_1: 3426984983872443620
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_10: 3476228829740476270
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_11: -480472055415207084
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_12: -6863467648746429720
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_13: 838356144207405591
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_14: 7302645160150313876
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_2: -4201985405900979012
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_3: -7471716459054784332
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_4: 8485996658239696123
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_5: 2947146200090327387
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_6: 1909739494839371918
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_7: 3497858908182356247
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_8: -5872114130819545518
+      CD_Weapon_VoidBow_PickupAndIcons_Atlas_v01_9: 161451651238652722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

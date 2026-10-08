@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650c162c4710efe47968fc4abc376bbb, type: 3}
+  m_Name: TimeCleave
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillName: Time Cleave
+  description: Placeholder skill definition for the Chrono Blade.
+  icon: {fileID: 0}
+  cooldown: 7
+  damage: 60
+  range: 2.6
+  radius: 0.35
+  execution: {fileID: 11400000, guid: dbfcb0f66178f644e96c5fc13bbd0eac, type: 2}
+  sfx: {fileID: 0}
+  vfxPrefab: {fileID: 0}

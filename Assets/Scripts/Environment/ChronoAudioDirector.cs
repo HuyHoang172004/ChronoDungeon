@@ -10,6 +10,7 @@ public sealed class ChronoAudioDirector : MonoBehaviour
 {
     private readonly List<Health> boundHealth = new List<Health>(32);
     private readonly List<PlayerAttack> boundAttacks = new List<PlayerAttack>(4);
+    private readonly List<PlayerWeaponController> boundWeapons = new List<PlayerWeaponController>(4);
     private readonly List<GhostPlayback> boundGhosts = new List<GhostPlayback>(3);
     private readonly List<PressureSwitch> boundSwitches = new List<PressureSwitch>(8);
     private readonly List<Door> boundDoors = new List<Door>(8);
@@ -22,6 +23,7 @@ public sealed class ChronoAudioDirector : MonoBehaviour
     private AudioClip dungeonMusic;
     private AudioClip bossMusic;
     private AudioClip attackClip;
+    private AudioClip skillClip;
     private AudioClip hitClip;
     private AudioClip deathClip;
     private AudioClip rewindClip;
@@ -113,6 +115,7 @@ public sealed class ChronoAudioDirector : MonoBehaviour
     {
         BindHealth(FindObjectsByType<Health>(FindObjectsInactive.Include));
         BindAttacks(FindObjectsByType<PlayerAttack>(FindObjectsInactive.Include));
+        BindWeapons(FindObjectsByType<PlayerWeaponController>(FindObjectsInactive.Include));
         BindGhosts(FindObjectsByType<GhostPlayback>(FindObjectsInactive.Include));
         BindSwitches(FindObjectsByType<PressureSwitch>(FindObjectsInactive.Include));
         BindDoors(FindObjectsByType<Door>(FindObjectsInactive.Include));
@@ -140,6 +143,17 @@ public sealed class ChronoAudioDirector : MonoBehaviour
             if (value == null || boundAttacks.Contains(value)) continue;
             boundAttacks.Add(value);
             value.AttackPerformed += OnAttack;
+        }
+    }
+
+    private void BindWeapons(PlayerWeaponController[] values)
+    {
+        for (int i = 0; i < values.Length; i++)
+        {
+            PlayerWeaponController value = values[i];
+            if (value == null || boundWeapons.Contains(value)) continue;
+            boundWeapons.Add(value);
+            value.OnSkillUsed += OnSkillUsed;
         }
     }
 
@@ -208,6 +222,7 @@ public sealed class ChronoAudioDirector : MonoBehaviour
     }
 
     private void OnAttack(AttackSnapshot _) => Play(attackClip);
+    private void OnSkillUsed(SkillDefinition _, int __) => Play(skillClip);
 
     private void OnGhostAction(PlayerTimeline.ActionEvent action)
     {
@@ -273,6 +288,7 @@ public sealed class ChronoAudioDirector : MonoBehaviour
         dungeonMusic = CreateMusic("DungeonMusic", new[] { 110f, 138.59f, 164.81f }, 0.18f);
         bossMusic = CreateMusic("BossMusic", new[] { 73.42f, 92.5f, 110f }, 0.26f);
         attackClip = CreateSweep("AttackSfx", 720f, 420f, 0.07f, 0.2f);
+        skillClip = CreateSweep("SkillSfx", 340f, 980f, 0.18f, 0.22f);
         hitClip = CreateSweep("HitSfx", 180f, 90f, 0.09f, 0.24f);
         deathClip = CreateSweep("DeathSfx", 240f, 55f, 0.3f, 0.24f);
         rewindClip = CreateSweep("RewindSfx", 160f, 720f, 0.42f, 0.25f);
@@ -335,6 +351,7 @@ public sealed class ChronoAudioDirector : MonoBehaviour
         if (settings != null) settings.SettingsChanged -= RefreshVolume;
         for (int i = 0; i < boundHealth.Count; i++) if (boundHealth[i] != null) boundHealth[i].Changed -= OnHealthChanged;
         for (int i = 0; i < boundAttacks.Count; i++) if (boundAttacks[i] != null) boundAttacks[i].AttackPerformed -= OnAttack;
+        for (int i = 0; i < boundWeapons.Count; i++) if (boundWeapons[i] != null) boundWeapons[i].OnSkillUsed -= OnSkillUsed;
         for (int i = 0; i < boundGhosts.Count; i++) if (boundGhosts[i] != null) boundGhosts[i].ActionReplayed -= OnGhostAction;
         for (int i = 0; i < boundSwitches.Count; i++) if (boundSwitches[i] != null) boundSwitches[i].StateChanged -= OnSwitchChanged;
         for (int i = 0; i < boundDoors.Count; i++) if (boundDoors[i] != null) boundDoors[i].StateChanged -= OnDoorChanged;

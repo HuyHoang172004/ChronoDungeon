@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 8d40e320e22395d418df2ebe0de862da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2307915451196151187
+    second: RuinHusk_Directions_v1_0
+  - first:
+      213: 7679642700864856525
+    second: RuinHusk_Directions_v1_1
+  - first:
+      213: 4282033222217976540
+    second: RuinHusk_Directions_v1_2
+  - first:
+      213: 2251153683830985758
+    second: RuinHusk_Directions_v1_3
+  - first:
+      213: 8253665307656089399
+    second: RuinHusk_Directions_v1_4
+  - first:
+      213: -2711414685179018177
+    second: RuinHusk_Directions_v1_5
+  - first:
+      213: 6309496186930528285
+    second: RuinHusk_Directions_v1_6
+  - first:
+      213: 7728869215733015305
+    second: RuinHusk_Directions_v1_7
+  - first:
+      213: -8639385002369300109
+    second: RuinHusk_Directions_v1_8
+  - first:
+      213: -1615519082723283499
+    second: RuinHusk_Directions_v1_9
+  - first:
+      213: -2987812165407082942
+    second: RuinHusk_Directions_v1_10
+  - first:
+      213: 7618276817478868137
+    second: RuinHusk_Directions_v1_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 534
+        width: 505
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a61dfff13a8ffd0800000000000000
+      internalID: -2307915451196151187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_1
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 873
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1a8f21952939a60800000000000000
+      internalID: 7679642700864856525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 539
+        width: 525
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda49b64786dc6b30800000000000000
+      internalID: 4282033222217976540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_3
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 666
+        width: 125
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14de8b2954bd3f10800000000000000
+      internalID: 2251153683830985758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_4
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 794
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f6ec51ed8ea8270800000000000000
+      internalID: 8253665307656089399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 644
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f348023a5be1f5ad0800000000000000
+      internalID: -2711414685179018177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 23
+        width: 601
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d100da55a55df8750800000000000000
+      internalID: 6309496186930528285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_7
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 259
+        width: 67
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903e7373a95724b60800000000000000
+      internalID: 7728869215733015305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_8
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 242
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379c0ff1d1dba1880800000000000000
+      internalID: -8639385002369300109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_9
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 48
+        width: 528
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dde96224f58499e0800000000000000
+      internalID: -1615519082723283499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 138
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246f1596aa82986d0800000000000000
+      internalID: -2987812165407082942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuinHusk_Directions_v1_11
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 15
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acdb62f66e89b960800000000000000
+      internalID: 7618276817478868137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RuinHusk_Directions_v1_0: -2307915451196151187
+      RuinHusk_Directions_v1_1: 7679642700864856525
+      RuinHusk_Directions_v1_10: -2987812165407082942
+      RuinHusk_Directions_v1_11: 7618276817478868137
+      RuinHusk_Directions_v1_2: 4282033222217976540
+      RuinHusk_Directions_v1_3: 2251153683830985758
+      RuinHusk_Directions_v1_4: 8253665307656089399
+      RuinHusk_Directions_v1_5: -2711414685179018177
+      RuinHusk_Directions_v1_6: 6309496186930528285
+      RuinHusk_Directions_v1_7: 7728869215733015305
+      RuinHusk_Directions_v1_8: -8639385002369300109
+      RuinHusk_Directions_v1_9: -1615519082723283499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

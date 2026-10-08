@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 2a56bba984152e3478b0eb0861c37704
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7928348858657550294
+    second: ChronoHUD_IconAtlas_v1_0
+  - first:
+      213: 7390029699593707455
+    second: ChronoHUD_IconAtlas_v1_1
+  - first:
+      213: 6275410539086692634
+    second: ChronoHUD_IconAtlas_v1_2
+  - first:
+      213: 5326183069435449753
+    second: ChronoHUD_IconAtlas_v1_3
+  - first:
+      213: 1894476415278764618
+    second: ChronoHUD_IconAtlas_v1_4
+  - first:
+      213: -5924926893382161892
+    second: ChronoHUD_IconAtlas_v1_5
+  - first:
+      213: -1946095240236113227
+    second: ChronoHUD_IconAtlas_v1_6
+  - first:
+      213: -5647556382941964103
+    second: ChronoHUD_IconAtlas_v1_7
+  - first:
+      213: -3112717495362338149
+    second: ChronoHUD_IconAtlas_v1_8
+  - first:
+      213: 5607986961605245772
+    second: ChronoHUD_IconAtlas_v1_9
+  - first:
+      213: 4136304881638752512
+    second: ChronoHUD_IconAtlas_v1_10
+  - first:
+      213: -3325782589795065479
+    second: ChronoHUD_IconAtlas_v1_11
+  - first:
+      213: 1096598197295786048
+    second: ChronoHUD_IconAtlas_v1_12
+  - first:
+      213: -2973057768366864827
+    second: ChronoHUD_IconAtlas_v1_13
+  - first:
+      213: 1740618208543370107
+    second: ChronoHUD_IconAtlas_v1_14
+  - first:
+      213: 5862465447727238458
+    second: ChronoHUD_IconAtlas_v1_15
+  - first:
+      213: -4832660689986495050
+    second: ChronoHUD_IconAtlas_v1_16
+  - first:
+      213: -2825921885782149521
+    second: ChronoHUD_IconAtlas_v1_17
+  - first:
+      213: 5073398836893245800
+    second: ChronoHUD_IconAtlas_v1_18
+  - first:
+      213: -5402080993173765359
+    second: ChronoHUD_IconAtlas_v1_19
+  - first:
+      213: 59875086626159577
+    second: ChronoHUD_IconAtlas_v1_20
+  - first:
+      213: -5804487799411817702
+    second: ChronoHUD_IconAtlas_v1_21
+  - first:
+      213: 9064698018898518068
+    second: ChronoHUD_IconAtlas_v1_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChronoHUD_Icon_TemporalSlash
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 542
+        width: 422
+        height: 398
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca355d06d593054ab60adfaf1028ead
+      internalID: -1630795081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Icon_Dash
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 581
+        width: 453
+        height: 292
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8736751e6ec02d74ca89c9d0791b2f34
+      internalID: 820431745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Icon_ChronoBurst
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 522
+        width: 469
+        height: 457
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10a8581365537742826e098566c71ec
+      internalID: -4235078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Icon_TimeCleave
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 501
+        height: 451
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cf767d768107c4f9535006f3e63a18
+      internalID: -182414146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Icon_Health
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 102
+        width: 372
+        height: 336
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1d5cd0b61a504479ef1de18da1b11d
+      internalID: -830039817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Icon_Energy
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 38
+        width: 413
+        height: 473
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eae79772dbc4d04c8064a71c96bf77d
+      internalID: -1051407417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6843fe5bcc9e02b43965eb3b92ee34ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChronoHUD_IconAtlas_v1_0: 7928348858657550294
+      ChronoHUD_IconAtlas_v1_1: 7390029699593707455
+      ChronoHUD_IconAtlas_v1_10: 4136304881638752512
+      ChronoHUD_IconAtlas_v1_11: -3325782589795065479
+      ChronoHUD_IconAtlas_v1_12: 1096598197295786048
+      ChronoHUD_IconAtlas_v1_13: -2973057768366864827
+      ChronoHUD_IconAtlas_v1_14: 1740618208543370107
+      ChronoHUD_IconAtlas_v1_15: 5862465447727238458
+      ChronoHUD_IconAtlas_v1_16: -4832660689986495050
+      ChronoHUD_IconAtlas_v1_17: -2825921885782149521
+      ChronoHUD_IconAtlas_v1_18: 5073398836893245800
+      ChronoHUD_IconAtlas_v1_19: -5402080993173765359
+      ChronoHUD_IconAtlas_v1_2: 6275410539086692634
+      ChronoHUD_IconAtlas_v1_20: 59875086626159577
+      ChronoHUD_IconAtlas_v1_21: -5804487799411817702
+      ChronoHUD_IconAtlas_v1_22: 9064698018898518068
+      ChronoHUD_IconAtlas_v1_3: 5326183069435449753
+      ChronoHUD_IconAtlas_v1_4: 1894476415278764618
+      ChronoHUD_IconAtlas_v1_5: -5924926893382161892
+      ChronoHUD_IconAtlas_v1_6: -1946095240236113227
+      ChronoHUD_IconAtlas_v1_7: -5647556382941964103
+      ChronoHUD_IconAtlas_v1_8: -3112717495362338149
+      ChronoHUD_IconAtlas_v1_9: 5607986961605245772
+      ChronoHUD_Icon_ChronoBurst: -4235078
+      ChronoHUD_Icon_Dash: 820431745
+      ChronoHUD_Icon_Energy: -1051407417
+      ChronoHUD_Icon_Health: -830039817
+      ChronoHUD_Icon_TemporalSlash: -1630795081
+      ChronoHUD_Icon_TimeCleave: -182414146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

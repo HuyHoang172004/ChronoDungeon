@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 166190b49d67c6945a96af9cf1f0309c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7001347428388155429
+    second: RE_Props_Atlas_v1_0
+  - first:
+      213: -4934895366611833433
+    second: RE_Props_Atlas_v1_1
+  - first:
+      213: 2974346360418179131
+    second: RE_Props_Atlas_v1_2
+  - first:
+      213: 1461753097885804966
+    second: RE_Props_Atlas_v1_3
+  - first:
+      213: 4842269272901949570
+    second: RE_Props_Atlas_v1_4
+  - first:
+      213: -7932959049606258869
+    second: RE_Props_Atlas_v1_5
+  - first:
+      213: -3762571138960978090
+    second: RE_Props_Atlas_v1_6
+  - first:
+      213: -2550955497867968086
+    second: RE_Props_Atlas_v1_7
+  - first:
+      213: 4784400902562360800
+    second: RE_Props_Atlas_v1_8
+  - first:
+      213: 9089862792694123816
+    second: RE_Props_Atlas_v1_9
+  - first:
+      213: -6064609024221816391
+    second: RE_Props_Atlas_v1_10
+  - first:
+      213: 1031190006973259500
+    second: RE_Props_Atlas_v1_11
+  - first:
+      213: -7015116871691710223
+    second: RE_Props_Atlas_v1_12
+  - first:
+      213: -2849282897939615156
+    second: RE_Props_Atlas_v1_13
+  - first:
+      213: 7898821222555615425
+    second: RE_Props_Atlas_v1_14
+  - first:
+      213: -4362509502852089215
+    second: RE_Props_Atlas_v1_15
+  - first:
+      213: 193625609544803105
+    second: RE_Props_Atlas_v1_16
+  - first:
+      213: -4181002804975960521
+    second: RE_Props_Atlas_v1_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 362
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 712
+        width: 313
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520bb223468c92160800000000000000
+      internalID: 7001347428388155429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 728
+        width: 374
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad616d6fcab38bb0800000000000000
+      internalID: -4934895366611833433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 623
+        width: 397
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3893bb8140074920800000000000000
+      internalID: 2974346360418179131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_3
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 990
+        width: 251
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a96fc4a2b0394410800000000000000
+      internalID: 1461753097885804966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_4
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 931
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2881c1e8f32333340800000000000000
+      internalID: 4842269272901949570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_5
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 736
+        width: 275
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f9f7666c778e190800000000000000
+      internalID: -7932959049606258869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_6
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 736
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f081ceb79a8cbc0800000000000000
+      internalID: -3762571138960978090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 472
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa100cf7d7f299cd0800000000000000
+      internalID: -2550955497867968086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 365
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eda944a54b956240800000000000000
+      internalID: 4784400902562360800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 23
+        width: 339
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dc29fbc0ea52e70800000000000000
+      internalID: 9089862792694123816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_10
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 356
+        width: 310
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b951a1693e26dba0800000000000000
+      internalID: -6064609024221816391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_11
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 315
+        width: 361
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceed29d09d58f4e00800000000000000
+      internalID: 1031190006973259500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_12
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 311
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f057f47f5c45ae90800000000000000
+      internalID: -7015116871691710223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_13
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 356
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42b6bbec405578d0800000000000000
+      internalID: -2849282897939615156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_14
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 23
+        width: 331
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c08eba5d004e9d60800000000000000
+      internalID: 7898821222555615425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_15
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 331
+        width: 272
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3c3188b04573c0800000000000000
+      internalID: -4362509502852089215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_16
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 327
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123265c4775efa200800000000000000
+      internalID: 193625609544803105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RE_Props_Atlas_v1_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 18
+        width: 323
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73efe7cc9181af5c0800000000000000
+      internalID: -4181002804975960521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RE_Props_Atlas_v1_0: 7001347428388155429
+      RE_Props_Atlas_v1_1: -4934895366611833433
+      RE_Props_Atlas_v1_10: -6064609024221816391
+      RE_Props_Atlas_v1_11: 1031190006973259500
+      RE_Props_Atlas_v1_12: -7015116871691710223
+      RE_Props_Atlas_v1_13: -2849282897939615156
+      RE_Props_Atlas_v1_14: 7898821222555615425
+      RE_Props_Atlas_v1_15: -4362509502852089215
+      RE_Props_Atlas_v1_16: 193625609544803105
+      RE_Props_Atlas_v1_17: -4181002804975960521
+      RE_Props_Atlas_v1_2: 2974346360418179131
+      RE_Props_Atlas_v1_3: 1461753097885804966
+      RE_Props_Atlas_v1_4: 4842269272901949570
+      RE_Props_Atlas_v1_5: -7932959049606258869
+      RE_Props_Atlas_v1_6: -3762571138960978090
+      RE_Props_Atlas_v1_7: -2550955497867968086
+      RE_Props_Atlas_v1_8: 4784400902562360800
+      RE_Props_Atlas_v1_9: 9089862792694123816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

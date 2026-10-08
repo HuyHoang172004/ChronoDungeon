@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 2f45544e6fec8ad418162364b3ba7773
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4274889479382072783
+    second: CD_UI_MobileHUD_IconAtlas_v01_0
+  - first:
+      213: -8556278140090997059
+    second: CD_UI_MobileHUD_IconAtlas_v01_1
+  - first:
+      213: -3814912926176805875
+    second: CD_UI_MobileHUD_IconAtlas_v01_2
+  - first:
+      213: -520399018994851254
+    second: CD_UI_MobileHUD_IconAtlas_v01_3
+  - first:
+      213: -6764989448151732982
+    second: CD_UI_MobileHUD_IconAtlas_v01_4
+  - first:
+      213: 6184788122326741510
+    second: CD_UI_MobileHUD_IconAtlas_v01_5
+  - first:
+      213: -1676419142574978281
+    second: CD_UI_MobileHUD_IconAtlas_v01_6
+  - first:
+      213: -7962588838822481509
+    second: CD_UI_MobileHUD_IconAtlas_v01_7
+  - first:
+      213: -7420793763415193944
+    second: CD_UI_MobileHUD_IconAtlas_v01_8
+  - first:
+      213: 8627906694015038599
+    second: CD_UI_MobileHUD_IconAtlas_v01_9
+  - first:
+      213: -7667155763040433035
+    second: CD_UI_MobileHUD_IconAtlas_v01_10
+  - first:
+      213: -4061159127786688025
+    second: CD_UI_MobileHUD_IconAtlas_v01_11
+  - first:
+      213: 338551405451588059
+    second: CD_UI_MobileHUD_IconAtlas_v01_12
+  - first:
+      213: -5086029808661818667
+    second: CD_UI_MobileHUD_IconAtlas_v01_13
+  - first:
+      213: -1652972223673650312
+    second: CD_UI_MobileHUD_IconAtlas_v01_14
+  - first:
+      213: -2074738974436418477
+    second: CD_UI_MobileHUD_IconAtlas_v01_15
+  - first:
+      213: -3564817851011994447
+    second: CD_UI_MobileHUD_IconAtlas_v01_16
+  - first:
+      213: 4288208097085394543
+    second: CD_UI_MobileHUD_IconAtlas_v01_17
+  - first:
+      213: 4435062127652957574
+    second: CD_UI_MobileHUD_IconAtlas_v01_18
+  - first:
+      213: -632396179504516352
+    second: CD_UI_MobileHUD_IconAtlas_v01_19
+  - first:
+      213: -2959783059044893946
+    second: CD_UI_MobileHUD_IconAtlas_v01_20
+  - first:
+      213: -7541955337442919870
+    second: CD_UI_MobileHUD_IconAtlas_v01_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 696
+        width: 367
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd7f980555735b30800000000000000
+      internalID: 4274889479382072783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_1
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 734
+        width: 355
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6af6c5d5ef14980800000000000000
+      internalID: -8556278140090997059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1024
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c7f2ae7e4be0bc0800000000000000
+      internalID: -3814912926176805875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 657
+        width: 391
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42a95379db27c8f0800000000000000
+      internalID: -520399018994851254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 710
+        width: 305
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d66a970fded12a0800000000000000
+      internalID: -6764989448151732982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 921
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60237526708c4d550800000000000000
+      internalID: 6184788122326741510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 407
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b47200ca92cb8e0800000000000000
+      internalID: -1676419142574978281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 23
+        width: 348
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91fe7183a33f7190800000000000000
+      internalID: -7962588838822481509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 706
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a60434a36b040990800000000000000
+      internalID: -7420793763415193944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 388
+        width: 353
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7843bf3fc6b7cb770800000000000000
+      internalID: 8627906694015038599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_10
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 493
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cc262b47ac89590800000000000000
+      internalID: -7667155763040433035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 360
+        width: 307
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e170fb4a4dd3a7c0800000000000000
+      internalID: -4061159127786688025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 359
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1b624a5b6c2b400800000000000000
+      internalID: 338551405451588059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_13
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 0
+        width: 329
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d21aa106daca69b0800000000000000
+      internalID: -5086029808661818667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_14
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 260
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873385835867f09e0800000000000000
+      internalID: -1652972223673650312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 185
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c1f0b25eb0533e0800000000000000
+      internalID: -2074738974436418477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 22
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc657d3d09378ec0800000000000000
+      internalID: -3564817851011994447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_17
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e8abd5b86c28b30800000000000000
+      internalID: 4288208097085394543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_18
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dea83d1818c8d30800000000000000
+      internalID: 4435062127652957574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_19
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 33
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003b15b76074937f0800000000000000
+      internalID: -632396179504516352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_20
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 15
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bf8694dfcbce6d0800000000000000
+      internalID: -2959783059044893946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_UI_MobileHUD_IconAtlas_v01_21
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 15
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a7adf5497955790800000000000000
+      internalID: -7541955337442919870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_UI_MobileHUD_IconAtlas_v01_0: 4274889479382072783
+      CD_UI_MobileHUD_IconAtlas_v01_1: -8556278140090997059
+      CD_UI_MobileHUD_IconAtlas_v01_10: -7667155763040433035
+      CD_UI_MobileHUD_IconAtlas_v01_11: -4061159127786688025
+      CD_UI_MobileHUD_IconAtlas_v01_12: 338551405451588059
+      CD_UI_MobileHUD_IconAtlas_v01_13: -5086029808661818667
+      CD_UI_MobileHUD_IconAtlas_v01_14: -1652972223673650312
+      CD_UI_MobileHUD_IconAtlas_v01_15: -2074738974436418477
+      CD_UI_MobileHUD_IconAtlas_v01_16: -3564817851011994447
+      CD_UI_MobileHUD_IconAtlas_v01_17: 4288208097085394543
+      CD_UI_MobileHUD_IconAtlas_v01_18: 4435062127652957574
+      CD_UI_MobileHUD_IconAtlas_v01_19: -632396179504516352
+      CD_UI_MobileHUD_IconAtlas_v01_2: -3814912926176805875
+      CD_UI_MobileHUD_IconAtlas_v01_20: -2959783059044893946
+      CD_UI_MobileHUD_IconAtlas_v01_21: -7541955337442919870
+      CD_UI_MobileHUD_IconAtlas_v01_3: -520399018994851254
+      CD_UI_MobileHUD_IconAtlas_v01_4: -6764989448151732982
+      CD_UI_MobileHUD_IconAtlas_v01_5: 6184788122326741510
+      CD_UI_MobileHUD_IconAtlas_v01_6: -1676419142574978281
+      CD_UI_MobileHUD_IconAtlas_v01_7: -7962588838822481509
+      CD_UI_MobileHUD_IconAtlas_v01_8: -7420793763415193944
+      CD_UI_MobileHUD_IconAtlas_v01_9: 8627906694015038599
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

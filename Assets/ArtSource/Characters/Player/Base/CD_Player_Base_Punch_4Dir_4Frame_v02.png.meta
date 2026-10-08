@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 24af4ec272c38ad489beb2fcb60dae4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7697060892982369534
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_0
+  - first:
+      213: -7607371036877665279
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_1
+  - first:
+      213: -8655428850203350252
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_2
+  - first:
+      213: 483280539368871821
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_3
+  - first:
+      213: -8544568186939762623
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_4
+  - first:
+      213: 5169732073066653871
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_5
+  - first:
+      213: 5430778781371152105
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_6
+  - first:
+      213: -359421464563928793
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_7
+  - first:
+      213: 902134528129659061
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_8
+  - first:
+      213: -7384839133239880516
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_9
+  - first:
+      213: -8256266666679482237
+    second: CD_Player_Base_Punch_4Dir_4Frame_v02_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 420
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_BasePunch_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b487cad7884fc24c9ddf9b2e8d53d4e
+      internalID: -312553707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Down_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8543b6eb0219fba4e86b0320aca1ba6c
+      internalID: -1311573799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Down_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8741a9e513f58f146bf2c076b90a266d
+      internalID: 2131748364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Down_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd38c3eb2038c54b8f5fddb247f7c07
+      internalID: 2092660590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880ddc72f4001d143bb9501f41e9ee15
+      internalID: -1422722618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d64c7c70b4d6749b36cdc6ab5812c3
+      internalID: -1524417977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a51d9d665d5044eac5193759d67456
+      internalID: 295324701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c1bcaaaac5d294290af211907906b7
+      internalID: -1074135226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d42e97fb82c6a42a5bbe5d64e5599f
+      internalID: -1904319320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d7a2208c908db43ab1c70cc6a941d0
+      internalID: -1943077967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668d397c8d3018d45bd9ca1c5aeb5fc5
+      internalID: -1882368758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dc470bb7b65504ababdc28db964c5b
+      internalID: 1458100911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68efa9fb32ec81439e61191a8b3871a
+      internalID: 2107490056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b054ee747bba24daa91117a47a94e2
+      internalID: -983496600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16ea4e94bf175b4fa11322e555fefaf
+      internalID: 1052679177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BasePunch_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b2e4a6a5422c43893235d192f6ceb
+      internalID: -1982219843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e863d4565ce55c4f88cfc4ff66dbd1e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_BasePunch_Down_0: -312553707
+      CD_BasePunch_Down_1: -1311573799
+      CD_BasePunch_Down_2: 2131748364
+      CD_BasePunch_Down_3: 2092660590
+      CD_BasePunch_Left_0: -1422722618
+      CD_BasePunch_Left_1: -1524417977
+      CD_BasePunch_Left_2: 295324701
+      CD_BasePunch_Left_3: -1074135226
+      CD_BasePunch_Right_0: -1904319320
+      CD_BasePunch_Right_1: -1943077967
+      CD_BasePunch_Right_2: -1882368758
+      CD_BasePunch_Right_3: 1458100911
+      CD_BasePunch_Up_0: 2107490056
+      CD_BasePunch_Up_1: -983496600
+      CD_BasePunch_Up_2: 1052679177
+      CD_BasePunch_Up_3: -1982219843
+      CD_Player_Base_Punch_4Dir_4Frame_v02_0: -7697060892982369534
+      CD_Player_Base_Punch_4Dir_4Frame_v02_1: -7607371036877665279
+      CD_Player_Base_Punch_4Dir_4Frame_v02_10: -8256266666679482237
+      CD_Player_Base_Punch_4Dir_4Frame_v02_2: -8655428850203350252
+      CD_Player_Base_Punch_4Dir_4Frame_v02_3: 483280539368871821
+      CD_Player_Base_Punch_4Dir_4Frame_v02_4: -8544568186939762623
+      CD_Player_Base_Punch_4Dir_4Frame_v02_5: 5169732073066653871
+      CD_Player_Base_Punch_4Dir_4Frame_v02_6: 5430778781371152105
+      CD_Player_Base_Punch_4Dir_4Frame_v02_7: -359421464563928793
+      CD_Player_Base_Punch_4Dir_4Frame_v02_8: 902134528129659061
+      CD_Player_Base_Punch_4Dir_4Frame_v02_9: -7384839133239880516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

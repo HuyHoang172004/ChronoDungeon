@@ -13,22 +13,6 @@ public class TimeLoopHUD : MonoBehaviour
         gameManager = FindAnyObjectByType<GameManager>();
     }
 
-    private void Start()
-    {
-        // Runtime-built tutorial/UI panels are created after the authored HUD. Keep the
-        // loop readout visible in a stable top-left HUD slot during gameplay.
-        transform.SetAsLastSibling();
-        RectTransform rect = transform as RectTransform;
-        if (rect != null)
-        {
-            rect.anchorMin = new Vector2(0f, 1f);
-            rect.anchorMax = new Vector2(0f, 1f);
-            rect.pivot = new Vector2(0f, 1f);
-            rect.anchoredPosition = new Vector2(300f, -22f);
-            rect.sizeDelta = new Vector2(260f, 78f);
-        }
-    }
-
     private void LateUpdate()
     {
         bool overlayOpen = Time.timeScale <= 0f ||

@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: e5e4d2fc9e8514344ac784bb714ce781
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1685038442858860316
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_0
+  - first:
+      213: 6125850569410637382
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_1
+  - first:
+      213: -3174806155727939974
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_2
+  - first:
+      213: -5281066585205771064
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_3
+  - first:
+      213: 656355336761605584
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_4
+  - first:
+      213: -7370215276447817970
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_5
+  - first:
+      213: 5888412539283702861
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_6
+  - first:
+      213: 3339300635041073138
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_7
+  - first:
+      213: 4429515114200265246
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_8
+  - first:
+      213: -5803769746376105915
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_9
+  - first:
+      213: 742357227509944798
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_10
+  - first:
+      213: -2744738223195712663
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_11
+  - first:
+      213: -7243011549938218856
+    second: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 791
+        width: 369
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fca7b3985726710800000000000000
+      internalID: 1685038442858860316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 12
+        width: 349
+        height: 1074
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e68d003a4630550800000000000000
+      internalID: 6125850569410637382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 738
+        width: 291
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76dc194f92d0f3d0800000000000000
+      internalID: -3174806155727939974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 789
+        width: 333
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4ff99cbe1e5b6b0800000000000000
+      internalID: -5281066585205771064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 520
+        width: 369
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd7b1683b7db1900800000000000000
+      internalID: 656355336761605584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 471
+        width: 275
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f9b21514cb7b990800000000000000
+      internalID: -7370215276447817970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 520
+        width: 362
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4406fe9108d7b150800000000000000
+      internalID: 5888412539283702861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 518
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f70cd53c34975e20800000000000000
+      internalID: 3339300635041073138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 497
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12712d178cc87d30800000000000000
+      internalID: 4429515114200265246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 12
+        width: 357
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540e7155a2ed47fa0800000000000000
+      internalID: -5803769746376105915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 403
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed19c2a17f16d4a00800000000000000
+      internalID: 742357227509944798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 477
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9639bf4d02bb8e9d0800000000000000
+      internalID: -2744738223195712663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 12
+        width: 310
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89881e5de57ab7b90800000000000000
+      internalID: -7243011549938218856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_0: 1685038442858860316
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_1: 6125850569410637382
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_10: 742357227509944798
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_11: -2744738223195712663
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_12: -7243011549938218856
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_2: -3174806155727939974
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_3: -5281066585205771064
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_4: 656355336761605584
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_5: -7370215276447817970
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_6: 5888412539283702861
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_7: 3339300635041073138
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_8: 4429515114200265246
+      CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_9: -5803769746376105915
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

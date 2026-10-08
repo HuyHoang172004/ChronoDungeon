@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 7562dcc9411067444bfc97d3419e7fb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4524854826453336619
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_0
+  - first:
+      213: -997631092319316956
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_1
+  - first:
+      213: 7433998816640787963
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_2
+  - first:
+      213: 7470783866440102389
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_3
+  - first:
+      213: 4999622524961991336
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_4
+  - first:
+      213: 1399201159996780988
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_5
+  - first:
+      213: -3876386375292318660
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_6
+  - first:
+      213: -3426491872817009303
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_7
+  - first:
+      213: -2796319952677085753
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_8
+  - first:
+      213: -1614187014288999982
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_9
+  - first:
+      213: -5641743459031964385
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_10
+  - first:
+      213: -77114487516648262
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_11
+  - first:
+      213: -3762965062187677002
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_12
+  - first:
+      213: -3408918834073186505
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_13
+  - first:
+      213: -8774047454970390454
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_14
+  - first:
+      213: 4539162344570925064
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_15
+  - first:
+      213: 5415687568187596212
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_16
+  - first:
+      213: 327002162682557488
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_17
+  - first:
+      213: 3309923931420735059
+    second: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 933
+        width: 204
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd7901528c7431c0800000000000000
+      internalID: -4524854826453336619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 933
+        width: 220
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4241c65aec3b722f0800000000000000
+      internalID: -997631092319316956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 933
+        width: 355
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf56c86698eda2760800000000000000
+      internalID: 7433998816640787963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 935
+        width: 216
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1b1e8385e8da760800000000000000
+      internalID: 7470783866440102389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 643
+        width: 278
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaa663823a326540800000000000000
+      internalID: 4999622524961991336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 643
+        width: 283
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb13ceeaa06fa6310800000000000000
+      internalID: 1399201159996780988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 871
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c8980312f443ac0800000000000000
+      internalID: -3876386375292318660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 643
+        width: 334
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96daaf6cbc7a270d0800000000000000
+      internalID: -3426491872817009303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 645
+        width: 234
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd585e81d97139d0800000000000000
+      internalID: -2796319952677085753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 341
+        width: 247
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9714c76714999e0800000000000000
+      internalID: -1614187014288999982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 348
+        width: 306
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15248a173084b1b0800000000000000
+      internalID: -5641743459031964385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 343
+        width: 324
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abca88c38c80eeef0800000000000000
+      internalID: -77114487516648262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 345
+        width: 247
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba0916863347cbc0800000000000000
+      internalID: -3762965062187677002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 21
+        width: 218
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fcde2b16611b0d0800000000000000
+      internalID: -3408918834073186505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 15
+        width: 287
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48d11c93525c3680800000000000000
+      internalID: -8774047454970390454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 319
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800baf55a185efe30800000000000000
+      internalID: 4539162344570925064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 33
+        width: 280
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd12545623682b40800000000000000
+      internalID: 5415687568187596212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 23
+        width: 217
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0347a730cbeb98400800000000000000
+      internalID: 327002162682557488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 257
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356b5e567463fed20800000000000000
+      internalID: 3309923931420735059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_0: -4524854826453336619
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_1: -997631092319316956
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_10: -5641743459031964385
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_11: -77114487516648262
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_12: -3762965062187677002
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_13: -3408918834073186505
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_14: -8774047454970390454
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_15: 4539162344570925064
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_16: 5415687568187596212
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_17: 327002162682557488
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_18: 3309923931420735059
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_2: 7433998816640787963
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_3: 7470783866440102389
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_4: 4999622524961991336
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_5: 1399201159996780988
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_6: -3876386375292318660
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_7: -3426491872817009303
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_8: -2796319952677085753
+      CD_Enemy_EmberCaster_FireBolt_4Dir_4Frame_v01_9: -1614187014288999982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 7edff5ca97978ed47b65012138edd8d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3740427862151985340
+    second: CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_0
+  - first:
+      213: -3777768235229355650
+    second: CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_1
+  - first:
+      213: -1141085558419441134
+    second: CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_2
+  - first:
+      213: 6256832791929545636
+    second: CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_3
+  - first:
+      213: 1743545156466810731
+    second: CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_4
+  - first:
+      213: 6633055898997459244
+    second: CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 420
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_BladeWalk_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303fde281f593a14398d51f65ceec33c
+      internalID: 1453954105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Down_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18b745e8c05ffd468c81eedc59ba1af
+      internalID: -1167193017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Down_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dd56b9ed001a5489271c3f82f2eee7
+      internalID: 703700875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Down_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffc0d81e72dabc4a8e17449bb0b55dc
+      internalID: -660479785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87abced2af513e94c93b598fe7ca29dc
+      internalID: -2000888858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Left_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3f715cb25d8c343b1fabdd842bb101
+      internalID: -1596079655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Left_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8ec94399b002b4d88b223312eff1b8
+      internalID: 735470589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Left_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cd30fea959b4c4e85bc58a64da2dc7
+      internalID: 992162311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0fbf6ddbe785b45a4592edb17d4793
+      internalID: -2069787131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Right_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1722d6abd4e669e439a53625bac27399
+      internalID: 594694072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Right_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7029341269786ba4bb98ed251f6fd40a
+      internalID: -1212989315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Right_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d63346a2e479449a50d5dc34d03088
+      internalID: -331171195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7927ef09b3852c54098dcf4d9084fffe
+      internalID: -1425382685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Up_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ddc5cb44a3739469e63f08650cf069
+      internalID: -898559808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Up_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa046198eba0e64a8fda884f24408af
+      internalID: 218235406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BladeWalk_Up_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adda9b9096f0b941b1a7e78fe2b35b2
+      internalID: -964571954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e749a3a1248575a4a8d8b5b600ad6daf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_BladeWalk_Down_0: 1453954105
+      CD_BladeWalk_Down_1: -1167193017
+      CD_BladeWalk_Down_2: 703700875
+      CD_BladeWalk_Down_3: -660479785
+      CD_BladeWalk_Left_0: -2000888858
+      CD_BladeWalk_Left_1: -1596079655
+      CD_BladeWalk_Left_2: 735470589
+      CD_BladeWalk_Left_3: 992162311
+      CD_BladeWalk_Right_0: -2069787131
+      CD_BladeWalk_Right_1: 594694072
+      CD_BladeWalk_Right_2: -1212989315
+      CD_BladeWalk_Right_3: -331171195
+      CD_BladeWalk_Up_0: -1425382685
+      CD_BladeWalk_Up_1: -898559808
+      CD_BladeWalk_Up_2: 218235406
+      CD_BladeWalk_Up_3: -964571954
+      CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_0: 3740427862151985340
+      CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_1: -3777768235229355650
+      CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_2: -1141085558419441134
+      CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_3: 6256832791929545636
+      CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_4: 1743545156466810731
+      CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_5: 6633055898997459244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

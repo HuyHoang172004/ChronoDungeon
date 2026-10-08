@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 47e4e71d2fd038e438c8d0c6d1a4b7b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -225180926341504944
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_0
+  - first:
+      213: -4859442942176842260
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_1
+  - first:
+      213: 5776761484940751222
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_2
+  - first:
+      213: 3162891437730648779
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_3
+  - first:
+      213: 4909830755016523973
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_4
+  - first:
+      213: -3864395672468454137
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_5
+  - first:
+      213: 2943959629207669522
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_6
+  - first:
+      213: 7355869418216581619
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_7
+  - first:
+      213: 248981697418621958
+    second: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 917
+        width: 280
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050a83bf32fffdcf0800000000000000
+      internalID: -225180926341504944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 915
+        width: 311
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced2549f36acf8cb0800000000000000
+      internalID: -4859442942176842260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 903
+        width: 288
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6713d06c6fd2b2050800000000000000
+      internalID: 5776761484940751222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 916
+        width: 294
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc25f014109d4eb20800000000000000
+      internalID: 3162891437730648779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 26
+        width: 941
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c04c0cee09332440800000000000000
+      internalID: 4909830755016523973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 618
+        width: 331
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70506fe3c98ee5ac0800000000000000
+      internalID: -3864395672468454137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 23
+        width: 301
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b830c5fab0bd820800000000000000
+      internalID: 2943959629207669522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 326
+        width: 319
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f965f6434c451660800000000000000
+      internalID: 7355869418216581619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 162
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f53ed88f847300800000000000000
+      internalID: 248981697418621958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_0: -225180926341504944
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_1: -4859442942176842260
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_2: 5776761484940751222
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_3: 3162891437730648779
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_4: 4909830755016523973
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_5: -3864395672468454137
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_6: 2943959629207669522
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_7: 7355869418216581619
+      CD_Enemy_LibrarySentinel_Attack_4Dir_4Frame_v01_8: 248981697418621958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

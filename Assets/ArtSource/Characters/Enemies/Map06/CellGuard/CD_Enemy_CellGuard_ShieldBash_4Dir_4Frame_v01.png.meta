@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: e8b7327e0b106cd429cdd6efd2d04ff5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2926885942883078442
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_0
+  - first:
+      213: -2281077366412347743
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_1
+  - first:
+      213: 3192685119335318926
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_2
+  - first:
+      213: -8840279187105112360
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_3
+  - first:
+      213: -7375062710600461785
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_4
+  - first:
+      213: -3677402583922206599
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_5
+  - first:
+      213: -2889238242184021452
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_6
+  - first:
+      213: 8379559109236856214
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_7
+  - first:
+      213: -3589990097597673420
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_8
+  - first:
+      213: 5276291482283255427
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_9
+  - first:
+      213: 1561231219734585190
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_10
+  - first:
+      213: 6546708887956837858
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_11
+  - first:
+      213: 1355999402921925083
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_12
+  - first:
+      213: 4852089293477524382
+    second: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 372
+        height: 1068
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deae540ebc9167d0800000000000000
+      internalID: -2926885942883078442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 850
+        width: 297
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6fecd883cf750e0800000000000000
+      internalID: -2281077366412347743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 846
+        width: 372
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8548a15332be4c20800000000000000
+      internalID: 3192685119335318926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 578
+        width: 296
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de1259cae4015580800000000000000
+      internalID: -8840279187105112360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 588
+        width: 299
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7221e6a1a8386a990800000000000000
+      internalID: -7375062710600461785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978963965dd37fcc0800000000000000
+      internalID: -3677402583922206599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 585
+        width: 360
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab527602d57e7d0800000000000000
+      internalID: -2889238242184021452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 316
+        width: 295
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6959370fc9c2a4470800000000000000
+      internalID: 8379559109236856214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 36
+        width: 293
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430558dd60bcd2ec0800000000000000
+      internalID: -3589990097597673420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 356
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386a9ece527293940800000000000000
+      internalID: 5276291482283255427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 305
+        width: 366
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f9788c58b9aa510800000000000000
+      internalID: 1561231219734585190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 309
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e55f823c059ada50800000000000000
+      internalID: 6546708887956837858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 315
+        width: 293
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd99dc6c54a71d210800000000000000
+      internalID: 1355999402921925083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 15
+        width: 299
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9334344185165340800000000000000
+      internalID: 4852089293477524382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_0: -2926885942883078442
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_1: -2281077366412347743
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_10: 1561231219734585190
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_11: 6546708887956837858
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_12: 1355999402921925083
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_13: 4852089293477524382
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_2: 3192685119335318926
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_3: -8840279187105112360
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_4: -7375062710600461785
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_5: -3677402583922206599
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_6: -2889238242184021452
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_7: 8379559109236856214
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_8: -3589990097597673420
+      CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_9: 5276291482283255427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

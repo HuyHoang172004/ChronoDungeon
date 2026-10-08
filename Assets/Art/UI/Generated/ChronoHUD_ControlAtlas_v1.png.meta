@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: c2d742a0612208544a357cb357dfb37c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7234245838393093905
+    second: ChronoHUD_ControlAtlas_v1_0
+  - first:
+      213: -1322858439652394846
+    second: ChronoHUD_ControlAtlas_v1_1
+  - first:
+      213: -5798225619702956723
+    second: ChronoHUD_ControlAtlas_v1_2
+  - first:
+      213: 5378966757243089323
+    second: ChronoHUD_ControlAtlas_v1_3
+  - first:
+      213: 8173929528969314166
+    second: ChronoHUD_ControlAtlas_v1_4
+  - first:
+      213: -5126024274591659941
+    second: ChronoHUD_ControlAtlas_v1_5
+  - first:
+      213: 1531167808972626594
+    second: ChronoHUD_ControlAtlas_v1_6
+  - first:
+      213: -3153986530315332306
+    second: ChronoHUD_ControlAtlas_v1_7
+  - first:
+      213: 1580462014980428188
+    second: ChronoHUD_ControlAtlas_v1_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChronoHUD_AttackButton
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 486
+        width: 463
+        height: 491
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277fdcfadf6651498679b341ecd339e
+      internalID: -1977515869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_DashButton
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 498
+        width: 354
+        height: 397
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3aef377189f3449952a8ec7ea2aa1
+      internalID: -830234291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Skill1Button
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 497
+        width: 349
+        height: 402
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0df6473bc3f1154b84370335384060d
+      internalID: 1700582374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_Skill2Button
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 497
+        width: 340
+        height: 402
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e4ef4d8f2863e47af397c89d809a47
+      internalID: 1471548665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_JoystickBase
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 37
+        width: 460
+        height: 449
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725b579a670e2341b2e5751da063da6
+      internalID: 2146590053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_JoystickThumb
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 105
+        width: 267
+        height: 254
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2539fdde71e9b2544ad113d00ac92df4
+      internalID: -1701504666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_CooldownOverlay
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 94
+        width: 315
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c171f7716d4cc604481fdb683a847f52
+      internalID: -1967152953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChronoHUD_GoldCoin
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 136
+        width: 202
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4695a417879834a9babaf8c90e508a
+      internalID: -1549909887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0be5f75e2e4d45b41ae19a0528a7fc09
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChronoHUD_AttackButton: -1977515869
+      ChronoHUD_ControlAtlas_v1_0: 7234245838393093905
+      ChronoHUD_ControlAtlas_v1_1: -1322858439652394846
+      ChronoHUD_ControlAtlas_v1_2: -5798225619702956723
+      ChronoHUD_ControlAtlas_v1_3: 5378966757243089323
+      ChronoHUD_ControlAtlas_v1_4: 8173929528969314166
+      ChronoHUD_ControlAtlas_v1_5: -5126024274591659941
+      ChronoHUD_ControlAtlas_v1_6: 1531167808972626594
+      ChronoHUD_ControlAtlas_v1_7: -3153986530315332306
+      ChronoHUD_ControlAtlas_v1_8: 1580462014980428188
+      ChronoHUD_CooldownOverlay: -1967152953
+      ChronoHUD_DashButton: -830234291
+      ChronoHUD_GoldCoin: -1549909887
+      ChronoHUD_JoystickBase: 2146590053
+      ChronoHUD_JoystickThumb: -1701504666
+      ChronoHUD_Skill1Button: 1700582374
+      ChronoHUD_Skill2Button: 1471548665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

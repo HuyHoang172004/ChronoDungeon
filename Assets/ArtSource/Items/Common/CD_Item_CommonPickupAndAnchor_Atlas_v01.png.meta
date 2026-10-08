@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: ea17187cbb24cc241b96a8032c79db9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8197617902592851556
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_0
+  - first:
+      213: 5449853509808641349
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_1
+  - first:
+      213: -5743633876200416828
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_2
+  - first:
+      213: 7305145300664459671
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_3
+  - first:
+      213: 7153571476604560902
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_4
+  - first:
+      213: 5981086006158618508
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_5
+  - first:
+      213: 1006455850546118209
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_6
+  - first:
+      213: 4025168718935506415
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_7
+  - first:
+      213: 1657107090098993595
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_8
+  - first:
+      213: -1669331941119766827
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_9
+  - first:
+      213: 6429117885396210319
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_10
+  - first:
+      213: -2445789298071642601
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_11
+  - first:
+      213: -8372450955224910507
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_12
+  - first:
+      213: 4143045702769570989
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_13
+  - first:
+      213: 5919215594757827421
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_14
+  - first:
+      213: 1347578921286861672
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_15
+  - first:
+      213: 9013421768388150678
+    second: CD_Item_CommonPickupAndAnchor_Atlas_v01_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1028
+        width: 98
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91029f43f53c3e80800000000000000
+      internalID: -8197617902592851556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1004
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5455f0284e4c1ab40800000000000000
+      internalID: 5449853509808641349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 738
+        width: 379
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c99c21bb638a40b0800000000000000
+      internalID: -5743633876200416828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 704
+        width: 369
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79128b652f6116560800000000000000
+      internalID: 7305145300664459671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1008
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606a1625b57964360800000000000000
+      internalID: 7153571476604560902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 737
+        width: 284
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fe4209806110350800000000000000
+      internalID: 5981086006158618508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 941
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e3aed7346a7fd00800000000000000
+      internalID: 1006455850546118209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 751
+        width: 281
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed3a25af954cd730800000000000000
+      internalID: 4025168718935506415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 736
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9b1246e1a3ff610800000000000000
+      internalID: 1657107090098993595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 728
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dec75da17755d8e0800000000000000
+      internalID: -1669331941119766827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 31
+        width: 328
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82d62267a0d83950800000000000000
+      internalID: 6429117885396210319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 399
+        width: 329
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71edcfc779fce0ed0800000000000000
+      internalID: -2445789298071642601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 25
+        width: 335
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555707227341fcb80800000000000000
+      internalID: -8372450955224910507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_13
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 414
+        width: 327
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4f9c9ad1e0f7930800000000000000
+      internalID: 4143045702769570989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_14
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 30
+        width: 333
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b2e7ad837452250800000000000000
+      internalID: 5919215594757827421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 410
+        width: 299
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8638b1e93ef83b210800000000000000
+      internalID: 1347578921286861672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Item_CommonPickupAndAnchor_Atlas_v01_16
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 29
+        width: 355
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6958c8bd75b161d70800000000000000
+      internalID: 9013421768388150678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_0: -8197617902592851556
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_1: 5449853509808641349
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_10: 6429117885396210319
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_11: -2445789298071642601
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_12: -8372450955224910507
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_13: 4143045702769570989
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_14: 5919215594757827421
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_15: 1347578921286861672
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_16: 9013421768388150678
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_2: -5743633876200416828
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_3: 7305145300664459671
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_4: 7153571476604560902
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_5: 5981086006158618508
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_6: 1006455850546118209
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_7: 4025168718935506415
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_8: 1657107090098993595
+      CD_Item_CommonPickupAndAnchor_Atlas_v01_9: -1669331941119766827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

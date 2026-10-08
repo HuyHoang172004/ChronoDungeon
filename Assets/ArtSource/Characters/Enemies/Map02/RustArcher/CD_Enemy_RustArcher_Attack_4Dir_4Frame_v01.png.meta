@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: 53705d0c8f0cfca4ab3b49f88e1a1251
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4569558001876720357
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_0
+  - first:
+      213: -5952729722861304392
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_1
+  - first:
+      213: -1143620437451672290
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_2
+  - first:
+      213: -6956084781688109163
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_3
+  - first:
+      213: 4818005433513585623
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_4
+  - first:
+      213: 3354796407355799444
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_5
+  - first:
+      213: -2574861966809910302
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_6
+  - first:
+      213: 6679794293642392850
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_7
+  - first:
+      213: -6614087126307801462
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_8
+  - first:
+      213: -298720498668844737
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_9
+  - first:
+      213: -8513350373204830967
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_10
+  - first:
+      213: 6220483890250689944
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_11
+  - first:
+      213: 8122408662775160996
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_12
+  - first:
+      213: -6075954314484034859
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_13
+  - first:
+      213: 2784934287155509562
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_14
+  - first:
+      213: 4061954943094625115
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_15
+  - first:
+      213: 569373278148757872
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_16
+  - first:
+      213: 8414196379352629796
+    second: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 915
+        width: 200
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ead76acac45a6f30800000000000000
+      internalID: 4569558001876720357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1065
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b541f02bd7a36da0800000000000000
+      internalID: -5952729722861304392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1062
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f0d3754b0120f0800000000000000
+      internalID: -1143620437451672290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 914
+        width: 255
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597caf7feb5077f90800000000000000
+      internalID: -6956084781688109163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 915
+        width: 234
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbaa763a6efcd240800000000000000
+      internalID: 4818005433513585623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 609
+        width: 351
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497f23ade81ae8e20800000000000000
+      internalID: 3354796407355799444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 583
+        width: 271
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3b1a2fea0444cd0800000000000000
+      internalID: -2574861966809910302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 607
+        width: 257
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2157c3dd48563bc50800000000000000
+      internalID: 6679794293642392850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 707
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8670f23dca0634a0800000000000000
+      internalID: -6614087126307801462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 609
+        width: 291
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3947b50a4bbadbf0800000000000000
+      internalID: -298720498668844737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 318
+        width: 269
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905dfa4f0f08ad980800000000000000
+      internalID: -8513350373204830967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 315
+        width: 239
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dae610429935650800000000000000
+      internalID: 6220483890250689944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 358
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0e449f4a798b070800000000000000
+      internalID: 8122408662775160996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 12
+        width: 299
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d25da52ebfddaba0800000000000000
+      internalID: -6075954314484034859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 14
+        width: 316
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b5bc9af216a620800000000000000
+      internalID: 2784934287155509562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 283
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b531cc4ef76fe5830800000000000000
+      internalID: 4061954943094625115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 97
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07908a4daf1d6e700800000000000000
+      internalID: 569373278148757872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 17
+        width: 324
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42201b5d60b35c470800000000000000
+      internalID: 8414196379352629796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_0: 4569558001876720357
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_1: -5952729722861304392
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_10: -8513350373204830967
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_11: 6220483890250689944
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_12: 8122408662775160996
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_13: -6075954314484034859
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_14: 2784934287155509562
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_15: 4061954943094625115
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_16: 569373278148757872
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_17: 8414196379352629796
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_2: -1143620437451672290
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_3: -6956084781688109163
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_4: 4818005433513585623
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_5: 3354796407355799444
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_6: -2574861966809910302
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_7: 6679794293642392850
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_8: -6614087126307801462
+      CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_9: -298720498668844737
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

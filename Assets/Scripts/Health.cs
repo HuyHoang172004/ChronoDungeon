@@ -17,6 +17,7 @@ public class Health : MonoBehaviour
     public float currentHealth => health;
     public bool IsDead => health <= 0f;
     public event Action<Health> Changed;
+    public event Action<Health> Died;
 
     private void Awake()
     {
@@ -45,6 +46,7 @@ public class Health : MonoBehaviour
         if (!IsDead) return;
 
         if (feedback != null) feedback.PlayDeath();
+        Died?.Invoke(this);
         onDeath.Invoke();
         if (deathAction == DeathAction.Deactivate)
             gameObject.SetActive(false);

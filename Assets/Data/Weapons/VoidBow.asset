@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1506eb029a7c94abfa58427357b531, type: 3}
+  m_Name: VoidBow
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponDefinition
+  weaponName: Void Bow
+  weaponSprite: {fileID: 0}
+  weaponIcon: {fileID: 0}
+  baseDamage: 16
+  attackCooldown: 0.4
+  attackRange: 5
+  basicAttackExecution: {fileID: 11400000, guid: 198db904a8f5d8e4591bda8f76a1926f, type: 2}
+  holdLocalPosition: {x: 0.65, y: -0.1, z: -0}
+  holdRotationZ: 311.26477
+  holdLocalScale: {x: 1, y: 1, z: 1}
+  skill1: {fileID: 11400000, guid: 524a77fa961127e4dbac5ae59bfe4644, type: 2}
+  skill2: {fileID: 11400000, guid: 1e61c491bf476ba429e0915153549d44, type: 2}
+  basicAttackSfx: {fileID: 0}
+  basicAttackVfxPrefab: {fileID: 0}

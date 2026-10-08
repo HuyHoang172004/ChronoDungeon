@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 8d0b9c4c28acecc4589fcba8a41b2735
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7932175356518266842
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_0
+  - first:
+      213: 8971356231519300723
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_1
+  - first:
+      213: -6679857649067552284
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_2
+  - first:
+      213: -7024992329385861361
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_3
+  - first:
+      213: 3575250029927598991
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_4
+  - first:
+      213: -2558278197175578238
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_5
+  - first:
+      213: -4076146494405135519
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_6
+  - first:
+      213: -4150156863683588395
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_7
+  - first:
+      213: -7891950823968778897
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_8
+  - first:
+      213: 5008769799675752731
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_9
+  - first:
+      213: -1551366031221867563
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_10
+  - first:
+      213: -3636215466385649737
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_11
+  - first:
+      213: -2496586238796689831
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_12
+  - first:
+      213: -1182431029763335612
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_13
+  - first:
+      213: -3779185728874334200
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_14
+  - first:
+      213: 4731214919603605431
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_15
+  - first:
+      213: -1340347051781555361
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_16
+  - first:
+      213: -7310918543602507527
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_17
+  - first:
+      213: -3982717904504909335
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_18
+  - first:
+      213: 183598425984231729
+    second: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 882
+        width: 247
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6280f9a2a804be190800000000000000
+      internalID: -7932175356518266842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 880
+        width: 253
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ce135d5f8a08c70800000000000000
+      internalID: 8971356231519300723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1162
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1172d0cd06c43a0800000000000000
+      internalID: -6679857649067552284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 864
+        width: 316
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f9c1942b6328e90800000000000000
+      internalID: -7024992329385861361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1067
+        width: 86
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b0a01b5f6dd9130800000000000000
+      internalID: 3575250029927598991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1099
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28119b4b88b2f7cd0800000000000000
+      internalID: -2558278197175578238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1107
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16337841c5e9e67c0800000000000000
+      internalID: -4076146494405135519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 591
+        width: 293
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de8df9225ea766c0800000000000000
+      internalID: -4150156863683588395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 858
+        width: 338
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f655d78f9882a7290800000000000000
+      internalID: -7891950823968778897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 591
+        width: 302
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11b06f5899b28540800000000000000
+      internalID: 5008769799675752731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 501
+        width: 649
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbb96860d0787ae0800000000000000
+      internalID: -1551366031221867563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 295
+        width: 268
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf4d4f7c41998dc0800000000000000
+      internalID: -3636215466385649737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 286
+        width: 292
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e05651b085a5dd0800000000000000
+      internalID: -2496586238796689831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 503
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a9e834e39279fe0800000000000000
+      internalID: -1182431029763335612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 343
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80838324a92ad8bc0800000000000000
+      internalID: -3779185728874334200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 264
+        width: 661
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf400ff6e6a8a140800000000000000
+      internalID: 4731214919603605431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 31
+        width: 292
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b71d63571266de0800000000000000
+      internalID: -1340347051781555361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 27
+        width: 638
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0a1cac1566a8a90800000000000000
+      internalID: -7310918543602507527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_18
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 194
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1956dca2b8ab8c0800000000000000
+      internalID: -3982717904504909335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 69
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1396c12bbc54c8200800000000000000
+      internalID: 183598425984231729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_0: -7932175356518266842
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_1: 8971356231519300723
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_10: -1551366031221867563
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_11: -3636215466385649737
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_12: -2496586238796689831
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_13: -1182431029763335612
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_14: -3779185728874334200
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_15: 4731214919603605431
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_16: -1340347051781555361
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_17: -7310918543602507527
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_18: -3982717904504909335
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_19: 183598425984231729
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_2: -6679857649067552284
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_3: -7024992329385861361
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_4: 3575250029927598991
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_5: -2558278197175578238
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_6: -4076146494405135519
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_7: -4150156863683588395
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_8: -7891950823968778897
+      CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_9: 5008769799675752731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

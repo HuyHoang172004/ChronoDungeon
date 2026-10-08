@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: dde2e5a774f47c64a916adc6bf24ade3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 922494102715815284
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_0
+  - first:
+      213: 626927102970346777
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_1
+  - first:
+      213: 2134707647955373478
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_2
+  - first:
+      213: 4776896196390898659
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_3
+  - first:
+      213: -4782099524298246130
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_4
+  - first:
+      213: 744048776049055486
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_5
+  - first:
+      213: 188350751671495114
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_6
+  - first:
+      213: -2479312849709113439
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_7
+  - first:
+      213: -4070911784059404995
+    second: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 279
+        width: 303
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475d4c3bf7b5dcc00800000000000000
+      internalID: 922494102715815284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 581
+        width: 295
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dbc98e0ea43b800800000000000000
+      internalID: 626927102970346777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 13
+        width: 335
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad80bfab4100ad10800000000000000
+      internalID: 2134707647955373478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 590
+        width: 311
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb4bc218c1fa4240800000000000000
+      internalID: 4776896196390898659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 17
+        width: 325
+        height: 1168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0873adb1d192adb0800000000000000
+      internalID: -4782099524298246130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 590
+        width: 293
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6d7ff6b64635a00800000000000000
+      internalID: 744048776049055486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 299
+        width: 277
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9ae8eb2082d9200800000000000000
+      internalID: 188350751671495114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 13
+        width: 205
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afd6026916b79dd0800000000000000
+      internalID: -2479312849709113439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 13
+        width: 223
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dff2f0d473187c0800000000000000
+      internalID: -4070911784059404995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_0: 922494102715815284
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_1: 626927102970346777
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_2: 2134707647955373478
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_3: 4776896196390898659
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_4: -4782099524298246130
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_5: 744048776049055486
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_6: 188350751671495114
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_7: -2479312849709113439
+      CD_Enemy_CrackedArcher_Walk_4Dir_4Frame_v01_8: -4070911784059404995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

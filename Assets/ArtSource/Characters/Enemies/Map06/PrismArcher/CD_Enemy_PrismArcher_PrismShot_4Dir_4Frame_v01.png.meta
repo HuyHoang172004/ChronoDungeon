@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 7674a2f4341db4c4b921e1dd6a3f1874
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1430627938347561571
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_0
+  - first:
+      213: -2310319114689796705
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_1
+  - first:
+      213: -8679065446612091453
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_2
+  - first:
+      213: 7059993811863846644
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_3
+  - first:
+      213: 5708855952508975678
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_4
+  - first:
+      213: 3516494099765040260
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_5
+  - first:
+      213: 3972127135413195158
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_6
+  - first:
+      213: -5008803001682227536
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_7
+  - first:
+      213: -7322077791054709996
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_8
+  - first:
+      213: 1675511180304634934
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_9
+  - first:
+      213: 5860349657446526708
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_10
+  - first:
+      213: 6764430031499418991
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_11
+  - first:
+      213: -947453794215552402
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_12
+  - first:
+      213: -4560411404243328321
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_13
+  - first:
+      213: -3031182823757267988
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_14
+  - first:
+      213: -6995713395004552087
+    second: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 936
+        width: 287
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d4b094873652ce0800000000000000
+      internalID: -1430627938347561571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 942
+        width: 266
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95ae1b710910ffd0800000000000000
+      internalID: -2310319114689796705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 940
+        width: 323
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdb150c5f3cd8780800000000000000
+      internalID: -8679065446612091453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 940
+        width: 241
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feb99867f22af160800000000000000
+      internalID: 7059993811863846644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 639
+        width: 282
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3afb23fd3ee93f40800000000000000
+      internalID: 5708855952508975678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 633
+        width: 278
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4849047a0c81dc030800000000000000
+      internalID: 3516494099765040260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 633
+        width: 337
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6915efc9594df1730800000000000000
+      internalID: 3972127135413195158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 637
+        width: 266
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be02de25382d7ab0800000000000000
+      internalID: -5008803001682227536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 620
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b38660b01c26a90800000000000000
+      internalID: -7322077791054709996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 280
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634d04f8a8c904710800000000000000
+      internalID: 1675511180304634934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 315
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feaea7c6f4245150800000000000000
+      internalID: 5860349657446526708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 535
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dd18f264510ed50800000000000000
+      internalID: 6764430031499418991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 533
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a9fa24bc7f9d2f0800000000000000
+      internalID: -947453794215552402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 15
+        width: 322
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2af6c6df926b0c0800000000000000
+      internalID: -4560411404243328321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 317
+        width: 284
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebbeac18431fe5d0800000000000000
+      internalID: -3031182823757267988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 17
+        width: 261
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ccf4c6bbb3aee90800000000000000
+      internalID: -6995713395004552087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_0: -1430627938347561571
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_1: -2310319114689796705
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_10: 5860349657446526708
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_11: 6764430031499418991
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_12: -947453794215552402
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_13: -4560411404243328321
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_14: -3031182823757267988
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_15: -6995713395004552087
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_2: -8679065446612091453
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_3: 7059993811863846644
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_4: 5708855952508975678
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_5: 3516494099765040260
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_6: 3972127135413195158
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_7: -5008803001682227536
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_8: -7322077791054709996
+      CD_Enemy_PrismArcher_PrismShot_4Dir_4Frame_v01_9: 1675511180304634934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

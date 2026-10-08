@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: ea890f92f518df747b6af758825d8f7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 347517993597764599
+    second: CD_Map02_InteractiveLoot_Atlas_v01_0
+  - first:
+      213: -438906756811469305
+    second: CD_Map02_InteractiveLoot_Atlas_v01_1
+  - first:
+      213: -8796901895003205271
+    second: CD_Map02_InteractiveLoot_Atlas_v01_2
+  - first:
+      213: 3028127657551235800
+    second: CD_Map02_InteractiveLoot_Atlas_v01_3
+  - first:
+      213: -5169033747862375193
+    second: CD_Map02_InteractiveLoot_Atlas_v01_4
+  - first:
+      213: -379457886480166571
+    second: CD_Map02_InteractiveLoot_Atlas_v01_5
+  - first:
+      213: 7201308692836213229
+    second: CD_Map02_InteractiveLoot_Atlas_v01_6
+  - first:
+      213: -2062889116856351441
+    second: CD_Map02_InteractiveLoot_Atlas_v01_7
+  - first:
+      213: -4161502392629780366
+    second: CD_Map02_InteractiveLoot_Atlas_v01_8
+  - first:
+      213: 4569273102836356489
+    second: CD_Map02_InteractiveLoot_Atlas_v01_9
+  - first:
+      213: 163189351147282542
+    second: CD_Map02_InteractiveLoot_Atlas_v01_10
+  - first:
+      213: 2854684073154385282
+    second: CD_Map02_InteractiveLoot_Atlas_v01_11
+  - first:
+      213: -236740334209855552
+    second: CD_Map02_InteractiveLoot_Atlas_v01_12
+  - first:
+      213: 2486447246604140476
+    second: CD_Map02_InteractiveLoot_Atlas_v01_13
+  - first:
+      213: 9107084662197799219
+    second: CD_Map02_InteractiveLoot_Atlas_v01_14
+  - first:
+      213: 5356519521093232945
+    second: CD_Map02_InteractiveLoot_Atlas_v01_15
+  - first:
+      213: 3057196875925937062
+    second: CD_Map02_InteractiveLoot_Atlas_v01_16
+  - first:
+      213: 2455094915668275574
+    second: CD_Map02_InteractiveLoot_Atlas_v01_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 514
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3837126c1a2d400800000000000000
+      internalID: 347517993597764599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 539
+        width: 517
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ecbbe41a0b8e9f0800000000000000
+      internalID: -438906756811469305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_2
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 837
+        width: 69
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9619f50a5502be580800000000000000
+      internalID: -8796901895003205271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 541
+        width: 380
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da80e29f02160a20800000000000000
+      internalID: 3028127657551235800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 947
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e438aa6137e348b0800000000000000
+      internalID: -5169033747862375193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 910
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551112d0015ebbaf0800000000000000
+      internalID: -379457886480166571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 929
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de16f6a1a1030f360800000000000000
+      internalID: 7201308692836213229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 670
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2502c227452f53e0800000000000000
+      internalID: -2062889116856351441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 417
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2702d5b5f9f5f36c0800000000000000
+      internalID: -4161502392629780366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 93
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985de409da1596f30800000000000000
+      internalID: 4569273102836356489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 17
+        width: 583
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60a24aa9d3c34200800000000000000
+      internalID: 163189351147282542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_11
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 383
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285155e2a00ed9720800000000000000
+      internalID: 2854684073154385282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_12
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 357
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf0a6b9bede6bcf0800000000000000
+      internalID: -236740334209855552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 417
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf7696d892a18220800000000000000
+      internalID: 2486447246604140476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 385
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33945b5bf3dd26e70800000000000000
+      internalID: 9107084662197799219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_15
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 359
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1392537df1e265a40800000000000000
+      internalID: 5356519521093232945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 361
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abdff56c585d6a20800000000000000
+      internalID: 3057196875925937062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map02_InteractiveLoot_Atlas_v01_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 13
+        width: 499
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671764271df321220800000000000000
+      internalID: 2455094915668275574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Map02_InteractiveLoot_Atlas_v01_0: 347517993597764599
+      CD_Map02_InteractiveLoot_Atlas_v01_1: -438906756811469305
+      CD_Map02_InteractiveLoot_Atlas_v01_10: 163189351147282542
+      CD_Map02_InteractiveLoot_Atlas_v01_11: 2854684073154385282
+      CD_Map02_InteractiveLoot_Atlas_v01_12: -236740334209855552
+      CD_Map02_InteractiveLoot_Atlas_v01_13: 2486447246604140476
+      CD_Map02_InteractiveLoot_Atlas_v01_14: 9107084662197799219
+      CD_Map02_InteractiveLoot_Atlas_v01_15: 5356519521093232945
+      CD_Map02_InteractiveLoot_Atlas_v01_16: 3057196875925937062
+      CD_Map02_InteractiveLoot_Atlas_v01_17: 2455094915668275574
+      CD_Map02_InteractiveLoot_Atlas_v01_2: -8796901895003205271
+      CD_Map02_InteractiveLoot_Atlas_v01_3: 3028127657551235800
+      CD_Map02_InteractiveLoot_Atlas_v01_4: -5169033747862375193
+      CD_Map02_InteractiveLoot_Atlas_v01_5: -379457886480166571
+      CD_Map02_InteractiveLoot_Atlas_v01_6: 7201308692836213229
+      CD_Map02_InteractiveLoot_Atlas_v01_7: -2062889116856351441
+      CD_Map02_InteractiveLoot_Atlas_v01_8: -4161502392629780366
+      CD_Map02_InteractiveLoot_Atlas_v01_9: 4569273102836356489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

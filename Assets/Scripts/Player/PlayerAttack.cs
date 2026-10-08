@@ -17,8 +17,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Awake()
     {
+        // The former AttackFeedback draws a yellow triangular LineRenderer that was
+        // useful for a prototype, but conflicts with the authored weapon/VFX visuals.
+        // Keep combat feedback intact; weapon presentation now owns the attack art.
         feedback = GetComponent<AttackFeedback>();
-        if (feedback == null) feedback = gameObject.AddComponent<AttackFeedback>();
         combatFeedback = GetComponent<CombatFeedback>();
         if (combatFeedback == null) combatFeedback = gameObject.AddComponent<CombatFeedback>();
     }
@@ -39,7 +41,7 @@ public class PlayerAttack : MonoBehaviour
         // Record accepted attempts, including swings that hit nothing.
         AttackPerformed?.Invoke(attack);
         resolver.Execute(attack);
-        if (feedback != null) feedback.Play(attack);
+        // Legacy yellow direction indicator intentionally retired.
         if (combatFeedback != null) combatFeedback.PlayAttack();
     }
 

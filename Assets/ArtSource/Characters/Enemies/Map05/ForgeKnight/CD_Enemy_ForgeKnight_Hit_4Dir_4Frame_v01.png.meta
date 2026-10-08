@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: ff81c1e9ed534fd4db283df95a82b510
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4848510554896736032
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_0
+  - first:
+      213: -6257175799152329172
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_1
+  - first:
+      213: -5335515974129083825
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_2
+  - first:
+      213: -4142516679763989514
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_3
+  - first:
+      213: -176585725454899359
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_4
+  - first:
+      213: -7550876078326742631
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_5
+  - first:
+      213: -1818599001431032429
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_6
+  - first:
+      213: 4173325884095560487
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_7
+  - first:
+      213: -56716935029990720
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_8
+  - first:
+      213: 1897277241889336815
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_9
+  - first:
+      213: 761139078407295294
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_10
+  - first:
+      213: 7086822840260901218
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_11
+  - first:
+      213: 7600372803623868554
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_12
+  - first:
+      213: 1311404757161182554
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_13
+  - first:
+      213: -8101397729352170790
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_14
+  - first:
+      213: 201411688526434328
+    second: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 931
+        width: 325
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0e5adb651a6bcb0800000000000000
+      internalID: -4848510554896736032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 931
+        width: 277
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eba5a33cb0a29a0800000000000000
+      internalID: -6257175799152329172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 932
+        width: 323
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a1d948d7074f5b0800000000000000
+      internalID: -5335515974129083825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 931
+        width: 321
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb698a1703d286c0800000000000000
+      internalID: -4142516679763989514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 624
+        width: 285
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1672bd1e734ac8df0800000000000000
+      internalID: -176585725454899359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 603
+        width: 252
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99107588636e53790800000000000000
+      internalID: -7550876078326742631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 631
+        width: 273
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39db2d2f7d903c6e0800000000000000
+      internalID: -1818599001431032429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 624
+        width: 274
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b7575c7c1aae930800000000000000
+      internalID: 4173325884095560487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 321
+        width: 260
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cad9c28f30863ff0800000000000000
+      internalID: -56716935029990720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 321
+        width: 279
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed2f3b699b745a10800000000000000
+      internalID: 1897277241889336815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 311
+        width: 280
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31922985fb109a00800000000000000
+      internalID: 761139078407295294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 261
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26930eb53d3795260800000000000000
+      internalID: 7086822840260901218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 37
+        width: 319
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a885a80ebc2f97960800000000000000
+      internalID: 7600372803623868554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 35
+        width: 302
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a558953bdab033210800000000000000
+      internalID: 1311404757161182554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 32
+        width: 307
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2cecd20bd029f80800000000000000
+      internalID: -8101397729352170790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 34
+        width: 313
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810da341dde8bc200800000000000000
+      internalID: 201411688526434328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_0: -4848510554896736032
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_1: -6257175799152329172
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_10: 761139078407295294
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_11: 7086822840260901218
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_12: 7600372803623868554
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_13: 1311404757161182554
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_14: -8101397729352170790
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_15: 201411688526434328
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_2: -5335515974129083825
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_3: -4142516679763989514
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_4: -176585725454899359
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_5: -7550876078326742631
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_6: -1818599001431032429
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_7: 4173325884095560487
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_8: -56716935029990720
+      CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_9: 1897277241889336815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

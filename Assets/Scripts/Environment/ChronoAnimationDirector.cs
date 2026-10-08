@@ -8,6 +8,8 @@ using UnityEngine;
 public sealed class ChronoAnimationDirector : MonoBehaviour
 {
     private const string AccentName = "ChronoVisualAccent";
+    // The paired generated accent layer is retired in favour of authored sprite animation.
+    private const bool LegacyAccentLayerEnabled = false;
     private readonly List<AnimatedAccent> accents = new List<AnimatedAccent>(32);
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -20,6 +22,7 @@ public sealed class ChronoAnimationDirector : MonoBehaviour
 
     private static void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
+        if (!LegacyAccentLayerEnabled) return;
         if (scene.name == "GameScene" && FindAnyObjectByType<ChronoAnimationDirector>() == null)
         {
             GameObject root = new GameObject("Chrono Animation Director");

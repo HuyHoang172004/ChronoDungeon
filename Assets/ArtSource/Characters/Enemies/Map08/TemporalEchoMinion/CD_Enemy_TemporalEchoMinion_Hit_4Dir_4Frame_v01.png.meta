@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 62fb5bb96d2c6c94891413336f30773f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -48637065923446653
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_0
+  - first:
+      213: 5736770097987708689
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_1
+  - first:
+      213: -7993831558271081189
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_2
+  - first:
+      213: -6445729222184108090
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_3
+  - first:
+      213: -4147175873511884310
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_4
+  - first:
+      213: 775663647283336984
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_5
+  - first:
+      213: 8901790298553290406
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_6
+  - first:
+      213: 5482340569171287413
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_7
+  - first:
+      213: -4906295937582641086
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_8
+  - first:
+      213: 2758871597980600506
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_9
+  - first:
+      213: 650807282827676265
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_10
+  - first:
+      213: 7839999176087634439
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_11
+  - first:
+      213: -4444392198058168161
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_12
+  - first:
+      213: 6249631770656825144
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_13
+  - first:
+      213: 8112853210463406114
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_14
+  - first:
+      213: -4896638858576481249
+    second: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 404
+        height: 813
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38837b2a8d4335ff0800000000000000
+      internalID: -48637065923446653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 17
+        width: 309
+        height: 1093
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117e3a8620a1d9f40800000000000000
+      internalID: 5736770097987708689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 0
+        width: 293
+        height: 1108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15e1f60d84301190800000000000000
+      internalID: -7993831558271081189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 836
+        width: 265
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf7c516c6b2c86a0800000000000000
+      internalID: -6445729222184108090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 473
+        width: 356
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9f04604854276c0800000000000000
+      internalID: -4147175873511884310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 735
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817d1814af5b3ca00800000000000000
+      internalID: 775663647283336984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 784
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae8942ec13898b70800000000000000
+      internalID: 8901790298553290406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 390
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dda2373bf251c40800000000000000
+      internalID: 5482340569171287413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 336
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240d175e6d559ebb0800000000000000
+      internalID: -4906295937582641086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 391
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab84c8ae91b794620800000000000000
+      internalID: 2758871597980600506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 275
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a4e2e86c1280900800000000000000
+      internalID: 650807282827676265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 69
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7020f0a66b54dcc60800000000000000
+      internalID: 7839999176087634439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 47
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90b930e7d85252c0800000000000000
+      internalID: -4444392198058168161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 39
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fdef2cbf62bb650800000000000000
+      internalID: 6249631770656825144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 17
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2280f8cd205a69070800000000000000
+      internalID: 8112853210463406114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 19
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14bc21d6e4ab0cb0800000000000000
+      internalID: -4896638858576481249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_0: -48637065923446653
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_1: 5736770097987708689
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_10: 650807282827676265
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_11: 7839999176087634439
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_12: -4444392198058168161
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_13: 6249631770656825144
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_14: 8112853210463406114
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_15: -4896638858576481249
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_2: -7993831558271081189
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_3: -6445729222184108090
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_4: -4147175873511884310
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_5: 775663647283336984
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_6: 8901790298553290406
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_7: 5482340569171287413
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_8: -4906295937582641086
+      CD_Enemy_TemporalEchoMinion_Hit_4Dir_4Frame_v01_9: 2758871597980600506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

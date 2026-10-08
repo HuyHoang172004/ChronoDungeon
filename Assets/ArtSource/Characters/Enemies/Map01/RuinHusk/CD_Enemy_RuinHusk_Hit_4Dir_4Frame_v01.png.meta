@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 87155b9ef6bbc2b4cab895c945a54ad2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -361373643393925356
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_0
+  - first:
+      213: 3487680104219975648
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_1
+  - first:
+      213: -4044694377006225985
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_2
+  - first:
+      213: 3013421692968306604
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_3
+  - first:
+      213: 8692471085070909928
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_4
+  - first:
+      213: 4237475326369441386
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_5
+  - first:
+      213: -9185896272908766745
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_6
+  - first:
+      213: 3616542005537102489
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_7
+  - first:
+      213: -8984516710316546098
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_8
+  - first:
+      213: -2308927900879620078
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_9
+  - first:
+      213: 803353494881370741
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_10
+  - first:
+      213: -1457120275620527351
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_11
+  - first:
+      213: -1631765902459487281
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_12
+  - first:
+      213: -4790933149700378274
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_13
+  - first:
+      213: -3452963375673884429
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_14
+  - first:
+      213: -5145942358089182937
+    second: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 340
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff05206942cfaf0800000000000000
+      internalID: -361373643393925356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 813
+        width: 308
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef9a36839ab66030800000000000000
+      internalID: 3487680104219975648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 812
+        width: 355
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb52681d4eb5ed7c0800000000000000
+      internalID: -4044694377006225985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 812
+        width: 269
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca705df5013d1d920800000000000000
+      internalID: 3013421692968306604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 551
+        width: 314
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1810ea56cd1a870800000000000000
+      internalID: 8692471085070909928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 557
+        width: 324
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66abb4bb598eca30800000000000000
+      internalID: 4237475326369441386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 559
+        width: 340
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e130bd3204258080800000000000000
+      internalID: -9185896272908766745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 555
+        width: 280
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a5153fac9803230800000000000000
+      internalID: 3616542005537102489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 351
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7650b67a5905380800000000000000
+      internalID: -8984516710316546098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 300
+        width: 321
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f410be4a05ffd0800000000000000
+      internalID: -2308927900879620078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 301
+        width: 311
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572097b4fb5162b00800000000000000
+      internalID: 803353494881370741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 296
+        width: 290
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9038e9854d447cbe0800000000000000
+      internalID: -1457120275620527351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 312
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbbe43ae8dca59e0800000000000000
+      internalID: -1631765902459487281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 29
+        width: 292
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51377d0faf238db0800000000000000
+      internalID: -4790933149700378274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 375
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0468aba1c9410d0800000000000000
+      internalID: -3452963375673884429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 17
+        width: 290
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721557f80b0f598b0800000000000000
+      internalID: -5145942358089182937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_0: -361373643393925356
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_1: 3487680104219975648
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_10: 803353494881370741
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_11: -1457120275620527351
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_12: -1631765902459487281
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_13: -4790933149700378274
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_14: -3452963375673884429
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_15: -5145942358089182937
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_2: -4044694377006225985
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_3: 3013421692968306604
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_4: 8692471085070909928
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_5: 4237475326369441386
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_6: -9185896272908766745
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_7: 3616542005537102489
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_8: -8984516710316546098
+      CD_Enemy_RuinHusk_Hit_4Dir_4Frame_v01_9: -2308927900879620078
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

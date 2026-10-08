@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: b6352f37205221d4cbdebedad58be8b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5566333654141561271
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_0
+  - first:
+      213: 972866280343837509
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_1
+  - first:
+      213: -4185489444378929576
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_2
+  - first:
+      213: 2295491599755030806
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_3
+  - first:
+      213: -6642354460922181411
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_4
+  - first:
+      213: 3992597916056496025
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_5
+  - first:
+      213: 927989248724553934
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_6
+  - first:
+      213: -4947114175361887111
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_7
+  - first:
+      213: -3310908298640002700
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_8
+  - first:
+      213: -6199068092151166182
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_9
+  - first:
+      213: -9192905199507109149
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_10
+  - first:
+      213: -627941675661284978
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_11
+  - first:
+      213: 8125320140027652066
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_12
+  - first:
+      213: 2918285151668020965
+    second: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 904
+        width: 278
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9461793880960c2b0800000000000000
+      internalID: -5566333654141561271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 902
+        width: 289
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b99dd3ab0508d00800000000000000
+      internalID: 972866280343837509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 890
+        width: 294
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85695a8a6872ae5c0800000000000000
+      internalID: -4185489444378929576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 891
+        width: 273
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611ba4ca2793bdf10800000000000000
+      internalID: 2295491599755030806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 612
+        width: 278
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8808c7fcd91d3a0800000000000000
+      internalID: -6642354460922181411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 612
+        width: 298
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972385a6ae886730800000000000000
+      internalID: 3992597916056496025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 587
+        width: 318
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0db951e41e0ec00800000000000000
+      internalID: 927989248724553934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 611
+        width: 272
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97451425ed1585bb0800000000000000
+      internalID: -4947114175361887111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 22
+        width: 311
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4717bafb17a4d02d0800000000000000
+      internalID: -3310908298640002700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 321
+        width: 311
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b0fdc0a6c78f9a0800000000000000
+      internalID: -6199068092151166182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 322
+        width: 314
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea89895d6d3c6080800000000000000
+      internalID: -9192905199507109149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 17
+        width: 311
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89ab8a7f5a1947f0800000000000000
+      internalID: -627941675661284978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 17
+        width: 297
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7eca81e9fe2c070800000000000000
+      internalID: 8125320140027652066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 19
+        width: 315
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6287a32e4df7820800000000000000
+      internalID: 2918285151668020965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_0: -5566333654141561271
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_1: 972866280343837509
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_10: -9192905199507109149
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_11: -627941675661284978
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_12: 8125320140027652066
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_13: 2918285151668020965
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_2: -4185489444378929576
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_3: 2295491599755030806
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_4: -6642354460922181411
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_5: 3992597916056496025
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_6: 927989248724553934
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_7: -4947114175361887111
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_8: -3310908298640002700
+      CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_9: -6199068092151166182
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

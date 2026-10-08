@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 79ed3cdf3a8cceb408cd4fa144600c2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5982085271743419683
+    second: CD_MasterPalette_v01_0
+  - first:
+      213: -8423619435322407411
+    second: CD_MasterPalette_v01_1
+  - first:
+      213: 2523056702510305810
+    second: CD_MasterPalette_v01_2
+  - first:
+      213: 247817535616369822
+    second: CD_MasterPalette_v01_3
+  - first:
+      213: -8552634943881357802
+    second: CD_MasterPalette_v01_4
+  - first:
+      213: -5989562503346653778
+    second: CD_MasterPalette_v01_5
+  - first:
+      213: 6206306397721277625
+    second: CD_MasterPalette_v01_6
+  - first:
+      213: -8966365943554333612
+    second: CD_MasterPalette_v01_7
+  - first:
+      213: 947658967195028639
+    second: CD_MasterPalette_v01_8
+  - first:
+      213: -3215903622818047320
+    second: CD_MasterPalette_v01_9
+  - first:
+      213: 6725047042520606988
+    second: CD_MasterPalette_v01_10
+  - first:
+      213: 3004928807879559244
+    second: CD_MasterPalette_v01_11
+  - first:
+      213: -2163185602784873008
+    second: CD_MasterPalette_v01_12
+  - first:
+      213: 9158640058459329104
+    second: CD_MasterPalette_v01_13
+  - first:
+      213: -5558110327001272194
+    second: CD_MasterPalette_v01_14
+  - first:
+      213: 2644249812957624171
+    second: CD_MasterPalette_v01_15
+  - first:
+      213: -1244235283129316556
+    second: CD_MasterPalette_v01_16
+  - first:
+      213: -1321097162382207218
+    second: CD_MasterPalette_v01_17
+  - first:
+      213: -5796070880034633595
+    second: CD_MasterPalette_v01_18
+  - first:
+      213: 4857879748547166240
+    second: CD_MasterPalette_v01_19
+  - first:
+      213: -9106682946191039813
+    second: CD_MasterPalette_v01_20
+  - first:
+      213: 1286562905715764573
+    second: CD_MasterPalette_v01_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 767
+        width: 232
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda23a9c32d5bfca0800000000000000
+      internalID: -5982085271743419683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 767
+        width: 241
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06088af0ca491b80800000000000000
+      internalID: -8423619435322407411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 766
+        width: 234
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2129b4504b2b30320800000000000000
+      internalID: 2523056702510305810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 765
+        width: 231
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94c6835cbc607300800000000000000
+      internalID: 247817535616369822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 763
+        width: 235
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616db5415dfee4980800000000000000
+      internalID: -8552634943881357802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 763
+        width: 242
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5f50423acc0eca0800000000000000
+      internalID: -5989562503346653778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 525
+        width: 227
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4396b49ca312650800000000000000
+      internalID: 6206306397721277625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_7
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 526
+        width: 228
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454a8402ea1119380800000000000000
+      internalID: -8966365943554333612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 526
+        width: 231
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c8fdb4fc2c62d00800000000000000
+      internalID: 947658967195028639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_9
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 524
+        width: 233
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aad90291b0de53d0800000000000000
+      internalID: -3215903622818047320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 525
+        width: 483
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c096b3387aa245d50800000000000000
+      internalID: 6725047042520606988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 283
+        width: 240
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48cff874d6a3b920800000000000000
+      internalID: 3004928807879559244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 287
+        width: 245
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5b4c2c722daf1e0800000000000000
+      internalID: -2163185602784873008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_13
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 285
+        width: 233
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052912ecb960a1f70800000000000000
+      internalID: 9158640058459329104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_14
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 283
+        width: 233
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70b8a01b10add2b0800000000000000
+      internalID: -5558110327001272194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 286
+        width: 478
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b677bbee13342b420800000000000000
+      internalID: 2644249812957624171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 223
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bc11c2a969bbee0800000000000000
+      internalID: -1244235283129316556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 47
+        width: 226
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e079e6a51258aade0800000000000000
+      internalID: -1321097162382207218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_18
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 234
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588cc865e38309fa0800000000000000
+      internalID: -5796070880034633595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_19
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 22
+        width: 231
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020c7b5a4e7aa6340800000000000000
+      internalID: 4857879748547166240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 42
+        width: 230
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2ec261c109e9180800000000000000
+      internalID: -9106682946191039813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_MasterPalette_v01_21
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 44
+        width: 226
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5de160752acad110800000000000000
+      internalID: 1286562905715764573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_MasterPalette_v01_0: -5982085271743419683
+      CD_MasterPalette_v01_1: -8423619435322407411
+      CD_MasterPalette_v01_10: 6725047042520606988
+      CD_MasterPalette_v01_11: 3004928807879559244
+      CD_MasterPalette_v01_12: -2163185602784873008
+      CD_MasterPalette_v01_13: 9158640058459329104
+      CD_MasterPalette_v01_14: -5558110327001272194
+      CD_MasterPalette_v01_15: 2644249812957624171
+      CD_MasterPalette_v01_16: -1244235283129316556
+      CD_MasterPalette_v01_17: -1321097162382207218
+      CD_MasterPalette_v01_18: -5796070880034633595
+      CD_MasterPalette_v01_19: 4857879748547166240
+      CD_MasterPalette_v01_2: 2523056702510305810
+      CD_MasterPalette_v01_20: -9106682946191039813
+      CD_MasterPalette_v01_21: 1286562905715764573
+      CD_MasterPalette_v01_3: 247817535616369822
+      CD_MasterPalette_v01_4: -8552634943881357802
+      CD_MasterPalette_v01_5: -5989562503346653778
+      CD_MasterPalette_v01_6: 6206306397721277625
+      CD_MasterPalette_v01_7: -8966365943554333612
+      CD_MasterPalette_v01_8: 947658967195028639
+      CD_MasterPalette_v01_9: -3215903622818047320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

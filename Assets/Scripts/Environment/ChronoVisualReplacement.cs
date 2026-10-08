@@ -10,6 +10,9 @@ using UnityEngine;
 public sealed class ChronoVisualReplacement : MonoBehaviour
 {
     private const string MarkerName = "ChronoVisualAccent";
+    // Superseded by the authored Map/Character art pipeline. Keep the component source for
+    // reference, but never inject its generated rings or palette tint into a gameplay scene.
+    private const bool LegacyAccentLayerEnabled = false;
     private static Sprite ringSprite;
     private static Sprite diamondSprite;
     private readonly List<Accent> accents = new List<Accent>();
@@ -24,7 +27,8 @@ public sealed class ChronoVisualReplacement : MonoBehaviour
 
     private static void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
     {
-        if (scene.name == "GameScene" && FindAnyObjectByType<ChronoVisualReplacement>() == null)
+        if (!LegacyAccentLayerEnabled) return;
+        if (scene.name == "GameScene" && GameObject.Find("ChronoWorld") == null && FindAnyObjectByType<ChronoVisualReplacement>() == null)
         {
             GameObject visuals = new GameObject("Chrono Visual Direction");
             visuals.AddComponent<ChronoVisualReplacement>();
@@ -87,12 +91,11 @@ public sealed class ChronoVisualReplacement : MonoBehaviour
             Sprite sprite;
             float size;
             int order;
-            if (root.GetComponent<PlayerMovement>() != null)
+            if (source.GetComponentInParent<PlayerMovement>() != null)
             {
-                color = new Color(0.22f, 0.95f, 1f);
-                sprite = ringSprite;
-                size = 1.38f;
-                order = source.sortingOrder - 1;
+                // Player presentation is authored directly in GameScene. Do not add
+                // a generated temporal ring over its silhouette at runtime.
+                continue;
             }
             else if (root.GetComponent<GhostPlayback>() != null)
             {

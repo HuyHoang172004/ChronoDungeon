@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 941e74897d8922547a8d4d3b40b075bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7477985496928435670
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_0
+  - first:
+      213: 3033353483116182474
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_1
+  - first:
+      213: -7955433457085254900
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_2
+  - first:
+      213: -2408005511827705576
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_3
+  - first:
+      213: 6535744802164308471
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_4
+  - first:
+      213: 7368404668445078328
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_5
+  - first:
+      213: -1312499268106744163
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_6
+  - first:
+      213: 7770858898968682147
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_7
+  - first:
+      213: 1115203876562155055
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_8
+  - first:
+      213: 9021842957324890473
+    second: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 948
+        width: 250
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd31fb703427c760800000000000000
+      internalID: 7477985496928435670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 948
+        width: 292
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb7557ebe2a81a20800000000000000
+      internalID: 3033353483116182474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1183
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03fc24ab6f989190800000000000000
+      internalID: -7955433457085254900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 945
+        width: 292
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811b352cebb059ed0800000000000000
+      internalID: -2408005511827705576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 15
+        width: 306
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9fb9b0541a3ba50800000000000000
+      internalID: 6535744802164308471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 314
+        height: 927
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833bff7a105d14660800000000000000
+      internalID: 7368404668445078328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 17
+        width: 304
+        height: 932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e898c9ed019cde0800000000000000
+      internalID: -1312499268106744163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 476
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae16b03ff2a7db60800000000000000
+      internalID: 7770858898968682147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 15
+        width: 320
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2630a264000a7f00800000000000000
+      internalID: 1115203876562155055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 208
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961b5b2be56043d70800000000000000
+      internalID: 9021842957324890473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_0: 7477985496928435670
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_1: 3033353483116182474
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_2: -7955433457085254900
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_3: -2408005511827705576
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_4: 6535744802164308471
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_5: 7368404668445078328
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_6: -1312499268106744163
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_7: 7770858898968682147
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_8: 1115203876562155055
+      CD_NPC_GroveKeeper_Interact_4Dir_4Frame_v01_9: 9021842957324890473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

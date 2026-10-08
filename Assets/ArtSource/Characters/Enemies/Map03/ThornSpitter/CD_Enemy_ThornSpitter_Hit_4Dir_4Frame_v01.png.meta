@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 13cec89926e43e84eb639f24e9e6c70c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5894029231486281286
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_0
+  - first:
+      213: 3388724394803660583
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_1
+  - first:
+      213: 1850672341633355282
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_2
+  - first:
+      213: -4287324577173001546
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_3
+  - first:
+      213: -5661649081720168942
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_4
+  - first:
+      213: -7466856592003054210
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_5
+  - first:
+      213: 7537251123193579437
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_6
+  - first:
+      213: 8881919657841419481
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_7
+  - first:
+      213: 7298215085598760488
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_8
+  - first:
+      213: 1140399561249693842
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_9
+  - first:
+      213: -5646942787926374634
+    second: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 525
+        width: 334
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646228eab5ccbc150800000000000000
+      internalID: 5894029231486281286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 769
+        width: 339
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72709f102ea270f20800000000000000
+      internalID: 3388724394803660583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 765
+        width: 313
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e42be70b8eea910800000000000000
+      internalID: 1850672341633355282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 525
+        width: 326
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba2dc4230d5084c0800000000000000
+      internalID: -4287324577173001546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 766
+        width: 313
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e17292828cd61b0800000000000000
+      internalID: -5661649081720168942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 526
+        width: 347
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75cfdc9d75606890800000000000000
+      internalID: -7466856592003054210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 525
+        width: 320
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da70ed466f1b99860800000000000000
+      internalID: 7537251123193579437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 29
+        width: 332
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d46231dedae24b70800000000000000
+      internalID: 8881919657841419481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 29
+        width: 345
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ed287e3f7784560800000000000000
+      internalID: 7298215085598760488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 29
+        width: 355
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290ac4edb5383df00800000000000000
+      internalID: 1140399561249693842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 30
+        width: 334
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617c1b2047702a1b0800000000000000
+      internalID: -5646942787926374634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_0: 5894029231486281286
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_1: 3388724394803660583
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_10: -5646942787926374634
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_2: 1850672341633355282
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_3: -4287324577173001546
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_4: -5661649081720168942
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_5: -7466856592003054210
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_6: 7537251123193579437
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_7: 8881919657841419481
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_8: 7298215085598760488
+      CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_9: 1140399561249693842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

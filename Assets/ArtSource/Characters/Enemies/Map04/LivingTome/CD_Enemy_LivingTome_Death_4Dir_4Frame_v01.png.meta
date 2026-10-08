@@ -1,0 +1,613 @@
+fileFormatVersion: 2
+guid: a1b30f7c05c108548988b90ecd73cc51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3276123310932037444
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_0
+  - first:
+      213: 1240483445857298051
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_1
+  - first:
+      213: 6047290122550040652
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_2
+  - first:
+      213: -7807803505189087491
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_3
+  - first:
+      213: 7366863608992211169
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_4
+  - first:
+      213: -1675761800590705205
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_5
+  - first:
+      213: 1701949679945881351
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_6
+  - first:
+      213: -7080555858483877402
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_7
+  - first:
+      213: -4863810463290406397
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_8
+  - first:
+      213: 2221096866778625226
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_9
+  - first:
+      213: 4429831416138299392
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_10
+  - first:
+      213: 1906443898328454807
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_11
+  - first:
+      213: 8187918368287317040
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_12
+  - first:
+      213: -5157548906716492947
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_13
+  - first:
+      213: 2555506077451859747
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_14
+  - first:
+      213: -2614185828053421156
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_15
+  - first:
+      213: -5060002561322778777
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_16
+  - first:
+      213: 384685271213331482
+    second: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 799
+        width: 331
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f0b7c2bc0277d20800000000000000
+      internalID: 3276123310932037444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 783
+        width: 357
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386a3142f15173110800000000000000
+      internalID: 1240483445857298051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 789
+        width: 381
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48d258935a4ce350800000000000000
+      internalID: 6047290122550040652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 801
+        width: 226
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6972d541c15a390800000000000000
+      internalID: -7807803505189087491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 546
+        width: 339
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0abbacb6b5c3660800000000000000
+      internalID: 7366863608992211169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 299
+        width: 319
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd3f9b558f7eb8e0800000000000000
+      internalID: -1675761800590705205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 31
+        width: 363
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70793c2773a8e9710800000000000000
+      internalID: 1701949679945881351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 546
+        width: 332
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9e1ca06ffccbd90800000000000000
+      internalID: -7080555858483877402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 365
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a4fb83726408cb0800000000000000
+      internalID: -4863810463290406397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 536
+        width: 243
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4b21c15dbe2de10800000000000000
+      internalID: 2221096866778625226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 469
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008f9c5e33ce97d30800000000000000
+      internalID: 4429831416138299392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 518
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7961410ff9c057a10800000000000000
+      internalID: 1906443898328454807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 341
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c59afdf5451a170800000000000000
+      internalID: 8187918368287317040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 260
+        width: 244
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b857f5894bc68b0800000000000000
+      internalID: -5157548906716492947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 250
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327bedfdc3bf67320800000000000000
+      internalID: 2555506077451859747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 31
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93f30607db88bbd0800000000000000
+      internalID: -2614185828053421156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 35
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ff9c1ca7247c9b0800000000000000
+      internalID: -5060002561322778777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 17
+        width: 206
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14defc473da65500800000000000000
+      internalID: 384685271213331482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_0: 3276123310932037444
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_1: 1240483445857298051
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_10: 4429831416138299392
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_11: 1906443898328454807
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_12: 8187918368287317040
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_13: -5157548906716492947
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_14: 2555506077451859747
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_15: -2614185828053421156
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_16: -5060002561322778777
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_17: 384685271213331482
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_2: 6047290122550040652
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_3: -7807803505189087491
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_4: 7366863608992211169
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_5: -1675761800590705205
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_6: 1701949679945881351
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_7: -7080555858483877402
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_8: -4863810463290406397
+      CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_9: 2221096866778625226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

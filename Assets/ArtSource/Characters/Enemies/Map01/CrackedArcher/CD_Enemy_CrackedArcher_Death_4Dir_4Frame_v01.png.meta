@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: 973d3fa4059909d44a1559e87bf8e2d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2728849952888258219
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_0
+  - first:
+      213: -3876674967304408892
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_1
+  - first:
+      213: -2385018429331351753
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_2
+  - first:
+      213: 2772455057918264263
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_3
+  - first:
+      213: -4965505423476040112
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_4
+  - first:
+      213: 5636773951146401715
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_5
+  - first:
+      213: 8984861755160337353
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_6
+  - first:
+      213: 3383700824122780912
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_7
+  - first:
+      213: -7338571181460164696
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_8
+  - first:
+      213: 3272750549579469464
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_9
+  - first:
+      213: 1268825136536410725
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_10
+  - first:
+      213: -2310254859753190840
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_11
+  - first:
+      213: 4830770758048097490
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_12
+  - first:
+      213: 6335477817213235293
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_13
+  - first:
+      213: -718720855990862144
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_14
+  - first:
+      213: -7344731906222043110
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_15
+  - first:
+      213: -7694398168608353550
+    second: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 866
+        width: 273
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baefe37f292ded520800000000000000
+      internalID: 2728849952888258219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 875
+        width: 249
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0fb2028a8433ac0800000000000000
+      internalID: -3876674967304408892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 846
+        width: 483
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737d1f8ff56b6eed0800000000000000
+      internalID: -2385018429331351753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 760
+        width: 325
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c304f2af2db97620800000000000000
+      internalID: 2772455057918264263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 588
+        width: 293
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5f6f202bf61bb0800000000000000
+      internalID: -4965505423476040112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 558
+        width: 610
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf914d2b08d93e40800000000000000
+      internalID: 5636773951146401715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 470
+        width: 334
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb13589924a0bc70800000000000000
+      internalID: 8984861755160337353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 300
+        width: 297
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fce800d8f155fe20800000000000000
+      internalID: 3383700824122780912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 266
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afe5225468282a90800000000000000
+      internalID: -7338571181460164696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 301
+        width: 311
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892162af8452b6d20800000000000000
+      internalID: 3272750549579469464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 283
+        width: 306
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ad6593db5cb9110800000000000000
+      internalID: 1268825136536410725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 285
+        width: 332
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a8acff17350ffd0800000000000000
+      internalID: -2310254859753190840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 271
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d42dc0f8685a0340800000000000000
+      internalID: 4830770758048097490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 13
+        width: 256
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50bc5902832ce750800000000000000
+      internalID: 6335477817213235293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 15
+        width: 299
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cefffd70379606f0800000000000000
+      internalID: -718720855990862144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 223
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10582fce35421a90800000000000000
+      internalID: -7344731906222043110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 14
+        width: 326
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2deafd1a1083590800000000000000
+      internalID: -7694398168608353550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_0: 2728849952888258219
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_1: -3876674967304408892
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_10: 1268825136536410725
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_11: -2310254859753190840
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_12: 4830770758048097490
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_13: 6335477817213235293
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_14: -718720855990862144
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_15: -7344731906222043110
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_16: -7694398168608353550
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_2: -2385018429331351753
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_3: 2772455057918264263
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_4: -4965505423476040112
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_5: 5636773951146401715
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_6: 8984861755160337353
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_7: 3383700824122780912
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_8: -7338571181460164696
+      CD_Enemy_CrackedArcher_Death_4Dir_4Frame_v01_9: 3272750549579469464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

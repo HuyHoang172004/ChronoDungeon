@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 0752d1e6c31796e4ca50599d4aaeede7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7282930069519731529
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_0
+  - first:
+      213: -6059599503895365517
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_1
+  - first:
+      213: -182712082984912616
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_2
+  - first:
+      213: -2081294743469032322
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_3
+  - first:
+      213: -7741073087635458459
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_4
+  - first:
+      213: 8993905464159630667
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_5
+  - first:
+      213: -454937939089280445
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_6
+  - first:
+      213: -6369799203263938365
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_7
+  - first:
+      213: 142002536551269473
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_8
+  - first:
+      213: 2124963934168372361
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_9
+  - first:
+      213: -1245857599001293748
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_10
+  - first:
+      213: 8670161483363085482
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_11
+  - first:
+      213: -7456947862502297756
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_12
+  - first:
+      213: 1230735785066069063
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_13
+  - first:
+      213: -5547258050321801016
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_14
+  - first:
+      213: -8499395479065756570
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_15
+  - first:
+      213: -3929263128604958469
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_16
+  - first:
+      213: 435962519156514274
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_17
+  - first:
+      213: -1267069748078306436
+    second: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 917
+        width: 324
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b0cb5cf4a221560800000000000000
+      internalID: 7282930069519731529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 710
+        height: 1198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378fe293b5af7eba0800000000000000
+      internalID: -6059599503895365517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 863
+        width: 273
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819338d1450e67df0800000000000000
+      internalID: -182712082984912616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1135
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cf3ae3571cd13e0800000000000000
+      internalID: -2081294743469032322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1119
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566f62f6a0f229490800000000000000
+      internalID: -7741073087635458459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1127
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45fdae2e55c0dc70800000000000000
+      internalID: 8993905464159630667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1115
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3423cb1da5cbfa9f0800000000000000
+      internalID: -454937939089280445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1103
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c003ee8f5de997a0800000000000000
+      internalID: -6369799203263938365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 305
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164c75cfd8e78f100800000000000000
+      internalID: 142002536551269473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 324
+        width: 360
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9845f9880736d7d10800000000000000
+      internalID: 2124963934168372361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 532
+        width: 634
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c8ec25d13d5bee0800000000000000
+      internalID: -1245857599001293748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 281
+        width: 287
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac6121cee9925870800000000000000
+      internalID: 8670161483363085482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 481
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f21fa7d69938890800000000000000
+      internalID: -7456947862502297756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 308
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c79310da3741110800000000000000
+      internalID: 1230735785066069063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 227
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0a421a13e2403b0800000000000000
+      internalID: -5547258050321801016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 29
+        width: 280
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c79b0f7d41c0a80800000000000000
+      internalID: -8499395479065756570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 232
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0267ea0047879c0800000000000000
+      internalID: -3929263128604958469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 232
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed55b1f999dc0600800000000000000
+      internalID: 435962519156514274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_18
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 176
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b162007c67a6ee0800000000000000
+      internalID: -1267069748078306436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_0: 7282930069519731529
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_1: -6059599503895365517
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_10: -1245857599001293748
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_11: 8670161483363085482
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_12: -7456947862502297756
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_13: 1230735785066069063
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_14: -5547258050321801016
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_15: -8499395479065756570
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_16: -3929263128604958469
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_17: 435962519156514274
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_18: -1267069748078306436
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_2: -182712082984912616
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_3: -2081294743469032322
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_4: -7741073087635458459
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_5: 8993905464159630667
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_6: -454937939089280445
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_7: -6369799203263938365
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_8: 142002536551269473
+      CD_Enemy_LibrarySentinel_Death_4Dir_4Frame_v01_9: 2124963934168372361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

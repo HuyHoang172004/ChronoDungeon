@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 77544e69f40113f4090a353ae2fefc02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5326812855545096155
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_0
+  - first:
+      213: 304713402331917249
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_1
+  - first:
+      213: -5655262994895935780
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_2
+  - first:
+      213: 6879297177246518178
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_3
+  - first:
+      213: 2266754693764316207
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_4
+  - first:
+      213: 8351064656880501520
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_5
+  - first:
+      213: 8112432951089935552
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_6
+  - first:
+      213: 7450750381269062952
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_7
+  - first:
+      213: 6695859547416871913
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_8
+  - first:
+      213: -8010073767100372631
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_9
+  - first:
+      213: 2821823931019410096
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_10
+  - first:
+      213: 6745045781707815693
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_11
+  - first:
+      213: -1248382263652578133
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_12
+  - first:
+      213: -4974155866964628090
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_13
+  - first:
+      213: -716118068307219062
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_14
+  - first:
+      213: 2473433833341818278
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_15
+  - first:
+      213: -5437770780023858548
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_16
+  - first:
+      213: 8112512161100611620
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_17
+  - first:
+      213: -1333906657633484769
+    second: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 759
+        width: 403
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52810483eeb5316b0800000000000000
+      internalID: -5326812855545096155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1060
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb6b48993f8a3400800000000000000
+      internalID: 304713402331917249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 997
+        width: 120
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6e0ddd4487481b0800000000000000
+      internalID: -5655262994895935780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 798
+        width: 252
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab402aa55c287f50800000000000000
+      internalID: 6879297177246518178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 800
+        width: 401
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c75ca5261257f10800000000000000
+      internalID: 2266754693764316207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1009
+        width: 43
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0138ea14f01f4e370800000000000000
+      internalID: 8351064656880501520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1013
+        width: 138
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4b3e999c6259070800000000000000
+      internalID: 8112432951089935552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1013
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82516a9fef1666760800000000000000
+      internalID: 7450750381269062952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 541
+        width: 307
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3c0bd38c87cec50800000000000000
+      internalID: 6695859547416871913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 538
+        width: 329
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969ae47195086d090800000000000000
+      internalID: -8010073767100372631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 539
+        width: 354
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0babb132ae1292720800000000000000
+      internalID: 2821823931019410096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 711
+        width: 364
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bf074d6673b9d50800000000000000
+      internalID: 6745045781707815693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 694
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac071702fadcaee0800000000000000
+      internalID: -1248382263652578133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 17
+        width: 348
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68de52cd79f38fab0800000000000000
+      internalID: -4974155866964628090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 279
+        width: 308
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d2f493966df06f0800000000000000
+      internalID: -716118068307219062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_15
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 289
+        width: 357
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a595c377f6635220800000000000000
+      internalID: 2473433833341818278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_16
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 467
+        width: 335
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8addae39482984b0800000000000000
+      internalID: -5437770780023858548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_17
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 301
+        width: 363
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420407e14de659070800000000000000
+      internalID: 8112512161100611620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 1055
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f104a3456f20d7de0800000000000000
+      internalID: -1333906657633484769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_0: -5326812855545096155
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_1: 304713402331917249
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_10: 2821823931019410096
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_11: 6745045781707815693
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_12: -1248382263652578133
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_13: -4974155866964628090
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_14: -716118068307219062
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_15: 2473433833341818278
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_16: -5437770780023858548
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_17: 8112512161100611620
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_18: -1333906657633484769
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_2: -5655262994895935780
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_3: 6879297177246518178
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_4: 2266754693764316207
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_5: 8351064656880501520
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_6: 8112432951089935552
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_7: 7450750381269062952
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_8: 6695859547416871913
+      CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_9: -8010073767100372631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

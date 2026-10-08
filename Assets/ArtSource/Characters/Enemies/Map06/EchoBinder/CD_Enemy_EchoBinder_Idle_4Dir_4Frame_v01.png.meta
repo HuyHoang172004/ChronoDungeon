@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: a995173655b66e845a52ef7a52738ca7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4556907715625462709
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_0
+  - first:
+      213: -1280720109154669983
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_1
+  - first:
+      213: -5410208322968669114
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_2
+  - first:
+      213: 2925857912204350646
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_3
+  - first:
+      213: -7010687836485320064
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_4
+  - first:
+      213: -8875237805759874433
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_5
+  - first:
+      213: -1354461791445466068
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_6
+  - first:
+      213: -3215209877565569345
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_7
+  - first:
+      213: -3562964740203304032
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_8
+  - first:
+      213: -8063965596453658957
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_9
+  - first:
+      213: -3330157503838754229
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_10
+  - first:
+      213: 4509878295659704866
+    second: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 358
+        height: 1112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bba7108c636d3f30800000000000000
+      internalID: 4556907715625462709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 846
+        width: 251
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ae225a8d7f93ee0800000000000000
+      internalID: -1280720109154669983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 263
+        width: 376
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644379cd1341be4b0800000000000000
+      internalID: -5410208322968669114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 846
+        width: 305
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4d430f44cba9820800000000000000
+      internalID: 2925857912204350646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 848
+        width: 352
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08204239e8805be90800000000000000
+      internalID: -7010687836485320064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 287
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ab09a1d32d4d480800000000000000
+      internalID: -8875237805759874433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 518
+        width: 337
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24cd0b4d2cf33de0800000000000000
+      internalID: -1354461791445466068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 559
+        width: 293
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb68069b6a74163d0800000000000000
+      internalID: -3215209877565569345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 279
+        width: 303
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aba0f8327ecd8ec0800000000000000
+      internalID: -3562964740203304032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 341
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be9866c30a071090800000000000000
+      internalID: -8063965596453658957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 69
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ae699e467e8c1d0800000000000000
+      internalID: -3330157503838754229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 12
+        width: 310
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2227a016a6e469e30800000000000000
+      internalID: 4509878295659704866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_0: 4556907715625462709
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_1: -1280720109154669983
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_10: -3330157503838754229
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_11: 4509878295659704866
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_2: -5410208322968669114
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_3: 2925857912204350646
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_4: -7010687836485320064
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_5: -8875237805759874433
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_6: -1354461791445466068
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_7: -3215209877565569345
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_8: -3562964740203304032
+      CD_Enemy_EchoBinder_Idle_4Dir_4Frame_v01_9: -8063965596453658957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

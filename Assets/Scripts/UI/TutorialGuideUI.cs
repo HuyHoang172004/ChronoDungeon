@@ -24,6 +24,7 @@ public sealed class TutorialGuideUI : MonoBehaviour
 
     private void Awake()
     {
+        if (!enabled) return;
         if (player == null) player = FindAnyObjectByType<PlayerMovement>();
         if (attack == null && player != null) attack = player.GetComponent<PlayerAttack>();
         if (dash == null && player != null) dash = player.GetComponent<PlayerDash>();

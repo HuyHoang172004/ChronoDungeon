@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 2be5e8f674d2a4547a26cce0809e4d26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5178751925438905200
+    second: Player_PunchUp_4Frames_v2_0
+  - first:
+      213: 9090592735764740988
+    second: Player_PunchUp_4Frames_v2_1
+  - first:
+      213: 7535047840062557793
+    second: Player_PunchUp_4Frames_v2_2
+  - first:
+      213: 6597549456393016118
+    second: Player_PunchUp_4Frames_v2_3
+  - first:
+      213: 4659285677892045737
+    second: Player_PunchUp_4Frames_v2_4
+  - first:
+      213: -3648938252950284467
+    second: Player_PunchUp_4Frames_v2_5
+  - first:
+      213: -7494291519180877576
+    second: Player_PunchUp_4Frames_v2_6
+  - first:
+      213: 4768776471968871119
+    second: Player_PunchUp_4Frames_v2_7
+  - first:
+      213: 404797133684331747
+    second: Player_PunchUp_4Frames_v2_8
+  - first:
+      213: -2942524874185860309
+    second: Player_PunchUp_4Frames_v2_9
+  - first:
+      213: -1152501153159227846
+    second: Player_PunchUp_4Frames_v2_10
+  - first:
+      213: -4403615860736751308
+    second: Player_PunchUp_4Frames_v2_11
+  - first:
+      213: -6356752969974330497
+    second: Player_PunchUp_4Frames_v2_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 524
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0940850ef806128b0800000000000000
+      internalID: -5178751925438905200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_1
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 33
+        width: 528
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bf00ddde5482e70800000000000000
+      internalID: 9090592735764740988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 78
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ec080961ed19860800000000000000
+      internalID: 7535047840062557793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633906876443f8b50800000000000000
+      internalID: 6597549456393016118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_4
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 23
+        width: 594
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab02d953ab19a040800000000000000
+      internalID: 4659285677892045737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_5
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 21
+        width: 479
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d475099edfd5c5dc0800000000000000
+      internalID: -3648938252950284467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_6
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 47
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0500cd19deef790800000000000000
+      internalID: -7494291519180877576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 45
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2f1f86fe81e2240800000000000000
+      internalID: 4768776471968871119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 49
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4d95f29d02e9500800000000000000
+      internalID: 404797133684331747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_9
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 43
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b9663973d0a27d0800000000000000
+      internalID: -2942524874185860309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_10
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 47
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3657b2be4e7100f0800000000000000
+      internalID: -1152501153159227846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_11
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439828db4b633e2c0800000000000000
+      internalID: -4403615860736751308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_PunchUp_4Frames_v2_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 31
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b45c37ad648c7a0800000000000000
+      internalID: -6356752969974330497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Player_PunchUp_4Frames_v2_0: -5178751925438905200
+      Player_PunchUp_4Frames_v2_1: 9090592735764740988
+      Player_PunchUp_4Frames_v2_10: -1152501153159227846
+      Player_PunchUp_4Frames_v2_11: -4403615860736751308
+      Player_PunchUp_4Frames_v2_12: -6356752969974330497
+      Player_PunchUp_4Frames_v2_2: 7535047840062557793
+      Player_PunchUp_4Frames_v2_3: 6597549456393016118
+      Player_PunchUp_4Frames_v2_4: 4659285677892045737
+      Player_PunchUp_4Frames_v2_5: -3648938252950284467
+      Player_PunchUp_4Frames_v2_6: -7494291519180877576
+      Player_PunchUp_4Frames_v2_7: 4768776471968871119
+      Player_PunchUp_4Frames_v2_8: 404797133684331747
+      Player_PunchUp_4Frames_v2_9: -2942524874185860309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 09e696afbffd2354c983f57a70bc6a80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2116722677041686425
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_0
+  - first:
+      213: 5518781456856561823
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_1
+  - first:
+      213: 1288731811887642625
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_2
+  - first:
+      213: 8279341351636972334
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_3
+  - first:
+      213: 7016462871196729580
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_4
+  - first:
+      213: 3868348274565362856
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_5
+  - first:
+      213: 163375790192414163
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_6
+  - first:
+      213: 4630178796864890402
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_7
+  - first:
+      213: 3042577748099123123
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_8
+  - first:
+      213: -1020318211423939705
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_9
+  - first:
+      213: -7407186604660561066
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_10
+  - first:
+      213: 7943636488079707108
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_11
+  - first:
+      213: -5180046605824029407
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_12
+  - first:
+      213: 6409536165246737681
+    second: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 970
+        width: 277
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7689aeaa0f3ef92e0800000000000000
+      internalID: -2116722677041686425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 970
+        width: 299
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98b2f8ce76a69c40800000000000000
+      internalID: 5518781456856561823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 965
+        width: 260
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108fe4241ce72e110800000000000000
+      internalID: 1288731811887642625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 969
+        width: 269
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23368ee71126e270800000000000000
+      internalID: 8279341351636972334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 675
+        width: 279
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce006697ecb7f5160800000000000000
+      internalID: 7016462871196729580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 675
+        width: 248
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4b6f4a2422fa530800000000000000
+      internalID: 3868348274565362856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 676
+        width: 350
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd41536a6d644200800000000000000
+      internalID: 163375790192414163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 674
+        width: 253
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2266da18513b14040800000000000000
+      internalID: 4630178796864890402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 354
+        width: 239
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7c4f47758693a20800000000000000
+      internalID: 3042577748099123123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 353
+        width: 244
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783d63a1ef917d1f0800000000000000
+      internalID: -1020318211423939705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 353
+        width: 554
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bec2c2703643990800000000000000
+      internalID: -7407186604660561066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 307
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb82d87c477d3e60800000000000000
+      internalID: 7943636488079707108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 46
+        width: 268
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d04eb9e07cc18b0800000000000000
+      internalID: -5180046605824029407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 15
+        width: 598
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d1d80ee2f33f850800000000000000
+      internalID: 6409536165246737681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_0: -2116722677041686425
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_1: 5518781456856561823
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_10: -7407186604660561066
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_11: 7943636488079707108
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_12: -5180046605824029407
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_13: 6409536165246737681
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_2: 1288731811887642625
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_3: 8279341351636972334
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_4: 7016462871196729580
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_5: 3868348274565362856
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_6: 163375790192414163
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_7: 4630178796864890402
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_8: 3042577748099123123
+      CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_9: -1020318211423939705
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

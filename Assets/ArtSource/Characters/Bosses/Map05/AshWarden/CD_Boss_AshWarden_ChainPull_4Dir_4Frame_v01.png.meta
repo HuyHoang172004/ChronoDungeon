@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: a8a24a6f44a13474293be3919accbbd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2107712173717501677
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_0
+  - first:
+      213: -8168753475788414205
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_1
+  - first:
+      213: -7241126771798176922
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_2
+  - first:
+      213: -6208256916486180989
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_3
+  - first:
+      213: -6990261647269838629
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_4
+  - first:
+      213: -2722027518456123895
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_5
+  - first:
+      213: -1916265212614182170
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_6
+  - first:
+      213: -3573139928901045573
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_7
+  - first:
+      213: -5070101348398507866
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_8
+  - first:
+      213: 5022780356643207373
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_9
+  - first:
+      213: -7713160940652097998
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_10
+  - first:
+      213: -6159151185598992205
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_11
+  - first:
+      213: 5299847540113759387
+    second: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 853
+        width: 354
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6b23b0e09104d10800000000000000
+      internalID: 2107712173717501677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 873
+        width: 304
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303e4e16ef1c2ae80800000000000000
+      internalID: -8168753475788414205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 579
+        width: 332
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b0661f099528b90800000000000000
+      internalID: -7241126771798176922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 859
+        width: 311
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38faa7a2a37d7d9a0800000000000000
+      internalID: -6208256916486180989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 342
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c17b511a9dfe90800000000000000
+      internalID: -6990261647269838629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 578
+        width: 326
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ea595d46a693ad0800000000000000
+      internalID: -2722027518456123895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 301
+        width: 336
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea71b221fe0865e0800000000000000
+      internalID: -1916265212614182170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 297
+        width: 342
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2b61d7a28a96ec0800000000000000
+      internalID: -3573139928901045573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 579
+        width: 305
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a85a79afa163a9b0800000000000000
+      internalID: -5070101348398507866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 289
+        width: 278
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8378e5f1084b540800000000000000
+      internalID: 5022780356643207373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_10
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 13
+        width: 322
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e83059df855f490800000000000000
+      internalID: -7713160940652097998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 14
+        width: 327
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0327811ac468aa0800000000000000
+      internalID: -6159151185598992205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_12
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 15
+        width: 295
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c55380247dc8940800000000000000
+      internalID: 5299847540113759387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_0: 2107712173717501677
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_1: -8168753475788414205
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_10: -7713160940652097998
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_11: -6159151185598992205
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_12: 5299847540113759387
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_2: -7241126771798176922
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_3: -6208256916486180989
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_4: -6990261647269838629
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_5: -2722027518456123895
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_6: -1916265212614182170
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_7: -3573139928901045573
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_8: -5070101348398507866
+      CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_9: 5022780356643207373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

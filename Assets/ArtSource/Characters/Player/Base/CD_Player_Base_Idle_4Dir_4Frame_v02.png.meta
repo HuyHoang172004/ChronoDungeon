@@ -1,0 +1,529 @@
+fileFormatVersion: 2
+guid: 09ec6858e5a11ef4fb5e5bd214c1b00a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2344074565502121460
+    second: CD_Player_Base_Idle_4Dir_4Frame_v02_0
+  - first:
+      213: -7198500855389054118
+    second: CD_Player_Base_Idle_4Dir_4Frame_v02_1
+  - first:
+      213: 586583735710170527
+    second: CD_Player_Base_Idle_4Dir_4Frame_v02_2
+  - first:
+      213: 5277850766201241377
+    second: CD_Player_Base_Idle_4Dir_4Frame_v02_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 420
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_BaseIdle_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9c798c9d23db94fbe460bab9fe920d
+      internalID: 1027034763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Down_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 933
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaff8b9a02ed0741b5c1d274ff88f10
+      internalID: 914177783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Down_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 933
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dc6cc1b84f2cb4499b5d6651c567cf
+      internalID: 1705989288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Down_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 933
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd096cdb44c65a74fbce03b75b828e7c
+      internalID: 1728886675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b6bc06105c09749b88cf1e80ade3b3
+      internalID: 1330185862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 622
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4e756d4a330e2499528fb8adc7cb14
+      internalID: -782016653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 622
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7193ade3e25f64fb3b514090198d34
+      internalID: 1467739258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 622
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c1c8a21205d9246bfa20f3112dcf5e
+      internalID: 1308875579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7520097b56c834db847852167aeaf5
+      internalID: 421679308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 311
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a40052752b4cdb4e94f123f5875028d
+      internalID: 1544032733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 311
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19506cd4ced1a834bb241de03d3f20ca
+      internalID: 1162689440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 311
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5758489ea73aadc419512bd14fb84f9a
+      internalID: -2091931081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e8e829a8483b74cab434bf42d84faa
+      internalID: 228025316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 0
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265d3c5a1901ac64ead29fd8c39769d3
+      internalID: -151418675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 0
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9909ad4752b451a4488146fb9bd0979d
+      internalID: 303992410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_BaseIdle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 0
+        width: 316.25
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00625d282b690aa439f6a7847bde1feb
+      internalID: 446965897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a615518daf4df2441a8943c6eae88490
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_BaseIdle_Down_0: 1027034763
+      CD_BaseIdle_Down_1: 914177783
+      CD_BaseIdle_Down_2: 1705989288
+      CD_BaseIdle_Down_3: 1728886675
+      CD_BaseIdle_Left_0: 1330185862
+      CD_BaseIdle_Left_1: -782016653
+      CD_BaseIdle_Left_2: 1467739258
+      CD_BaseIdle_Left_3: 1308875579
+      CD_BaseIdle_Right_0: 421679308
+      CD_BaseIdle_Right_1: 1544032733
+      CD_BaseIdle_Right_2: 1162689440
+      CD_BaseIdle_Right_3: -2091931081
+      CD_BaseIdle_Up_0: 228025316
+      CD_BaseIdle_Up_1: -151418675
+      CD_BaseIdle_Up_2: 303992410
+      CD_BaseIdle_Up_3: 446965897
+      CD_Player_Base_Idle_4Dir_4Frame_v02_0: -2344074565502121460
+      CD_Player_Base_Idle_4Dir_4Frame_v02_1: -7198500855389054118
+      CD_Player_Base_Idle_4Dir_4Frame_v02_2: 586583735710170527
+      CD_Player_Base_Idle_4Dir_4Frame_v02_3: 5277850766201241377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

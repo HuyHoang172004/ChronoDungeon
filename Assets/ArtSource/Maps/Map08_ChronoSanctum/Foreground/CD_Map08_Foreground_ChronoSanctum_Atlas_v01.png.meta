@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: f7dc99f80c6719848812d66c907557ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4769655973574416473
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_0
+  - first:
+      213: -8475194078562240430
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_1
+  - first:
+      213: 7251153838795577826
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_2
+  - first:
+      213: -7894112658360762265
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_3
+  - first:
+      213: -5056967312070427081
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_4
+  - first:
+      213: 230934082179577082
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_5
+  - first:
+      213: 7023142872946940733
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_6
+  - first:
+      213: 8389693393715257059
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_7
+  - first:
+      213: 4441562655291378857
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_8
+  - first:
+      213: 7842556094906742107
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_9
+  - first:
+      213: -1104979147468470550
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_10
+  - first:
+      213: -4990403265257650521
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_11
+  - first:
+      213: 7816838767816157732
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_12
+  - first:
+      213: 3155301613337392131
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_13
+  - first:
+      213: -7581790922697382532
+    second: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 365
+        height: 1071
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7e64aa927cecdb0800000000000000
+      internalID: -4769655973574416473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_1
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 13
+        width: 379
+        height: 1073
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258bdc893ef026a80800000000000000
+      internalID: -8475194078562240430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 629
+        width: 335
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9de158ff541a460800000000000000
+      internalID: 7251153838795577826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_3
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 722
+        width: 327
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7600e7dac5a727290800000000000000
+      internalID: -7894112658360762265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_4
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 992
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eb74bc50b02d9b0800000000000000
+      internalID: -5056967312070427081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 945
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af438def251743300800000000000000
+      internalID: 230934082179577082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 917
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b91d49b37377160800000000000000
+      internalID: 7023142872946940733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_7
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 737
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eed6dae0bd2e6470800000000000000
+      internalID: 8389693393715257059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 397
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac884cd3b993ad30800000000000000
+      internalID: 4441562655291378857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_9
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 307
+        width: 327
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55bdf7773b56dc60800000000000000
+      internalID: 7842556094906742107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_10
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 358
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae68deed1535aa0f0800000000000000
+      internalID: -1104979147468470550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_11
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 358
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a64e58aba68ebab0800000000000000
+      internalID: -4990403265257650521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 23
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a2f26a17dfa7c60800000000000000
+      internalID: 7816838767816157732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_13
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 15
+        width: 323
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304313e8912e9cb20800000000000000
+      internalID: 3155301613337392131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Map08_Foreground_ChronoSanctum_Atlas_v01_14
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 23
+        width: 355
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75675b635118c690800000000000000
+      internalID: -7581790922697382532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_0: -4769655973574416473
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_1: -8475194078562240430
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_10: -1104979147468470550
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_11: -4990403265257650521
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_12: 7816838767816157732
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_13: 3155301613337392131
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_14: -7581790922697382532
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_2: 7251153838795577826
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_3: -7894112658360762265
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_4: -5056967312070427081
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_5: 230934082179577082
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_6: 7023142872946940733
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_7: 8389693393715257059
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_8: 4441562655291378857
+      CD_Map08_Foreground_ChronoSanctum_Atlas_v01_9: 7842556094906742107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

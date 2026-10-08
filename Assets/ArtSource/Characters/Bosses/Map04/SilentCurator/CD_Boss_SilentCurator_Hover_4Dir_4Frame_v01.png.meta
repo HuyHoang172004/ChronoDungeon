@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: d091555a964c0dd41b09d9ba5d9f4bc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7612168299152052665
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_0
+  - first:
+      213: 4158300925840537070
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_1
+  - first:
+      213: -269224722587591807
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_2
+  - first:
+      213: 7101716952112837772
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_3
+  - first:
+      213: -5407221973736312100
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_4
+  - first:
+      213: 6072065558561609317
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_5
+  - first:
+      213: 5278590649637273053
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_6
+  - first:
+      213: -3201181021347447098
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_7
+  - first:
+      213: 2152737409408918646
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_8
+  - first:
+      213: 7474930130362386037
+    second: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 642
+        width: 343
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b19271bcbad3a960800000000000000
+      internalID: 7612168299152052665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 941
+        width: 280
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee537e119a045b930800000000000000
+      internalID: 4158300925840537070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_2
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 942
+        width: 269
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bd96d8a85834cf0800000000000000
+      internalID: -269224722587591807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_3
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 638
+        width: 281
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843e0201fd5e8260800000000000000
+      internalID: 7101716952112837772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_4
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 642
+        width: 288
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2b2c97340b5f4b0800000000000000
+      internalID: -5407221973736312100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 638
+        width: 285
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566d2fe447f444450800000000000000
+      internalID: 6072065558561609317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_6
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 270
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddf35a8a32514940800000000000000
+      internalID: 5278590649637273053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 17
+        width: 264
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cefcd852de1393d0800000000000000
+      internalID: -3201181021347447098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_8
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 25
+        width: 341
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6746386a44f00ed10800000000000000
+      internalID: 2152737409408918646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 31
+        width: 268
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5764d1589594cb760800000000000000
+      internalID: 7474930130362386037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_0: 7612168299152052665
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_1: 4158300925840537070
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_2: -269224722587591807
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_3: 7101716952112837772
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_4: -5407221973736312100
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_5: 6072065558561609317
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_6: 5278590649637273053
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_7: -3201181021347447098
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_8: 2152737409408918646
+      CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_9: 7474930130362386037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

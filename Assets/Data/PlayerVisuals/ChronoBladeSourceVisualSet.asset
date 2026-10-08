@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3277c0c969d72dd4580bd006c6c3b9bf, type: 3}
+  m_Name: ChronoBladeSourceVisualSet
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWeaponVisualSet
+  weapon: {fileID: 11400000, guid: 1e9d87596a4ae11419e04ec2a7a4d491, type: 2}
+  idleDown: {fileID: 982158112, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleRight: {fileID: 7321687, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleUp: {fileID: -874422537, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleLeft: {fileID: 1225208593, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleDownFrames:
+  - {fileID: 982158112, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -1388913666, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: 1558036077, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: 136912561, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleRightFrames:
+  - {fileID: 7321687, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -2085922016, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: 808860217, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -1591623843, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleUpFrames:
+  - {fileID: -874422537, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -277674071, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -1315970978, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -901863984, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  idleLeftFrames:
+  - {fileID: 1225208593, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: 1598964642, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: -271579050, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  - {fileID: 1716034592, guid: 0c1e5341608b6f740ab4e2874c51f9c0, type: 3}
+  walkDown: {fileID: 1453954105, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkRight: {fileID: -2069787131, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkUp: {fileID: -1425382685, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkLeft: {fileID: -2000888858, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkDownFrames:
+  - {fileID: 1453954105, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -1167193017, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: 703700875, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -660479785, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkRightFrames:
+  - {fileID: -2069787131, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: 594694072, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -1212989315, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -331171195, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkUpFrames:
+  - {fileID: -1425382685, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -898559808, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: 218235406, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -964571954, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  walkLeftFrames:
+  - {fileID: -2000888858, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: -1596079655, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: 735470589, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  - {fileID: 992162311, guid: 7edff5ca97978ed47b65012138edd8d9, type: 3}
+  attackDown: {fileID: 1889852128, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackRight: {fileID: -2144194359, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackUp: {fileID: 158123621, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackLeft: {fileID: 1490728809, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackDownFrames:
+  - {fileID: 1889852128, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 686282614, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: -961104534, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: -1888017326, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackRightFrames:
+  - {fileID: -2144194359, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 734666969, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: -784559749, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 345687171, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackUpFrames:
+  - {fileID: 158123621, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 714153942, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: -1607435001, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 605374630, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  attackLeftFrames:
+  - {fileID: 1490728809, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 1334584602, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: -59004446, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  - {fileID: 1750291081, guid: 8ac8f157de7a19b46a96c863f585a45d, type: 3}
+  skill1Down: {fileID: -1494615148, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1Right: {fileID: -1849324157, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1Up: {fileID: 138226599, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1Left: {fileID: -545161495, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1DownFrames:
+  - {fileID: -1494615148, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: 1077507980, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: 1945218278, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: 231365181, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1RightFrames:
+  - {fileID: -1849324157, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -143497843, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -1539397572, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: 954585095, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1UpFrames:
+  - {fileID: 138226599, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -136485043, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -358320728, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -2030834435, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill1LeftFrames:
+  - {fileID: -545161495, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -1314462753, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -675357309, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  - {fileID: -329519317, guid: 94bf1d99b8ecc8b438001de3293a1c2c, type: 3}
+  skill2Down: {fileID: 1866374947, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2Right: {fileID: 2025569839, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2Up: {fileID: -1562375223, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2Left: {fileID: 558666835, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2DownFrames:
+  - {fileID: 1866374947, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: -1256894961, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: 1980323657, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: -1112924506, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2RightFrames:
+  - {fileID: 2025569839, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: 1067114436, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: 979704958, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: 1077913188, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2UpFrames:
+  - {fileID: -1562375223, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: -297153059, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: 1827726595, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: -82863580, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  skill2LeftFrames:
+  - {fileID: 558666835, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: 1988355289, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: -811025772, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
+  - {fileID: -156370079, guid: 36f7cefa17ccbf34e888137db9d75939, type: 3}
