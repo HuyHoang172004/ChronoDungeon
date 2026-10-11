@@ -11,6 +11,10 @@ public class VirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandler,
 
     private Vector2 inputDirection;
 
+    // Read-only access for controllers that need to interpret an upward flick
+    // differently from ordinary top-down movement (for example, side-view jump).
+    public Vector2 InputDirection => inputDirection;
+
     public void OnPointerDown(PointerEventData eventData)
     {
         OnDrag(eventData);
@@ -39,7 +43,8 @@ public class VirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandler,
         joystickHandle.anchoredPosition =
             inputDirection * handleRange;
 
-        playerMovement.SetMoveDirection(inputDirection);
+        if (playerMovement != null)
+            playerMovement.SetMoveDirection(inputDirection);
     }
 
     public void OnPointerUp(PointerEventData eventData)
@@ -53,6 +58,7 @@ public class VirtualJoystick : MonoBehaviour, IPointerDownHandler, IDragHandler,
 
         joystickHandle.anchoredPosition = Vector2.zero;
 
-        playerMovement.SetMoveDirection(Vector2.zero);
+        if (playerMovement != null)
+            playerMovement.SetMoveDirection(Vector2.zero);
     }
 }
