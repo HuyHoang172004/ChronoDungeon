@@ -72,9 +72,7 @@ public sealed class RoomManager : MonoBehaviour
 
     public bool TryAdvance(Room source, PlayerMovement actor)
     {
-        if (!enabled || actor != player || IsComplete || CurrentRoom == null || source != CurrentRoom ||
-            (CurrentRoom.RequiresTemporalLoop && !loop.IsRunning) || transitionFrame == Time.frameCount || CurrentRoom.State != RoomState.Completed ||
-            !CurrentRoom.ExitDoor.IsOpen) return false;
+        if (actor != player || !CanAdvanceFrom(source)) return false;
         if (CurrentIndex + 1 < rooms.Length) Enter(CurrentIndex + 1);
         else
         {
@@ -83,6 +81,17 @@ public sealed class RoomManager : MonoBehaviour
             ProgressChanged?.Invoke();
         }
         return true;
+    }
+
+    // This is the single progression gate used by exits. A player can never
+    // enter the next room while the current encounter/objective is unfinished.
+    public bool CanAdvanceFrom(Room source)
+    {
+        return enabled && !IsComplete && CurrentRoom != null && source == CurrentRoom &&
+            transitionFrame != Time.frameCount &&
+            (!CurrentRoom.RequiresTemporalLoop || loop.IsRunning) &&
+            CurrentRoom.State == RoomState.Completed &&
+            CurrentRoom.ExitDoor != null && CurrentRoom.ExitDoor.IsOpen;
     }
 
     private void OnRoomStateChanged(Room _) => ProgressChanged?.Invoke();

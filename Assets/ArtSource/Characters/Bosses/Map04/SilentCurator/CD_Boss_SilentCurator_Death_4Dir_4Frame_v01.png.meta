@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -215,661 +215,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_0
+      name: Bosses_Map04_SilentCurator_Death_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5072150b2dd3876488466c37c2f3fb67
+      internalID: 388322571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Down_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63456f511ead47f428227f92fa8fd401
+      internalID: -367369239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Down_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af032a7c57a944b9c3bcb070a8391c
+      internalID: 1587419137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Down_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2136d9b60913b4b9a4c8696ff2711e
+      internalID: -38893907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b85a5a6f9e40a49985b3556eaf19a2
+      internalID: 461916407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8625e0b5fe63d94ea9f49c57721eb42
+      internalID: -348836413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b605c6c349e14a999736c26bfa4f8
+      internalID: 1096124705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a404ef1aa6fb26140959b8e8a553a5eb
+      internalID: 711730111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ff94da056d65148a395fde2e26339d
+      internalID: -242520636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cba09c406c2e4c428239f22c5909eed
+      internalID: 1740977466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61514a26b09aa8446bf055db4e01e1c6
+      internalID: 1804405029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ed655f99773204d9c6324512b92bb0
+      internalID: 72416977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 325
-        height: 1246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 496fd1c8cd9f88500800000000000000
-      internalID: 398843292661184148
+      spriteID: 89c36f7692626bb46b9f23c216269086
+      internalID: -1960792799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_1
+      name: Bosses_Map04_SilentCurator_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 330
-        y: 13
-        width: 328
-        height: 1233
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f13bf968c6fd42e0800000000000000
-      internalID: -2139782907299155464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 657
+        x: 315
         y: 0
-        width: 361
-        height: 1246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4dd3045f8bc361420800000000000000
-      internalID: 2600332599939317204
+      spriteID: 62896654a059ab74bbb252b6f0b5e7b9
+      internalID: -580952457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_3
+      name: Bosses_Map04_SilentCurator_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 975
-        y: 860
-        width: 274
-        height: 366
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 576c02df3e5434760800000000000000
-      internalID: 7440867854852867701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1203
-        y: 1142
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06d23ab4098ea9c60800000000000000
-      internalID: 7825823008951577952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 1120
-        y: 923
-        width: 22
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3dae2a81a4f38a290800000000000000
-      internalID: -7878977960611222829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 1165
-        y: 919
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c319aa2870f9c4010800000000000000
-      internalID: 1174488457442660668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 1147
-        y: 894
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 805bdeb2ad233ebe0800000000000000
-      internalID: -1449258742461909752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 1017
-        y: 648
-        width: 216
-        height: 237
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db3e9abcbf835ad00800000000000000
-      internalID: 983254747755176893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 1191
-        y: 873
-        width: 22
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e44b925a98b28a0a0800000000000000
-      internalID: -6870193361372203954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 1161
-        y: 614
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba972dab6ae774150800000000000000
-      internalID: 5856789094982646187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 1189
-        y: 632
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9654d9dca6e50dba0800000000000000
-      internalID: -6066244885258877591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 1015
-        y: 296
-        width: 202
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab15059c4673c9fe0800000000000000
-      internalID: -1181008096264171078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 1219
-        y: 484
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b79147c98484fe50800000000000000
-      internalID: 6842239461170976696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 444
-        width: 5
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 389b8e40f9cea2320800000000000000
-      internalID: 2534097908075641219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 1027
-        y: 361
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c0a3a00cd5cc38a0800000000000000
-      internalID: -6323962228040818491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 1035
-        y: 363
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 116f62d1f5fabbca0800000000000000
-      internalID: -6000009255495207407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 309
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 352b13b669021dee0800000000000000
-      internalID: -1238172592134573485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 1122
-        y: 302
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62a21febd3360ccd0800000000000000
-      internalID: -2539921072989328858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 1128
-        y: 314
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6be2336fafdf72800800000000000000
-      internalID: 587717530709339830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 1141
-        y: 308
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a337c65eb71839660800000000000000
-      internalID: 7391393782575166266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_21
-      rect:
-        serializedVersion: 2
-        x: 1187
-        y: 296
-        width: 26
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73d0ee8e1b36a27a0800000000000000
-      internalID: -6401194304585462473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_22
-      rect:
-        serializedVersion: 2
-        x: 1205
-        y: 280
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f22720f369081590800000000000000
-      internalID: -7703396837781724429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_23
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 277
-        width: 30
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35d53481fc8d62f00800000000000000
-      internalID: 1091798343660821843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_24
-      rect:
-        serializedVersion: 2
-        x: 1029
+        x: 630
         y: 0
-        width: 200
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b56a0d25a485a9480800000000000000
-      internalID: -8891697438049393061
+      spriteID: 2a60109e461731c40b0eb9fa9e01c796
+      internalID: -1840131557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_25
+      name: Bosses_Map04_SilentCurator_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 296
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5880973e4d5ec6f0800000000000000
-      internalID: -662489504655832995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 132
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a3e0532dac5438e70800000000000000
-      internalID: 9116206808140418618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_27
-      rect:
-        serializedVersion: 2
-        x: 969
-        y: 104
-        width: 13
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d65309893237f130800000000000000
-      internalID: 3600401649799222993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_28
-      rect:
-        serializedVersion: 2
-        x: 979
-        y: 98
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 099b6d55e9e893a10800000000000000
-      internalID: 1889698329354746256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_29
-      rect:
-        serializedVersion: 2
-        x: 995
-        y: 79
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7837ef9f6ab7754f0800000000000000
-      internalID: -840066848392318073
+      spriteID: fdc6fda788c54b942a2839dc6b24e7fb
+      internalID: 132486774
       vertices: []
       indices: 
       edges: []
@@ -878,7 +570,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 96ed407652f13c941b0d3e3d47107a9a
     internalID: 0
     vertices: []
     indices: 
@@ -888,6 +580,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map04_SilentCurator_Death_Down_0: 388322571
+      Bosses_Map04_SilentCurator_Death_Down_1: -367369239
+      Bosses_Map04_SilentCurator_Death_Down_2: 1587419137
+      Bosses_Map04_SilentCurator_Death_Down_3: -38893907
+      Bosses_Map04_SilentCurator_Death_Left_0: 461916407
+      Bosses_Map04_SilentCurator_Death_Left_1: -348836413
+      Bosses_Map04_SilentCurator_Death_Left_2: 1096124705
+      Bosses_Map04_SilentCurator_Death_Left_3: 711730111
+      Bosses_Map04_SilentCurator_Death_Right_0: -242520636
+      Bosses_Map04_SilentCurator_Death_Right_1: 1740977466
+      Bosses_Map04_SilentCurator_Death_Right_2: 1804405029
+      Bosses_Map04_SilentCurator_Death_Right_3: 72416977
+      Bosses_Map04_SilentCurator_Death_Up_0: -1960792799
+      Bosses_Map04_SilentCurator_Death_Up_1: -580952457
+      Bosses_Map04_SilentCurator_Death_Up_2: -1840131557
+      Bosses_Map04_SilentCurator_Death_Up_3: 132486774
       CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_0: 398843292661184148
       CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_1: -2139782907299155464
       CD_Boss_SilentCurator_Death_4Dir_4Frame_v01_10: 5856789094982646187

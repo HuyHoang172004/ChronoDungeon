@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -179,397 +179,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map04_LivingTome_Hit_Down_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 803
-        width: 292
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f8896aa2aeb0a800800000000000000
-      internalID: 621706354430150899
+      spriteID: 6962110a35df10c42a1a91d59ee8bfde
+      internalID: 1239931451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_1
+      name: Enemies_Map04_LivingTome_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 406
-        y: 793
-        width: 311
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e89452471a6e7f9c0800000000000000
-      internalID: -3893389771725780594
+      spriteID: 742717037a6262d4383fa6d4d298247b
+      internalID: -1078217573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_2
+      name: Enemies_Map04_LivingTome_Hit_Down_2
       rect:
         serializedVersion: 2
-        x: 549
-        y: 793
-        width: 14
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 19f340aba2682dc90800000000000000
-      internalID: -7146502140615966831
+      spriteID: 8eac4ca8fbfd47e41a374816654d03fa
+      internalID: 67883090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_3
+      name: Enemies_Map04_LivingTome_Hit_Down_3
       rect:
         serializedVersion: 2
-        x: 765
-        y: 785
-        width: 300
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: adb7cdb382bf632e0800000000000000
-      internalID: -2146252022173893670
+      spriteID: 18f0617d84ad90342bb0dbf726ceb318
+      internalID: 975396104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_4
+      name: Enemies_Map04_LivingTome_Hit_Left_0
       rect:
         serializedVersion: 2
-        x: 1131
-        y: 799
-        width: 290
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: adb9a388fdd0b6fa0800000000000000
-      internalID: -5806532040849712166
+      spriteID: 164ede5a8c487cc46b8dcc8ba0fc9c46
+      internalID: 640404226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_5
+      name: Enemies_Map04_LivingTome_Hit_Left_1
       rect:
         serializedVersion: 2
-        x: 60
-        y: 552
-        width: 293
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ed90d54d9bc83400800000000000000
-      internalID: 304216851189112297
+      spriteID: ae7800eb2845f964c99191fde83ba4ce
+      internalID: 877786414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_6
+      name: Enemies_Map04_LivingTome_Hit_Left_2
       rect:
         serializedVersion: 2
-        x: 404
-        y: 546
-        width: 307
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 78639df4be6057f00800000000000000
-      internalID: 1113804090570782343
+      spriteID: 1a604dd77c1d85441a42f5c098633d7f
+      internalID: 1282706982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_7
+      name: Enemies_Map04_LivingTome_Hit_Left_3
       rect:
         serializedVersion: 2
-        x: 754
-        y: 550
-        width: 331
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e6d62dee92bbbc70800000000000000
-      internalID: 8987973877001279206
+      spriteID: 39aa35cf98479ef42a00f170469c265d
+      internalID: 2088288750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map04_LivingTome_Hit_Right_0
       rect:
         serializedVersion: 2
-        x: 1137
-        y: 548
-        width: 283
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f591b8a6a00845c30800000000000000
-      internalID: 4347240322544900447
+      spriteID: e93492ed1612bad4f9c81ac2947f51fa
+      internalID: 602649323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_9
+      name: Enemies_Map04_LivingTome_Hit_Right_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 293
-        width: 289
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 753d0dadd5231cd00800000000000000
-      internalID: 991128771682685783
+      spriteID: 0750556195988474cb2d383f017afd4f
+      internalID: 180371707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_10
+      name: Enemies_Map04_LivingTome_Hit_Right_2
       rect:
         serializedVersion: 2
-        x: 308
-        y: 299
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 32947b93eef2bf430800000000000000
-      internalID: 3817697809343662371
+      spriteID: cbc3768107a8c774fb727b4a86d9b2d7
+      internalID: -850864776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_11
+      name: Enemies_Map04_LivingTome_Hit_Right_3
       rect:
         serializedVersion: 2
-        x: 346
-        y: 303
-        width: 353
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e0f6c9fb2aea3f20800000000000000
-      internalID: 3403289943026888934
+      spriteID: e6621d4945860d34680ee0a9603ee19f
+      internalID: 875016389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 732
-        y: 291
-        width: 348
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cab3518e17ba7c5a0800000000000000
-      internalID: -6501039031372661844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 755
-        y: 42
-        width: 325
-        height: 252
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68a5b71d5d1732a20800000000000000
-      internalID: 3036395736934341254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 46
-        width: 305
-        height: 248
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b8f3a44e8b4f3b80800000000000000
-      internalID: -8412922504495761231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 1138
-        y: 291
-        width: 283
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0591ec8304447270800000000000000
-      internalID: 8247291599661405451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_16
+      name: Enemies_Map04_LivingTome_Hit_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 341
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c537c280ec84ceaa0800000000000000
-      internalID: -6130444943020493988
+      spriteID: 69d6bff8cebd6d04896b4f9c6c7f85d8
+      internalID: -408014287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_17
+      name: Enemies_Map04_LivingTome_Hit_Up_1
       rect:
         serializedVersion: 2
-        x: 386
+        x: 362
         y: 0
-        width: 329
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 08cd3ecabfa31b5b0800000000000000
-      internalID: -5354433629354992512
+      spriteID: b1d42a73c9b3d144ba5e708b81409993
+      internalID: -2066301231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LivingTome_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aa4f96044da2343865ed836509de63
+      internalID: -1331485518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LivingTome_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233ed6a4461aaf24cb9d78669f27130f
+      internalID: -1893312495
       vertices: []
       indices: 
       edges: []
@@ -578,7 +534,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5d913ed5a8e05b146a04a0bf385eda07
     internalID: 0
     vertices: []
     indices: 
@@ -606,6 +562,22 @@ TextureImporter:
       CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_7: 8987973877001279206
       CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_8: 4347240322544900447
       CD_Enemy_LivingTome_Hit_4Dir_4Frame_v01_9: 991128771682685783
+      Enemies_Map04_LivingTome_Hit_Down_0: 1239931451
+      Enemies_Map04_LivingTome_Hit_Down_1: -1078217573
+      Enemies_Map04_LivingTome_Hit_Down_2: 67883090
+      Enemies_Map04_LivingTome_Hit_Down_3: 975396104
+      Enemies_Map04_LivingTome_Hit_Left_0: 640404226
+      Enemies_Map04_LivingTome_Hit_Left_1: 877786414
+      Enemies_Map04_LivingTome_Hit_Left_2: 1282706982
+      Enemies_Map04_LivingTome_Hit_Left_3: 2088288750
+      Enemies_Map04_LivingTome_Hit_Right_0: 602649323
+      Enemies_Map04_LivingTome_Hit_Right_1: 180371707
+      Enemies_Map04_LivingTome_Hit_Right_2: -850864776
+      Enemies_Map04_LivingTome_Hit_Right_3: 875016389
+      Enemies_Map04_LivingTome_Hit_Up_0: -408014287
+      Enemies_Map04_LivingTome_Hit_Up_1: -2066301231
+      Enemies_Map04_LivingTome_Hit_Up_2: -1331485518
+      Enemies_Map04_LivingTome_Hit_Up_3: -1893312495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

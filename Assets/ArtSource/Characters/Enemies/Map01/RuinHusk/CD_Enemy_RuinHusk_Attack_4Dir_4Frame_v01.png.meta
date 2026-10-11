@@ -164,287 +164,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_0
+      name: Attack_Down_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 815
-        width: 355
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3e6270be8c6da720800000000000000
-      internalID: 2859060698551578172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 12
-        width: 349
-        height: 793
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 586e05f279662e360800000000000000
-      internalID: 7197427954011399813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 799
-        width: 330
+        x: 0
+        y: 816
+        width: 361.5
         height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5383221eaff405fc0800000000000000
-      internalID: -3508216170784081867
+      spriteID: 83265625794ef2a40998d1b59780468a
+      internalID: -281000376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_3
+      name: Attack_Down_1
       rect:
         serializedVersion: 2
-        x: 683
-        y: 547
-        width: 384
-        height: 256
+        x: 361.5
+        y: 816
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e2f83fbbf6971a50800000000000000
-      internalID: 6491823395866997481
+      spriteID: 6fdfbeeb425721b44b2747204c7220a5
+      internalID: -1702431294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_4
+      name: Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 755
-        y: 815
-        width: 347
-        height: 242
+        x: 723
+        y: 816
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c04f232ad7ae80590800000000000000
-      internalID: -7707652936931544052
+      spriteID: fd59a1ba023e2cf4b8bb8c5649383894
+      internalID: 615662052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_5
+      name: Attack_Down_3
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 815
-        width: 267
-        height: 243
+        x: 1084.5
+        y: 816
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 896eb755bd416a480800000000000000
-      internalID: -8888393882304518504
+      spriteID: 3672c18b3da0cd540ae27581ee25f67b
+      internalID: 223362592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_6
+      name: Attack_Left_0
       rect:
         serializedVersion: 2
-        x: 377
-        y: 8
-        width: 315
-        height: 537
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43b3af050dbaba580800000000000000
-      internalID: -8814762934447490252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 540
-        width: 279
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60f3db4043db6c440800000000000000
-      internalID: 4955856471083269894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 695
-        y: 0
-        width: 429
-        height: 545
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1451fabc50b599c40800000000000000
-      internalID: 5519542898769466689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 1119
+        x: 0
         y: 544
-        width: 296
-        height: 254
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3509e9ca661c586a0800000000000000
-      internalID: -6447534644784099245
+      spriteID: 843e8cf2406c439478a81cbefbd1ce35
+      internalID: 873843499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_10
+      name: Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 1129
-        y: 285
-        width: 286
-        height: 259
+        x: 361.5
+        y: 544
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05f987b1dfd31fc50800000000000000
-      internalID: 6697202278173548368
+      spriteID: 30e222aee2e48f147bc6eb782ea0a8de
+      internalID: 304453373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_11
+      name: Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 1117
-        y: 197
-        width: 9
-        height: 13
+        x: 723
+        y: 544
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36005aee36dafe030800000000000000
-      internalID: 3526227677971546211
+      spriteID: b2e22b0021d349f47bb83917c173bc2e
+      internalID: 59154745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_12
+      name: Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 1153
+        x: 1084.5
+        y: 544
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebb2ed1c033f3c40a205f2f8bbe4305
+      internalID: -886632033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49bb4fe2a2112f47aa3aadc6c9b05f8
+      internalID: 572973177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Right_1
+      rect:
+        serializedVersion: 2
+        x: 361.5
+        y: 272
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a3bb5d5c31ec34aae6bf844e78e632
+      internalID: 238876411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 272
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5031e9f67e27ca459de083b41b1da24
+      internalID: -277511584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1084.5
+        y: 272
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8de6eae156baf469d91c265fe8c231
+      internalID: -942910849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 278
-        height: 288
+        width: 361.5
+        height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb6887aa63c2ec480800000000000000
-      internalID: -8877109202200787268
+      spriteID: 0f822d93228aa25438cd22af6496ba67
+      internalID: 311595984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 361.5
+        y: 0
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc17f75cf262a1747a70faa39ec860ab
+      internalID: -644292421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3733d05e4dff8478a0c7a151e07900
+      internalID: -647497307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1084.5
+        y: 0
+        width: 361.5
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237f1ddcdf838424086e89660ee93911
+      internalID: 2130473121
       vertices: []
       indices: 
       edges: []
@@ -453,7 +519,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 75dd41920ac97a44a9bdefc08fa5e1e2
     internalID: 0
     vertices: []
     indices: 
@@ -463,6 +529,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Attack_Down_0: -281000376
+      Attack_Down_1: -1702431294
+      Attack_Down_2: 615662052
+      Attack_Down_3: 223362592
+      Attack_Left_0: 873843499
+      Attack_Left_1: 304453373
+      Attack_Left_2: 59154745
+      Attack_Left_3: -886632033
+      Attack_Right_0: 572973177
+      Attack_Right_1: 238876411
+      Attack_Right_2: -277511584
+      Attack_Right_3: -942910849
+      Attack_Up_0: 311595984
+      Attack_Up_1: -644292421
+      Attack_Up_2: -647497307
+      Attack_Up_3: 2130473121
       CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_0: 2859060698551578172
       CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_1: 7197427954011399813
       CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_10: 6697202278173548368
@@ -476,6 +558,22 @@ TextureImporter:
       CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_7: 4955856471083269894
       CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_8: 5519542898769466689
       CD_Enemy_RuinHusk_Attack_4Dir_4Frame_v01_9: -6447534644784099245
+      Enemies_Map01_RuinHusk_Attack_Down_0: -6647744
+      Enemies_Map01_RuinHusk_Attack_Down_1: 336421987
+      Enemies_Map01_RuinHusk_Attack_Down_2: 263243213
+      Enemies_Map01_RuinHusk_Attack_Down_3: 1206561100
+      Enemies_Map01_RuinHusk_Attack_Left_0: -933813376
+      Enemies_Map01_RuinHusk_Attack_Left_1: -1589840179
+      Enemies_Map01_RuinHusk_Attack_Left_2: -268372305
+      Enemies_Map01_RuinHusk_Attack_Left_3: -1004027701
+      Enemies_Map01_RuinHusk_Attack_Right_0: -1580678963
+      Enemies_Map01_RuinHusk_Attack_Right_1: -1059405960
+      Enemies_Map01_RuinHusk_Attack_Right_2: -2067441913
+      Enemies_Map01_RuinHusk_Attack_Right_3: -1778888418
+      Enemies_Map01_RuinHusk_Attack_Up_0: 297949033
+      Enemies_Map01_RuinHusk_Attack_Up_1: -1194287710
+      Enemies_Map01_RuinHusk_Attack_Up_2: -59858773
+      Enemies_Map01_RuinHusk_Attack_Up_3: -1344439512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

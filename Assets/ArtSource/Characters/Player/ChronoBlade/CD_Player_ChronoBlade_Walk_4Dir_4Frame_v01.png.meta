@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 420
+  spritePixelsToUnits: 140.90909
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,7 +143,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_BladeWalk_Down_0
+      name: Player_ChronoBlade_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303fde281f593a14398d51f65ceec33c
-      internalID: 1453954105
+      spriteID: 06708aeb8f69d784984bfe99853dd8a2
+      internalID: 26749733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Down_1
+      name: Player_ChronoBlade_Move_Down_1
       rect:
         serializedVersion: 2
         x: 317
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18b745e8c05ffd468c81eedc59ba1af
-      internalID: -1167193017
+      spriteID: 4ba3419a7d823ec459d6ba58d021f20e
+      internalID: -1391813545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Down_2
+      name: Player_ChronoBlade_Move_Down_2
       rect:
         serializedVersion: 2
         x: 634
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80dd56b9ed001a5489271c3f82f2eee7
-      internalID: 703700875
+      spriteID: 3b381224810705040901f4ed823cd6bf
+      internalID: -694724961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Down_3
+      name: Player_ChronoBlade_Move_Down_3
       rect:
         serializedVersion: 2
         x: 951
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ffc0d81e72dabc4a8e17449bb0b55dc
-      internalID: -660479785
+      spriteID: 581fc5f8a82683643af645c9b3d1e5dd
+      internalID: -1971709369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Left_0
+      name: Player_ChronoBlade_Move_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87abced2af513e94c93b598fe7ca29dc
-      internalID: -2000888858
+      spriteID: 6c57c07fae3ccf947a02e839a6c3cd57
+      internalID: -1856084099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Left_1
+      name: Player_ChronoBlade_Move_Left_1
       rect:
         serializedVersion: 2
         x: 317
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e3f715cb25d8c343b1fabdd842bb101
-      internalID: -1596079655
+      spriteID: 15ce65ca5155fe242b1bd3cd50f148ab
+      internalID: 1327604119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Left_2
+      name: Player_ChronoBlade_Move_Left_2
       rect:
         serializedVersion: 2
         x: 634
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc8ec94399b002b4d88b223312eff1b8
-      internalID: 735470589
+      spriteID: df5d33df04a010c4eaf0551fab7eac2d
+      internalID: 1611933781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Left_3
+      name: Player_ChronoBlade_Move_Left_3
       rect:
         serializedVersion: 2
         x: 951
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00cd30fea959b4c4e85bc58a64da2dc7
-      internalID: 992162311
+      spriteID: 70d89d78483077047aa03d9d9421ad37
+      internalID: -942801619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Right_0
+      name: Player_ChronoBlade_Move_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0fbf6ddbe785b45a4592edb17d4793
-      internalID: -2069787131
+      spriteID: 1220a8fe80c0eff4e988525ece3554cf
+      internalID: -894463329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Right_1
+      name: Player_ChronoBlade_Move_Right_1
       rect:
         serializedVersion: 2
         x: 317
@@ -356,14 +356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1722d6abd4e669e439a53625bac27399
-      internalID: 594694072
+      spriteID: 3bf354f6b181df44f846372d716113a4
+      internalID: 1983257312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Right_2
+      name: Player_ChronoBlade_Move_Right_2
       rect:
         serializedVersion: 2
         x: 634
@@ -378,14 +378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7029341269786ba4bb98ed251f6fd40a
-      internalID: -1212989315
+      spriteID: edbe13e414fcc8b43b34f16ba49cc8f9
+      internalID: -1381935358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Right_3
+      name: Player_ChronoBlade_Move_Right_3
       rect:
         serializedVersion: 2
         x: 951
@@ -400,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32d63346a2e479449a50d5dc34d03088
-      internalID: -331171195
+      spriteID: 13e1a59f956c24f4eb213f9e37cd197d
+      internalID: 505263505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Up_0
+      name: Player_ChronoBlade_Move_Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -422,14 +422,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7927ef09b3852c54098dcf4d9084fffe
-      internalID: -1425382685
+      spriteID: d618a26fffd85ea43b28cb9bb7d5c1af
+      internalID: 1310195346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Up_1
+      name: Player_ChronoBlade_Move_Up_1
       rect:
         serializedVersion: 2
         x: 317
@@ -444,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69ddc5cb44a3739469e63f08650cf069
-      internalID: -898559808
+      spriteID: 934ff59fcef7841499194c65b9a0449e
+      internalID: -60226201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Up_2
+      name: Player_ChronoBlade_Move_Up_2
       rect:
         serializedVersion: 2
         x: 634
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa046198eba0e64a8fda884f24408af
-      internalID: 218235406
+      spriteID: f78d98f9e1e6cad4cbb68d3f1a7386b5
+      internalID: -319542384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeWalk_Up_3
+      name: Player_ChronoBlade_Move_Up_3
       rect:
         serializedVersion: 2
         x: 951
@@ -488,8 +488,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5adda9b9096f0b941b1a7e78fe2b35b2
-      internalID: -964571954
+      spriteID: aa372a3137ab0184f9b0b7afcff15db8
+      internalID: -1277354138
       vertices: []
       indices: 
       edges: []
@@ -530,6 +530,22 @@ TextureImporter:
       CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_3: 6256832791929545636
       CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_4: 1743545156466810731
       CD_Player_ChronoBlade_Walk_4Dir_4Frame_v01_5: 6633055898997459244
+      Player_ChronoBlade_Move_Down_0: 26749733
+      Player_ChronoBlade_Move_Down_1: -1391813545
+      Player_ChronoBlade_Move_Down_2: -694724961
+      Player_ChronoBlade_Move_Down_3: -1971709369
+      Player_ChronoBlade_Move_Left_0: -1856084099
+      Player_ChronoBlade_Move_Left_1: 1327604119
+      Player_ChronoBlade_Move_Left_2: 1611933781
+      Player_ChronoBlade_Move_Left_3: -942801619
+      Player_ChronoBlade_Move_Right_0: -894463329
+      Player_ChronoBlade_Move_Right_1: 1983257312
+      Player_ChronoBlade_Move_Right_2: -1381935358
+      Player_ChronoBlade_Move_Right_3: 505263505
+      Player_ChronoBlade_Move_Up_0: 1310195346
+      Player_ChronoBlade_Move_Up_1: -60226201
+      Player_ChronoBlade_Move_Up_2: -319542384
+      Player_ChronoBlade_Move_Up_3: -1277354138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

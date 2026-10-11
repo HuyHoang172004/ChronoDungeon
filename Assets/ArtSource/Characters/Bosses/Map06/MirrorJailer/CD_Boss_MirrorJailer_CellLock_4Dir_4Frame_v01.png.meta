@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 89.117645
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_CellLock_4Dir_4Frame_v01_0
+      name: Bosses_Map06_MirrorJailer_CellLock_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
-        width: 1295
-        height: 1198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6811264657448e230800000000000000
-      internalID: 3668257167479280006
+      spriteID: 346bac6f8b85d06439bad21abe4131b0
+      internalID: -2070797510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Down_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7ea87a89d26ad4193a8ca8e3d19171
+      internalID: 369979025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Down_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceed0c21cb07cb46880533b81ab6e55
+      internalID: 242165822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Down_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69df99c83913ed4c98a2718c234af95
+      internalID: -546622908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e11e62ea932d43ae9be62965f1998
+      internalID: -1654904189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Left_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8610a8017e25646aab084889df476f
+      internalID: -1477782477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Left_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06706089f3833d2439646101b9195569
+      internalID: -1211682359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Left_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f787ed5a14cfdaa478b7704cfb1eb8fc
+      internalID: 727787311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad0f19a2655254798328cd2010ff64
+      internalID: -1106524665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe3270848e1c534aa9c51d873ee6f73
+      internalID: -696871996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Right_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3df1b8c79eabd44aef552eb49c0237
+      internalID: -1018010891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Right_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8510bbf6173e714ea45ad9a923c7eb9
+      internalID: 1922723888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68762c345acc4e94ca969c1989201c98
+      internalID: -2139150501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Up_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c407a07a82d6be54681eaad507a3168f
+      internalID: -1826488915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Up_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c182519b3fb1f7489c684b05433d9b2
+      internalID: 585675502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_CellLock_Up_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be481af2bc9cc0141bfe06e5af4564b5
+      internalID: -1050769991
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: db147a39b19109442a4e356b2bb4cc37
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map06_MirrorJailer_CellLock_Down_0: -2070797510
+      Bosses_Map06_MirrorJailer_CellLock_Down_1: 369979025
+      Bosses_Map06_MirrorJailer_CellLock_Down_2: 242165822
+      Bosses_Map06_MirrorJailer_CellLock_Down_3: -546622908
+      Bosses_Map06_MirrorJailer_CellLock_Left_0: -1654904189
+      Bosses_Map06_MirrorJailer_CellLock_Left_1: -1477782477
+      Bosses_Map06_MirrorJailer_CellLock_Left_2: -1211682359
+      Bosses_Map06_MirrorJailer_CellLock_Left_3: 727787311
+      Bosses_Map06_MirrorJailer_CellLock_Right_0: -1106524665
+      Bosses_Map06_MirrorJailer_CellLock_Right_1: -696871996
+      Bosses_Map06_MirrorJailer_CellLock_Right_2: -1018010891
+      Bosses_Map06_MirrorJailer_CellLock_Right_3: 1922723888
+      Bosses_Map06_MirrorJailer_CellLock_Up_0: -2139150501
+      Bosses_Map06_MirrorJailer_CellLock_Up_1: -1826488915
+      Bosses_Map06_MirrorJailer_CellLock_Up_2: 585675502
+      Bosses_Map06_MirrorJailer_CellLock_Up_3: -1050769991
       CD_Boss_MirrorJailer_CellLock_4Dir_4Frame_v01_0: 3668257167479280006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

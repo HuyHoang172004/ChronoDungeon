@@ -96,6 +96,23 @@ public static class ChronoSourcePlayerArtImporter
         factories.Init();
         ISpriteEditorDataProvider provider = factories.GetSpriteEditorDataProviderFromObject(source);
         provider.InitSpriteEditorDataProvider();
+        // Both player importers touch these sheets. Keep each cell's identity so
+        // existing visual sets and animation clips survive a rebuild or rename.
+        SpriteRect[] existingRects = provider.GetSpriteRects();
+        foreach (SpriteRect rect in spriteRects)
+        {
+            SpriteRect previous = System.Array.Find(existingRects, old =>
+                Vector2.Distance(old.rect.center, rect.rect.center) < 4f);
+            if (previous != null) rect.spriteID = previous.spriteID;
+        }
+        var nameProvider = provider.GetDataProvider<ISpriteNameFileIdDataProvider>();
+        if (nameProvider != null)
+        {
+            var pairs = new List<SpriteNameFileIdPair>();
+            foreach (SpriteRect rect in spriteRects)
+                pairs.Add(new SpriteNameFileIdPair(rect.name, rect.spriteID));
+            nameProvider.SetNameFileIdPairs(pairs);
+        }
         provider.SetSpriteRects(spriteRects.ToArray());
         provider.Apply();
         importer.SaveAndReimport();

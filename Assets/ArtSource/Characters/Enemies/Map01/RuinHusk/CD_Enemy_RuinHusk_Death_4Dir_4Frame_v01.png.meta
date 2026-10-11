@@ -182,419 +182,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_0
+      name: Death_Down_0
       rect:
         serializedVersion: 2
-        x: 383
-        y: 759
-        width: 403
-        height: 313
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52810483eeb5316b0800000000000000
-      internalID: -5326812855545096155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 873
-        y: 1060
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cb6b48993f8a3400800000000000000
-      internalID: 304713402331917249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 1306
-        y: 997
-        width: 120
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd6e0ddd4487481b0800000000000000
-      internalID: -5655262994895935780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 798
-        width: 252
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ab402aa55c287f50800000000000000
-      internalID: 6879297177246518178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 800
-        width: 401
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2c75ca5261257f10800000000000000
-      internalID: 2266754693764316207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 973
-        y: 1009
-        width: 43
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0138ea14f01f4e370800000000000000
-      internalID: 8351064656880501520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 1164
-        y: 1013
-        width: 138
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c4b3e999c6259070800000000000000
-      internalID: 8112432951089935552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 1299
-        y: 1013
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82516a9fef1666760800000000000000
-      internalID: 7450750381269062952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 541
-        width: 307
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e3c0bd38c87cec50800000000000000
-      internalID: 6695859547416871913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 538
-        width: 329
-        height: 225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 969ae47195086d090800000000000000
-      internalID: -8010073767100372631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 690
-        y: 539
-        width: 354
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0babb132ae1292720800000000000000
-      internalID: 2821823931019410096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 711
-        width: 364
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0bf074d6673b9d50800000000000000
-      internalID: 6745045781707815693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 694
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bac071702fadcaee0800000000000000
-      internalID: -1248382263652578133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 17
-        width: 348
-        height: 528
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68de52cd79f38fab0800000000000000
-      internalID: -4974155866964628090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 279
-        width: 308
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8d2f493966df06f0800000000000000
-      internalID: -716118068307219062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 714
-        y: 289
-        width: 357
-        height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a595c377f6635220800000000000000
-      internalID: 2473433833341818278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 467
-        width: 335
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8addae39482984b0800000000000000
-      internalID: -5437770780023858548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 1075
-        y: 301
-        width: 363
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 420407e14de659070800000000000000
-      internalID: 8112512161100611620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 0
-        width: 1055
+        x: 0
+        y: 816
+        width: 361.25
         height: 272
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f104a3456f20d7de0800000000000000
-      internalID: -1333906657633484769
+      spriteID: 674ae92e81c21a44783e9edebfe20a34
+      internalID: 1949434629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Down_1
+      rect:
+        serializedVersion: 2
+        x: 361.25
+        y: 816
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58af96019f2d6a149b06ea174c26fadd
+      internalID: 638550896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Down_2
+      rect:
+        serializedVersion: 2
+        x: 722.5
+        y: 816
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1297dc5d2800c40a5af55016b76eb7
+      internalID: 807149449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1083.75
+        y: 816
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836dab5ff75b27e4e9dcc8ff9a03c18e
+      internalID: -288457781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1f427383341c946872e02fd1850b16
+      internalID: 2044431138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 361.25
+        y: 544
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0bd1b266873964ebdef0089bb8cf8c
+      internalID: 2079288171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 722.5
+        y: 544
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4cd1c4605b43b46b61b424e9c28375
+      internalID: -421310828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1083.75
+        y: 544
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fe3968493f3246a285aad0c025de6
+      internalID: 30735970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174514d9cd4e96844878b82fb1540aff
+      internalID: -1344068014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 361.25
+        y: 272
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac22bf6116af747abe728ccbd1e64f
+      internalID: 663343695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 722.5
+        y: 272
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38f3bea71531b4479942aebac21098f
+      internalID: 898867742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1083.75
+        y: 272
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e52751c80b717b4e8ee5d22545dd01e
+      internalID: -414162602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f015780645720bb40a7333a3c9e59f87
+      internalID: 866870593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 361.25
+        y: 0
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ea1f4bd3a4e0942aeacc750b5d6fc3
+      internalID: 561253350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 722.5
+        y: 0
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fbac31ad71929488f18115b17d117b
+      internalID: -794840108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1083.75
+        y: 0
+        width: 361.25
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7091f4233792a784c956222d75959933
+      internalID: -1794919649
       vertices: []
       indices: 
       edges: []
@@ -603,7 +537,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fc79fe7166c26d84ea9c03f5d054a253
     internalID: 0
     vertices: []
     indices: 
@@ -632,6 +566,38 @@ TextureImporter:
       CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_7: 7450750381269062952
       CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_8: 6695859547416871913
       CD_Enemy_RuinHusk_Death_4Dir_4Frame_v01_9: -8010073767100372631
+      Death_Down_0: 1949434629
+      Death_Down_1: 638550896
+      Death_Down_2: 807149449
+      Death_Down_3: -288457781
+      Death_Left_0: 2044431138
+      Death_Left_1: 2079288171
+      Death_Left_2: -421310828
+      Death_Left_3: 30735970
+      Death_Right_0: -1344068014
+      Death_Right_1: 663343695
+      Death_Right_2: 898867742
+      Death_Right_3: -414162602
+      Death_Up_0: 866870593
+      Death_Up_1: 561253350
+      Death_Up_2: -794840108
+      Death_Up_3: -1794919649
+      Enemies_Map01_RuinHusk_Death_Down_0: -534388275
+      Enemies_Map01_RuinHusk_Death_Down_1: 513065843
+      Enemies_Map01_RuinHusk_Death_Down_2: 655925697
+      Enemies_Map01_RuinHusk_Death_Down_3: 2028459257
+      Enemies_Map01_RuinHusk_Death_Left_0: 1473154679
+      Enemies_Map01_RuinHusk_Death_Left_1: 1598960945
+      Enemies_Map01_RuinHusk_Death_Left_2: 688301475
+      Enemies_Map01_RuinHusk_Death_Left_3: 1518311013
+      Enemies_Map01_RuinHusk_Death_Right_0: 568110496
+      Enemies_Map01_RuinHusk_Death_Right_1: 1486571981
+      Enemies_Map01_RuinHusk_Death_Right_2: 1331517478
+      Enemies_Map01_RuinHusk_Death_Right_3: 940355280
+      Enemies_Map01_RuinHusk_Death_Up_0: -984063490
+      Enemies_Map01_RuinHusk_Death_Up_1: 737708461
+      Enemies_Map01_RuinHusk_Death_Up_2: 1530178389
+      Enemies_Map01_RuinHusk_Death_Up_3: -1125114223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

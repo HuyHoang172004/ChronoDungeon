@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 141.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,265 +161,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_0
+      name: Player_EmberStaff_FireBolt_Down_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 934
-        width: 275
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffb0f62fa0221b3a0800000000000000
-      internalID: -6651497744237130753
+      spriteID: 2b9891891ca231540ba1fe691fbf9e93
+      internalID: -687908862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_1
+      name: Player_EmberStaff_FireBolt_Down_1
       rect:
         serializedVersion: 2
-        x: 344
-        y: 933
-        width: 278
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316.25
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c09d78bebd47f9b0800000000000000
-      internalID: -5046479375910989626
+      spriteID: 3223691fdb8a05d408557bc39bdb3588
+      internalID: -1992233421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_2
+      name: Player_EmberStaff_FireBolt_Down_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 934
-        width: 306
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632.5
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4ad3529164c27890800000000000000
-      internalID: -7461685709253649846
+      spriteID: 2551705e0a00dff4aa691bae0c776c39
+      internalID: 87032648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_3
+      name: Player_EmberStaff_FireBolt_Down_3
       rect:
         serializedVersion: 2
-        x: 973
-        y: 933
-        width: 276
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948.75
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f29f21e6098c5f350800000000000000
-      internalID: 6049962197089712431
+      spriteID: 733ccdcf99802a74ca34c52ba21b4401
+      internalID: -1367762332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_4
+      name: Player_EmberStaff_FireBolt_Left_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 626
-        width: 311
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c805095cf27a2d9d0800000000000000
-      internalID: -2750952598750080884
+      spriteID: cc038d4100c76af4da0e23459b68d3d3
+      internalID: 131752244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_5
+      name: Player_EmberStaff_FireBolt_Left_1
       rect:
         serializedVersion: 2
-        x: 318
-        y: 627
-        width: 356
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316.25
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4098dafa55b5f5540800000000000000
-      internalID: 4998814534982273284
+      spriteID: 3cd22a7580221484582a3f6f3df24880
+      internalID: -148079683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_6
+      name: Player_EmberStaff_FireBolt_Left_2
       rect:
         serializedVersion: 2
-        x: 600
-        y: 625
-        width: 409
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632.5
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4e757b096494d7a0800000000000000
-      internalID: -6353289995428200882
+      spriteID: 701a9a69d5bd8fe4aaa70b66857181b9
+      internalID: -319647924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_7
+      name: Player_EmberStaff_FireBolt_Left_3
       rect:
         serializedVersion: 2
-        x: 993
-        y: 628
-        width: 272
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948.75
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d893bd109267e77d0800000000000000
-      internalID: -2918765589992621683
+      spriteID: 4e56b8cc20ea56643b5072e666933090
+      internalID: 595512239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_8
+      name: Player_EmberStaff_FireBolt_Right_0
       rect:
         serializedVersion: 2
-        x: 14
+        x: 0
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49aa3d5dfff28e409b804b79ee54b58
+      internalID: -1333272914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_FireBolt_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69563f6d48200a47bb2bbbc4fb4b719
+      internalID: -1755302660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_FireBolt_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096f32f2eab95cd408bddd551d3379e4
+      internalID: 6048255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_FireBolt_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2cf4ddd22c57040ade476e04146669
+      internalID: -977362084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_FireBolt_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 309
-        height: 619
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f47f9a3ef6e6d9450800000000000000
-      internalID: 6097150897369511759
+      spriteID: e53ba4db351302b4f96d23c9146465c2
+      internalID: 439437431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_9
+      name: Player_EmberStaff_FireBolt_Up_1
       rect:
         serializedVersion: 2
-        x: 304
+        x: 316.25
         y: 0
-        width: 356
-        height: 622
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93d9f374005d94020800000000000000
-      internalID: 2326624879685639481
+      spriteID: bd48babba993ff5429e67e25201a8eca
+      internalID: -1257650507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_10
+      name: Player_EmberStaff_FireBolt_Up_2
       rect:
         serializedVersion: 2
-        x: 621
+        x: 632.5
         y: 0
-        width: 631
-        height: 619
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72e0c562875ee2980800000000000000
-      internalID: -8561653537382330841
+      spriteID: 422732dc7d6d3584bac95b5c6496e6c2
+      internalID: -2059173670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_11
+      name: Player_EmberStaff_FireBolt_Up_3
       rect:
         serializedVersion: 2
-        x: 957
+        x: 948.75
         y: 0
-        width: 295
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3de431dfcddf0090800000000000000
-      internalID: -8065984522959393473
+      spriteID: 026a65fce1c807246a45975e18e8029d
+      internalID: -848348287
       vertices: []
       indices: 
       edges: []
@@ -428,7 +516,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ae18edf328bf7bf40bd27c9752e171d6
     internalID: 0
     vertices: []
     indices: 
@@ -450,6 +538,22 @@ TextureImporter:
       CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_7: -2918765589992621683
       CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_8: 6097150897369511759
       CD_Player_EmberStaff_FireBolt_4Dir_4Frame_v01_9: 2326624879685639481
+      Player_EmberStaff_FireBolt_Down_0: -687908862
+      Player_EmberStaff_FireBolt_Down_1: -1992233421
+      Player_EmberStaff_FireBolt_Down_2: 87032648
+      Player_EmberStaff_FireBolt_Down_3: -1367762332
+      Player_EmberStaff_FireBolt_Left_0: 131752244
+      Player_EmberStaff_FireBolt_Left_1: -148079683
+      Player_EmberStaff_FireBolt_Left_2: -319647924
+      Player_EmberStaff_FireBolt_Left_3: 595512239
+      Player_EmberStaff_FireBolt_Right_0: -1333272914
+      Player_EmberStaff_FireBolt_Right_1: -1755302660
+      Player_EmberStaff_FireBolt_Right_2: 6048255
+      Player_EmberStaff_FireBolt_Right_3: -977362084
+      Player_EmberStaff_FireBolt_Up_0: 439437431
+      Player_EmberStaff_FireBolt_Up_1: -1257650507
+      Player_EmberStaff_FireBolt_Up_2: -2059173670
+      Player_EmberStaff_FireBolt_Up_3: -848348287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

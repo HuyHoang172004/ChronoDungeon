@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_Walk_4Dir_4Frame_v01_0
+      name: Bosses_Map08_ChronoGuardian_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1278
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c79101223a57e9760800000000000000
-      internalID: 7466534575738460540
+      spriteID: 57d80b182f07fd24c8fb52991f54fb94
+      internalID: -1977427433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Down_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fb2fb0f0c1f2c47a3d353d6882eaf8
+      internalID: 1476495106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8685be8d49d7e0a4987eabf371e8548a
+      internalID: -685969735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d806492b94968b242bb921621dc713fd
+      internalID: -279671750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e400be8048c3a24abe5c723c4bd7149
+      internalID: -268077719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc875684376885d4297383c95371ebec
+      internalID: -1810926765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ac82a5c888dbe4cab46d1b35e7855b
+      internalID: -124398436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4fcef8f9639834cbad007e83cfc9b9
+      internalID: 957711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbd95ded4fbd6d4bb3f7c35759dbd6e
+      internalID: -224334546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d605000d3dfb235498e71463c1b0864f
+      internalID: 1422439793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff6916d4151aad499330dcadbc6cf68
+      internalID: -185260011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ebe39d9262e6645af8d60e5f3b62c1
+      internalID: -430922771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561be83d0aa51f74f921b60f6cec3069
+      internalID: 1265217598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb3a1f609f45d248b9abc7008b1ab64
+      internalID: 1064475060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffa6ab357bb6d04d9a40b72d43ab122
+      internalID: -952766137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58bb1ee4ef6f174089998050e7b1309
+      internalID: -1236864755
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 311cac1aba057e945b3e5ac28f22909f
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map08_ChronoGuardian_Move_Down_0: -1977427433
+      Bosses_Map08_ChronoGuardian_Move_Down_1: 1476495106
+      Bosses_Map08_ChronoGuardian_Move_Down_2: -685969735
+      Bosses_Map08_ChronoGuardian_Move_Down_3: -279671750
+      Bosses_Map08_ChronoGuardian_Move_Left_0: -268077719
+      Bosses_Map08_ChronoGuardian_Move_Left_1: -1810926765
+      Bosses_Map08_ChronoGuardian_Move_Left_2: -124398436
+      Bosses_Map08_ChronoGuardian_Move_Left_3: 957711
+      Bosses_Map08_ChronoGuardian_Move_Right_0: -224334546
+      Bosses_Map08_ChronoGuardian_Move_Right_1: 1422439793
+      Bosses_Map08_ChronoGuardian_Move_Right_2: -185260011
+      Bosses_Map08_ChronoGuardian_Move_Right_3: -430922771
+      Bosses_Map08_ChronoGuardian_Move_Up_0: 1265217598
+      Bosses_Map08_ChronoGuardian_Move_Up_1: 1064475060
+      Bosses_Map08_ChronoGuardian_Move_Up_2: -952766137
+      Bosses_Map08_ChronoGuardian_Move_Up_3: -1236864755
       CD_Boss_ChronoGuardian_Walk_4Dir_4Frame_v01_0: 7466534575738460540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

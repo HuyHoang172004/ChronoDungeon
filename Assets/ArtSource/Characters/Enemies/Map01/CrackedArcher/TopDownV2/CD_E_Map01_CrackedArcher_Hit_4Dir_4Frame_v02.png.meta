@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: faeb27dd683f71f43afdf6f3c7a9059e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8710052558350862104
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_0
+  - first:
+      213: 3873756072675651320
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_1
+  - first:
+      213: -5240873508138240117
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_2
+  - first:
+      213: 8132065902415905648
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_3
+  - first:
+      213: 7265630136229534539
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_4
+  - first:
+      213: -548709065806283398
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_5
+  - first:
+      213: 8616180588535756872
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_6
+  - first:
+      213: 2801303146020697001
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_7
+  - first:
+      213: 1418900882456814028
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_8
+  - first:
+      213: -3488650133262783713
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_9
+  - first:
+      213: 5880068037960670920
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_10
+  - first:
+      213: 8543890330753742033
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_11
+  - first:
+      213: 1990944543508025150
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_12
+  - first:
+      213: -570804318187531546
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_13
+  - first:
+      213: 5509482772378527584
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_14
+  - first:
+      213: -9203561501351357483
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_15
+  - first:
+      213: 8641134952537864266
+    second: CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 118.4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2951d5c7a35241b438978326e8293e37
+      internalID: -331712625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Down_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3649943c547774992675ba898ae0b6
+      internalID: -1362629154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Down_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f3b180bb13ece4fabb10f44fe0a4ad
+      internalID: 1646011358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Down_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e833dd06707773469df9bef20477c38
+      internalID: -882803014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32402909def0b6d4ca76680de8fa4804
+      internalID: 778723365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec7513e26653d4a846aabe43138500
+      internalID: 270058343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff960040b011dc0468e5336a7c14ac69
+      internalID: 461450257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8a48da4300d8243a8b4bc5faeed4a3
+      internalID: 1666227873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f623dfbfe1f52499ad47cb5cdca6b7
+      internalID: -1191719397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba78b280d9a71ac4fb4875e8700e6ba9
+      internalID: 297142393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49d4809faead364f92b5ce2c530a81e
+      internalID: -1956547174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c20a95e215dc6a4da6a7d180e455897
+      internalID: 324634000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e8addc63675e1479a1d61678807607
+      internalID: 1012992471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc5a01fd77da04b92278837bccb88b
+      internalID: 1207364334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e271c6e9b07254fb06126e0b1e224d
+      internalID: -1704590705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c7b20b594da94dab9595effbc7b76
+      internalID: 948103651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5537ececca72a1743888ffe6c161171a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_0: 8710052558350862104
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_1: 3873756072675651320
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_10: 5880068037960670920
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_11: 8543890330753742033
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_12: 1990944543508025150
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_13: -570804318187531546
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_14: 5509482772378527584
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_15: -9203561501351357483
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_16: 8641134952537864266
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_2: -5240873508138240117
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_3: 8132065902415905648
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_4: 7265630136229534539
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_5: -548709065806283398
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_6: 8616180588535756872
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_7: 2801303146020697001
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_8: 1418900882456814028
+      CD_E_Map01_CrackedArcher_Hit_4Dir_4Frame_v02_9: -3488650133262783713
+      Enemies_Map01_CrackedArcher_Hit_Down_0: -331712625
+      Enemies_Map01_CrackedArcher_Hit_Down_1: -1362629154
+      Enemies_Map01_CrackedArcher_Hit_Down_2: 1646011358
+      Enemies_Map01_CrackedArcher_Hit_Down_3: -882803014
+      Enemies_Map01_CrackedArcher_Hit_Left_0: 778723365
+      Enemies_Map01_CrackedArcher_Hit_Left_1: 270058343
+      Enemies_Map01_CrackedArcher_Hit_Left_2: 461450257
+      Enemies_Map01_CrackedArcher_Hit_Left_3: 1666227873
+      Enemies_Map01_CrackedArcher_Hit_Right_0: -1191719397
+      Enemies_Map01_CrackedArcher_Hit_Right_1: 297142393
+      Enemies_Map01_CrackedArcher_Hit_Right_2: -1956547174
+      Enemies_Map01_CrackedArcher_Hit_Right_3: 324634000
+      Enemies_Map01_CrackedArcher_Hit_Up_0: 1012992471
+      Enemies_Map01_CrackedArcher_Hit_Up_1: 1207364334
+      Enemies_Map01_CrackedArcher_Hit_Up_2: -1704590705
+      Enemies_Map01_CrackedArcher_Hit_Up_3: 948103651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

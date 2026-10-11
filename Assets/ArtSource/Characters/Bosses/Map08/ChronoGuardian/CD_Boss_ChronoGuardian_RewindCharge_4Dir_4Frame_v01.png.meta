@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_RewindCharge_4Dir_4Frame_v01_0
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1278
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea6dc0eed2f3f1940800000000000000
-      internalID: 5268999555546666670
+      spriteID: 7bdbc5d2142af014884329bdf6a6d70a
+      internalID: -1726479696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Down_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc65d3a1bc2234a4491994395f4f5ef1
+      internalID: -1826305091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Down_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ac2b5da20d62f4ebf054d172b1cd99
+      internalID: -77956533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Down_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38174d916fd9ce74fb45dd2d96f85ad3
+      internalID: 1923009429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaaf7e7908215b419f3e155a4334537
+      internalID: -951296784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Left_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d380af69618114a9189372eb467c3b
+      internalID: 341149043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Left_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263c06bbbcbdfdf4bbc80b6f4186e95d
+      internalID: -356333441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Left_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a269ee7f61d6e4da7789592fd768ab
+      internalID: 547997939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995edfe37435dbb4580e24105503d60b
+      internalID: 1323895271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Right_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba25f2c8c06ca93478411ad7cd0e312c
+      internalID: 1114929232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Right_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44bc14ecbdd85e4eaeebc5e23b77681
+      internalID: -1689721706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Right_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019de30e8c79e2f4aa6ab3d272c062df
+      internalID: -465582921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad496136e0202b42afa922288b9e061
+      internalID: -1619971306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Up_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8386351f594e46ac715db2eef444e
+      internalID: -416987478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Up_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816684e9d964e4e41983aeb6d6c041da
+      internalID: -668097757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_RewindCharge_Up_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9575baca654b28348a20b2aacd80d152
+      internalID: -1526502495
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73f72109869fadc4b9ee5133dac2ac2f
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map08_ChronoGuardian_RewindCharge_Down_0: -1726479696
+      Bosses_Map08_ChronoGuardian_RewindCharge_Down_1: -1826305091
+      Bosses_Map08_ChronoGuardian_RewindCharge_Down_2: -77956533
+      Bosses_Map08_ChronoGuardian_RewindCharge_Down_3: 1923009429
+      Bosses_Map08_ChronoGuardian_RewindCharge_Left_0: -951296784
+      Bosses_Map08_ChronoGuardian_RewindCharge_Left_1: 341149043
+      Bosses_Map08_ChronoGuardian_RewindCharge_Left_2: -356333441
+      Bosses_Map08_ChronoGuardian_RewindCharge_Left_3: 547997939
+      Bosses_Map08_ChronoGuardian_RewindCharge_Right_0: 1323895271
+      Bosses_Map08_ChronoGuardian_RewindCharge_Right_1: 1114929232
+      Bosses_Map08_ChronoGuardian_RewindCharge_Right_2: -1689721706
+      Bosses_Map08_ChronoGuardian_RewindCharge_Right_3: -465582921
+      Bosses_Map08_ChronoGuardian_RewindCharge_Up_0: -1619971306
+      Bosses_Map08_ChronoGuardian_RewindCharge_Up_1: -416987478
+      Bosses_Map08_ChronoGuardian_RewindCharge_Up_2: -668097757
+      Bosses_Map08_ChronoGuardian_RewindCharge_Up_3: -1526502495
       CD_Boss_ChronoGuardian_RewindCharge_4Dir_4Frame_v01_0: 5268999555546666670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

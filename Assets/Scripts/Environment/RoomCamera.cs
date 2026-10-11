@@ -5,8 +5,18 @@ using UnityEngine;
 public sealed class RoomCamera : MonoBehaviour
 {
     [SerializeField] private RoomManager manager;
+    [SerializeField, Min(1f)] private float viewSize = 2.8f;
     private Room framedRoom;
     private WorldAreaManager areaManager;
+    private Camera cameraComponent;
+
+    private void Awake()
+    {
+        // Migrate scenes authored with the previous camera distance.
+        if (Mathf.Approximately(viewSize, 3.5f)) viewSize = 2.8f;
+        cameraComponent = GetComponent<Camera>();
+        ApplyViewSize();
+    }
 
     private void OnEnable()
     {
@@ -26,6 +36,7 @@ public sealed class RoomCamera : MonoBehaviour
     private void Refresh()
     {
         if (areaManager != null && areaManager.IsZoneActive) return;
+        ApplyViewSize();
         if (manager.CurrentRoom == null || manager.CurrentRoom == framedRoom) return;
         framedRoom = manager.CurrentRoom;
         Vector3 center = framedRoom.CameraAnchor.position;
@@ -37,10 +48,15 @@ public sealed class RoomCamera : MonoBehaviour
     {
         if (area == null) return;
         if (areaManager != null && areaManager.IsZoneActive) return;
+        ApplyViewSize();
         Vector3 center = area.CameraAnchor.position;
         center.z = transform.position.z;
         transform.position = center;
-        Camera camera = GetComponent<Camera>();
-        if (camera != null) camera.orthographicSize = Mathf.Clamp(area.CameraSize.y * 0.55f, 3.8f, 8f);
+    }
+
+    private void ApplyViewSize()
+    {
+        if (cameraComponent == null) cameraComponent = GetComponent<Camera>();
+        if (cameraComponent != null) cameraComponent.orthographicSize = viewSize;
     }
 }

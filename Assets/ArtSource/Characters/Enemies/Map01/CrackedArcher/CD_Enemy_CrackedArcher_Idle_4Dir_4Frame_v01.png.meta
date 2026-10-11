@@ -111,7 +111,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 118.5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -188,463 +188,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_0
+      name: Enemies_Map01_CrackedArcher_Idle_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 878
-        width: 383
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b28e3f1d7c3b1150800000000000000
-      internalID: 5844331449536119472
+      spriteID: 64252c2f715e1f7438502c2f9fae483b
+      internalID: 1846536951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_1
+      name: Enemies_Map01_CrackedArcher_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 313
-        y: 992
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331.75
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ecd49ef1ecc5bfbd0800000000000000
-      internalID: -2595378719880557106
+      spriteID: f56b2146c20e50c4aa0fcbf4c0658cd1
+      internalID: -1339698935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_2
+      name: Enemies_Map01_CrackedArcher_Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 415
-        y: 824
-        width: 276
-        height: 353
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663.5
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d7e783777d061c20800000000000000
-      internalID: 3176741393847019474
+      spriteID: 23951055f8906d340b32d3050c61aa00
+      internalID: 367617789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_3
+      name: Enemies_Map01_CrackedArcher_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 720
-        y: 880
-        width: 284
-        height: 305
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 995.25
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 986a9f153a6f95cf0800000000000000
-      internalID: -262907921909045623
+      spriteID: 161055b996b56594296325cfd74ee8db
+      internalID: 786099475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1068
-        y: 878
-        width: 222
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ad568c80e6bd0710800000000000000
-      internalID: 1661184913116126633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_5
+      name: Enemies_Map01_CrackedArcher_Idle_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 279
-        width: 343
-        height: 600
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a27e154d2bbccf20800000000000000
-      internalID: 3444333618139132579
+      spriteID: 6fb4d1792b4dcb54dbf7ed460c6f82b7
+      internalID: -589259475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_6
+      name: Enemies_Map01_CrackedArcher_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 350
-        y: 589
-        width: 269
-        height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331.75
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98ae09fa91b7c8a80800000000000000
-      internalID: -8463254249486095735
+      spriteID: bd436003ac4b0634b8268220da3f1c46
+      internalID: 253886527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_7
+      name: Enemies_Map01_CrackedArcher_Idle_Left_2
       rect:
         serializedVersion: 2
-        x: 653
-        y: 590
-        width: 330
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663.5
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4fc76073f7130d750800000000000000
-      internalID: 6327611898909326580
+      spriteID: a4efbc28b9ca75b4c834d93da308595e
+      internalID: 298032463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_8
+      name: Enemies_Map01_CrackedArcher_Idle_Left_3
       rect:
         serializedVersion: 2
-        x: 989
-        y: 588
-        width: 306
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 995.25
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16d5a3d301f13d960800000000000000
-      internalID: 7625472748675554657
+      spriteID: 7ff3812e593b704418f133668e88476b
+      internalID: 1821328051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_9
+      name: Enemies_Map01_CrackedArcher_Idle_Right_0
       rect:
         serializedVersion: 2
-        x: 344
-        y: 271
-        width: 319
-        height: 315
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7dd4402a86b02eb90800000000000000
-      internalID: -7214191109071417897
+      spriteID: 5354a04b0f0bef141ad0ca8287e6a0c4
+      internalID: 944590468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_10
+      name: Enemies_Map01_CrackedArcher_Idle_Right_1
       rect:
         serializedVersion: 2
-        x: 574
-        y: 577
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331.75
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 975159a69cfd83b90800000000000000
-      internalID: -7261808342965348999
+      spriteID: eb2edad3f75bcf54bb153f862e7b828e
+      internalID: 1049094084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_11
+      name: Enemies_Map01_CrackedArcher_Idle_Right_2
       rect:
         serializedVersion: 2
-        x: 667
-        y: 285
-        width: 309
-        height: 298
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663.5
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d511ee156369210f0800000000000000
-      internalID: -1147689794979098275
+      spriteID: 8ae495b925fbbd5488f9c767fc593179
+      internalID: 405397277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_12
+      name: Enemies_Map01_CrackedArcher_Idle_Right_3
       rect:
         serializedVersion: 2
-        x: 975
-        y: 301
-        width: 315
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 995.25
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f241ec5bcb16439a0800000000000000
-      internalID: -6254266519378848721
+      spriteID: 70608a052892c694eb293985fd7ccd73
+      internalID: -180407008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_13
+      name: Enemies_Map01_CrackedArcher_Idle_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 286
-        height: 306
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7596f7f17b3dedff0800000000000000
-      internalID: -9337365747242665
+      spriteID: 417b76eab077bdd4faedc4315beda7a2
+      internalID: -34554551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_14
+      name: Enemies_Map01_CrackedArcher_Idle_Up_1
       rect:
         serializedVersion: 2
-        x: 326
-        y: 305
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36bbf64dae168d9c0800000000000000
-      internalID: -3902261415902200989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 328
+        x: 331.75
         y: 0
-        width: 258
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8759a6198a9df090800000000000000
-      internalID: -7999067449558739060
+      spriteID: 1ea7f21c8ace21b47aea9f830fcb393e
+      internalID: -1148556130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_16
+      name: Enemies_Map01_CrackedArcher_Idle_Up_2
       rect:
         serializedVersion: 2
-        x: 659
-        y: 11
-        width: 264
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a277642bea1927e10800000000000000
-      internalID: 2193976147984152362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 953
+        x: 663.5
         y: 0
-        width: 357
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9259a61e9b36787f0800000000000000
-      internalID: -610409574483454679
+      spriteID: 2559ff8db95cc0b4fb7de789f7c49a5a
+      internalID: 1737792677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_18
+      name: Enemies_Map01_CrackedArcher_Idle_Up_3
       rect:
         serializedVersion: 2
-        x: 969
-        y: 210
-        width: 53
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 995.25
+        y: 0
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4047a68d8c1ec2fc0800000000000000
-      internalID: -3518188956142636028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 633
-        y: 34
-        width: 32
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef0f2f7914c1a8da0800000000000000
-      internalID: -5941905690314215170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 49
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99a3b4f51ac8e95f0800000000000000
-      internalID: -748005863380534631
+      spriteID: b515881e952616e4e91afa87dbed250f
+      internalID: 939399021
       vertices: []
       indices: 
       edges: []
@@ -653,7 +543,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 735e85aca6abe5a4db090d4937158e6f
     internalID: 0
     vertices: []
     indices: 
@@ -684,6 +574,22 @@ TextureImporter:
       CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_7: 6327611898909326580
       CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_8: 7625472748675554657
       CD_Enemy_CrackedArcher_Idle_4Dir_4Frame_v01_9: -7214191109071417897
+      Enemies_Map01_CrackedArcher_Idle_Down_0: 1846536951
+      Enemies_Map01_CrackedArcher_Idle_Down_1: -1339698935
+      Enemies_Map01_CrackedArcher_Idle_Down_2: 367617789
+      Enemies_Map01_CrackedArcher_Idle_Down_3: 786099475
+      Enemies_Map01_CrackedArcher_Idle_Left_0: -589259475
+      Enemies_Map01_CrackedArcher_Idle_Left_1: 253886527
+      Enemies_Map01_CrackedArcher_Idle_Left_2: 298032463
+      Enemies_Map01_CrackedArcher_Idle_Left_3: 1821328051
+      Enemies_Map01_CrackedArcher_Idle_Right_0: 944590468
+      Enemies_Map01_CrackedArcher_Idle_Right_1: 1049094084
+      Enemies_Map01_CrackedArcher_Idle_Right_2: 405397277
+      Enemies_Map01_CrackedArcher_Idle_Right_3: -180407008
+      Enemies_Map01_CrackedArcher_Idle_Up_0: -34554551
+      Enemies_Map01_CrackedArcher_Idle_Up_1: -1148556130
+      Enemies_Map01_CrackedArcher_Idle_Up_2: 1737792677
+      Enemies_Map01_CrackedArcher_Idle_Up_3: 939399021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

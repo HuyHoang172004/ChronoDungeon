@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,89 +137,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map03_RootBrute_Hit_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 387
-        height: 1009
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9605ab99cc4468500800000000000000
-      internalID: 398081262612009065
+      spriteID: cff638a9e04b279418f20cfeab785b6b
+      internalID: 1299783766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_1
+      name: Enemies_Map03_RootBrute_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 406
-        y: 19
-        width: 365
-        height: 1005
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 037828d73327ee860800000000000000
-      internalID: 7561106389876246320
+      spriteID: 767a6029f49659941a6c37e53a83142e
+      internalID: 620693520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_2
+      name: Enemies_Map03_RootBrute_Hit_Down_2
       rect:
         serializedVersion: 2
         x: 768
-        y: 15
-        width: 386
-        height: 987
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 230dff789177f67b0800000000000000
-      internalID: -5228829690814279630
+      spriteID: 64540d6abe6467f4da24023cb648fe1d
+      internalID: -337624053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_3
+      name: Enemies_Map03_RootBrute_Hit_Down_3
       rect:
         serializedVersion: 2
-        x: 1148
-        y: 17
-        width: 388
-        height: 1007
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af05f14d7a080bd00800000000000000
-      internalID: 986429776700854522
+      spriteID: 5ef1ddeeb8aeb164e8bc8c311f791a9b
+      internalID: -1384256676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b6456ae8b34e04490560ddc40194da
+      internalID: -394553593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4194651cce417144850498ea43cab91
+      internalID: 130203092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d4ab2e1e6b81d43bfce31429253b1e
+      internalID: -1389804074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a74a690632b7246836dee4121e22c9
+      internalID: -2116118588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37389e00017edcc46ba7ae10ba65cb54
+      internalID: -742201426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4478d67b9eeddf14ea8245f6039ecec4
+      internalID: 244608006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51271833cb800aa4d89be7fabf589be1
+      internalID: -466635847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbc44d5612c4764482295cbf0e8d646
+      internalID: -654196876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d168a9a31decf42a719d143329957d
+      internalID: 1693928242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65ec67ab36b1ad478746dcca236439a
+      internalID: -2070108093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5a064f54e985e408956703e7a31c0a
+      internalID: 1001655372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_RootBrute_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f182c03a9e63c548b16a59030b7b76b
+      internalID: -1064524701
       vertices: []
       indices: 
       edges: []
@@ -228,7 +492,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d2b837bcc63ec224699fcb72f48e4ced
     internalID: 0
     vertices: []
     indices: 
@@ -242,6 +506,22 @@ TextureImporter:
       CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_1: 7561106389876246320
       CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_2: -5228829690814279630
       CD_Enemy_RootBrute_Hit_4Dir_4Frame_v01_3: 986429776700854522
+      Enemies_Map03_RootBrute_Hit_Down_0: 1299783766
+      Enemies_Map03_RootBrute_Hit_Down_1: 620693520
+      Enemies_Map03_RootBrute_Hit_Down_2: -337624053
+      Enemies_Map03_RootBrute_Hit_Down_3: -1384256676
+      Enemies_Map03_RootBrute_Hit_Left_0: -394553593
+      Enemies_Map03_RootBrute_Hit_Left_1: 130203092
+      Enemies_Map03_RootBrute_Hit_Left_2: -1389804074
+      Enemies_Map03_RootBrute_Hit_Left_3: -2116118588
+      Enemies_Map03_RootBrute_Hit_Right_0: -742201426
+      Enemies_Map03_RootBrute_Hit_Right_1: 244608006
+      Enemies_Map03_RootBrute_Hit_Right_2: -466635847
+      Enemies_Map03_RootBrute_Hit_Right_3: -654196876
+      Enemies_Map03_RootBrute_Hit_Up_0: 1693928242
+      Enemies_Map03_RootBrute_Hit_Up_1: -2070108093
+      Enemies_Map03_RootBrute_Hit_Up_2: 1001655372
+      Enemies_Map03_RootBrute_Hit_Up_3: -1064524701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

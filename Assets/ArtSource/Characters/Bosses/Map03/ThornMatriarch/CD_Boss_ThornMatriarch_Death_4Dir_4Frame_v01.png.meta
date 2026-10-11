@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 87.94118
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ThornMatriarch_Death_4Dir_4Frame_v01_0
+      name: Bosses_Map03_ThornMatriarch_Death_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 1312
-        height: 1189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14f1b8edc80eb83b0800000000000000
-      internalID: -5509062823523967167
+      spriteID: 178872118999b3c4ea3cb88530a0ec5e
+      internalID: 1365127950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Down_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76633e3cfaaac844b8b0e2c67227ed36
+      internalID: 769764660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Down_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e48e2d7bff5f8448be87173b1fde00
+      internalID: -1688294870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Down_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457403bd5db3aec4f8eabe3bcbd4e228
+      internalID: 1679165881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf57ee20c1f484abea979617410633
+      internalID: -1118628360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d48381a3f9ce2f408a01adb4e362b9e
+      internalID: -863213791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fc4506889e27c4fa7b77ebd8234565
+      internalID: 768949413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946ef2ad027578742ac2a56c1e15d101
+      internalID: -233707625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca1ac770c7422445aef9dcf542041d0
+      internalID: -1328662900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5a5ce1b4c9dfb4ba9c1b6bf8dde633
+      internalID: -1868453934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0e678dd5b7f5942aa79e156ad7f9cd
+      internalID: 1426804552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a7618e4c830e4aab3d8668b4c9cd0
+      internalID: -1369847058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1330b353863334299963d9fd06baf6
+      internalID: 1493306543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4cf2b7e0d64fb4ab0dbaae80631081
+      internalID: -1042512761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a8c3a451fd6e8469520ac2a8057c27
+      internalID: 1464580099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b657d5ae0f696b4f9b64fc62d0c932e
+      internalID: -2053575889
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3a3271786c5ec48468417701510b6267
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map03_ThornMatriarch_Death_Down_0: 1365127950
+      Bosses_Map03_ThornMatriarch_Death_Down_1: 769764660
+      Bosses_Map03_ThornMatriarch_Death_Down_2: -1688294870
+      Bosses_Map03_ThornMatriarch_Death_Down_3: 1679165881
+      Bosses_Map03_ThornMatriarch_Death_Left_0: -1118628360
+      Bosses_Map03_ThornMatriarch_Death_Left_1: -863213791
+      Bosses_Map03_ThornMatriarch_Death_Left_2: 768949413
+      Bosses_Map03_ThornMatriarch_Death_Left_3: -233707625
+      Bosses_Map03_ThornMatriarch_Death_Right_0: -1328662900
+      Bosses_Map03_ThornMatriarch_Death_Right_1: -1868453934
+      Bosses_Map03_ThornMatriarch_Death_Right_2: 1426804552
+      Bosses_Map03_ThornMatriarch_Death_Right_3: -1369847058
+      Bosses_Map03_ThornMatriarch_Death_Up_0: 1493306543
+      Bosses_Map03_ThornMatriarch_Death_Up_1: -1042512761
+      Bosses_Map03_ThornMatriarch_Death_Up_2: 1464580099
+      Bosses_Map03_ThornMatriarch_Death_Up_3: -2053575889
       CD_Boss_ThornMatriarch_Death_4Dir_4Frame_v01_0: -5509062823523967167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

@@ -32,6 +32,13 @@ public sealed class CombatFeedback : MonoBehaviour
         deathClip = MakeTone("DeathFeedback", 95f, 0.22f, 0.2f);
     }
 
+    public void RecaptureBaseColors()
+    {
+        sprites = GetComponentsInChildren<SpriteRenderer>(true);
+        baseColors = new Color[sprites.Length];
+        for (int i = 0; i < sprites.Length; i++) baseColors[i] = sprites[i].color;
+    }
+
     public void PlayAttack()
     {
         if (audioSource != null && attackClip != null) audioSource.PlayOneShot(attackClip);

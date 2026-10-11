@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,243 +158,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map03_ThornSpitter_Hit_Down_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 525
-        width: 334
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 646228eab5ccbc150800000000000000
-      internalID: 5894029231486281286
+      spriteID: 8708ed6eb3a90354180e36e86e84a275
+      internalID: 1844361321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_1
+      name: Enemies_Map03_ThornSpitter_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 769
-        width: 339
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72709f102ea270f20800000000000000
-      internalID: 3388724394803660583
+      spriteID: 06eb958ffe2c55948b22bfb93521d596
+      internalID: 749403130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_2
+      name: Enemies_Map03_ThornSpitter_Hit_Down_2
       rect:
         serializedVersion: 2
-        x: 808
-        y: 765
-        width: 313
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21e42be70b8eea910800000000000000
-      internalID: 1850672341633355282
+      spriteID: 6a44f9ef358eee1438b1af076e572bfa
+      internalID: 1907972117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_3
+      name: Enemies_Map03_ThornSpitter_Hit_Down_3
       rect:
         serializedVersion: 2
-        x: 817
-        y: 525
-        width: 326
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ba2dc4230d5084c0800000000000000
-      internalID: -4287324577173001546
+      spriteID: ba6867954cf5fcb43a2c822620baa4ad
+      internalID: -578609809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_4
+      name: Enemies_Map03_ThornSpitter_Hit_Left_0
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 766
-        width: 313
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21e17292828cd61b0800000000000000
-      internalID: -5661649081720168942
+      spriteID: af6d15db981036a41bcc31b518ce4f85
+      internalID: 839729151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_5
+      name: Enemies_Map03_ThornSpitter_Hit_Left_1
       rect:
         serializedVersion: 2
-        x: 442
-        y: 526
-        width: 347
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e75cfdc9d75606890800000000000000
-      internalID: -7466856592003054210
+      spriteID: c9b09c148bd30d940bfbab05ef1d718a
+      internalID: 1004461210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_6
+      name: Enemies_Map03_ThornSpitter_Hit_Left_2
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 525
-        width: 320
-        height: 235
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: da70ed466f1b99860800000000000000
-      internalID: 7537251123193579437
+      spriteID: 35a480a7eb918514ab37fdd4a1ff608d
+      internalID: 344100568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_7
+      name: Enemies_Map03_ThornSpitter_Hit_Left_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 29
-        width: 332
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d46231dedae24b70800000000000000
-      internalID: 8881919657841419481
+      spriteID: b98215048963e11409da7f585ae51c45
+      internalID: -912864395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map03_ThornSpitter_Hit_Right_0
       rect:
         serializedVersion: 2
-        x: 424
-        y: 29
-        width: 345
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82ed287e3f7784560800000000000000
-      internalID: 7298215085598760488
+      spriteID: 1d39ca1eb3b63e64dbe32497a220d8e9
+      internalID: 1132647644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_9
+      name: Enemies_Map03_ThornSpitter_Hit_Right_1
       rect:
         serializedVersion: 2
-        x: 800
-        y: 29
-        width: 355
-        height: 488
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 290ac4edb5383df00800000000000000
-      internalID: 1140399561249693842
+      spriteID: 6433e3b9a9c56c54aab9cdd45c6c4a25
+      internalID: -1091660372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_10
+      name: Enemies_Map03_ThornSpitter_Hit_Right_2
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 30
-        width: 334
-        height: 487
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 617c1b2047702a1b0800000000000000
-      internalID: -5646942787926374634
+      spriteID: 20d7447ad7e303b44816bb6c22098345
+      internalID: -861516775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f01cc6ee00ee24289790e3daf5c759
+      internalID: -1842759960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e5a2734169bd94ca9fabc975cfb52c
+      internalID: -890774204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a6e85d5c83c7448b4299da8e3d2c68
+      internalID: 1002012733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676367dff612e634890784203b91d0c2
+      internalID: 14960611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805d7c3921189264fb5b4a107b00b726
+      internalID: 1866877099
       vertices: []
       indices: 
       edges: []
@@ -403,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61460209ae3510c44ba8613419b7b261
     internalID: 0
     vertices: []
     indices: 
@@ -424,6 +534,22 @@ TextureImporter:
       CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_7: 8881919657841419481
       CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_8: 7298215085598760488
       CD_Enemy_ThornSpitter_Hit_4Dir_4Frame_v01_9: 1140399561249693842
+      Enemies_Map03_ThornSpitter_Hit_Down_0: 1844361321
+      Enemies_Map03_ThornSpitter_Hit_Down_1: 749403130
+      Enemies_Map03_ThornSpitter_Hit_Down_2: 1907972117
+      Enemies_Map03_ThornSpitter_Hit_Down_3: -578609809
+      Enemies_Map03_ThornSpitter_Hit_Left_0: 839729151
+      Enemies_Map03_ThornSpitter_Hit_Left_1: 1004461210
+      Enemies_Map03_ThornSpitter_Hit_Left_2: 344100568
+      Enemies_Map03_ThornSpitter_Hit_Left_3: -912864395
+      Enemies_Map03_ThornSpitter_Hit_Right_0: 1132647644
+      Enemies_Map03_ThornSpitter_Hit_Right_1: -1091660372
+      Enemies_Map03_ThornSpitter_Hit_Right_2: -861516775
+      Enemies_Map03_ThornSpitter_Hit_Right_3: -1842759960
+      Enemies_Map03_ThornSpitter_Hit_Up_0: -890774204
+      Enemies_Map03_ThornSpitter_Hit_Up_1: 1002012733
+      Enemies_Map03_ThornSpitter_Hit_Up_2: 14960611
+      Enemies_Map03_ThornSpitter_Hit_Up_3: 1866877099
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

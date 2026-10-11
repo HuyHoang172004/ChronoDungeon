@@ -10,6 +10,7 @@ public sealed class ZoneCameraController : MonoBehaviour
     [SerializeField] private bool useGlobalZoneBounds = true;
     [SerializeField] private Vector2 globalBoundsCenter = new Vector2(10f, -3f);
     [SerializeField] private Vector2 globalBoundsSize = new Vector2(140f, 110f);
+    [SerializeField, Min(1f)] private float viewSize = 2.8f;
     [SerializeField, Min(.01f)] private float followSmoothTime = .16f;
     private Camera cameraComponent;
     private Vector3 velocity;
@@ -17,10 +18,12 @@ public sealed class ZoneCameraController : MonoBehaviour
 
     private void Awake()
     {
+        // Migrate scenes authored with the previous camera distance.
+        if (Mathf.Approximately(viewSize, 3.5f)) viewSize = 2.8f;
         cameraComponent = GetComponent<Camera>();
         if (areas == null) areas = FindAnyObjectByType<WorldAreaManager>();
         if (player == null) player = FindAnyObjectByType<PlayerMovement>();
-        cameraComponent.orthographicSize = 8f;
+        cameraComponent.orthographicSize = viewSize;
     }
 
     private void LateUpdate()
@@ -31,6 +34,20 @@ public sealed class ZoneCameraController : MonoBehaviour
     public void RefreshNow()
     {
         FollowPlayer();
+    }
+
+    /// <summary>Hands camera ownership to a runtime-selected modular map.</summary>
+    public void ConfigureRuntimeMap(PlayerMovement target, Vector2 mapSize, float orthographicSize)
+    {
+        player = target;
+        useGlobalZoneBounds = true;
+        globalBoundsCenter = Vector2.zero;
+        globalBoundsSize = mapSize;
+        viewSize = Mathf.Max(1f, orthographicSize);
+        if (cameraComponent == null) cameraComponent = GetComponent<Camera>();
+        if (cameraComponent != null) cameraComponent.orthographicSize = viewSize;
+        hasValidTarget = false;
+        RefreshNow();
     }
 
     private void FollowPlayer()

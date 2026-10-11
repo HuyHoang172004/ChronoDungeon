@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -215,661 +215,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_0
+      name: Enemies_Map04_ArchiveWisp_Attack_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 799
-        width: 369
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b95dff2e29bf2de0800000000000000
-      internalID: -1355661354790463053
+      spriteID: ece67794624502649a3a5b0323fe506a
+      internalID: 380584167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_1
+      name: Enemies_Map04_ArchiveWisp_Attack_Down_1
       rect:
         serializedVersion: 2
-        x: 394
-        y: 811
-        width: 302
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4925e545c8ed8c3d0800000000000000
-      internalID: -3186052042072370540
+      spriteID: 3c00dbeeae71a7c43bf4343f5755f14e
+      internalID: 940278248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_2
+      name: Enemies_Map04_ArchiveWisp_Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 700
-        y: 811
-        width: 405
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ca4d68dcba145cd0800000000000000
-      internalID: -2570400088934495549
+      spriteID: 3725d908963bffc4c8bd3c05772ce9e4
+      internalID: -1978002642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_3
+      name: Enemies_Map04_ArchiveWisp_Attack_Down_3
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 809
-        width: 344
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d54b68e4adb6a6e0800000000000000
-      internalID: -1826564082880526891
+      spriteID: e9c328db68a62a2458b8636257238aba
+      internalID: -307946044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1367
-        y: 1057
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f9a1fc290a0a1cc0800000000000000
-      internalID: -3739665506052757001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 1376
-        y: 1055
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cbfb0044e96999c0800000000000000
-      internalID: -3919985571601318973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 593
-        y: 795
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 666c365b1fc595b70800000000000000
-      internalID: 8888237532792473190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 799
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac1079ef4ef2e26d0800000000000000
-      internalID: -3013418440093924918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 625
-        y: 807
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e8c89da5765e7240800000000000000
-      internalID: 4791362116992420068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 552
-        width: 296
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d289ff2293e838d10800000000000000
-      internalID: 2126699825100462125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 787
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6c263e2b309f01d0800000000000000
-      internalID: -3382326211279180694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 789
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d84500d2f1b0aa130800000000000000
-      internalID: 3578685082426168461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 552
-        width: 339
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2eedee9c5e2d9a4e0800000000000000
-      internalID: -1969811477620662558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 794
-        width: 22
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fecb1f3ff4e94ddd0800000000000000
-      internalID: -2462169030032507665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 557
-        width: 297
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4d02fd8a46b48f70800000000000000
-      internalID: 9188669571067940173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 745
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a46ea85dbae6f400800000000000000
-      internalID: 357731319380075686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 1076
-        y: 538
-        width: 355
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99283b5332f362980800000000000000
-      internalID: -8564088220941057383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_17
+      name: Enemies_Map04_ArchiveWisp_Attack_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 250
-        width: 355
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4aa32e08b856bb3c0800000000000000
-      internalID: -4342765765831542108
+      spriteID: a2eebbaae4930c94a8e4e17d9dd5cb04
+      internalID: 22626366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_18
+      name: Enemies_Map04_ArchiveWisp_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 376
-        y: 281
-        width: 359
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 79eeaf3dc6cd31b00800000000000000
-      internalID: 798223918945726103
+      spriteID: 793e03f5e53e77d4189e6020ff253637
+      internalID: -635089326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_19
+      name: Enemies_Map04_ArchiveWisp_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 394
-        y: 534
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b37baa7c1593ed990800000000000000
-      internalID: -7359381717671823557
+      spriteID: 9bacf3489d25b09448a6e2ed077ac17a
+      internalID: -1008885635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_20
+      name: Enemies_Map04_ArchiveWisp_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 762
-        y: 283
-        width: 304
-        height: 252
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a53ae3f1a07aca60800000000000000
-      internalID: 7695086754200171945
+      spriteID: b6f802d93d10f2148af192eb8996abaa
+      internalID: 2110709594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_21
+      name: Enemies_Map04_ArchiveWisp_Attack_Right_0
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 273
-        width: 348
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2a8e34e269b3ada0800000000000000
-      internalID: -5934696049556944338
+      spriteID: 200bcf9cdda63784e9111dea5232f1f8
+      internalID: 524319042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_22
+      name: Enemies_Map04_ArchiveWisp_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 698
-        y: 501
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8cb48cf62a5320e50800000000000000
-      internalID: 6774035761295018952
+      spriteID: d72693f942dc86d439b981911362f3e5
+      internalID: -1471046306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_23
+      name: Enemies_Map04_ArchiveWisp_Attack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b275227d930d31f4e9bf82a0b0614e1f
+      internalID: -790183344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_ArchiveWisp_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e9e176c9784c040a77e9be2c3aad79
+      internalID: -300325911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_ArchiveWisp_Attack_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 327
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea8c355cf46f61be0800000000000000
-      internalID: -1506746202835400530
+      spriteID: d64d2a7b7f579d54f914300d42548261
+      internalID: 372535522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_24
+      name: Enemies_Map04_ArchiveWisp_Attack_Up_1
       rect:
         serializedVersion: 2
-        x: 392
-        y: 18
-        width: 303
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed6596c0657715a40800000000000000
-      internalID: 5355192643379353310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 756
+        x: 362
         y: 0
-        width: 307
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: edf21392b9de97760800000000000000
-      internalID: 7456251908755369950
+      spriteID: aef746d6daded044ba557e917cbede8f
+      internalID: -2055785146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_26
+      name: Enemies_Map04_ArchiveWisp_Attack_Up_2
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 17
-        width: 335
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bfcda9924a559ca0800000000000000
-      internalID: -6010798885563412558
+      spriteID: 4922d0f6d0b988c478b0d0b8001c3509
+      internalID: 964654009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_27
+      name: Enemies_Map04_ArchiveWisp_Attack_Up_3
       rect:
         serializedVersion: 2
-        x: 1094
-        y: 265
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7469cc95341bd0d80800000000000000
-      internalID: -8282769236836968889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_28
-      rect:
-        serializedVersion: 2
-        x: 1361
-        y: 270
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 226fdd54a7e6516a0800000000000000
-      internalID: -6479151017465350622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_29
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 21
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1deaf2e3b86d60bb0800000000000000
-      internalID: -4970049245224653103
+      spriteID: f8fe696d5c558b849a3bfe4f86cb24de
+      internalID: 1925739461
       vertices: []
       indices: 
       edges: []
@@ -878,7 +570,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3542760da43d54942a2248ed7c6dafb0
     internalID: 0
     vertices: []
     indices: 
@@ -918,6 +610,22 @@ TextureImporter:
       CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_7: -3013418440093924918
       CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_8: 4791362116992420068
       CD_Enemy_ArchiveWisp_Attack_4Dir_4Frame_v01_9: 2126699825100462125
+      Enemies_Map04_ArchiveWisp_Attack_Down_0: 380584167
+      Enemies_Map04_ArchiveWisp_Attack_Down_1: 940278248
+      Enemies_Map04_ArchiveWisp_Attack_Down_2: -1978002642
+      Enemies_Map04_ArchiveWisp_Attack_Down_3: -307946044
+      Enemies_Map04_ArchiveWisp_Attack_Left_0: 22626366
+      Enemies_Map04_ArchiveWisp_Attack_Left_1: -635089326
+      Enemies_Map04_ArchiveWisp_Attack_Left_2: -1008885635
+      Enemies_Map04_ArchiveWisp_Attack_Left_3: 2110709594
+      Enemies_Map04_ArchiveWisp_Attack_Right_0: 524319042
+      Enemies_Map04_ArchiveWisp_Attack_Right_1: -1471046306
+      Enemies_Map04_ArchiveWisp_Attack_Right_2: -790183344
+      Enemies_Map04_ArchiveWisp_Attack_Right_3: -300325911
+      Enemies_Map04_ArchiveWisp_Attack_Up_0: 372535522
+      Enemies_Map04_ArchiveWisp_Attack_Up_1: -2055785146
+      Enemies_Map04_ArchiveWisp_Attack_Up_2: 964654009
+      Enemies_Map04_ArchiveWisp_Attack_Up_3: 1925739461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

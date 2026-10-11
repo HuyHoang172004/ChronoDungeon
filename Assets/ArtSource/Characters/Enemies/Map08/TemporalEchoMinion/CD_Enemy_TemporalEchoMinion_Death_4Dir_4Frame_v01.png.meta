@@ -135,7 +135,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -212,639 +212,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map08_TemporalEchoMinion_Death_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 474
-        width: 422
-        height: 630
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6334e357d6786d3c0800000000000000
-      internalID: -4335128687109323978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 301
-        width: 277
-        height: 805
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b581ed26c1b3e700800000000000000
-      internalID: 568493442710209975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 0
-        width: 364
-        height: 1100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce5d0252fc2016660800000000000000
-      internalID: 7377180753313977836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 1047
         y: 840
-        width: 308
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d97426e2789d84710800000000000000
-      internalID: 1677830035817514909
+      spriteID: 210a992493b62c843809fcd0d3b01a7d
+      internalID: -1151841128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map08_TemporalEchoMinion_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 1178
-        y: 1064
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8208f7a5cf4ff100800000000000000
-      internalID: 143921423444345482
+      spriteID: ccb16a4fdebfd6b44a1e258f9f1a3ea9
+      internalID: 266825320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_5
+      name: Enemies_Map08_TemporalEchoMinion_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 1030
-        y: 740
-        width: 23
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 564c87151f2980560800000000000000
-      internalID: 7280230362796049509
+      spriteID: b9745bba80d3eed4d9ccb02c19db9cb5
+      internalID: 2035664772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map08_TemporalEchoMinion_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 1078
-        y: 566
-        width: 261
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2bc4e318a663ff90800000000000000
-      internalID: -6921075330264020179
+      spriteID: cbb1c2271b935cd4b927847bb6dbf071
+      internalID: -1286067853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map08_TemporalEchoMinion_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 682
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12b5bd86c6ee27150800000000000000
-      internalID: 5869015413800262433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 1037
-        y: 688
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ac66280fd4bf2dc0800000000000000
-      internalID: -3661509102021481308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 672
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 846a16615adae4550800000000000000
-      internalID: 6147041465964013128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 301
-        width: 229
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fd0f89c7a234db30800000000000000
-      internalID: 4311126439522930161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 1055
+        x: 0
         y: 560
-        width: 22
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 60e406d702c789820800000000000000
-      internalID: 2925224436961398278
+      spriteID: 0d81f617c964bd844807ad3d7a1e5b3a
+      internalID: -47098203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_12
+      name: Enemies_Map08_TemporalEchoMinion_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 997
-        y: 484
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a4ab9441699f1f90800000000000000
-      internalID: -6980692254359051095
+      spriteID: e715df60a4907374eba63890aee21922
+      internalID: -918334452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_13
+      name: Enemies_Map08_TemporalEchoMinion_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 1076
-        y: 274
-        width: 311
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59dd221975f1a22b0800000000000000
-      internalID: -5608635924978934379
+      spriteID: 55a98aea57c0c9b45ba93c38ce3a15f8
+      internalID: 738483571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_14
+      name: Enemies_Map08_TemporalEchoMinion_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb7ca2a88cd274090d41cf46a45746
+      internalID: 602869986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map08_TemporalEchoMinion_Death_Right_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 261
-        width: 100
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f55774fec4309e9a0800000000000000
-      internalID: -6203423382759312033
+      spriteID: 01342b0d626c2ed498ff84faf725c64b
+      internalID: 187114864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_15
+      name: Enemies_Map08_TemporalEchoMinion_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12373dc8e8810f6439666ea4e65d3f2e
+      internalID: 1819366612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map08_TemporalEchoMinion_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e3d7bf4e575ef4f9006c8ffe9cf610
+      internalID: -933667986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map08_TemporalEchoMinion_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde4e7a2eebd6d468ccc9744b4432fa
+      internalID: 1275867634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map08_TemporalEchoMinion_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 402
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 911c424c496058a30800000000000000
-      internalID: 4216783862118007065
+      spriteID: 82391e4fb672c2b4db213df5f411ee45
+      internalID: -559572503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_16
+      name: Enemies_Map08_TemporalEchoMinion_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 310
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08724b44e50c625b0800000000000000
-      internalID: -5393411992617474176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 287
-        width: 25
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5c0bd745fc90a9b0800000000000000
-      internalID: -5070880603132720038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 293
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2a2a744d33d2a800800000000000000
-      internalID: 622291958625872429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 282
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39e6b8c0b801caeb0800000000000000
-      internalID: -4707369321112047981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 287
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9999b40322c9feab0800000000000000
-      internalID: -4976587392568026727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_21
-      rect:
-        serializedVersion: 2
-        x: 450
+        x: 350
         y: 0
-        width: 214
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: faedabe1078946830800000000000000
-      internalID: 4063540371114352303
+      spriteID: 62aa44aeab2cdd24784050219aa04608
+      internalID: -1667121779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_22
+      name: Enemies_Map08_TemporalEchoMinion_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 1072
+        x: 700
         y: 0
-        width: 321
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22faa8d06d6a5b290800000000000000
-      internalID: -7875204935107039454
+      spriteID: 1ddfa92bc4372604eb7b1a72b6313219
+      internalID: 1250203107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_23
+      name: Enemies_Map08_TemporalEchoMinion_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 131
-        width: 19
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0e166b132e22c4e00800000000000000
-      internalID: 1030236769652990432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_24
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 179
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a6819d542975de40800000000000000
-      internalID: 5680579702093350562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 180
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38677c07f293d4540800000000000000
-      internalID: 4993710437742114435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 1047
-        y: 163
-        width: 20
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93dc889bd9e37d320800000000000000
-      internalID: 2582601758463806777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_27
-      rect:
-        serializedVersion: 2
-        x: 1319
-        y: 165
-        width: 32
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d906309dafd940a0800000000000000
-      internalID: -6896735417799407152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_28
-      rect:
-        serializedVersion: 2
-        x: 1055
-        y: 95
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb3d43fa545aa7300800000000000000
-      internalID: 250694447983285179
+      spriteID: cea33afd5b335c343bcec08f57cb98f3
+      internalID: 1347379557
       vertices: []
       indices: 
       edges: []
@@ -853,7 +567,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f6c791a033cfab045a7c6a377aa1426a
     internalID: 0
     vertices: []
     indices: 
@@ -892,6 +606,22 @@ TextureImporter:
       CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_7: 5869015413800262433
       CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_8: -3661509102021481308
       CD_Enemy_TemporalEchoMinion_Death_4Dir_4Frame_v01_9: 6147041465964013128
+      Enemies_Map08_TemporalEchoMinion_Death_Down_0: -1151841128
+      Enemies_Map08_TemporalEchoMinion_Death_Down_1: 266825320
+      Enemies_Map08_TemporalEchoMinion_Death_Down_2: 2035664772
+      Enemies_Map08_TemporalEchoMinion_Death_Down_3: -1286067853
+      Enemies_Map08_TemporalEchoMinion_Death_Left_0: -47098203
+      Enemies_Map08_TemporalEchoMinion_Death_Left_1: -918334452
+      Enemies_Map08_TemporalEchoMinion_Death_Left_2: 738483571
+      Enemies_Map08_TemporalEchoMinion_Death_Left_3: 602869986
+      Enemies_Map08_TemporalEchoMinion_Death_Right_0: 187114864
+      Enemies_Map08_TemporalEchoMinion_Death_Right_1: 1819366612
+      Enemies_Map08_TemporalEchoMinion_Death_Right_2: -933667986
+      Enemies_Map08_TemporalEchoMinion_Death_Right_3: 1275867634
+      Enemies_Map08_TemporalEchoMinion_Death_Up_0: -559572503
+      Enemies_Map08_TemporalEchoMinion_Death_Up_1: -1667121779
+      Enemies_Map08_TemporalEchoMinion_Death_Up_2: 1250203107
+      Enemies_Map08_TemporalEchoMinion_Death_Up_3: 1347379557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

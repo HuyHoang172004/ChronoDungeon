@@ -87,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 85.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,287 +164,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_0
+      name: Bosses_Map05_AshWarden_ChainPull_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 853
-        width: 354
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de6b23b0e09104d10800000000000000
-      internalID: 2107712173717501677
+      spriteID: 4569ea38d4a3c6444930c94c6f039713
+      internalID: -66106289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_1
+      name: Bosses_Map05_AshWarden_ChainPull_Down_1
       rect:
         serializedVersion: 2
-        x: 379
-        y: 873
-        width: 304
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 303e4e16ef1c2ae80800000000000000
-      internalID: -8168753475788414205
+      spriteID: 306ce80873d0aa24a8bb3e688c14b4e0
+      internalID: -2058666195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_2
+      name: Bosses_Map05_AshWarden_ChainPull_Down_2
       rect:
         serializedVersion: 2
-        x: 683
-        y: 579
-        width: 332
-        height: 574
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66b0661f099528b90800000000000000
-      internalID: -7241126771798176922
+      spriteID: ff0fd8137436d7d4eac549d89b7a8627
+      internalID: -1458358981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_3
+      name: Bosses_Map05_AshWarden_ChainPull_Down_3
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 859
-        width: 311
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38faa7a2a37d7d9a0800000000000000
-      internalID: -6208256916486180989
+      spriteID: f98b50e9ed0d69b4bb4266c3ed5f5840
+      internalID: -269600361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_4
+      name: Bosses_Map05_AshWarden_ChainPull_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 14
-        width: 342
-        height: 567
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd0c17b511a9dfe90800000000000000
-      internalID: -6990261647269838629
+      spriteID: 9f76aa0481c8d664abb299e216461386
+      internalID: 158398564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_5
+      name: Bosses_Map05_AshWarden_ChainPull_Left_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 578
-        width: 326
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90ea595d46a693ad0800000000000000
-      internalID: -2722027518456123895
+      spriteID: 74a7c55eea517dc40bd1c3fbedf21e27
+      internalID: -2115094484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_6
+      name: Bosses_Map05_AshWarden_ChainPull_Left_2
       rect:
         serializedVersion: 2
-        x: 359
-        y: 301
-        width: 336
-        height: 563
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ea71b221fe0865e0800000000000000
-      internalID: -1916265212614182170
+      spriteID: c4388398ba8a17b4c93f2cbbf74d5aad
+      internalID: -2011413970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_7
+      name: Bosses_Map05_AshWarden_ChainPull_Left_3
       rect:
         serializedVersion: 2
-        x: 716
-        y: 297
-        width: 342
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb2b61d7a28a96ec0800000000000000
-      internalID: -3573139928901045573
+      spriteID: ccf98d6a948794c478dca00eb7ca4758
+      internalID: 697519242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_8
+      name: Bosses_Map05_AshWarden_ChainPull_Right_0
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 579
-        width: 305
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a85a79afa163a9b0800000000000000
-      internalID: -5070101348398507866
+      spriteID: a4053fa7cbd87974486ad7543c640fb8
+      internalID: -138039739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_9
+      name: Bosses_Map05_AshWarden_ChainPull_Right_1
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 289
-        width: 278
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc8378e5f1084b540800000000000000
-      internalID: 5022780356643207373
+      spriteID: 6c40c1f02f86ff84cb492d18dfccea3b
+      internalID: -433825015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_10
+      name: Bosses_Map05_AshWarden_ChainPull_Right_2
       rect:
         serializedVersion: 2
-        x: 375
-        y: 13
-        width: 322
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 23e83059df855f490800000000000000
-      internalID: -7713160940652097998
+      spriteID: 01cd07fe20a1992439a430df1b68aef3
+      internalID: -82734747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_11
+      name: Bosses_Map05_AshWarden_ChainPull_Right_3
       rect:
         serializedVersion: 2
-        x: 708
-        y: 14
-        width: 327
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b0327811ac468aa0800000000000000
-      internalID: -6159151185598992205
+      spriteID: b055e32a9c852c1408e17221c7e541f0
+      internalID: 1314684620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_12
+      name: Bosses_Map05_AshWarden_ChainPull_Up_0
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 15
-        width: 295
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b9c55380247dc8940800000000000000
-      internalID: 5299847540113759387
+      spriteID: 5f9f63d52e86d1343b09ac1fdded2699
+      internalID: -1428514776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_ChainPull_Up_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b00129cbfb02142896173efdd8c3c5
+      internalID: 477452585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_ChainPull_Up_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7750c434fda3c940b61a7a73742ef5b
+      internalID: -1412657080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_ChainPull_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1413719e32cec4e9f1d39f53cfdac9
+      internalID: 1478414704
       vertices: []
       indices: 
       edges: []
@@ -453,7 +519,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 920b51c00f2ef584d8be83c09e95b931
     internalID: 0
     vertices: []
     indices: 
@@ -463,6 +529,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map05_AshWarden_ChainPull_Down_0: -66106289
+      Bosses_Map05_AshWarden_ChainPull_Down_1: -2058666195
+      Bosses_Map05_AshWarden_ChainPull_Down_2: -1458358981
+      Bosses_Map05_AshWarden_ChainPull_Down_3: -269600361
+      Bosses_Map05_AshWarden_ChainPull_Left_0: 158398564
+      Bosses_Map05_AshWarden_ChainPull_Left_1: -2115094484
+      Bosses_Map05_AshWarden_ChainPull_Left_2: -2011413970
+      Bosses_Map05_AshWarden_ChainPull_Left_3: 697519242
+      Bosses_Map05_AshWarden_ChainPull_Right_0: -138039739
+      Bosses_Map05_AshWarden_ChainPull_Right_1: -433825015
+      Bosses_Map05_AshWarden_ChainPull_Right_2: -82734747
+      Bosses_Map05_AshWarden_ChainPull_Right_3: 1314684620
+      Bosses_Map05_AshWarden_ChainPull_Up_0: -1428514776
+      Bosses_Map05_AshWarden_ChainPull_Up_1: 477452585
+      Bosses_Map05_AshWarden_ChainPull_Up_2: -1412657080
+      Bosses_Map05_AshWarden_ChainPull_Up_3: 1478414704
       CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_0: 2107712173717501677
       CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_1: -8168753475788414205
       CD_Boss_AshWarden_ChainPull_4Dir_4Frame_v01_10: -7713160940652097998

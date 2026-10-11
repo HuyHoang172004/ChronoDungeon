@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 141.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -197,529 +197,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_0
+      name: Player_Base_Death_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d4bab45d3228a40b6c42f2a533a898
+      internalID: -1007144571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Down_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac841ce8721dd42a15ceea9fc14fa6
+      internalID: -633319901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Down_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7a17bb53a8ab940ba844a5d7e8f641
+      internalID: -143141855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Down_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dc8eba9965b034496c4e530ad647a2
+      internalID: -2107347492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca44a414774736f4694f7676eed819fe
+      internalID: 1665515499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d46fefaccd04044b015d12ad7e998e
+      internalID: 593578064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb165a8ed581504b82d732a84d4bbca
+      internalID: -1577808595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64351dd69ffb82c4d944b563881c852e
+      internalID: 1326597014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f17ff3c59301af47bc769b9a30931f4
+      internalID: 575129159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030f50add857a734ab419a47d201e0b8
+      internalID: -1746197718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b3707a739fae64cac44654e9695ca9
+      internalID: 906498901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca29c10272581874cab9ee8196830c3b
+      internalID: -575729986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Base_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 301
-        height: 1243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca3f16f4e50765140800000000000000
-      internalID: 4708074010823488428
+      spriteID: 7dcf7137a513a3843821aaa687c5049a
+      internalID: 1290456094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_1
+      name: Player_Base_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 329
-        y: 915
-        width: 279
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73e7d19feda24a580800000000000000
-      internalID: -8816875033334022601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 915
-        width: 334
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9f0b108ce4c42a60800000000000000
-      internalID: 7648454587222527902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 1185
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74f92b567a9993e20800000000000000
-      internalID: 3330862343661985607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 1187
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b0487ed6d700c670800000000000000
-      internalID: 8556847911440761010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 1057
-        y: 1131
-        width: 173
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79ddc75c1cc50bd30800000000000000
-      internalID: 4445154819526417815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 945
-        y: 1105
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 477e21a8700d89540800000000000000
-      internalID: 5014986915876890484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 961
-        y: 1121
-        width: 77
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a9a4e3e6c9da39a0800000000000000
-      internalID: -6252445684400346719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 1095
-        width: 19
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 048428e4df3a1c730800000000000000
-      internalID: 4017672650930407488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 967
-        y: 1095
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4de0652a438ee71f0800000000000000
-      internalID: -1045142750743884076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 934
-        y: 913
-        width: 319
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48fae6e9c2da31560800000000000000
-      internalID: 7283355429536444292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 306
-        width: 343
-        height: 597
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4b08dd3b1ccc0960800000000000000
-      internalID: 7569649491076713291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 609
-        width: 283
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b03a04bf541415ee0800000000000000
-      internalID: -1274165450745273589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 977
-        y: 790
-        width: 89
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f898d7d087f5122e0800000000000000
-      internalID: -2152334177679341169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 306
-        width: 280
-        height: 231
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96068d100fe55eca0800000000000000
-      internalID: -5988275744603086743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 532
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: faecebf03c24879e0800000000000000
-      internalID: -1623474260116844881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 937
-        y: 469
-        width: 328
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee56e90897011b6a0800000000000000
-      internalID: -6435344278500776466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 526
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 176c20a4c37c84cc0800000000000000
-      internalID: -3726509629895424399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 941
-        y: 307
-        width: 324
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97f99c144a7edd4e0800000000000000
-      internalID: -1955151970544541831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 16
-        width: 283
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2a57a3e8857e3110800000000000000
-      internalID: 1242559777996233263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 19
-        width: 320
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ac93a732148edda0800000000000000
-      internalID: -5918147646540505946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_21
-      rect:
-        serializedVersion: 2
-        x: 936
+        x: 316.25
         y: 0
-        width: 314
-        height: 226
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1df8b2a364af56460800000000000000
-      internalID: 7234463555971157969
+      spriteID: 3e595830a2a60104993f24b4d4f6e0db
+      internalID: -986150819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_22
+      name: Player_Base_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 201
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632.5
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2313eb6e5674c8f20800000000000000
-      internalID: 3426191919510597938
+      spriteID: e4c96221127b78940a34baaae301a2f1
+      internalID: -812136975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_Base_Death_4Dir_4Frame_v01_23
+      name: Player_Base_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 200
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948.75
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34f56f429426958f0800000000000000
-      internalID: -551301413083914429
+      spriteID: 71cd8894241fdce429d5941af4fe4f82
+      internalID: 1059697108
       vertices: []
       indices: 
       edges: []
@@ -728,7 +552,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 245967276c02fa945a40d59991b67c11
     internalID: 0
     vertices: []
     indices: 
@@ -762,6 +586,22 @@ TextureImporter:
       CD_Player_Base_Death_4Dir_4Frame_v01_7: -6252445684400346719
       CD_Player_Base_Death_4Dir_4Frame_v01_8: 4017672650930407488
       CD_Player_Base_Death_4Dir_4Frame_v01_9: -1045142750743884076
+      Player_Base_Death_Down_0: -1007144571
+      Player_Base_Death_Down_1: -633319901
+      Player_Base_Death_Down_2: -143141855
+      Player_Base_Death_Down_3: -2107347492
+      Player_Base_Death_Left_0: 1665515499
+      Player_Base_Death_Left_1: 593578064
+      Player_Base_Death_Left_2: -1577808595
+      Player_Base_Death_Left_3: 1326597014
+      Player_Base_Death_Right_0: 575129159
+      Player_Base_Death_Right_1: -1746197718
+      Player_Base_Death_Right_2: 906498901
+      Player_Base_Death_Right_3: -575729986
+      Player_Base_Death_Up_0: 1290456094
+      Player_Base_Death_Up_1: -986150819
+      Player_Base_Death_Up_2: -812136975
+      Player_Base_Death_Up_3: 1059697108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

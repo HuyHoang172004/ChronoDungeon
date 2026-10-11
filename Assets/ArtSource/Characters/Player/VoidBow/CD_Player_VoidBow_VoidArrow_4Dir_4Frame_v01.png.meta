@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 141.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,89 +137,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_0
+      name: Player_VoidBow_VoidArrow_Down_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 13
-        width: 325
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 95c1d87f2199fdba0800000000000000
-      internalID: -6061958266675717031
+      spriteID: e031e5d69ee1f754d9d0b507c1277d06
+      internalID: -112124566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_1
+      name: Player_VoidBow_VoidArrow_Down_1
       rect:
         serializedVersion: 2
-        x: 306
-        y: 14
-        width: 322
-        height: 1229
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316.25
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0744cc9d4db7e68a0800000000000000
-      internalID: -6309969873782160272
+      spriteID: 37e7e10658ac2cf42b7f92a746281bc8
+      internalID: 766631772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_2
+      name: Player_VoidBow_VoidArrow_Down_2
       rect:
         serializedVersion: 2
-        x: 626
-        y: 14
-        width: 326
-        height: 1224
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632.5
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2493835b3db4247c0800000000000000
-      internalID: -4088622139048445630
+      spriteID: aa62643934b72af4b8bfe977fc80d398
+      internalID: 435190753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_3
+      name: Player_VoidBow_VoidArrow_Down_3
       rect:
         serializedVersion: 2
-        x: 925
-        y: 14
-        width: 340
-        height: 1223
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948.75
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3038382dfde4e7b20800000000000000
-      internalID: 3134029113912951555
+      spriteID: 67448ca4250040c499f4fb3515521f1b
+      internalID: 1461577008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8123e2979836354408c3270620baa045
+      internalID: -40298149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4652a1964acc80f4bbf4679db22d1d94
+      internalID: -358308508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd9c4a52ba538043b39b5ecc507b9ee
+      internalID: 1418825827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af3561a9352d804d89d95b8cc8936fe
+      internalID: -696375196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead1489606e63194abc33747bb4d8d29
+      internalID: -1810479601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99b5cc2a3b7aec4c99567144431d9d3
+      internalID: -1307913472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e5a90b4b32fba4dad1dc57e772b3c2
+      internalID: 169544745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ce6a91c378fed4a8655ac699fbfb60
+      internalID: -1950473166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3515710f06f8c84e939f167aabc0eac
+      internalID: -1290394575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd60ce2cf09bc2843a8b281fd4b64b1b
+      internalID: -1748518183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd05b02bc9fc58641a1a75d59732176f
+      internalID: -1586539209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_VoidArrow_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cfe68837fae164db6a27be6c0ccf12
+      internalID: -1612503798
       vertices: []
       indices: 
       edges: []
@@ -228,7 +492,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 06e4d524cd2098540afdf38e9afe223c
     internalID: 0
     vertices: []
     indices: 
@@ -242,6 +506,22 @@ TextureImporter:
       CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_1: -6309969873782160272
       CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_2: -4088622139048445630
       CD_Player_VoidBow_VoidArrow_4Dir_4Frame_v01_3: 3134029113912951555
+      Player_VoidBow_VoidArrow_Down_0: -112124566
+      Player_VoidBow_VoidArrow_Down_1: 766631772
+      Player_VoidBow_VoidArrow_Down_2: 435190753
+      Player_VoidBow_VoidArrow_Down_3: 1461577008
+      Player_VoidBow_VoidArrow_Left_0: -40298149
+      Player_VoidBow_VoidArrow_Left_1: -358308508
+      Player_VoidBow_VoidArrow_Left_2: 1418825827
+      Player_VoidBow_VoidArrow_Left_3: -696375196
+      Player_VoidBow_VoidArrow_Right_0: -1810479601
+      Player_VoidBow_VoidArrow_Right_1: -1307913472
+      Player_VoidBow_VoidArrow_Right_2: 169544745
+      Player_VoidBow_VoidArrow_Right_3: -1950473166
+      Player_VoidBow_VoidArrow_Up_0: -1290394575
+      Player_VoidBow_VoidArrow_Up_1: -1748518183
+      Player_VoidBow_VoidArrow_Up_2: -1586539209
+      Player_VoidBow_VoidArrow_Up_3: -1612503798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: 91b816cd170dd4c4caf31674e131af03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2533535445828502072
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_0
+  - first:
+      213: -8030778466837880672
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_1
+  - first:
+      213: 1389139831368870656
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_2
+  - first:
+      213: 5960196147997876399
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_3
+  - first:
+      213: -25543679158867546
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_4
+  - first:
+      213: 3876277387963884071
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_5
+  - first:
+      213: 7896255685425942228
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_6
+  - first:
+      213: -5261381704693902763
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_7
+  - first:
+      213: 3328908497490350684
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_8
+  - first:
+      213: 4230690115229221718
+    second: CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 118.4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70b15fed47af4a459a7897fc2f521d1
+      internalID: -606355080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Down_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399dead194d33fe46a473c13c29cadd3
+      internalID: -101671566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Down_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef041e44636a23c43858c85f3571b4ca
+      internalID: 1801955986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Down_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 888
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3647a8fdba0bc43a49bf3d880fc5df
+      internalID: 24569790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e9ec4d00ecba40ab2dc0c5b0f8485
+      internalID: 1195836505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb60930aaab2fe943a1c8f6ac4cd028f
+      internalID: -1417833965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b572a960f3a768c4c8af8538f9006487
+      internalID: -1523584203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 592
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a2c9a6fed4fb4788082410c62c092
+      internalID: 1507026732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d0cc0e54968374a8f63c4c37f74a9c
+      internalID: 683340005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f057312b64681b643a5eb17bdac55d39
+      internalID: -1342534749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e948102fef83f7b42a27c3bbbbd0e41c
+      internalID: 338229712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 296
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c422705656a1cd047be0a3ae08138e19
+      internalID: 788635746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871fc338ee357884a93ccf93680a5939
+      internalID: 1325788341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625087dc73a50c4419acdd9cf917ed1a
+      internalID: 961511310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aa650ae789a164f9a2571020cf5255
+      internalID: -1278724085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Idle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 331
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a47067b5ab1fdd4faae4384a14d448b
+      internalID: -1399944816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ee62ba2ca96ff404286e0e0e694ac197
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_0: 2533535445828502072
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_1: -8030778466837880672
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_2: 1389139831368870656
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_3: 5960196147997876399
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_4: -25543679158867546
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_5: 3876277387963884071
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_6: 7896255685425942228
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_7: -5261381704693902763
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_8: 3328908497490350684
+      CD_E_Map01_CrackedArcher_Idle_4Dir_4Frame_v02_9: 4230690115229221718
+      Enemies_Map01_CrackedArcher_Idle_Down_0: -606355080
+      Enemies_Map01_CrackedArcher_Idle_Down_1: -101671566
+      Enemies_Map01_CrackedArcher_Idle_Down_2: 1801955986
+      Enemies_Map01_CrackedArcher_Idle_Down_3: 24569790
+      Enemies_Map01_CrackedArcher_Idle_Left_0: 1195836505
+      Enemies_Map01_CrackedArcher_Idle_Left_1: -1417833965
+      Enemies_Map01_CrackedArcher_Idle_Left_2: -1523584203
+      Enemies_Map01_CrackedArcher_Idle_Left_3: 1507026732
+      Enemies_Map01_CrackedArcher_Idle_Right_0: 683340005
+      Enemies_Map01_CrackedArcher_Idle_Right_1: -1342534749
+      Enemies_Map01_CrackedArcher_Idle_Right_2: 338229712
+      Enemies_Map01_CrackedArcher_Idle_Right_3: 788635746
+      Enemies_Map01_CrackedArcher_Idle_Up_0: 1325788341
+      Enemies_Map01_CrackedArcher_Idle_Up_1: 961511310
+      Enemies_Map01_CrackedArcher_Idle_Up_2: -1278724085
+      Enemies_Map01_CrackedArcher_Idle_Up_3: -1399944816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

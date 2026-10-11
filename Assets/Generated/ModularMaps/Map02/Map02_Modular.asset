@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a87b8c633ca81449decb4753dbb9fd, type: 3}
+  m_Name: Map02_Modular
+  m_EditorClassIdentifier: Assembly-CSharp::ModularMapDefinition
+  zoneName: Zone02_ForgottenBarracks
+  worldSize: {x: 37.62, y: 25.08}
+  spawnNormalized: {x: 0.045, y: 0.75}
+  background: {fileID: 21300000, guid: 2d11f3a3d2fc3cd419cd29446939abe1, type: 3}
+  walkableMask: {fileID: 2800000, guid: 860632c5cba6e8d4abd23eebb06ca9db, type: 3}
+  tiles:
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 2053441d9845ef14293a65806fd2379e, type: 3}
+    localPosition: {x: -12.54, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: f338993e05e4897459f9b52f6572123c, type: 3}
+    localPosition: {x: 0, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: c762446f96c49574cb587a78c420b8bc, type: 3}
+    localPosition: {x: 12.54, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: fb9980f93fc70a84ba096a028ba93032, type: 3}
+    localPosition: {x: 0, y: -6.27}
+  colliderPaths: []

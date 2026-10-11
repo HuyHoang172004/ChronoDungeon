@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 12efd1873616f004794a58df1aeee6ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1427162880876899403
+    second: CD_E_Map01_RuinHusk_Move_4Dir_4Frame_v02_0
+  - first:
+      213: 743709367943184406
+    second: CD_E_Map01_RuinHusk_Move_4Dir_4Frame_v02_1
+  - first:
+      213: 2376205241860647596
+    second: CD_E_Map01_RuinHusk_Move_4Dir_4Frame_v02_2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 112
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695b8ad41aad0e4a9c6d2a665e780e1
+      internalID: 1083482679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Down_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b312d4ae0c25977479aca154630fe4b1
+      internalID: -1545609251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf3f2c9f11e6e44b995332fe2677fba
+      internalID: -1571753264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcef4c9ed44eb54ea2a0754afade89b
+      internalID: 702684351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538a54a8fc735b8479dd2ac1d14a03b2
+      internalID: 483504209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2db959b79d133b4694790c319f2eb94
+      internalID: -356419702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e91da2842a221e429175bed01cd0fed
+      internalID: -1738921740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78216363b3585b4ba5d433f37d058e8
+      internalID: -1032946056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf64c482c3ac11419202aaff4fcb193
+      internalID: -2128043857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fe52e7a0b7b184283c0b44cf9d0f4f
+      internalID: -815491980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e08aace53dc5149a92e2acc301ad7a
+      internalID: 636996332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540ba901472c50a48934cbd25da86905
+      internalID: -1990684877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e133dc9a71a3a82458887a1c8cff0140
+      internalID: -389900548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0d6a825e43baf45bf2238a0a19817f
+      internalID: -1956893255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8554ddbd09efa4b9a0a2573e9d422e
+      internalID: -60763608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_RuinHusk_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf7f467abd713409bb52d0c4b8c37d
+      internalID: -1771323254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 846b28c59357e0341b785538f8e47b86
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map01_RuinHusk_Move_4Dir_4Frame_v02_0: 1427162880876899403
+      CD_E_Map01_RuinHusk_Move_4Dir_4Frame_v02_1: 743709367943184406
+      CD_E_Map01_RuinHusk_Move_4Dir_4Frame_v02_2: 2376205241860647596
+      Enemies_Map01_RuinHusk_Move_Down_0: 1083482679
+      Enemies_Map01_RuinHusk_Move_Down_1: -1545609251
+      Enemies_Map01_RuinHusk_Move_Down_2: -1571753264
+      Enemies_Map01_RuinHusk_Move_Down_3: 702684351
+      Enemies_Map01_RuinHusk_Move_Left_0: 483504209
+      Enemies_Map01_RuinHusk_Move_Left_1: -356419702
+      Enemies_Map01_RuinHusk_Move_Left_2: -1738921740
+      Enemies_Map01_RuinHusk_Move_Left_3: -1032946056
+      Enemies_Map01_RuinHusk_Move_Right_0: -2128043857
+      Enemies_Map01_RuinHusk_Move_Right_1: -815491980
+      Enemies_Map01_RuinHusk_Move_Right_2: 636996332
+      Enemies_Map01_RuinHusk_Move_Right_3: -1990684877
+      Enemies_Map01_RuinHusk_Move_Up_0: -389900548
+      Enemies_Map01_RuinHusk_Move_Up_1: -1956893255
+      Enemies_Map01_RuinHusk_Move_Up_2: -60763608
+      Enemies_Map01_RuinHusk_Move_Up_3: -1771323254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

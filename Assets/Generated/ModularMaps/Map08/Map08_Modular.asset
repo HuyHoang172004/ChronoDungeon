@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a87b8c633ca81449decb4753dbb9fd, type: 3}
+  m_Name: Map08_Modular
+  m_EditorClassIdentifier: Assembly-CSharp::ModularMapDefinition
+  zoneName: Zone08_ChronoSanctum
+  worldSize: {x: 39.11, y: 25.08}
+  spawnNormalized: {x: 0.025, y: 0.75}
+  background: {fileID: 21300000, guid: a86bf378c634d2c469b1edeb7e846d1b, type: 3}
+  walkableMask: {fileID: 2800000, guid: 00e3a7b60a3d7e54db02cea266997d41, type: 3}
+  tiles:
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 4539bb01ed57ea149983474dfa25815d, type: 3}
+    localPosition: {x: -12.54, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: ead5594738900254aaf8d0eb7854a7e4, type: 3}
+    localPosition: {x: 0.745, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: a00f11d7f6e39d940b05cf4f21171634, type: 3}
+    localPosition: {x: 13.285, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 0670fcbe9b6be4746999a28fc5016453, type: 3}
+    localPosition: {x: 0.745, y: -6.27}
+  colliderPaths: []

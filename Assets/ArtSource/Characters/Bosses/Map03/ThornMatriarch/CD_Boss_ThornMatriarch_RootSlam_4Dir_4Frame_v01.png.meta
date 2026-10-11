@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 87.94118
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,67 +134,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ThornMatriarch_RootSlam_4Dir_4Frame_v01_0
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9403e4d554ba6ed419bcaed2d40cfd58
+      internalID: -603824389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Down_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b0da83be1bdf64892b5b6de2c5fbaf
+      internalID: -949706784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Down_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6b5826b9ff7174ca3c679319e279a2
+      internalID: -1216761830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Down_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225a9152e4501242bcf6d388e48cb8a
+      internalID: -734423100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a2eeeef2542124187d20e4b1894730
+      internalID: -978999080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Left_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3d1bf47d00482478da8ec6eeeb70fb
+      internalID: -906125765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Left_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f5d593de49c547b954bcad8695650
+      internalID: -335818656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Left_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e288af6472948e4382f93be603cefdc
+      internalID: -1028031379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e226d57882fe2f48a34e6d5d6c3f228
+      internalID: -1465146873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Right_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57268978b7818e478837e990ffb8e29
+      internalID: 889025232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Right_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c70af2f33f1cc940b28e924bd05d9a2
+      internalID: -525517370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Right_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7ea153918474d40a24b959dfb524a8
+      internalID: -1880776777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1312
-        height: 1190
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a092665632acbdb90800000000000000
-      internalID: -7215951724557227766
+      spriteID: 18c494ac9788c904899bc4bfe96bed3f
+      internalID: 1475507913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ThornMatriarch_RootSlam_4Dir_4Frame_v01_1
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Up_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 888
-        width: 323
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 328
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6c4b0d05ce9ad6400800000000000000
-      internalID: 319097981046404294
+      spriteID: c1736c02622dcf34d93e1f4ca6ed87cc
+      internalID: 1348656014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ThornMatriarch_RootSlam_4Dir_4Frame_v01_2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Up_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 921
-        width: 5
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 656
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90f1d0722ec0922a0800000000000000
-      internalID: -6761859200062775543
+      spriteID: 21a4c8fa6542569438172bf1ca0e2f89
+      internalID: -99034187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_RootSlam_Up_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c535eea266def49bdc05518949667f
+      internalID: 936874107
       vertices: []
       indices: 
       edges: []
@@ -203,7 +489,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c8d2300dfdd0df248a8064ec7acb6891
     internalID: 0
     vertices: []
     indices: 
@@ -213,6 +499,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map03_ThornMatriarch_RootSlam_Down_0: -603824389
+      Bosses_Map03_ThornMatriarch_RootSlam_Down_1: -949706784
+      Bosses_Map03_ThornMatriarch_RootSlam_Down_2: -1216761830
+      Bosses_Map03_ThornMatriarch_RootSlam_Down_3: -734423100
+      Bosses_Map03_ThornMatriarch_RootSlam_Left_0: -978999080
+      Bosses_Map03_ThornMatriarch_RootSlam_Left_1: -906125765
+      Bosses_Map03_ThornMatriarch_RootSlam_Left_2: -335818656
+      Bosses_Map03_ThornMatriarch_RootSlam_Left_3: -1028031379
+      Bosses_Map03_ThornMatriarch_RootSlam_Right_0: -1465146873
+      Bosses_Map03_ThornMatriarch_RootSlam_Right_1: 889025232
+      Bosses_Map03_ThornMatriarch_RootSlam_Right_2: -525517370
+      Bosses_Map03_ThornMatriarch_RootSlam_Right_3: -1880776777
+      Bosses_Map03_ThornMatriarch_RootSlam_Up_0: 1475507913
+      Bosses_Map03_ThornMatriarch_RootSlam_Up_1: 1348656014
+      Bosses_Map03_ThornMatriarch_RootSlam_Up_2: -99034187
+      Bosses_Map03_ThornMatriarch_RootSlam_Up_3: 936874107
       CD_Boss_ThornMatriarch_RootSlam_4Dir_4Frame_v01_0: -7215951724557227766
       CD_Boss_ThornMatriarch_RootSlam_4Dir_4Frame_v01_1: 319097981046404294
       CD_Boss_ThornMatriarch_RootSlam_4Dir_4Frame_v01_2: -6761859200062775543

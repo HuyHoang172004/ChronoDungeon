@@ -87,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,287 +164,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map03_ThornSpitter_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 29
-        width: 366
-        height: 991
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 177181fab4f47d650800000000000000
-      internalID: 6257557393733326705
+      spriteID: 9781a07e0095e494fa8f54dbd5b037a3
+      internalID: -1089936439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_1
+      name: Enemies_Map03_ThornSpitter_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 769
-        width: 332
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 603c0cf9012cccb20800000000000000
-      internalID: 3156110815535350534
+      spriteID: e53e1b2f764cc4b4ea702f31f0e3cdb5
+      internalID: -414794972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_2
+      name: Enemies_Map03_ThornSpitter_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 797
-        y: 765
-        width: 348
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56e1a498561fca070800000000000000
-      internalID: 8119129646639488613
+      spriteID: 681993bb1c3d3d04bb494727eb2bd270
+      internalID: 373953580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_3
+      name: Enemies_Map03_ThornSpitter_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 769
-        width: 354
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be45e35fa17d36df0800000000000000
-      internalID: -188070248635804437
+      spriteID: 3de70fb1b4108be4db659e36c8751058
+      internalID: -702172238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map03_ThornSpitter_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 414
-        y: 29
-        width: 371
-        height: 725
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fba77457f8b02c710800000000000000
-      internalID: 1711943519130057407
+      spriteID: 282d137af518d6c46ae536cbbbc59938
+      internalID: 633350806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_5
+      name: Enemies_Map03_ThornSpitter_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 808
-        y: 487
-        width: 353
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc01834fabc839ca0800000000000000
-      internalID: -6011306343020359476
+      spriteID: f1c78ef4ad636a044a419abd8695c90c
+      internalID: -18231315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map03_ThornSpitter_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 525
-        width: 342
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8661324eb6077da0800000000000000
-      internalID: -5947277368695363953
+      spriteID: 6d17b8884dec3e049b363f2a63ca6194
+      internalID: -480578050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map03_ThornSpitter_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 1357
-        y: 655
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa1ebd33f2734d4e0800000000000000
-      internalID: -1957879262126284369
+      spriteID: 5aecceaf8f0809e4f91706de6de44ce3
+      internalID: 561816076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_8
+      name: Enemies_Map03_ThornSpitter_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 799
-        y: 299
-        width: 339
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c17b311e70ed3740800000000000000
-      internalID: 5133505982331843010
+      spriteID: 477e94150a21db445911314b590b3c8d
+      internalID: -1341138327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map03_ThornSpitter_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 1170
-        y: 295
-        width: 353
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8031061618499ae80800000000000000
-      internalID: -8166833165854305528
+      spriteID: 4fbda168580d3ca48a3ee42b49c5fd8e
+      internalID: -319724172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map03_ThornSpitter_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 794
-        y: 29
-        width: 349
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 567c45f03d7d96510800000000000000
-      internalID: 1543001648846391141
+      spriteID: ba24dd45415be274f98fa4ceb72788cb
+      internalID: -1519441597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map03_ThornSpitter_Death_Right_3
       rect:
         serializedVersion: 2
-        x: 1162
-        y: 31
-        width: 357
-        height: 221
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4922fe47ac3a83eb0800000000000000
-      internalID: -4739858517866896748
+      spriteID: ae611b3e621df6f45965ffc210afe831
+      internalID: 796156275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_12
+      name: Enemies_Map03_ThornSpitter_Death_Up_0
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 192
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d71941e5322514dd0800000000000000
-      internalID: -2503629605985545859
+      spriteID: af707846e2f5aaa4c9843e8cbcf8a228
+      internalID: 316591337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f2c6ab3cc9f9343b6592bec812438a
+      internalID: 1582744101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96a88ab69364dc49bd7e2355cac4fdf
+      internalID: -1291160791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1990d23878e38204bbd2724ea94425d2
+      internalID: -445863226
       vertices: []
       indices: 
       edges: []
@@ -453,7 +519,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 434a8106b12ba584f899033412233e24
     internalID: 0
     vertices: []
     indices: 
@@ -476,6 +542,22 @@ TextureImporter:
       CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_7: -1957879262126284369
       CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_8: 5133505982331843010
       CD_Enemy_ThornSpitter_Death_4Dir_4Frame_v01_9: -8166833165854305528
+      Enemies_Map03_ThornSpitter_Death_Down_0: -1089936439
+      Enemies_Map03_ThornSpitter_Death_Down_1: -414794972
+      Enemies_Map03_ThornSpitter_Death_Down_2: 373953580
+      Enemies_Map03_ThornSpitter_Death_Down_3: -702172238
+      Enemies_Map03_ThornSpitter_Death_Left_0: 633350806
+      Enemies_Map03_ThornSpitter_Death_Left_1: -18231315
+      Enemies_Map03_ThornSpitter_Death_Left_2: -480578050
+      Enemies_Map03_ThornSpitter_Death_Left_3: 561816076
+      Enemies_Map03_ThornSpitter_Death_Right_0: -1341138327
+      Enemies_Map03_ThornSpitter_Death_Right_1: -319724172
+      Enemies_Map03_ThornSpitter_Death_Right_2: -1519441597
+      Enemies_Map03_ThornSpitter_Death_Right_3: 796156275
+      Enemies_Map03_ThornSpitter_Death_Up_0: 316591337
+      Enemies_Map03_ThornSpitter_Death_Up_1: 1582744101
+      Enemies_Map03_ThornSpitter_Death_Up_2: -1291160791
+      Enemies_Map03_ThornSpitter_Death_Up_3: -445863226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

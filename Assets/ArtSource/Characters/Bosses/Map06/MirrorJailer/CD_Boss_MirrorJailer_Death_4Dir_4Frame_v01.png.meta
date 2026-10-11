@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 89.117645
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_0
+      name: Bosses_Map06_MirrorJailer_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3219ef9536aca49b93d77a2fa01879
+      internalID: 466329960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Down_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc61a0cd8c094140b26e5964c6def9f
+      internalID: -620393641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Down_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40404a776e807fe48a29e173da4e6e77
+      internalID: -1126767839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Down_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e25d0c31b8b67343a812480f0988469
+      internalID: -1472307589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d0a8b29b00bc429c70e846ec882eb
+      internalID: 1921986503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9c545e53be9041a61d79537001360
+      internalID: 338599603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347d86f66936f0b409aa11cdeb653c17
+      internalID: 1382700552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30389d0f631c8814d9f8c3ff31e8d733
+      internalID: 138971277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0ac162b45abd94596fb7fbee3c34d1
+      internalID: -1483661842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e07c2bf2756a6841bd508fabc1bf28c
+      internalID: 826007673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb730bc00ecf26446b2d38072d38062a
+      internalID: -759974678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae20b7716c417247ad6c81ce8234038
+      internalID: -504166066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 339
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5cdaedef7e0d429f0800000000000000
-      internalID: -494040364271882811
+      spriteID: 76989c308df8444409d349fc0573c96b
+      internalID: 28660760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_1
+      name: Bosses_Map06_MirrorJailer_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 338
-        y: 894
-        width: 309
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e383e853dab115ff0800000000000000
-      internalID: -49227690182559682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 904
-        width: 397
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1cc040d84316ae350800000000000000
-      internalID: 6046752328030358721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 986
-        y: 904
-        width: 296
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 833d1c9eda92a0900800000000000000
-      internalID: 651378923036332856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 610
-        width: 930
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d98b467ab5cb13a0800000000000000
-      internalID: -6693539016516859432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 327
-        width: 641
-        height: 276
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 567216ac16c90dfb0800000000000000
-      internalID: -4625024873488373915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 1030
-        y: 536
-        width: 66
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d75d1846ec7ebd10800000000000000
-      internalID: 2143287801169139671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 1253
-        y: 534
-        width: 13
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: daed1c1da4c4b7190800000000000000
-      internalID: -7963687631844155731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 977
-        y: 329
-        width: 304
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f27d208188be4aa20800000000000000
-      internalID: 3072839815524439855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 346
+        x: 323
         y: 0
-        width: 934
-        height: 326
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9de9d7aee1f5774c0800000000000000
-      internalID: -4289855533659349287
+      spriteID: 79789a015b7aaf240b4b77abfc27b9c2
+      internalID: -1122024311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890b25a15067afa4fa48d48503386d2f
+      internalID: -1321381404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f5d1afe2447be4bb0aa37e50dc86fb
+      internalID: -2123188781
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 04587b33ab38de64e9c3e1d5fae8cffd
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map06_MirrorJailer_Death_Down_0: 466329960
+      Bosses_Map06_MirrorJailer_Death_Down_1: -620393641
+      Bosses_Map06_MirrorJailer_Death_Down_2: -1126767839
+      Bosses_Map06_MirrorJailer_Death_Down_3: -1472307589
+      Bosses_Map06_MirrorJailer_Death_Left_0: 1921986503
+      Bosses_Map06_MirrorJailer_Death_Left_1: 338599603
+      Bosses_Map06_MirrorJailer_Death_Left_2: 1382700552
+      Bosses_Map06_MirrorJailer_Death_Left_3: 138971277
+      Bosses_Map06_MirrorJailer_Death_Right_0: -1483661842
+      Bosses_Map06_MirrorJailer_Death_Right_1: 826007673
+      Bosses_Map06_MirrorJailer_Death_Right_2: -759974678
+      Bosses_Map06_MirrorJailer_Death_Right_3: -504166066
+      Bosses_Map06_MirrorJailer_Death_Up_0: 28660760
+      Bosses_Map06_MirrorJailer_Death_Up_1: -1122024311
+      Bosses_Map06_MirrorJailer_Death_Up_2: -1321381404
+      Bosses_Map06_MirrorJailer_Death_Up_3: -2123188781
       CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_0: -494040364271882811
       CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_1: -49227690182559682
       CD_Boss_MirrorJailer_Death_4Dir_4Frame_v01_2: 6046752328030358721

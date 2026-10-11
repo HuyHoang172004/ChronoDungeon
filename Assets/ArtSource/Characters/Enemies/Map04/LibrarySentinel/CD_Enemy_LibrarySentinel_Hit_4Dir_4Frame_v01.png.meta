@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120.8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,199 +152,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map04_LibrarySentinel_Hit_Down_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 917
-        width: 282
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 906
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e4a57f29d5c56080800000000000000
-      internalID: -9194725527612185370
+      spriteID: 4da6aabacd72fc2438dca792b1cccd76
+      internalID: -1583995157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_1
+      name: Enemies_Map04_LibrarySentinel_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 367
-        y: 909
-        width: 263
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 324
+        y: 906
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 23ad3fe7cf70f6230800000000000000
-      internalID: 3634132205354342962
+      spriteID: 04a9e0545bece7e49a1e6e8ff566cd8c
+      internalID: -1643707917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_2
+      name: Enemies_Map04_LibrarySentinel_Hit_Down_2
       rect:
         serializedVersion: 2
-        x: 649
-        y: 28
-        width: 316
-        height: 892
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 648
+        y: 906
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12a8055df6b4f31d0800000000000000
-      internalID: -3368891052557563359
+      spriteID: 4a9128f9acdf4c244b3bc9b2cfcffb0c
+      internalID: -1950913319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 917
-        width: 287
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01835ee1468dc2380800000000000000
-      internalID: -8994576431239055344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 976
-        y: 917
-        width: 281
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d12ee1238b95a2a0800000000000000
-      internalID: -6726799480895692333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 23
-        width: 298
-        height: 889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6028c0645d4311410800000000000000
-      internalID: 1445995045970543110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 910
-        width: 16
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 654589a397e3d4960800000000000000
-      internalID: 7587789637584180310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 27
-        width: 297
-        height: 884
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c695e0153f467a820800000000000000
-      internalID: 2929421078827522412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map04_LibrarySentinel_Hit_Down_3
       rect:
         serializedVersion: 2
         x: 972
-        y: 27
-        width: 304
-        height: 886
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 906
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 54d6e3ae0edd519b0800000000000000
-      internalID: -5109934244109587131
+      spriteID: 0f5f5d72b5e362e46ba27480da55ab80
+      internalID: 1373058079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1597eec4511a241962dc24ea418ef4
+      internalID: 1716026571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 604
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c68b93e387baf8488bc1bca741da6bb
+      internalID: -190373066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 604
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45b1763cb934af4a9e7f21e00b62f18
+      internalID: -32928282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 604
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5386b32c8a110c544ad0e3ce0fa58579
+      internalID: 886981377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3437d51c1b8d11a4792874e956bea2cd
+      internalID: -1475005883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 302
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52acd29f796a7ea47a2dd74b815451a3
+      internalID: 1752312297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 302
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9f21c4486eeb947af1051a54c823cc
+      internalID: 414932829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 302
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72f77762a70d7f4f88cbbbd30c717dc
+      internalID: 435786696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681b603675c0c94eb76031ef1872ad4
+      internalID: 1001840702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06359907ac64a214db73342008b77760
+      internalID: -605184659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d17056246e45240a8cdf61d2ebda2f
+      internalID: -863208695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map04_LibrarySentinel_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 324
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2779b8a043bd349b95817e350c9f30
+      internalID: -1933390662
       vertices: []
       indices: 
       edges: []
@@ -353,7 +507,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6bb5ea22f763b4b4092d4498fa964bc7
     internalID: 0
     vertices: []
     indices: 
@@ -372,6 +526,22 @@ TextureImporter:
       CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_6: 7587789637584180310
       CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_7: 2929421078827522412
       CD_Enemy_LibrarySentinel_Hit_4Dir_4Frame_v01_8: -5109934244109587131
+      Enemies_Map04_LibrarySentinel_Hit_Down_0: -1583995157
+      Enemies_Map04_LibrarySentinel_Hit_Down_1: -1643707917
+      Enemies_Map04_LibrarySentinel_Hit_Down_2: -1950913319
+      Enemies_Map04_LibrarySentinel_Hit_Down_3: 1373058079
+      Enemies_Map04_LibrarySentinel_Hit_Left_0: 1716026571
+      Enemies_Map04_LibrarySentinel_Hit_Left_1: -190373066
+      Enemies_Map04_LibrarySentinel_Hit_Left_2: -32928282
+      Enemies_Map04_LibrarySentinel_Hit_Left_3: 886981377
+      Enemies_Map04_LibrarySentinel_Hit_Right_0: -1475005883
+      Enemies_Map04_LibrarySentinel_Hit_Right_1: 1752312297
+      Enemies_Map04_LibrarySentinel_Hit_Right_2: 414932829
+      Enemies_Map04_LibrarySentinel_Hit_Right_3: 435786696
+      Enemies_Map04_LibrarySentinel_Hit_Up_0: 1001840702
+      Enemies_Map04_LibrarySentinel_Hit_Up_1: -605184659
+      Enemies_Map04_LibrarySentinel_Hit_Up_2: -863208695
+      Enemies_Map04_LibrarySentinel_Hit_Up_3: -1933390662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

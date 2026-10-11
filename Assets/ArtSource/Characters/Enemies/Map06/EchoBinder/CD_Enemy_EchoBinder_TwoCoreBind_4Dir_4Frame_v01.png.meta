@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,265 +161,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_0
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 850
-        width: 315
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 75982b24b949f5620800000000000000
-      internalID: 2765092090788612439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 856
-        width: 310
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f590f790d7b7a1f30800000000000000
-      internalID: 4547082550744385887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 709
-        y: 574
-        width: 342
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 708db989f25d0d410800000000000000
-      internalID: 1499933076314904583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 739
-        y: 856
-        width: 263
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b2bd7663e2b78e00800000000000000
-      internalID: 1047002128133763768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 572
-        width: 284
-        height: 550
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7de82990cd0e9d40800000000000000
-      internalID: 5592922908095212924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 572
-        width: 251
+        y: 840
+        width: 350
         height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de3484978a84a1450800000000000000
-      internalID: 6060236137006908397
+      spriteID: 8dcc4c57de6621d4586a7768d64d8e57
+      internalID: -662307674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_6
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Down_1
       rect:
         serializedVersion: 2
-        x: 378
-        y: 574
-        width: 285
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bcce11f59600cea30800000000000000
-      internalID: 4245769001270111435
+      spriteID: 3b0dabf5a6b369b40b80a0bb73a548b6
+      internalID: 87098631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_7
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Down_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95f18024500a8b42b7a5650b874aa61
+      internalID: -1130026059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d2c279629284449577f4c27b2803b
+      internalID: -1594820933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
-        width: 352
-        height: 548
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e6e4c43ea28d13b60800000000000000
-      internalID: 7724192514630766190
+      spriteID: 50f9059e4eb88324c966dd9e670bac1d
+      internalID: 1841929458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_8
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Left_1
       rect:
         serializedVersion: 2
-        x: 385
-        y: 25
-        width: 323
-        height: 539
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4302e44e46faf9ea0800000000000000
-      internalID: -5863775341951180748
+      spriteID: 4bc89ff86d60acf4bb75f86398787c99
+      internalID: 602528931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_9
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Left_2
       rect:
         serializedVersion: 2
-        x: 717
-        y: 30
-        width: 313
-        height: 534
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 30fba7b7c9fe641f0800000000000000
-      internalID: -1060897206833594621
+      spriteID: 716c0f0f98cbff44eba107f83f225eed
+      internalID: 1367893546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_10
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Left_3
       rect:
         serializedVersion: 2
-        x: 723
-        y: 38
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dcf5bb8f358c12570800000000000000
-      internalID: 8440247439649890253
+      spriteID: c0e9e65098995b245b639248952f1b07
+      internalID: -1461962552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_11
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Right_0
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 29
-        width: 285
-        height: 536
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4652cb7683f5e8c20800000000000000
-      internalID: 3210608280224933220
+      spriteID: 2fda6c32cfccfc24989de364fcc571d5
+      internalID: -453381564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41c05f050db3dc429ddb7aaa4061388
+      internalID: -1553228302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00757dafade910d4ea7b535f3ef14a09
+      internalID: -884722863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58646c79458d57458a1ee01f6855899
+      internalID: -747907948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7271df949216e489da556a3145aeb3
+      internalID: 977502525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Up_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e48ba53547891e4eb906b9e48c247dc
+      internalID: -482331420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Up_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd805726912a2b34d8137846d60ba832
+      internalID: 2012951991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_TwoCoreBind_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810d8fb96cd49184992bfcf0bf34f848
+      internalID: -1187948443
       vertices: []
       indices: 
       edges: []
@@ -428,7 +516,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 43659f7d21c0f344ab1e39a64a006b1a
     internalID: 0
     vertices: []
     indices: 
@@ -450,6 +538,22 @@ TextureImporter:
       CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_7: 7724192514630766190
       CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_8: -5863775341951180748
       CD_Enemy_EchoBinder_TwoCoreBind_4Dir_4Frame_v01_9: -1060897206833594621
+      Enemies_Map06_EchoBinder_TwoCoreBind_Down_0: -662307674
+      Enemies_Map06_EchoBinder_TwoCoreBind_Down_1: 87098631
+      Enemies_Map06_EchoBinder_TwoCoreBind_Down_2: -1130026059
+      Enemies_Map06_EchoBinder_TwoCoreBind_Down_3: -1594820933
+      Enemies_Map06_EchoBinder_TwoCoreBind_Left_0: 1841929458
+      Enemies_Map06_EchoBinder_TwoCoreBind_Left_1: 602528931
+      Enemies_Map06_EchoBinder_TwoCoreBind_Left_2: 1367893546
+      Enemies_Map06_EchoBinder_TwoCoreBind_Left_3: -1461962552
+      Enemies_Map06_EchoBinder_TwoCoreBind_Right_0: -453381564
+      Enemies_Map06_EchoBinder_TwoCoreBind_Right_1: -1553228302
+      Enemies_Map06_EchoBinder_TwoCoreBind_Right_2: -884722863
+      Enemies_Map06_EchoBinder_TwoCoreBind_Right_3: -747907948
+      Enemies_Map06_EchoBinder_TwoCoreBind_Up_0: 977502525
+      Enemies_Map06_EchoBinder_TwoCoreBind_Up_1: -482331420
+      Enemies_Map06_EchoBinder_TwoCoreBind_Up_2: 2012951991
+      Enemies_Map06_EchoBinder_TwoCoreBind_Up_3: -1187948443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

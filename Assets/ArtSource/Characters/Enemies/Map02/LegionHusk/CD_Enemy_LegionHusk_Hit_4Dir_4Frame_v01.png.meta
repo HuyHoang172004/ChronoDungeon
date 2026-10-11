@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 121.5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,309 +167,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map02_LegionHusk_Hit_Down_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 904
-        width: 278
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9461793880960c2b0800000000000000
-      internalID: -5566333654141561271
+      spriteID: 0c40d5058ca667d489fd577037aceff1
+      internalID: -1359178173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_1
+      name: Enemies_Map02_LegionHusk_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 362
-        y: 902
-        width: 289
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 54b99dd3ab0508d00800000000000000
-      internalID: 972866280343837509
+      spriteID: 4d421fe7ad21c7944b66dfc94914f8dc
+      internalID: 1512351262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_2
+      name: Enemies_Map02_LegionHusk_Hit_Down_2
       rect:
         serializedVersion: 2
-        x: 662
-        y: 890
-        width: 294
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85695a8a6872ae5c0800000000000000
-      internalID: -4185489444378929576
+      spriteID: 2462e9a23ee0a1c4396181c6c65c7c7b
+      internalID: 1633608082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_3
+      name: Enemies_Map02_LegionHusk_Hit_Down_3
       rect:
         serializedVersion: 2
-        x: 987
-        y: 891
-        width: 273
-        height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 611ba4ca2793bdf10800000000000000
-      internalID: 2295491599755030806
+      spriteID: 39dfaf4d6fb3c0740abe3babc80ad1c6
+      internalID: -1910624187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_4
+      name: Enemies_Map02_LegionHusk_Hit_Left_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 612
-        width: 278
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd8808c7fcd91d3a0800000000000000
-      internalID: -6642354460922181411
+      spriteID: c439ba6ac289d9148854b9032d7bfd32
+      internalID: 801710474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_5
+      name: Enemies_Map02_LegionHusk_Hit_Left_1
       rect:
         serializedVersion: 2
-        x: 348
-        y: 612
-        width: 298
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9972385a6ae886730800000000000000
-      internalID: 3992597916056496025
+      spriteID: c1645e8cb25320e4db49912915de704b
+      internalID: 58157631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_6
+      name: Enemies_Map02_LegionHusk_Hit_Left_2
       rect:
         serializedVersion: 2
-        x: 664
-        y: 587
-        width: 318
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec0db951e41e0ec00800000000000000
-      internalID: 927989248724553934
+      spriteID: 04d088e405ca608459fcdc5f38b949d3
+      internalID: -73765502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_7
+      name: Enemies_Map02_LegionHusk_Hit_Left_3
       rect:
         serializedVersion: 2
-        x: 994
-        y: 611
-        width: 272
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97451425ed1585bb0800000000000000
-      internalID: -4947114175361887111
+      spriteID: 4638fbfe9396e4144be718722b238bd9
+      internalID: -1013943957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map02_LegionHusk_Hit_Right_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 22
-        width: 311
-        height: 568
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4717bafb17a4d02d0800000000000000
-      internalID: -3310908298640002700
+      spriteID: 4252db3beb05bb74fa3e22d59b6ddd1d
+      internalID: -1149045168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_9
+      name: Enemies_Map02_LegionHusk_Hit_Right_1
       rect:
         serializedVersion: 2
-        x: 356
-        y: 321
-        width: 311
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a1b0fdc0a6c78f9a0800000000000000
-      internalID: -6199068092151166182
+      spriteID: c8c9fb45d947c32498be3b5ce2f93d52
+      internalID: -1943126630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_10
+      name: Enemies_Map02_LegionHusk_Hit_Right_2
       rect:
         serializedVersion: 2
-        x: 668
-        y: 322
-        width: 314
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ea89895d6d3c6080800000000000000
-      internalID: -9192905199507109149
+      spriteID: db9e27d0b1e7371448129f8c6af8cfe6
+      internalID: 1508351136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_11
+      name: Enemies_Map02_LegionHusk_Hit_Right_3
       rect:
         serializedVersion: 2
-        x: 984
-        y: 17
-        width: 311
-        height: 574
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e89ab8a7f5a1947f0800000000000000
-      internalID: -627941675661284978
+      spriteID: b85ac6a8d9ea8664181fc4512dcae20f
+      internalID: -1414110915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_12
+      name: Enemies_Map02_LegionHusk_Hit_Up_0
       rect:
         serializedVersion: 2
-        x: 368
-        y: 17
-        width: 297
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e7eca81e9fe2c070800000000000000
-      internalID: 8125320140027652066
+      spriteID: 538c7f071259ae0418575e1305365083
+      internalID: -1044999987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_13
+      name: Enemies_Map02_LegionHusk_Hit_Up_1
       rect:
         serializedVersion: 2
-        x: 672
-        y: 19
-        width: 315
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e6287a32e4df7820800000000000000
-      internalID: 2918285151668020965
+      spriteID: fd257c028b7b23443b4c309e947dd2ea
+      internalID: -86908699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 647.5
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617a62edc7bd5dd47a4614a6d375191d
+      internalID: 824740356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 971.25
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a016f166f7186c54288024907a568984
+      internalID: -82260680
       vertices: []
       indices: 
       edges: []
@@ -478,7 +522,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d399df26641f37344bfc74abd54caaa3
     internalID: 0
     vertices: []
     indices: 
@@ -502,6 +546,22 @@ TextureImporter:
       CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_7: -4947114175361887111
       CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_8: -3310908298640002700
       CD_Enemy_LegionHusk_Hit_4Dir_4Frame_v01_9: -6199068092151166182
+      Enemies_Map02_LegionHusk_Hit_Down_0: -1359178173
+      Enemies_Map02_LegionHusk_Hit_Down_1: 1512351262
+      Enemies_Map02_LegionHusk_Hit_Down_2: 1633608082
+      Enemies_Map02_LegionHusk_Hit_Down_3: -1910624187
+      Enemies_Map02_LegionHusk_Hit_Left_0: 801710474
+      Enemies_Map02_LegionHusk_Hit_Left_1: 58157631
+      Enemies_Map02_LegionHusk_Hit_Left_2: -73765502
+      Enemies_Map02_LegionHusk_Hit_Left_3: -1013943957
+      Enemies_Map02_LegionHusk_Hit_Right_0: -1149045168
+      Enemies_Map02_LegionHusk_Hit_Right_1: -1943126630
+      Enemies_Map02_LegionHusk_Hit_Right_2: 1508351136
+      Enemies_Map02_LegionHusk_Hit_Right_3: -1414110915
+      Enemies_Map02_LegionHusk_Hit_Up_0: -1044999987
+      Enemies_Map02_LegionHusk_Hit_Up_1: -86908699
+      Enemies_Map02_LegionHusk_Hit_Up_2: 824740356
+      Enemies_Map02_LegionHusk_Hit_Up_3: -82260680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

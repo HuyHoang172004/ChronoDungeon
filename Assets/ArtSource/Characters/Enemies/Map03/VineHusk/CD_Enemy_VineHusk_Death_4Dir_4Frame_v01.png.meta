@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,177 +149,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map03_VineHusk_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 898
-        width: 315
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2f28204b0d5befd0800000000000000
-      internalID: -2311651680822218964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 1193
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfa1ebdf2c4e3b380800000000000000
-      internalID: -8956563707777901829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 880
-        width: 944
+        x: 0
+        y: 915
+        width: 321
         height: 305
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f765e2724fac84460800000000000000
-      internalID: 7226248752094140031
+      spriteID: fb6cc1c9de576664ca21a9979713d270
+      internalID: 1609137852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_3
+      name: Enemies_Map03_VineHusk_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 570
-        y: 1164
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52ec8d42b1d32d480800000000000000
-      internalID: -8875964728802226651
+      spriteID: 77dc82477d667d94c8374ed2dba732d5
+      internalID: -1429346778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map03_VineHusk_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 317
-        width: 270
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9fad624db7b7cc250800000000000000
-      internalID: 5966279378129574649
+      spriteID: 22c07750390f954438c7f2ee4e2583bb
+      internalID: 1420938437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_5
+      name: Enemies_Map03_VineHusk_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 590
-        width: 1227
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 899ea32dd3c327400800000000000000
-      internalID: 320384759714474392
+      spriteID: 1dbc95adb91b0a34b8e12dc1dd66e8c1
+      internalID: 389982432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map03_VineHusk_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 303
-        y: 301
-        width: 983
-        height: 298
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0dcdfd5fa4326ffa0800000000000000
-      internalID: -5767383467941700400
+      spriteID: 7a7937bf7d7633c42ac3c4f15faebc64
+      internalID: 677315824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map03_VineHusk_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfccaa15b74d43049aa33baa457f262b
+      internalID: -1229781563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8357819a46d064d40a5ec44245015c78
+      internalID: -1612745004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2780c5ccaaec6ca48aa24f689b9570b9
+      internalID: 161291223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f20ab8caef03e4aafeafd46e960a70
+      internalID: 1778522979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39d0e6495f631d41ac1053afbbd3c72
+      internalID: -773640087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b089bf3c882a4c4dbc1bcbac84f7c11
+      internalID: 1844708718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b3c1414af032a4f815757bc08f7fd0
+      internalID: 336832781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1277
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63d3c738d21083580800000000000000
-      internalID: -8847320172978225866
+      spriteID: e207a698f9fe1ef48a2436d51db14fb7
+      internalID: -1139921381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7215dc94861652b4b863080519746a6d
+      internalID: -569310692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5dfbe0b6819f34fb0feb51ac346b17
+      internalID: 1732904573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fb96bc2d3f8174fa4cde374454df25
+      internalID: 822554880
       vertices: []
       indices: 
       edges: []
@@ -328,7 +504,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fb77a2c55d7c8f945a51f6114b9f2b9f
     internalID: 0
     vertices: []
     indices: 
@@ -346,6 +522,22 @@ TextureImporter:
       CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_5: 320384759714474392
       CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_6: -5767383467941700400
       CD_Enemy_VineHusk_Death_4Dir_4Frame_v01_7: -8847320172978225866
+      Enemies_Map03_VineHusk_Death_Down_0: 1609137852
+      Enemies_Map03_VineHusk_Death_Down_1: -1429346778
+      Enemies_Map03_VineHusk_Death_Down_2: 1420938437
+      Enemies_Map03_VineHusk_Death_Down_3: 389982432
+      Enemies_Map03_VineHusk_Death_Left_0: 677315824
+      Enemies_Map03_VineHusk_Death_Left_1: -1229781563
+      Enemies_Map03_VineHusk_Death_Left_2: -1612745004
+      Enemies_Map03_VineHusk_Death_Left_3: 161291223
+      Enemies_Map03_VineHusk_Death_Right_0: 1778522979
+      Enemies_Map03_VineHusk_Death_Right_1: -773640087
+      Enemies_Map03_VineHusk_Death_Right_2: 1844708718
+      Enemies_Map03_VineHusk_Death_Right_3: 336832781
+      Enemies_Map03_VineHusk_Death_Up_0: -1139921381
+      Enemies_Map03_VineHusk_Death_Up_1: -569310692
+      Enemies_Map03_VineHusk_Death_Up_2: 1732904573
+      Enemies_Map03_VineHusk_Death_Up_3: 822554880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

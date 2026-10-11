@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,309 +167,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_0
+      name: Enemies_Map06_CellGuard_ShieldBash_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 39
-        width: 372
-        height: 1068
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6deae540ebc9167d0800000000000000
-      internalID: -2926885942883078442
+      spriteID: 6df2764c892546548a553cc182ac40d2
+      internalID: -847992607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 850
-        width: 297
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a6fecd883cf750e0800000000000000
-      internalID: -2281077366412347743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 683
-        y: 846
-        width: 372
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8548a15332be4c20800000000000000
-      internalID: 3192685119335318926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 578
-        width: 296
-        height: 528
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8de1259cae4015580800000000000000
-      internalID: -8840279187105112360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_4
+      name: Enemies_Map06_CellGuard_ShieldBash_Down_1
       rect:
         serializedVersion: 2
         x: 350
-        y: 588
-        width: 299
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7221e6a1a8386a990800000000000000
-      internalID: -7375062710600461785
+      spriteID: 80a7598fb8e52374ea7748588b76ed35
+      internalID: -2099910939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_5
+      name: Enemies_Map06_CellGuard_ShieldBash_Down_2
       rect:
         serializedVersion: 2
-        x: 360
-        y: 712
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 978963965dd37fcc0800000000000000
-      internalID: -3677402583922206599
+      spriteID: 7d62b1a24ef072346afb0ce8c6b82b60
+      internalID: -534910480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_6
+      name: Enemies_Map06_CellGuard_ShieldBash_Down_3
       rect:
         serializedVersion: 2
-        x: 705
-        y: 585
-        width: 360
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 43ab527602d57e7d0800000000000000
-      internalID: -2889238242184021452
+      spriteID: 314fdcd62c8acfd408ebcaf610f120fc
+      internalID: -1102145710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_7
+      name: Enemies_Map06_CellGuard_ShieldBash_Left_0
       rect:
         serializedVersion: 2
-        x: 385
-        y: 316
-        width: 295
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6959370fc9c2a4470800000000000000
-      internalID: 8379559109236856214
+      spriteID: d92da1bc90da2b34eb9c75ac3166f99a
+      internalID: 764552232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_8
+      name: Enemies_Map06_CellGuard_ShieldBash_Left_1
       rect:
         serializedVersion: 2
-        x: 397
-        y: 36
-        width: 293
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 430558dd60bcd2ec0800000000000000
-      internalID: -3589990097597673420
+      spriteID: 8a7a8e9c48f09924e8a24cdd023e715e
+      internalID: 70886753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_9
+      name: Enemies_Map06_CellGuard_ShieldBash_Left_2
       rect:
         serializedVersion: 2
-        x: 705
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b3dd0555383440b1b6e47f6399793
+      internalID: 1562100391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_ShieldBash_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02778f80c48fad145a5b4465d1a71a8b
+      internalID: 98755432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_ShieldBash_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1e13b7af83baf47a3eada928c8ad0d
+      internalID: 1024161449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_ShieldBash_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901ff730bc4204d45ba2f38c3b12bf8d
+      internalID: -589530088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_ShieldBash_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f3b8da69766c94ba221ef48b4619ed
+      internalID: -2046031722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_ShieldBash_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7684c9cbc314aaf46afed89bdd6bd88c
+      internalID: -426974999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_ShieldBash_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 356
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 386a9ece527293940800000000000000
-      internalID: 5276291482283255427
+      spriteID: 02cb0e8a18258ce44aff026dd29b6861
+      internalID: 459367026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_10
+      name: Enemies_Map06_CellGuard_ShieldBash_Up_1
       rect:
         serializedVersion: 2
-        x: 715
-        y: 305
-        width: 366
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66f9788c58b9aa510800000000000000
-      internalID: 1561231219734585190
+      spriteID: 2549a0434832835428736de7c08008a6
+      internalID: -28896622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_11
+      name: Enemies_Map06_CellGuard_ShieldBash_Up_2
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 309
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e55f823c059ada50800000000000000
-      internalID: 6546708887956837858
+      spriteID: e974fa08bd306724ebee3c8eb8160f26
+      internalID: 960720192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_12
+      name: Enemies_Map06_CellGuard_ShieldBash_Up_3
       rect:
         serializedVersion: 2
-        x: 1080
-        y: 315
-        width: 293
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd99dc6c54a71d210800000000000000
-      internalID: 1355999402921925083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 1094
-        y: 15
-        width: 299
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9334344185165340800000000000000
-      internalID: 4852089293477524382
+      spriteID: ee8604191780e7340942b5531b1040dd
+      internalID: -1059056626
       vertices: []
       indices: 
       edges: []
@@ -478,7 +522,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 73d023ffec910bc4dbb683b2a039eeb8
     internalID: 0
     vertices: []
     indices: 
@@ -502,6 +546,22 @@ TextureImporter:
       CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_7: 8379559109236856214
       CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_8: -3589990097597673420
       CD_Enemy_CellGuard_ShieldBash_4Dir_4Frame_v01_9: 5276291482283255427
+      Enemies_Map06_CellGuard_ShieldBash_Down_0: -847992607
+      Enemies_Map06_CellGuard_ShieldBash_Down_1: -2099910939
+      Enemies_Map06_CellGuard_ShieldBash_Down_2: -534910480
+      Enemies_Map06_CellGuard_ShieldBash_Down_3: -1102145710
+      Enemies_Map06_CellGuard_ShieldBash_Left_0: 764552232
+      Enemies_Map06_CellGuard_ShieldBash_Left_1: 70886753
+      Enemies_Map06_CellGuard_ShieldBash_Left_2: 1562100391
+      Enemies_Map06_CellGuard_ShieldBash_Left_3: 98755432
+      Enemies_Map06_CellGuard_ShieldBash_Right_0: 1024161449
+      Enemies_Map06_CellGuard_ShieldBash_Right_1: -589530088
+      Enemies_Map06_CellGuard_ShieldBash_Right_2: -2046031722
+      Enemies_Map06_CellGuard_ShieldBash_Right_3: -426974999
+      Enemies_Map06_CellGuard_ShieldBash_Up_0: 459367026
+      Enemies_Map06_CellGuard_ShieldBash_Up_1: -28896622
+      Enemies_Map06_CellGuard_ShieldBash_Up_2: 960720192
+      Enemies_Map06_CellGuard_ShieldBash_Up_3: -1059056626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

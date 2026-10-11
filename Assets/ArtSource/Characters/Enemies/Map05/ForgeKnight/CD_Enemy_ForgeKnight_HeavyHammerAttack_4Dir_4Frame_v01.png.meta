@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -179,397 +179,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 897
-        width: 325
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f11aabb6352c3c40800000000000000
-      internalID: 5493306562492109303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 0
-        width: 351
-        height: 1224
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1578931621ae1ba10800000000000000
-      internalID: 1923575880525383505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 1179
-        width: 63
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: baf8dbe5aaa0256c0800000000000000
-      internalID: -4156247779259347029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 968
-        y: 856
-        width: 317
-        height: 352
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 995de444d55cb69b0800000000000000
-      internalID: -5085754349816195687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 897
-        width: 245
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbf3c0a7cbc1f3060800000000000000
-      internalID: 6935293547000905661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 579
-        width: 274
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13bc8e8239e43a420800000000000000
-      internalID: 2640040200522746673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 318
-        width: 250
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 817fb0938384e3ab0800000000000000
-      internalID: -5026500727786440936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 571
-        width: 346
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 299fd7850a1e54ca0800000000000000
-      internalID: -6033168046997243502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 563
-        width: 263
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a9b7612c09e29140800000000000000
-      internalID: 4725095197374396834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 490
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2775b59a143031a0800000000000000
-      internalID: -6831903345935550673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 311
-        width: 346
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9987bf19e3a7c0dc0800000000000000
-      internalID: -3671425187058059111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 1022
-        y: 319
-        width: 251
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13b0bc7139c8cba80800000000000000
-      internalID: -8449724237466629327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_12
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 324
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f51d2a5a8791c290800000000000000
-      internalID: -7871844053192731152
+      spriteID: 2905a69b105ee2a49b6cf2f3cf295df6
+      internalID: -116797361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 85
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de5119ea8608c1290800000000000000
-      internalID: -7918312857730476563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 79
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7751a5d98419345e0800000000000000
-      internalID: -1926536474520840841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 37
-        width: 232
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 039c19e7af7a62310800000000000000
-      internalID: 1379975030142781744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 946
-        y: 0
-        width: 339
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f76a0ecef901b3130800000000000000
-      internalID: 3547447410544387711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_17
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_1
       rect:
         serializedVersion: 2
         x: 321
-        y: 71
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e2954b81464c2fb60800000000000000
-      internalID: 7778495440612514094
+      spriteID: 15f37715d43433f43aca7ec857dbe36c
+      internalID: -1885938534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb47d14750249545870f6849e0b6254
+      internalID: -1772295506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15ee807b6b24a9499115e42b6635a8d
+      internalID: 544582590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43d5e3d7908b064285816f7869ce122
+      internalID: -2090676879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79787f48e7876468e561c3a22d6c80
+      internalID: -1297012681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bde20b9e6750694fb21c44f44a5d316
+      internalID: -1099155147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e16b07728975349995904a1d6f88c3
+      internalID: -1850665927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8948fffed6e486f40944494035d15df4
+      internalID: -588638148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac9f8c9cd0717843926967a6ae28b1e
+      internalID: -759881501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51a186efa4eda649bcc1067ec702e4f
+      internalID: 1510952375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf91d500919d22b42b39b747370c70b4
+      internalID: 1475456813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136c4f2ed2af5544dab45be49cc6f378
+      internalID: 1671023138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55a44dcad9d7864f92a61ed5a38ab4a
+      internalID: -273624003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efb1fc00fe82544f874e3a01311315a
+      internalID: -1886267667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc81387123b11884dbc0f04b78f44b46
+      internalID: 268171307
       vertices: []
       indices: 
       edges: []
@@ -578,7 +534,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 28fa6b5eccce8bc43a3768e9e528782c
     internalID: 0
     vertices: []
     indices: 
@@ -606,6 +562,22 @@ TextureImporter:
       CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_7: -6033168046997243502
       CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_8: 4725095197374396834
       CD_Enemy_ForgeKnight_HeavyHammerAttack_4Dir_4Frame_v01_9: -6831903345935550673
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_0: -116797361
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_1: -1885938534
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_2: -1772295506
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Down_3: 544582590
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_0: -2090676879
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_1: -1297012681
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_2: -1099155147
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Left_3: -1850665927
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_0: -588638148
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_1: -759881501
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_2: 1510952375
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Right_3: 1475456813
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_0: 1671023138
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_1: -273624003
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_2: -1886267667
+      Enemies_Map05_ForgeKnight_HeavyHammerAttack_Up_3: 268171307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

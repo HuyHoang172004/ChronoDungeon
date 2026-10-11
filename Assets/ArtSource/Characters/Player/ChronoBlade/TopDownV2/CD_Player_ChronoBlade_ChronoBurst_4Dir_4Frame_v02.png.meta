@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: 14ebfb74474445f45bf4eeb55ddcbf07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4201094247358851413
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v02_0
+  - first:
+      213: 8974377282224780633
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v02_1
+  - first:
+      213: -1964907074487459339
+    second: CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v02_2
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140.90909
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7352b8fa7e492e14aba16a9cc6acaf9a
+      internalID: -318883246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Down_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ec1e268aab9204089236a3bc3e7d13
+      internalID: 1987178132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Down_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e1667951a900a4cb6c30476680f546
+      internalID: 1233544129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Down_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82c212a9cdb434438c167ec1cfb75e3
+      internalID: -1986873837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b4d3ee09243784eb101763b5c01aa4
+      internalID: -1054745225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7226a53394bac438c321ac2d700bdc
+      internalID: 976139769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f226ea968ead646b7d8bc0279344e9
+      internalID: -1405316868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe206c485254f0d4284376ec9a86de09
+      internalID: 1093091798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfce0c7abcca0643a373a3772986273
+      internalID: 1389495231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1800aac4b9d214b87070a2bced2255
+      internalID: -80178636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3103b81ddf2116f4db8ec2b808d8c3ed
+      internalID: 1187839692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd68bab5c0d7174489e8d5aabe4cef40
+      internalID: 1816442910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61066483a70b954d9b921c7882cbb44
+      internalID: -956733121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f130760ece6994eaa7a2e2b396c28c
+      internalID: 62566417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acee80559614cf441bd206ebaf173a15
+      internalID: 1885534683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_ChronoBurst_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e7f0b54606b7e4fa2e9f9afcd08a87
+      internalID: 459114910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e6e284576eea76542ba87fc635478188
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v02_0: 4201094247358851413
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v02_1: 8974377282224780633
+      CD_Player_ChronoBlade_ChronoBurst_4Dir_4Frame_v02_2: -1964907074487459339
+      Player_ChronoBlade_ChronoBurst_Down_0: -318883246
+      Player_ChronoBlade_ChronoBurst_Down_1: 1987178132
+      Player_ChronoBlade_ChronoBurst_Down_2: 1233544129
+      Player_ChronoBlade_ChronoBurst_Down_3: -1986873837
+      Player_ChronoBlade_ChronoBurst_Left_0: -1054745225
+      Player_ChronoBlade_ChronoBurst_Left_1: 976139769
+      Player_ChronoBlade_ChronoBurst_Left_2: -1405316868
+      Player_ChronoBlade_ChronoBurst_Left_3: 1093091798
+      Player_ChronoBlade_ChronoBurst_Right_0: 1389495231
+      Player_ChronoBlade_ChronoBurst_Right_1: -80178636
+      Player_ChronoBlade_ChronoBurst_Right_2: 1187839692
+      Player_ChronoBlade_ChronoBurst_Right_3: 1816442910
+      Player_ChronoBlade_ChronoBurst_Up_0: -956733121
+      Player_ChronoBlade_ChronoBurst_Up_1: 62566417
+      Player_ChronoBlade_ChronoBurst_Up_2: 1885534683
+      Player_ChronoBlade_ChronoBurst_Up_3: 459114910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

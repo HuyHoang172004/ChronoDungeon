@@ -15,6 +15,13 @@ public sealed class DamageFeedback : MonoBehaviour
         for (int i = 0; i < sprites.Length; i++) baseColors[i] = sprites[i].color;
     }
 
+    public void RecaptureBaseColors()
+    {
+        sprites = GetComponentsInChildren<SpriteRenderer>(true);
+        baseColors = new Color[sprites.Length];
+        for (int i = 0; i < sprites.Length; i++) baseColors[i] = sprites[i].color;
+    }
+
     public void Play()
     {
         if (sprites == null) Awake();

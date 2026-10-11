@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 89.117645
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_Hit_4Dir_4Frame_v01_0
+      name: Bosses_Map06_MirrorJailer_Hit_Down_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 17
-        width: 1283
-        height: 1198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2278e2bf42125eb0800000000000000
-      internalID: -4732700124899675601
+      spriteID: 92337e23c968ff64ebe1cc408d44fe61
+      internalID: -2003963788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Down_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07766b4f0edf1d47b1c4af0fc9211b9
+      internalID: 393880478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Down_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e12a2d18468e74f967802f1911ebfd
+      internalID: -706872405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Down_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c63123886ee3644895c738167ae3cf
+      internalID: 515026311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc783c18a0db7443a72820035356e8b
+      internalID: -1609323363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f50ebd98129c14fa96ad9020bd8cd3
+      internalID: -1196330545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65acf296097ef945b2847d9978918dd
+      internalID: -1227158583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035bbb638df43c4894de6810f07aaf6
+      internalID: -1667006139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d1ffb1c1878fc4a80802c19dbcfe59
+      internalID: 1302249359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef0b964322585945920aa113130376c
+      internalID: 1688640427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36e9d03e9221c43a952cae68eb58d8
+      internalID: 1052540139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc39e172f518f74c8eab5188bb99fa2
+      internalID: 543562701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51c498e4241c544db06e17b9811d50e
+      internalID: 1594590761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296233ba31bdd0e4b952a6043714137a
+      internalID: -1357738628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b183771ad94de245bf1470649e53efa
+      internalID: 1871411291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9adb2d1c1852e429e300a75446d7ba
+      internalID: 988050365
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4051b4d1388eb954c805c0e5839a55c2
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map06_MirrorJailer_Hit_Down_0: -2003963788
+      Bosses_Map06_MirrorJailer_Hit_Down_1: 393880478
+      Bosses_Map06_MirrorJailer_Hit_Down_2: -706872405
+      Bosses_Map06_MirrorJailer_Hit_Down_3: 515026311
+      Bosses_Map06_MirrorJailer_Hit_Left_0: -1609323363
+      Bosses_Map06_MirrorJailer_Hit_Left_1: -1196330545
+      Bosses_Map06_MirrorJailer_Hit_Left_2: -1227158583
+      Bosses_Map06_MirrorJailer_Hit_Left_3: -1667006139
+      Bosses_Map06_MirrorJailer_Hit_Right_0: 1302249359
+      Bosses_Map06_MirrorJailer_Hit_Right_1: 1688640427
+      Bosses_Map06_MirrorJailer_Hit_Right_2: 1052540139
+      Bosses_Map06_MirrorJailer_Hit_Right_3: 543562701
+      Bosses_Map06_MirrorJailer_Hit_Up_0: 1594590761
+      Bosses_Map06_MirrorJailer_Hit_Up_1: -1357738628
+      Bosses_Map06_MirrorJailer_Hit_Up_2: 1871411291
+      Bosses_Map06_MirrorJailer_Hit_Up_3: 988050365
       CD_Boss_MirrorJailer_Hit_4Dir_4Frame_v01_0: -4732700124899675601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

@@ -320,7 +320,6 @@ public static class GoldenZone01Builder
             if (sr != null) { sr.sprite = playerSprite; sr.color = Color.white; sr.sortingOrder = 30; }
             player.transform.localScale = Vector3.one * 1.35f;
             RemoveChildrenByNames(player.transform, "Ember Body", "Brow Left", "Brow Right", "Eye Left", "Eye Right", "Mouth", "Fang Left", "Fang Right", "Stylized Player Visual");
-            CreateSprite(player.transform, "Player Shadow", Sprite(ParticlePath + "circle_02.png"), new Vector3(0f, -.48f, 0f), new Vector2(1.15f, .36f), 25, new Color(0f, 0f, 0f, .48f));
             CreateSprite(player.transform, "Temporal Cyan Accent", Sprite(ParticlePath + "magic_01.png"), new Vector3(0f, .05f, 0f), new Vector2(1.35f, 1.35f), 29, new Color(.1f, .85f, 1f, .18f));
         }
         int variant = 0;
@@ -339,7 +338,6 @@ public static class GoldenZone01Builder
             }
             enemy.transform.localScale = Vector3.one * 1.35f;
             RemoveChildrenByNames(enemy.transform, "Ember Body", "Brow Left", "Brow Right", "Eye Left", "Eye Right", "Mouth", "Fang Left", "Fang Right", "Stylized Enemy Visual");
-            CreateSprite(enemy.transform, "Enemy Shadow", Sprite(ParticlePath + "circle_02.png"), new Vector3(0f, -.42f, 0f), new Vector2(.95f, .3f), 25, new Color(0f, 0f, 0f, .5f));
             variant++;
         }
     }

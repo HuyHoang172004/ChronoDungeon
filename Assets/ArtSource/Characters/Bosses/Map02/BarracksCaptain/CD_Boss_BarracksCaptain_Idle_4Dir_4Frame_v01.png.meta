@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 75.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,155 +146,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_0
+      name: Bosses_Map02_BarracksCaptain_Idle_Down_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 273
-        width: 368
-        height: 742
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a1bbd64b3c2e1a5f0800000000000000
-      internalID: -747066732993201382
+      spriteID: 73c2cbcfbca602248af38e37a90608be
+      internalID: -1868541806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_1
+      name: Bosses_Map02_BarracksCaptain_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 15
-        width: 377
-        height: 276
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eedc687fd5ae5bb50800000000000000
-      internalID: 6608445717541735918
+      spriteID: 700f087cbd31ebf4c852fb7eb0180606
+      internalID: -1495840745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_2
+      name: Bosses_Map02_BarracksCaptain_Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 382
-        y: 15
-        width: 387
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7cb5f81f82cbb9170800000000000000
-      internalID: 8186343631713426375
+      spriteID: d979538a3830f1042ab470a6eb482272
+      internalID: 501081966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_3
+      name: Bosses_Map02_BarracksCaptain_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 723
-        y: 271
-        width: 401
-        height: 744
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0456ea8416230bb50800000000000000
-      internalID: 6606836046765122880
+      spriteID: 292b68154fa7b504380873dd07053016
+      internalID: -767552207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_4
+      name: Bosses_Map02_BarracksCaptain_Idle_Left_0
       rect:
         serializedVersion: 2
-        x: 776
-        y: 15
-        width: 361
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2daebe783c7ae3740800000000000000
-      internalID: 5133725083489790674
+      spriteID: ec62d77c098ca804880d1259ee3cd2a8
+      internalID: 1733281792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_5
+      name: Bosses_Map02_BarracksCaptain_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 1102
-        y: 271
-        width: 413
-        height: 744
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e8f11c39bd16d980800000000000000
-      internalID: -8514585364083377945
+      spriteID: d5a7a2a70eefc2e4988c03f3c1c4113c
+      internalID: 314038912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_6
+      name: Bosses_Map02_BarracksCaptain_Idle_Left_2
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 15
-        width: 379
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 800a23a8fa1396260800000000000000
-      internalID: 7091253718279168008
+      spriteID: 4dd35a535edd8d14583ea17e2dd9e60f
+      internalID: 670543194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b0f91bcc6f39948a4c834b11e37349
+      internalID: -2026872441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cad49eeb11087408b068b4b97d8e48
+      internalID: 195526118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adce19b6102a514a958059035363350
+      internalID: -1774223580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54bd30466bc6244b8bdda7c1499334b
+      internalID: -645670174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6088ee76d173d4296d6ef02ff707f7
+      internalID: -1336582947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6578ef3d0e763a947a782a14598f585e
+      internalID: -1536641256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40147b9ca76da3e4d8fed1179a57af28
+      internalID: 721086742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5561907b1126f0448b9fc10987055ec3
+      internalID: 1049091936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Idle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fdffdddd8cc784bbb9d241ab51efbb
+      internalID: 1694805300
       vertices: []
       indices: 
       edges: []
@@ -303,7 +501,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 07dfdb3301961a94b88d9e7bf115ec3a
     internalID: 0
     vertices: []
     indices: 
@@ -313,6 +511,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map02_BarracksCaptain_Idle_Down_0: -1868541806
+      Bosses_Map02_BarracksCaptain_Idle_Down_1: -1495840745
+      Bosses_Map02_BarracksCaptain_Idle_Down_2: 501081966
+      Bosses_Map02_BarracksCaptain_Idle_Down_3: -767552207
+      Bosses_Map02_BarracksCaptain_Idle_Left_0: 1733281792
+      Bosses_Map02_BarracksCaptain_Idle_Left_1: 314038912
+      Bosses_Map02_BarracksCaptain_Idle_Left_2: 670543194
+      Bosses_Map02_BarracksCaptain_Idle_Left_3: -2026872441
+      Bosses_Map02_BarracksCaptain_Idle_Right_0: 195526118
+      Bosses_Map02_BarracksCaptain_Idle_Right_1: -1774223580
+      Bosses_Map02_BarracksCaptain_Idle_Right_2: -645670174
+      Bosses_Map02_BarracksCaptain_Idle_Right_3: -1336582947
+      Bosses_Map02_BarracksCaptain_Idle_Up_0: -1536641256
+      Bosses_Map02_BarracksCaptain_Idle_Up_1: 721086742
+      Bosses_Map02_BarracksCaptain_Idle_Up_2: 1049091936
+      Bosses_Map02_BarracksCaptain_Idle_Up_3: 1694805300
       CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_0: -747066732993201382
       CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_1: 6608445717541735918
       CD_Boss_BarracksCaptain_Idle_4Dir_4Frame_v01_2: 8186343631713426375

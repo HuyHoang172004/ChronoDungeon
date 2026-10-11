@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,177 +149,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_0
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Down_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 640
-        width: 283
-        height: 606
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24da38ef81e8b7420800000000000000
-      internalID: 2628851045501218114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 355
-        y: 638
-        width: 280
-        height: 608
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70857599d0d72c9d0800000000000000
-      internalID: -2755502524636637177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 643
+        x: 0
+        y: 933
         width: 315
-        height: 603
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d9ca6e5ac834fd10800000000000000
-      internalID: 2158412563235916246
+      spriteID: 4d99b4f1417c2144c87152ec412a6f57
+      internalID: -2023987414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_3
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Down_1
       rect:
         serializedVersion: 2
-        x: 961
-        y: 632
-        width: 286
-        height: 614
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74ee9ba0c6542ab80800000000000000
-      internalID: -8385063225871700409
+      spriteID: e1673048461efb54c870517c2b53a538
+      internalID: -320044342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_4
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Down_2
       rect:
         serializedVersion: 2
-        x: 18
-        y: 27
-        width: 276
-        height: 610
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cfa919f5eb8056a00800000000000000
-      internalID: 749014526767241980
+      spriteID: 7aea15de2111715469735504fa5aa696
+      internalID: -1115584128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_5
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Down_3
       rect:
         serializedVersion: 2
-        x: 307
-        y: 28
-        width: 312
-        height: 604
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3fdba1e0603c4d4c0800000000000000
-      internalID: -4263568516439163405
+      spriteID: 5c9c4c02b865539428714be343f1fbe5
+      internalID: 1805150465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_6
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Left_0
       rect:
         serializedVersion: 2
-        x: 637
-        y: 29
-        width: 321
-        height: 601
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5f0efdda41864830800000000000000
-      internalID: 4055070673045688156
+      spriteID: d153ec8802823054295ed0d1ec4bb13e
+      internalID: -2093292621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_7
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Left_1
       rect:
         serializedVersion: 2
-        x: 978
-        y: 27
-        width: 269
-        height: 605
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e71254fe32252b900800000000000000
-      internalID: 698711206487466366
+      spriteID: 58e966bd73e52694e807e39883735805
+      internalID: -169146975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe027eb804210c40bbf0d62dbd66301
+      internalID: -2135875709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c262ddac1ae54a8bbc1d06b9b5d2c
+      internalID: -226907382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410968d3b1a883742b69e3490de92d17
+      internalID: -308817485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b114da3d58394bbce32b67716d74c
+      internalID: 1011296804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599201f3648a7c648b2141ce9a2aaf13
+      internalID: -1221283159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb908490663402a4d862808c72a0c509
+      internalID: 2132142153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aed64066cb04794182faa0c1171c617
+      internalID: -1738425705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Up_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a651cd7255dcfb4b9a08af522355dc2
+      internalID: 1982919909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Up_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7437a5d9b1ce994fa244b03a4d693e8
+      internalID: 1350363863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_GlyphBurst_Up_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb10c759b82e66942b5568082cb79a40
+      internalID: -1910216095
       vertices: []
       indices: 
       edges: []
@@ -328,7 +504,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 11aeb14a01f3ece45ad40bb9015789f3
     internalID: 0
     vertices: []
     indices: 
@@ -338,6 +514,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map04_SilentCurator_GlyphBurst_Down_0: -2023987414
+      Bosses_Map04_SilentCurator_GlyphBurst_Down_1: -320044342
+      Bosses_Map04_SilentCurator_GlyphBurst_Down_2: -1115584128
+      Bosses_Map04_SilentCurator_GlyphBurst_Down_3: 1805150465
+      Bosses_Map04_SilentCurator_GlyphBurst_Left_0: -2093292621
+      Bosses_Map04_SilentCurator_GlyphBurst_Left_1: -169146975
+      Bosses_Map04_SilentCurator_GlyphBurst_Left_2: -2135875709
+      Bosses_Map04_SilentCurator_GlyphBurst_Left_3: -226907382
+      Bosses_Map04_SilentCurator_GlyphBurst_Right_0: -308817485
+      Bosses_Map04_SilentCurator_GlyphBurst_Right_1: 1011296804
+      Bosses_Map04_SilentCurator_GlyphBurst_Right_2: -1221283159
+      Bosses_Map04_SilentCurator_GlyphBurst_Right_3: 2132142153
+      Bosses_Map04_SilentCurator_GlyphBurst_Up_0: -1738425705
+      Bosses_Map04_SilentCurator_GlyphBurst_Up_1: 1982919909
+      Bosses_Map04_SilentCurator_GlyphBurst_Up_2: 1350363863
+      Bosses_Map04_SilentCurator_GlyphBurst_Up_3: -1910216095
       CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_0: 2628851045501218114
       CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_1: -2755502524636637177
       CD_Boss_SilentCurator_GlyphBurst_4Dir_4Frame_v01_2: 2158412563235916246

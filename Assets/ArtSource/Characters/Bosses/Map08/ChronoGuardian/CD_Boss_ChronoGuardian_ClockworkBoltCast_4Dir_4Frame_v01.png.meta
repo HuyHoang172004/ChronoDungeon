@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,133 +143,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_0
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 313
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b90bdd1a5c804590800000000000000
-      internalID: -7691993844872967760
+      spriteID: 908a40740fdc5da4992e43f7a6b1337f
+      internalID: -1241293512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_1
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_1
       rect:
         serializedVersion: 2
-        x: 321
-        y: 15
-        width: 315
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 319
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5937bc700d760ec10800000000000000
-      internalID: 2080777171026801557
+      spriteID: 84b53049f7c59a14f979dd94abdb788f
+      internalID: -985703452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_2
       rect:
         serializedVersion: 2
-        x: 594
-        y: 639
-        width: 414
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 638
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e3478754be83de50800000000000000
-      internalID: 6832961964864914405
+      spriteID: 6447e9be00e6fbb4f93d1262a796d46c
+      internalID: -1056757008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_3
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_3
       rect:
         serializedVersion: 2
-        x: 610
-        y: 341
-        width: 668
-        height: 875
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 957
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef4584300f83bc5c0800000000000000
-      internalID: -4194196024467106562
+      spriteID: 60d693845eba8fe4d8da896430a27772
+      internalID: 727598500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_4
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_0
       rect:
         serializedVersion: 2
-        x: 645
-        y: 15
-        width: 383
-        height: 622
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d5c43ee171f59b80800000000000000
-      internalID: -8388533259277646379
+      spriteID: 1cb64d04d78fce54ea31c676fa5154fd
+      internalID: 446024124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_5
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_1
       rect:
         serializedVersion: 2
-        x: 980
-        y: 15
-        width: 298
-        height: 325
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 319
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f3b21b93e1cd3850800000000000000
-      internalID: 6358451432220439544
+      spriteID: 91beb0e7831b2f34aad80cb795d3cbda
+      internalID: 482358499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7889e42c9c3da4bb33431957c19194
+      internalID: 123338974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c06f428e9e210c4a838da67a5890ccf
+      internalID: -912759086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b2734348b1d914585cbaf63f482533
+      internalID: -782914169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9880f7802871374f8ccfa0cae9a262b
+      internalID: -735255766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b83d8b616827a347a97572abfdb4c39
+      internalID: -1291746291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd85e76dfecf384c966aa0377d8e1a4
+      internalID: -1212632392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97c12993b890b647a06a7c69fe93d5b
+      internalID: -1964896269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dafcea9e5633a643b08761189d62d29
+      internalID: 1789020723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9450e69a9101af4e84ee990a74015a8
+      internalID: 452790481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7851c03dbc55be40a7686d39cb0e1e6
+      internalID: 518772206
       vertices: []
       indices: 
       edges: []
@@ -278,7 +498,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8917f7246d09a714093d9f26748194db
     internalID: 0
     vertices: []
     indices: 
@@ -288,6 +508,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_0: -1241293512
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_1: -985703452
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_2: -1056757008
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Down_3: 727598500
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_0: 446024124
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_1: 482358499
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_2: 123338974
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Left_3: -912759086
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_0: -782914169
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_1: -735255766
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_2: -1291746291
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Right_3: -1212632392
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_0: -1964896269
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_1: 1789020723
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_2: 452790481
+      Bosses_Map08_ChronoGuardian_ClockworkBoltCast_Up_3: 518772206
       CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_0: -7691993844872967760
       CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_1: 2080777171026801557
       CD_Boss_ChronoGuardian_ClockworkBoltCast_4Dir_4Frame_v01_2: 6832961964864914405

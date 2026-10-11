@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 85.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,133 +143,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_0
+      name: Bosses_Map05_AshWarden_Hit_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 869
-        width: 666
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7a4a91c64fa24ac0800000000000000
-      internalID: -3872340011154519430
+      spriteID: f8e6eaf4c1902f64ab78b85f86840910
+      internalID: -1318602007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_1
+      name: Bosses_Map05_AshWarden_Hit_Down_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856fc7bc5bd63594f9336437ebb65fc9
+      internalID: -1238214463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Down_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633d4a92cf5ee22429da831f9262582d
+      internalID: -1952822801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10a703a53f6de64c8d4a91e1e303aa2
+      internalID: -835248692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee8c60cbda7331478ec6a5db3916125
+      internalID: 1943107896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cffbc441d8681468c53d7130d6eb13
+      internalID: -1697036207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb3202af01c64f46a2c26d31009cb03
+      internalID: 359599181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b18c73ccb93ad4fa24dd44ef29543c
+      internalID: -996195441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951a0239fa7011543a74e90fa4246270
+      internalID: 1669147084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9403f4de953e12645997a09a8d912781
+      internalID: 328611120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cbbdc38b3441a45850e5d88a22569d
+      internalID: 1598390970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e160fd63f354f49ab76d8b53e6750d
+      internalID: -89613387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Hit_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1355
-        height: 875
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 81713668023bed770800000000000000
-      internalID: 8637538087618156312
+      spriteID: 5e4794a43339f484985eef162e13edce
+      internalID: -921190647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_2
+      name: Bosses_Map05_AshWarden_Hit_Up_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 577
-        width: 329
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7a3a6f257a928a80800000000000000
-      internalID: -8466034521405769091
+      spriteID: 1d9b88fe59f85194d866b0d6335f8c65
+      internalID: -848321695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_3
+      name: Bosses_Map05_AshWarden_Hit_Up_2
       rect:
         serializedVersion: 2
-        x: 673
-        y: 871
-        width: 334
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92a402594891d9b00800000000000000
-      internalID: 836853162989079081
+      spriteID: a3fdf7dda26a2794e8f8b9aaddbeb0a7
+      internalID: 2114648855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_4
+      name: Bosses_Map05_AshWarden_Hit_Up_3
       rect:
         serializedVersion: 2
-        x: 1012
-        y: 867
-        width: 330
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0206429527104ad80800000000000000
-      internalID: -8240459827547709408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 103
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acfa894eb9b364c40800000000000000
-      internalID: 5496145935993450442
+      spriteID: b623253c8ceb8aa43b5831b92774b778
+      internalID: -1490208668
       vertices: []
       indices: 
       edges: []
@@ -278,7 +498,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8fdbe56932be473468e109ce35fbaac1
     internalID: 0
     vertices: []
     indices: 
@@ -288,6 +508,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map05_AshWarden_Hit_Down_0: -1318602007
+      Bosses_Map05_AshWarden_Hit_Down_1: -1238214463
+      Bosses_Map05_AshWarden_Hit_Down_2: -1952822801
+      Bosses_Map05_AshWarden_Hit_Down_3: -835248692
+      Bosses_Map05_AshWarden_Hit_Left_0: 1943107896
+      Bosses_Map05_AshWarden_Hit_Left_1: -1697036207
+      Bosses_Map05_AshWarden_Hit_Left_2: 359599181
+      Bosses_Map05_AshWarden_Hit_Left_3: -996195441
+      Bosses_Map05_AshWarden_Hit_Right_0: 1669147084
+      Bosses_Map05_AshWarden_Hit_Right_1: 328611120
+      Bosses_Map05_AshWarden_Hit_Right_2: 1598390970
+      Bosses_Map05_AshWarden_Hit_Right_3: -89613387
+      Bosses_Map05_AshWarden_Hit_Up_0: -921190647
+      Bosses_Map05_AshWarden_Hit_Up_1: -848321695
+      Bosses_Map05_AshWarden_Hit_Up_2: 2114648855
+      Bosses_Map05_AshWarden_Hit_Up_3: -1490208668
       CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_0: -3872340011154519430
       CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_1: 8637538087618156312
       CD_Boss_AshWarden_Hit_4Dir_4Frame_v01_2: -8466034521405769091

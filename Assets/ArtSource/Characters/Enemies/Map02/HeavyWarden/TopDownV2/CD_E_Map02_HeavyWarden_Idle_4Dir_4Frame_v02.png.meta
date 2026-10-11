@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: cade873bb46fa2141807c9182baebbb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 85477427802068356
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_0
+  - first:
+      213: 7083900368987215745
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_1
+  - first:
+      213: -2952853291652249467
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_2
+  - first:
+      213: 2762210127345283301
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_3
+  - first:
+      213: 6340153511204023011
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_4
+  - first:
+      213: 8850502480675768223
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_5
+  - first:
+      213: 811088956267139718
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_6
+  - first:
+      213: -5866365584908084956
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_7
+  - first:
+      213: -2991008869064189516
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_8
+  - first:
+      213: -2636126324157792017
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_9
+  - first:
+      213: 6483002590054634600
+    second: CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 112
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15e25c725af8c14fbe56e2e8f8df3b4
+      internalID: -1439199900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Down_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ef73a4f262d7e4ea991a84609d674f
+      internalID: 1486495736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Down_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7052070947cf245b4fa3f5d6492090
+      internalID: 1142433890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d781999989cd940a9f6a5ca1534d10
+      internalID: -1567339056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082f45b5dbd5eb548b42867dd26c2b4d
+      internalID: 875124446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae535f02306dd54086867c181ca1c87
+      internalID: -518389691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f645a06b1a1b4796cf11030454424
+      internalID: -1816494531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf8000abbc5e74aabc7dca55fc7211
+      internalID: -1030946013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76f262dc8cb53a4484a00da184ab2fd
+      internalID: -1406710782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc457a392a1623347ad473942d043076
+      internalID: -835574035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac4fc6d79efd941b74777b8efb0cec
+      internalID: -448867914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be132c6c428d3f45b148afd4c2ad8e1
+      internalID: -364047497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e17538125caec4d94b4ba4fc3e1c20
+      internalID: -214854064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdb43d35753aba4dbc3c9d73639950d
+      internalID: -1536857579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f1f2333c36899408105bfd199b872b
+      internalID: -1345582932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Idle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ab1062d5235544d92740539806f7a7
+      internalID: -1461658018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4bd378ced69810a45a3cebdef15f47e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_0: 85477427802068356
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_1: 7083900368987215745
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_10: 6483002590054634600
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_2: -2952853291652249467
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_3: 2762210127345283301
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_4: 6340153511204023011
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_5: 8850502480675768223
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_6: 811088956267139718
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_7: -5866365584908084956
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_8: -2991008869064189516
+      CD_E_Map02_HeavyWarden_Idle_4Dir_4Frame_v02_9: -2636126324157792017
+      Enemies_Map02_HeavyWarden_Idle_Down_0: -1439199900
+      Enemies_Map02_HeavyWarden_Idle_Down_1: 1486495736
+      Enemies_Map02_HeavyWarden_Idle_Down_2: 1142433890
+      Enemies_Map02_HeavyWarden_Idle_Down_3: -1567339056
+      Enemies_Map02_HeavyWarden_Idle_Left_0: 875124446
+      Enemies_Map02_HeavyWarden_Idle_Left_1: -518389691
+      Enemies_Map02_HeavyWarden_Idle_Left_2: -1816494531
+      Enemies_Map02_HeavyWarden_Idle_Left_3: -1030946013
+      Enemies_Map02_HeavyWarden_Idle_Right_0: -1406710782
+      Enemies_Map02_HeavyWarden_Idle_Right_1: -835574035
+      Enemies_Map02_HeavyWarden_Idle_Right_2: -448867914
+      Enemies_Map02_HeavyWarden_Idle_Right_3: -364047497
+      Enemies_Map02_HeavyWarden_Idle_Up_0: -214854064
+      Enemies_Map02_HeavyWarden_Idle_Up_1: -1536857579
+      Enemies_Map02_HeavyWarden_Idle_Up_2: -1345582932
+      Enemies_Map02_HeavyWarden_Idle_Up_3: -1461658018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

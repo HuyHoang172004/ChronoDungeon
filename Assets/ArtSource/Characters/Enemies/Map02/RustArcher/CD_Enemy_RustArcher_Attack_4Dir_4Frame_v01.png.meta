@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -179,397 +179,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_0
+      name: Enemies_Map02_RustArcher_Attack_Down_0
       rect:
         serializedVersion: 2
-        x: 81
+        x: 0
         y: 915
-        width: 200
-        height: 298
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ead76acac45a6f30800000000000000
-      internalID: 4569558001876720357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 1065
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b541f02bd7a36da0800000000000000
-      internalID: -5952729722861304392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 1062
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e15f0d3754b0120f0800000000000000
-      internalID: -1143620437451672290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 914
-        width: 255
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 597caf7feb5077f90800000000000000
-      internalID: -6956084781688109163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 915
-        width: 234
+        width: 322.25
         height: 305
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7dbaa763a6efcd240800000000000000
-      internalID: 4818005433513585623
+      spriteID: 0354f9aac12249b47b5a248adeb2b6f0
+      internalID: 1544000546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_5
+      name: Enemies_Map02_RustArcher_Attack_Down_1
       rect:
         serializedVersion: 2
-        x: 938
-        y: 609
-        width: 351
-        height: 611
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 497f23ade81ae8e20800000000000000
-      internalID: 3354796407355799444
+      spriteID: 02edb871f0a4eb0478fb0e269ea72148
+      internalID: 1204516477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_6
+      name: Enemies_Map02_RustArcher_Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 583
-        width: 271
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e3b1a2fea0444cd0800000000000000
-      internalID: -2574861966809910302
+      spriteID: 70ba9b0e4a6701b48aee834c46166d12
+      internalID: 1289601915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_7
+      name: Enemies_Map02_RustArcher_Attack_Down_3
       rect:
         serializedVersion: 2
-        x: 366
-        y: 607
-        width: 257
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966.75
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2157c3dd48563bc50800000000000000
-      internalID: 6679794293642392850
+      spriteID: 4f205ae5a50653a4daf88563892d546f
+      internalID: -1965362153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_8
+      name: Enemies_Map02_RustArcher_Attack_Left_0
       rect:
         serializedVersion: 2
-        x: 644
-        y: 707
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8670f23dca0634a0800000000000000
-      internalID: -6614087126307801462
+      spriteID: 8fa0b9a7d4e9d4a408b993971a26c4b1
+      internalID: 1156771772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_9
+      name: Enemies_Map02_RustArcher_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 657
-        y: 609
-        width: 291
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3947b50a4bbadbf0800000000000000
-      internalID: -298720498668844737
+      spriteID: c2f89fc7671ca524a848f78a0c51d114
+      internalID: 456963688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_10
+      name: Enemies_Map02_RustArcher_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 318
-        width: 269
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 905dfa4f0f08ad980800000000000000
-      internalID: -8513350373204830967
+      spriteID: ca522b4b9a7904c468a3d13b1181a637
+      internalID: 254613946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_11
+      name: Enemies_Map02_RustArcher_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 362
-        y: 315
-        width: 239
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966.75
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89dae610429935650800000000000000
-      internalID: 6220483890250689944
+      spriteID: 27e41cf0393ed8a4fb65d5eb0cb28b9c
+      internalID: 741012146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_12
+      name: Enemies_Map02_RustArcher_Attack_Right_0
       rect:
         serializedVersion: 2
-        x: 622
-        y: 358
-        width: 24
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a0e449f4a798b070800000000000000
-      internalID: 8122408662775160996
+      spriteID: 1bfc40b76b638fa4ba3d0730148770a7
+      internalID: 377470293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_13
+      name: Enemies_Map02_RustArcher_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 665
-        y: 12
-        width: 299
-        height: 600
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d25da52ebfddaba0800000000000000
-      internalID: -6075954314484034859
+      spriteID: e295f27f1d8a6d649b43856106b2c13c
+      internalID: -184561638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_14
+      name: Enemies_Map02_RustArcher_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 973
-        y: 14
-        width: 316
-        height: 592
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a39b5bc9af216a620800000000000000
-      internalID: 2784934287155509562
+      spriteID: 043fcf699c976214ca8b0f382a8005ab
+      internalID: 558432039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_15
+      name: Enemies_Map02_RustArcher_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 966.75
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae426eb73e0b4f4d89b331efb85399d
+      internalID: -1516858285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Attack_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 283
-        height: 324
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b531cc4ef76fe5830800000000000000
-      internalID: 4061954943094625115
+      spriteID: 52f3c714175c7e343a37228048b1d52d
+      internalID: -154999853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_16
+      name: Enemies_Map02_RustArcher_Attack_Up_1
       rect:
         serializedVersion: 2
-        x: 281
-        y: 97
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 0
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 07908a4daf1d6e700800000000000000
-      internalID: 569373278148757872
+      spriteID: ab9ae082e54ec094c935ee20068f52dc
+      internalID: -669746624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_17
+      name: Enemies_Map02_RustArcher_Attack_Up_2
       rect:
         serializedVersion: 2
-        x: 322
-        y: 17
-        width: 324
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 0
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42201b5d60b35c470800000000000000
-      internalID: 8414196379352629796
+      spriteID: 42a745c93d1a55c43ac0950566b28468
+      internalID: -1896887426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 966.75
+        y: 0
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827153d8cdf2cce4c992fe849e80ea83
+      internalID: 1858237329
       vertices: []
       indices: 
       edges: []
@@ -578,7 +534,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 29958be01cb13e14b9f58703a787f39b
     internalID: 0
     vertices: []
     indices: 
@@ -606,6 +562,22 @@ TextureImporter:
       CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_7: 6679794293642392850
       CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_8: -6614087126307801462
       CD_Enemy_RustArcher_Attack_4Dir_4Frame_v01_9: -298720498668844737
+      Enemies_Map02_RustArcher_Attack_Down_0: 1544000546
+      Enemies_Map02_RustArcher_Attack_Down_1: 1204516477
+      Enemies_Map02_RustArcher_Attack_Down_2: 1289601915
+      Enemies_Map02_RustArcher_Attack_Down_3: -1965362153
+      Enemies_Map02_RustArcher_Attack_Left_0: 1156771772
+      Enemies_Map02_RustArcher_Attack_Left_1: 456963688
+      Enemies_Map02_RustArcher_Attack_Left_2: 254613946
+      Enemies_Map02_RustArcher_Attack_Left_3: 741012146
+      Enemies_Map02_RustArcher_Attack_Right_0: 377470293
+      Enemies_Map02_RustArcher_Attack_Right_1: -184561638
+      Enemies_Map02_RustArcher_Attack_Right_2: 558432039
+      Enemies_Map02_RustArcher_Attack_Right_3: -1516858285
+      Enemies_Map02_RustArcher_Attack_Up_0: -154999853
+      Enemies_Map02_RustArcher_Attack_Up_1: -669746624
+      Enemies_Map02_RustArcher_Attack_Up_2: -1896887426
+      Enemies_Map02_RustArcher_Attack_Up_3: 1858237329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 79.852936
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,45 +131,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_Death_4Dir_4Frame_v01_0
+      name: Bosses_Map01_Gatebreaker_Death_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 371
-        height: 1086
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 230983cb936e4e8f0800000000000000
-      internalID: -512031321968046030
+      spriteID: 4355e6b6a66ab9045a17b139710e5629
+      internalID: -201042400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_Death_4Dir_4Frame_v01_1
+      name: Bosses_Map01_Gatebreaker_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 334
-        y: 0
-        width: 1114
-        height: 1054
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dcd8d7339df143050800000000000000
-      internalID: 5779279239555419597
+      spriteID: d5f8dca065f41b343958600308941344
+      internalID: 520208496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Down_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd57b070cf9ebc4187e554d5f79f05f
+      internalID: 1324009712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea2f0553a509db42b12c7b9c00df81e
+      internalID: -1086836730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29001d727de552b41afa7de98689810b
+      internalID: 331758384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Left_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f066edaf9d391fc48a5a78ea95181a89
+      internalID: -2121002133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Left_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e0950cf3ffe38489b67f54c353646f
+      internalID: -1091219372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc03933ef61fb84eae1274767bed6bd
+      internalID: -38219422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e784e164df681746ab6b94121a1e880
+      internalID: -1791635832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb1ce03129998f41b234f9096de8755
+      internalID: -822921063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c97206a07631704ebd9d0f44d8fdab0
+      internalID: -2056235319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80df546716c501a48b032e601dde5413
+      internalID: 1696349368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3b23aaf91173e4cb200708b9c1c535
+      internalID: -1696406879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3997ea34965184a8d27f1688cc3af0
+      internalID: -2091727497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1340bb0fdc3974f45b70a75fad7fa56e
+      internalID: -1019934373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c75eb4ba1cdc59448b83d213e08f70a
+      internalID: -1372758443
       vertices: []
       indices: 
       edges: []
@@ -178,7 +486,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 36c98b2a493066640a3deb30498d0dac
     internalID: 0
     vertices: []
     indices: 
@@ -188,6 +496,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map01_Gatebreaker_Death_Down_0: -201042400
+      Bosses_Map01_Gatebreaker_Death_Down_1: 520208496
+      Bosses_Map01_Gatebreaker_Death_Down_2: 1324009712
+      Bosses_Map01_Gatebreaker_Death_Down_3: -1086836730
+      Bosses_Map01_Gatebreaker_Death_Left_0: 331758384
+      Bosses_Map01_Gatebreaker_Death_Left_1: -2121002133
+      Bosses_Map01_Gatebreaker_Death_Left_2: -1091219372
+      Bosses_Map01_Gatebreaker_Death_Left_3: -38219422
+      Bosses_Map01_Gatebreaker_Death_Right_0: -1791635832
+      Bosses_Map01_Gatebreaker_Death_Right_1: -822921063
+      Bosses_Map01_Gatebreaker_Death_Right_2: -2056235319
+      Bosses_Map01_Gatebreaker_Death_Right_3: 1696349368
+      Bosses_Map01_Gatebreaker_Death_Up_0: -1696406879
+      Bosses_Map01_Gatebreaker_Death_Up_1: -2091727497
+      Bosses_Map01_Gatebreaker_Death_Up_2: -1019934373
+      Bosses_Map01_Gatebreaker_Death_Up_3: -1372758443
       CD_Boss_Gatebreaker_Death_4Dir_4Frame_v01_0: -512031321968046030
       CD_Boss_Gatebreaker_Death_4Dir_4Frame_v01_1: 5779279239555419597
   mipmapLimitGroupName: 

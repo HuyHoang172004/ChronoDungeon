@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,155 +146,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_0
+      name: Enemies_Map03_VineHusk_Move_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596fa57f04dc32045a6d81f6650ff488
+      internalID: -1737190291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Down_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d4bfc234161f7469bdfcd468e2bda3
+      internalID: 2134295337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaa85ca6d938b447a4f3eed5788c4b5
+      internalID: 1921339670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 915
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0febec35d9f2c04a83824757ef97c52
+      internalID: 632423914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33683195b25161449988aaec0719d7ce
+      internalID: -428541859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc33618f6bf9f4d80baeca5241d5c8
+      internalID: 300615864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c3c573d7dc37459660172b80376f8
+      internalID: 1778915296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 610
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37343a25c0df1f14cb41ddd074f18fee
+      internalID: 1897167394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce2015cc22718142badcf8adbca3f2a
+      internalID: -245277286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bfc576ce2bc0842bc62026b4451705
+      internalID: 1044010829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e182d22497d6c4eb40ecb769ba5d88
+      internalID: -869224937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 305
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eff079002c6f3499638758cfc7647d
+      internalID: -1057869836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_VineHusk_Move_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 329
-        height: 927
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 121749a7ccd9af270800000000000000
-      internalID: 8285107966056886561
+      spriteID: 08b5fb3c4d93bb54a90efeeab4e3e20b
+      internalID: 1692981499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_1
+      name: Enemies_Map03_VineHusk_Move_Up_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 924
-        width: 278
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 0
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc303990bd50014e0800000000000000
-      internalID: -2013102595118005297
+      spriteID: 28314db998815994a929292ff7e2815b
+      internalID: -1174687921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_2
+      name: Enemies_Map03_VineHusk_Move_Up_2
       rect:
         serializedVersion: 2
-        x: 354
-        y: 19
-        width: 290
-        height: 908
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 0
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55acff73001acc9e0800000000000000
-      internalID: -1599726745311786411
+      spriteID: 6a7cb073b9eab5a49853f8a41fd07925
+      internalID: 956796825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_3
+      name: Enemies_Map03_VineHusk_Move_Up_3
       rect:
         serializedVersion: 2
-        x: 368
-        y: 916
-        width: 262
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 0
+        width: 321
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21677e4c8ef8f1750800000000000000
-      internalID: 6277894635476448786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 15
-        width: 307
-        height: 1205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3639208469bfb27e0800000000000000
-      internalID: -1789059804077845661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 962
-        y: 19
-        width: 301
-        height: 1204
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14a625097cc511500800000000000000
-      internalID: 365175056983288385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 318
-        y: 69
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f85a765cace68c30800000000000000
-      internalID: 4361433514084292857
+      spriteID: 048b4e81d5b882847bfcde0413c1decd
+      internalID: -618264890
       vertices: []
       indices: 
       edges: []
@@ -303,7 +501,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ce3864df50949a4191e285b1f661ad7
     internalID: 0
     vertices: []
     indices: 
@@ -320,6 +518,22 @@ TextureImporter:
       CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_4: -1789059804077845661
       CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_5: 365175056983288385
       CD_Enemy_VineHusk_Walk_4Dir_4Frame_v01_6: 4361433514084292857
+      Enemies_Map03_VineHusk_Move_Down_0: -1737190291
+      Enemies_Map03_VineHusk_Move_Down_1: 2134295337
+      Enemies_Map03_VineHusk_Move_Down_2: 1921339670
+      Enemies_Map03_VineHusk_Move_Down_3: 632423914
+      Enemies_Map03_VineHusk_Move_Left_0: -428541859
+      Enemies_Map03_VineHusk_Move_Left_1: 300615864
+      Enemies_Map03_VineHusk_Move_Left_2: 1778915296
+      Enemies_Map03_VineHusk_Move_Left_3: 1897167394
+      Enemies_Map03_VineHusk_Move_Right_0: -245277286
+      Enemies_Map03_VineHusk_Move_Right_1: 1044010829
+      Enemies_Map03_VineHusk_Move_Right_2: -869224937
+      Enemies_Map03_VineHusk_Move_Right_3: -1057869836
+      Enemies_Map03_VineHusk_Move_Up_0: 1692981499
+      Enemies_Map03_VineHusk_Move_Up_1: -1174687921
+      Enemies_Map03_VineHusk_Move_Up_2: 956796825
+      Enemies_Map03_VineHusk_Move_Up_3: -618264890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 85.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_0
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 869
-        width: 1344
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c21475205045a5440800000000000000
-      internalID: 4925341522973901100
+      spriteID: c8df83b1a2aae84498bf9723fca104bf
+      internalID: 2119113392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_1
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Down_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 578
-        width: 330
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1811495e3f0d95ed0800000000000000
-      internalID: -2424677178414984831
+      spriteID: c6b8d129bf74d6c40ac99afc94130705
+      internalID: -2099256405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Down_2
       rect:
         serializedVersion: 2
-        x: 331
-        y: 579
-        width: 333
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6b3f19ae02ca0ab0800000000000000
-      internalID: -5041003464665121942
+      spriteID: 5e8b6af33bbf87d4283fe4ccb000a909
+      internalID: 1170240200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 579
-        width: 326
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edab68c6bbac153b0800000000000000
-      internalID: -5525412361478423842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_4
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Down_3
       rect:
         serializedVersion: 2
         x: 1014
-        y: 578
-        width: 326
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7aa651d02febf0310800000000000000
-      internalID: 1373526358182161063
+      spriteID: 296fbe8556b024d4d88d21fff6c4eb2d
+      internalID: 617876428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_5
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c20064998adccf469d8e35167c1d1ce
+      internalID: 1638691322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Left_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c3b3745c6509248a72640f0ac13be9
+      internalID: -2110719509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Left_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5955f70222b6ffb47886b1a40d85ec85
+      internalID: 780503574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8854fa4ea0e99ef498bb4c2ddc33527a
+      internalID: 1063221150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1f95b33d247914fb4c685aecfac206
+      internalID: -1539843705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Right_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c7476caaed7c4bba50442d182011f
+      internalID: 1632284190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Right_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6fc9cbc6b553543a5c491a4a7ce0c0
+      internalID: 882347906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f86a9b16316efc498c1a5b3a53d626b
+      internalID: 541417214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1355
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22308c92a86c441f0800000000000000
-      internalID: -1061505315443834078
+      spriteID: 004ca5aad2bbdc442bd64b452310a493
+      internalID: -2096626897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_6
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Up_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 289
-        width: 330
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0fdb6ca0578cbcaa0800000000000000
-      internalID: -6139593261972013584
+      spriteID: ab31d239d348b574997ae688aa1761ff
+      internalID: -1386970940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_7
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Up_2
       rect:
         serializedVersion: 2
-        x: 351
-        y: 291
-        width: 332
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f68b544388643440800000000000000
-      internalID: 4914668006364907256
+      spriteID: 62a66e0cf9311c445953819011a53f1d
+      internalID: 1020748036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_8
+      name: Bosses_Map05_AshWarden_FurnaceBurst_Up_3
       rect:
         serializedVersion: 2
-        x: 691
-        y: 289
-        width: 327
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99e82245ae073bfa0800000000000000
-      internalID: -5786156944504746343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 1029
-        y: 287
-        width: 326
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1a7c3b2bd090c3e0800000000000000
-      internalID: -2035467760573842914
+      spriteID: d914bb5669ef4ae4289ec3d82344c722
+      internalID: 2004312323
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0f0ab36610a1cc94e9336fd7ea918efd
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map05_AshWarden_FurnaceBurst_Down_0: 2119113392
+      Bosses_Map05_AshWarden_FurnaceBurst_Down_1: -2099256405
+      Bosses_Map05_AshWarden_FurnaceBurst_Down_2: 1170240200
+      Bosses_Map05_AshWarden_FurnaceBurst_Down_3: 617876428
+      Bosses_Map05_AshWarden_FurnaceBurst_Left_0: 1638691322
+      Bosses_Map05_AshWarden_FurnaceBurst_Left_1: -2110719509
+      Bosses_Map05_AshWarden_FurnaceBurst_Left_2: 780503574
+      Bosses_Map05_AshWarden_FurnaceBurst_Left_3: 1063221150
+      Bosses_Map05_AshWarden_FurnaceBurst_Right_0: -1539843705
+      Bosses_Map05_AshWarden_FurnaceBurst_Right_1: 1632284190
+      Bosses_Map05_AshWarden_FurnaceBurst_Right_2: 882347906
+      Bosses_Map05_AshWarden_FurnaceBurst_Right_3: 541417214
+      Bosses_Map05_AshWarden_FurnaceBurst_Up_0: -2096626897
+      Bosses_Map05_AshWarden_FurnaceBurst_Up_1: -1386970940
+      Bosses_Map05_AshWarden_FurnaceBurst_Up_2: 1020748036
+      Bosses_Map05_AshWarden_FurnaceBurst_Up_3: 2004312323
       CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_0: 4925341522973901100
       CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_1: -2424677178414984831
       CD_Boss_AshWarden_FurnaceBurst_4Dir_4Frame_v01_2: -5041003464665121942

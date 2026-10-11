@@ -37,6 +37,14 @@ public sealed class PlayerWeaponVisualSetController : MonoBehaviour
     private float poseStartedAt;
     private int activePose;
 
+    public void SetPresentationScale(float scale)
+    {
+        float facingSign = transform.localScale.x < 0f ? -1f : 1f;
+        float absoluteScale = Mathf.Abs(scale);
+        baseLocalScale = new Vector3(absoluteScale, absoluteScale, 1f);
+        transform.localScale = new Vector3(absoluteScale * facingSign, absoluteScale, 1f);
+    }
+
     private void Awake()
     {
         ResolveReferences();
@@ -100,7 +108,14 @@ public sealed class PlayerWeaponVisualSetController : MonoBehaviour
             }
         }
 
-        bool useAuthoredFullBodyArt = activeSet != null;
+        bool useAuthoredFullBodyArt = activeSet != null &&
+            activeSet.GetIdle(Vector2.right) != null && activeSet.GetIdle(Vector2.up) != null &&
+            activeSet.GetIdle(Vector2.left) != null && activeSet.GetIdle(Vector2.down) != null;
+        if (activeSet != null && !useAuthoredFullBodyArt)
+        {
+            Debug.LogError("Player visual set has missing idle sprites: " + activeSet.name, this);
+            activeSet = null;
+        }
         if (legacyPresentation != null) legacyPresentation.SetExternalPresentationLock(useAuthoredFullBodyArt);
         // The legacy Animator owns the SpriteRenderer through its old animation clips.
         // Disable it only while this controller owns the full-body equipped art, otherwise it

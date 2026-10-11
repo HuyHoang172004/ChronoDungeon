@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,199 +152,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 755
-        width: 321
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1d4286385f332570800000000000000
-      internalID: 8440659774726622490
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 22
-        width: 377
-        height: 1002
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9162fa20aea322be0800000000000000
-      internalID: -1503574548846533095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 748
-        width: 240
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f85378c903f8046f0800000000000000
-      internalID: -702404102922488433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 261
-        width: 353
-        height: 731
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43b512f9a399df1e0800000000000000
-      internalID: -2162403769011053772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_4
+      name: Enemies_Map02_HeavyWarden_Hit_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 23
-        width: 407
-        height: 729
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 196117c09d4769df0800000000000000
-      internalID: -173823060041722223
+      spriteID: ae2085d1c3b2ddb478f8b2812d40e817
+      internalID: -849228897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_5
+      name: Enemies_Map02_HeavyWarden_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 833
-        y: 493
-        width: 290
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73244fdd58db4ccb0800000000000000
-      internalID: -4844538916491738569
+      spriteID: db6f7e83261f74748858c556799be202
+      internalID: -736040996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_6
+      name: Enemies_Map02_HeavyWarden_Hit_Down_2
       rect:
         serializedVersion: 2
-        x: 800
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8619c2b31e2adbe4b80067cbe35e5df5
+      internalID: 1151048248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c3f29657865114e877480e35f26fd1
+      internalID: -411055411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b431ba09b61e54693d8d3d5f331ffe
+      internalID: 1168034452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd5156c92bbe5644b26be00c95b2779
+      internalID: -1921900100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c1d12f12b6fb64c90ba9e4c6980bd7
+      internalID: -1382694237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a5df5ae743c9d4294e1c535bcf2deb
+      internalID: -1876419457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 256
-        width: 320
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5be2ccbd20ee8750800000000000000
-      internalID: 6309226615037684573
+      spriteID: cb8e2e01db5b2ad48be6686179ee0d7e
+      internalID: 903458966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_7
+      name: Enemies_Map02_HeavyWarden_Hit_Right_1
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 21
-        width: 321
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9c9411685e188eb0800000000000000
-      internalID: -4717487244735898466
+      spriteID: af6587bda88ce034d950765cd597bf00
+      internalID: -842860452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map02_HeavyWarden_Hit_Right_2
       rect:
         serializedVersion: 2
-        x: 845
-        y: 15
-        width: 278
-        height: 237
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fdb6e28165431af80800000000000000
-      internalID: -8097133110657913889
+      spriteID: 95f7b362a1b514c4badccbb277ac29b5
+      internalID: -1860526545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a4a1760d0889b488041af4d2a29b5c
+      internalID: 1223064341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d3f04dcfe7bbb41a184313ae5959b7
+      internalID: -902304628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389fcc56cd824e2428bddc72c0312ef5
+      internalID: -517505003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24539f3588ae73a4282775eb549c69c5
+      internalID: 528315213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b2f7ccbe8b79741a73076cdc93fdce
+      internalID: -674943910
       vertices: []
       indices: 
       edges: []
@@ -353,7 +507,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6f316a194c8e11d44a5f69951545fddc
     internalID: 0
     vertices: []
     indices: 
@@ -372,6 +526,22 @@ TextureImporter:
       CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_6: 6309226615037684573
       CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_7: -4717487244735898466
       CD_Enemy_HeavyWarden_Hit_4Dir_4Frame_v01_8: -8097133110657913889
+      Enemies_Map02_HeavyWarden_Hit_Down_0: -849228897
+      Enemies_Map02_HeavyWarden_Hit_Down_1: -736040996
+      Enemies_Map02_HeavyWarden_Hit_Down_2: 1151048248
+      Enemies_Map02_HeavyWarden_Hit_Down_3: -411055411
+      Enemies_Map02_HeavyWarden_Hit_Left_0: 1168034452
+      Enemies_Map02_HeavyWarden_Hit_Left_1: -1921900100
+      Enemies_Map02_HeavyWarden_Hit_Left_2: -1382694237
+      Enemies_Map02_HeavyWarden_Hit_Left_3: -1876419457
+      Enemies_Map02_HeavyWarden_Hit_Right_0: 903458966
+      Enemies_Map02_HeavyWarden_Hit_Right_1: -842860452
+      Enemies_Map02_HeavyWarden_Hit_Right_2: -1860526545
+      Enemies_Map02_HeavyWarden_Hit_Right_3: 1223064341
+      Enemies_Map02_HeavyWarden_Hit_Up_0: -902304628
+      Enemies_Map02_HeavyWarden_Hit_Up_1: -517505003
+      Enemies_Map02_HeavyWarden_Hit_Up_2: 528315213
+      Enemies_Map02_HeavyWarden_Hit_Up_3: -674943910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

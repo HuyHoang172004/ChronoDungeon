@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 121.5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -179,397 +179,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 847
-        width: 296
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e78b5786cbfb2f00800000000000000
-      internalID: 1093244164660496358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 856
-        width: 298
-        height: 331
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fc30c0111af7b550800000000000000
-      internalID: 6176680365164346608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 1134
-        width: 214
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1af003e15a0ac3ac0800000000000000
-      internalID: -3874044948408954975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 1061
-        width: 250
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef2d55c99cf7e32a0800000000000000
-      internalID: -6755821887121140994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 939
-        y: 1084
-        width: 41
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e4f68d0639667430800000000000000
-      internalID: 3780324618100208866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 796
-        width: 331
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b1a33aa4bdf26010800000000000000
-      internalID: 1180785004715942328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 854
-        width: 328
-        height: 191
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d75b23709b473ba20800000000000000
-      internalID: 3076931308462716285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map02_LegionHusk_Death_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 323
-        width: 337
-        height: 507
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f51b0d211a758d80800000000000000
-      internalID: -8249052928270461455
+      spriteID: e31d75f164026d342ad4977ecc5dd5ee
+      internalID: 1484731286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_8
+      name: Enemies_Map02_LegionHusk_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 597
-        width: 277
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ad23ab83f18787f0800000000000000
-      internalID: -610376341465649759
+      spriteID: 11af54b27e79b484bbd8b18a8e45ecb1
+      internalID: -52882083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map02_LegionHusk_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 673
-        y: 581
-        width: 273
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ad33e5b71a11ca00800000000000000
-      internalID: 774929300022574498
+      spriteID: 2c1b8dd12d5793d4d9b483daf3e55780
+      internalID: 1100713166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map02_LegionHusk_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 979
-        y: 592
-        width: 299
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 911.25
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 459118c13a85df390800000000000000
-      internalID: -7782967123445212844
+      spriteID: 7e3291397f1492e4c95e303f91069b76
+      internalID: -1962442023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map02_LegionHusk_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 41
-        width: 302
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9fad6ddd964ee4720800000000000000
-      internalID: 2832452359007165177
+      spriteID: 52535c84e64581244bd58bdd31dd2d10
+      internalID: 68387352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_12
+      name: Enemies_Map02_LegionHusk_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 370
-        y: 282
-        width: 291
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 988703f9036801e50800000000000000
-      internalID: 6778064982579902601
+      spriteID: 1fa49d035b9eb164e867d14e7d733f9d
+      internalID: 802099065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_13
+      name: Enemies_Map02_LegionHusk_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 679
-        y: 244
-        width: 293
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62d6afb338320d0e0800000000000000
-      internalID: -2247257167503921882
+      spriteID: 1a7c38f2bf7ab8448871479dfd4ece77
+      internalID: -1767752191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_14
+      name: Enemies_Map02_LegionHusk_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 979
-        y: 331
-        width: 304
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 607.5
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d45199fb9d726e860800000000000000
-      internalID: 7558772840763823437
+      spriteID: 53a7fd86b9b480b489601d64a93987b4
+      internalID: 1454990952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_15
+      name: Enemies_Map02_LegionHusk_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 374
-        y: 31
-        width: 274
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4354926b53cc0060800000000000000
-      internalID: 6921121524624937802
+      spriteID: 1d9ba024446d89c4cbd36e5e956bfd43
+      internalID: -1722390340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_16
+      name: Enemies_Map02_LegionHusk_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 662
-        y: 29
-        width: 302
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 344dc5ecbd066bff0800000000000000
-      internalID: -20722651100294077
+      spriteID: 003eba538e5df934bb25e0f06c651a16
+      internalID: -1584607343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_17
+      name: Enemies_Map02_LegionHusk_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 963
-        y: 33
-        width: 319
-        height: 188
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7e66f4471182a780800000000000000
-      internalID: -8673227995420922245
+      spriteID: fc39348f12d44cd429d5c3782a919e20
+      internalID: -213594198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 971.25
+        y: 303.75
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ea24e2433a68c4ebba1ad32cc65fbd
+      internalID: 518326398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Death_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb97a23d83aa33468ec19a8cdb09b60
+      internalID: -726497757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 323.75
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f8a15712cc75741acb7c5622d2a955
+      internalID: -765898279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 647.5
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d722766a5d5d445ae33a3088d8c06c
+      internalID: -922736395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 971.25
+        y: 0
+        width: 323.75
+        height: 303.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4f878a04d8e0e49a6143ef6b8b1a98
+      internalID: -1003353593
       vertices: []
       indices: 
       edges: []
@@ -578,7 +534,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6132fbfd232e96c4683c1a956bbfc71f
     internalID: 0
     vertices: []
     indices: 
@@ -606,6 +562,22 @@ TextureImporter:
       CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_7: -8249052928270461455
       CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_8: -610376341465649759
       CD_Enemy_LegionHusk_Death_4Dir_4Frame_v01_9: 774929300022574498
+      Enemies_Map02_LegionHusk_Death_Down_0: 1484731286
+      Enemies_Map02_LegionHusk_Death_Down_1: -52882083
+      Enemies_Map02_LegionHusk_Death_Down_2: 1100713166
+      Enemies_Map02_LegionHusk_Death_Down_3: -1962442023
+      Enemies_Map02_LegionHusk_Death_Left_0: 68387352
+      Enemies_Map02_LegionHusk_Death_Left_1: 802099065
+      Enemies_Map02_LegionHusk_Death_Left_2: -1767752191
+      Enemies_Map02_LegionHusk_Death_Left_3: 1454990952
+      Enemies_Map02_LegionHusk_Death_Right_0: -1722390340
+      Enemies_Map02_LegionHusk_Death_Right_1: -1584607343
+      Enemies_Map02_LegionHusk_Death_Right_2: -213594198
+      Enemies_Map02_LegionHusk_Death_Right_3: 518326398
+      Enemies_Map02_LegionHusk_Death_Up_0: -726497757
+      Enemies_Map02_LegionHusk_Death_Up_1: -765898279
+      Enemies_Map02_LegionHusk_Death_Up_2: -922736395
+      Enemies_Map02_LegionHusk_Death_Up_3: -1003353593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

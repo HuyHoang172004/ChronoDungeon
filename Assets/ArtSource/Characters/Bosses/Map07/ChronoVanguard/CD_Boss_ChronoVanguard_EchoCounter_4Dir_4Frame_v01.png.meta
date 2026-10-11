@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,133 +143,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_0
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 327
-        height: 1231
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 753c72e752ac481f0800000000000000
-      internalID: -1043486951263976617
+      spriteID: 2e2f97ed1b51b574a81757b0c17d429f
+      internalID: -1440841268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_1
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Down_1
       rect:
         serializedVersion: 2
-        x: 324
-        y: 15
-        width: 309
-        height: 1231
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59fa3b29cb34c3890800000000000000
-      internalID: -7477026804147703915
+      spriteID: fb92095663a54ba4fb626cca151fc5b4
+      internalID: -969921146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Down_2
       rect:
         serializedVersion: 2
-        x: 631
-        y: 921
-        width: 375
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 648a77f61bb4d66b0800000000000000
-      internalID: -5301497960893798330
+      spriteID: 122160b9c6b0a5a4c8b632a5baec299f
+      internalID: 581556654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_3
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Down_3
       rect:
         serializedVersion: 2
-        x: 989
-        y: 16
-        width: 273
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2da89b9d7925bbb80800000000000000
-      internalID: -8378011869646320942
+      spriteID: cd234058428ace8489c2d2710b2611b5
+      internalID: -1244287658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_4
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Left_0
       rect:
         serializedVersion: 2
-        x: 613
-        y: 626
-        width: 393
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0ff46bec95da40b40800000000000000
-      internalID: 5405636053983186928
+      spriteID: ad5be229dd8075741a532ac5d315dd67
+      internalID: -535783672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_5
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Left_1
       rect:
         serializedVersion: 2
-        x: 611
-        y: 13
-        width: 421
-        height: 553
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06fb9d96b72d6af90800000000000000
-      internalID: -6942630348046352544
+      spriteID: 427cda23a8c20564e8580bdc9be3e3c9
+      internalID: 1625026275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb2cc69b94312145b37428c5c380e5f
+      internalID: 1602901986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dd8579b4c33d24ab2092d704b2450c
+      internalID: -1487424472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a3a2bc149095349b23e25cc8425a0a
+      internalID: -161963150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f7dbe9f16d7d04e8ae428e887aee5d
+      internalID: 1347594168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cb377041fe8b141a527e2016a23dbc
+      internalID: 517511522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9291d650097554d80ced747723a5c2
+      internalID: -1495095177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf28d35555edeb408a87444d861ed2c
+      internalID: 1747072001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Up_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a8ba816ebe8e24cad835c2ed59a0c6
+      internalID: -1231678098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Up_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7059184d663c0e4cbda0e49ccc69e01
+      internalID: 838910304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_EchoCounter_Up_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c480170f892fb114d8a2fa654fe0fd0a
+      internalID: -145367263
       vertices: []
       indices: 
       edges: []
@@ -278,7 +498,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a5d6117e83fd6d044bb6a2da1f6643df
     internalID: 0
     vertices: []
     indices: 
@@ -288,6 +508,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map07_ChronoVanguard_EchoCounter_Down_0: -1440841268
+      Bosses_Map07_ChronoVanguard_EchoCounter_Down_1: -969921146
+      Bosses_Map07_ChronoVanguard_EchoCounter_Down_2: 581556654
+      Bosses_Map07_ChronoVanguard_EchoCounter_Down_3: -1244287658
+      Bosses_Map07_ChronoVanguard_EchoCounter_Left_0: -535783672
+      Bosses_Map07_ChronoVanguard_EchoCounter_Left_1: 1625026275
+      Bosses_Map07_ChronoVanguard_EchoCounter_Left_2: 1602901986
+      Bosses_Map07_ChronoVanguard_EchoCounter_Left_3: -1487424472
+      Bosses_Map07_ChronoVanguard_EchoCounter_Right_0: -161963150
+      Bosses_Map07_ChronoVanguard_EchoCounter_Right_1: 1347594168
+      Bosses_Map07_ChronoVanguard_EchoCounter_Right_2: 517511522
+      Bosses_Map07_ChronoVanguard_EchoCounter_Right_3: -1495095177
+      Bosses_Map07_ChronoVanguard_EchoCounter_Up_0: 1747072001
+      Bosses_Map07_ChronoVanguard_EchoCounter_Up_1: -1231678098
+      Bosses_Map07_ChronoVanguard_EchoCounter_Up_2: 838910304
+      Bosses_Map07_ChronoVanguard_EchoCounter_Up_3: -145367263
       CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_0: -1043486951263976617
       CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_1: -7477026804147703915
       CD_Boss_ChronoVanguard_EchoCounter_4Dir_4Frame_v01_2: -5301497960893798330

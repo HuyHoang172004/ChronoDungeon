@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 141.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,243 +158,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_0
+      name: Player_EmberStaff_MeteorRune_Down_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 931
-        width: 596
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ab184509b1eaa8590800000000000000
-      internalID: -7671127581863411270
+      spriteID: 80135715994859141a9ef19f980d16b7
+      internalID: 434104037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_1
+      name: Player_EmberStaff_MeteorRune_Down_1
       rect:
         serializedVersion: 2
-        x: 618
-        y: 933
-        width: 365
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316.25
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbd4aa5008231df20800000000000000
-      internalID: 3445590715347389885
+      spriteID: 02e88311a63c5ab468962843b4517064
+      internalID: -1917856065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_2
+      name: Player_EmberStaff_MeteorRune_Down_2
       rect:
         serializedVersion: 2
-        x: 985
-        y: 933
-        width: 280
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632.5
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 059ea5d4d402b4100800000000000000
-      internalID: 93203733673601360
+      spriteID: 7acc30e304230f5429c7e4c70a4d0ad7
+      internalID: 1769423529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_3
+      name: Player_EmberStaff_MeteorRune_Down_3
       rect:
         serializedVersion: 2
-        x: 29
-        y: 627
-        width: 647
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948.75
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3bca933a599807160800000000000000
-      internalID: 7021263094852201651
+      spriteID: 8370eeef0940c5e4591504364c949127
+      internalID: 1232884317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_4
+      name: Player_EmberStaff_MeteorRune_Left_0
       rect:
         serializedVersion: 2
-        x: 619
-        y: 628
-        width: 405
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45facb86a5cc7ad70800000000000000
-      internalID: 9054430264527990612
+      spriteID: 9523403e3ed2c6540822ce18a5910bf3
+      internalID: -1155289332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_5
+      name: Player_EmberStaff_MeteorRune_Left_1
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 628
-        width: 264
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316.25
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5663d3e48a15d82e0800000000000000
-      internalID: -2121950066112645531
+      spriteID: c07a4d2fcd5119d48a89836bc3a051ba
+      internalID: 1343227124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_6
+      name: Player_EmberStaff_MeteorRune_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55e4a52126c0b04fa11d39746b2c958
+      internalID: -1972334063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_MeteorRune_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81424b7224e701c4dadb2858bc7a83b7
+      internalID: 1493135448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_MeteorRune_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c81f03021efd49904da2f7bf2ed7d
+      internalID: 639118162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_MeteorRune_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf491c19cb3413f4d97177ce50f8684a
+      internalID: 1045462391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_MeteorRune_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a907f23cd9fad9344aeada5b8f88e03f
+      internalID: -346076797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_MeteorRune_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3557ee0a072b462439aa341235de5c3f
+      internalID: 1779459131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_EmberStaff_MeteorRune_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 324
-        height: 620
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e4fe152a887f02f0800000000000000
-      internalID: -1004451657156725535
+      spriteID: fa7da601bc4864b44a3d101121a68b91
+      internalID: 737526574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_7
+      name: Player_EmberStaff_MeteorRune_Up_1
       rect:
         serializedVersion: 2
-        x: 302
+        x: 316.25
         y: 0
-        width: 358
-        height: 612
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a51ba508e23c9da80800000000000000
-      internalID: -8441501422039944870
+      spriteID: 0d30ec2b61de3f54db80abff230abcc7
+      internalID: 472473957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_8
+      name: Player_EmberStaff_MeteorRune_Up_2
       rect:
         serializedVersion: 2
-        x: 648
+        x: 632.5
         y: 0
-        width: 378
-        height: 613
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b5c2c889b3c9add0800000000000000
-      internalID: -2474231318632544839
+      spriteID: 99132c6e1a234b84198e8fadca9da49f
+      internalID: -1641652883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_9
+      name: Player_EmberStaff_MeteorRune_Up_3
       rect:
         serializedVersion: 2
-        x: 969
-        y: 320
-        width: 296
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acedea19610f12050800000000000000
-      internalID: 5774160176989789898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 965
+        x: 948.75
         y: 0
-        width: 300
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 234e417fe9efb86c0800000000000000
-      internalID: -4139935473733409742
+      spriteID: b5d4b78179e633d46ad89b40f23ee835
+      internalID: -696143655
       vertices: []
       indices: 
       edges: []
@@ -403,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61774e6e097d0844db7d2f8b7c4f6ccb
     internalID: 0
     vertices: []
     indices: 
@@ -424,6 +534,22 @@ TextureImporter:
       CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_7: -8441501422039944870
       CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_8: -2474231318632544839
       CD_Player_EmberStaff_MeteorRune_4Dir_4Frame_v01_9: 5774160176989789898
+      Player_EmberStaff_MeteorRune_Down_0: 434104037
+      Player_EmberStaff_MeteorRune_Down_1: -1917856065
+      Player_EmberStaff_MeteorRune_Down_2: 1769423529
+      Player_EmberStaff_MeteorRune_Down_3: 1232884317
+      Player_EmberStaff_MeteorRune_Left_0: -1155289332
+      Player_EmberStaff_MeteorRune_Left_1: 1343227124
+      Player_EmberStaff_MeteorRune_Left_2: -1972334063
+      Player_EmberStaff_MeteorRune_Left_3: 1493135448
+      Player_EmberStaff_MeteorRune_Right_0: 639118162
+      Player_EmberStaff_MeteorRune_Right_1: 1045462391
+      Player_EmberStaff_MeteorRune_Right_2: -346076797
+      Player_EmberStaff_MeteorRune_Right_3: 1779459131
+      Player_EmberStaff_MeteorRune_Up_0: 737526574
+      Player_EmberStaff_MeteorRune_Up_1: 472473957
+      Player_EmberStaff_MeteorRune_Up_2: -1641652883
+      Player_EmberStaff_MeteorRune_Up_3: -696143655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

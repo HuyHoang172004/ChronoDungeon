@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 420
+  spritePixelsToUnits: 138.86363
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -173,7 +173,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_BladeSlash_Down_0
+      name: Player_ChronoBlade_Attack_Down_0
       rect:
         serializedVersion: 2
         x: 0
@@ -188,14 +188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d75d2df56aa9f459aecefafa43117f
-      internalID: 1889852128
+      spriteID: 90cca63d7de7f4440a02da7851a35d9e
+      internalID: -641621689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Down_1
+      name: Player_ChronoBlade_Attack_Down_1
       rect:
         serializedVersion: 2
         x: 321.75
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6963e9a1807026d4db5bd41ea1362d9e
-      internalID: 686282614
+      spriteID: 6d99d55531d98564cbe99875d70e9f4e
+      internalID: -612893780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Down_2
+      name: Player_ChronoBlade_Attack_Down_2
       rect:
         serializedVersion: 2
         x: 643.5
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1662f867d85f94c438e694700ac5788b
-      internalID: -961104534
+      spriteID: d9b9d32fc7adba748a67ef0b229e96dd
+      internalID: -99414281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Down_3
+      name: Player_ChronoBlade_Attack_Down_3
       rect:
         serializedVersion: 2
         x: 965.25
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeee7d4855ae44345b4e158436be5b07
-      internalID: -1888017326
+      spriteID: de929ab253d6de546a65254c010614d9
+      internalID: -1904249038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Left_0
+      name: Player_ChronoBlade_Attack_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b20d1d5b2977a794199dcb4be57d5d9d
-      internalID: 1490728809
+      spriteID: b6432939282930c48903f786e9bcf2f0
+      internalID: 1843278659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Left_1
+      name: Player_ChronoBlade_Attack_Left_1
       rect:
         serializedVersion: 2
         x: 321.75
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd46f1e3d144924c9870ac5b509eb7d
-      internalID: 1334584602
+      spriteID: e33b45fd5f7b5cf49b8c531172964066
+      internalID: 1830303249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Left_2
+      name: Player_ChronoBlade_Attack_Left_2
       rect:
         serializedVersion: 2
         x: 643.5
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecba9017522df348a3193b27b2a0adb
-      internalID: -59004446
+      spriteID: c19e715ec99164a49b0bb1004d1ab963
+      internalID: 1177446561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Left_3
+      name: Player_ChronoBlade_Attack_Left_3
       rect:
         serializedVersion: 2
         x: 965.25
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8391d2a3e9ac7cd4eab3617de629a85e
-      internalID: 1750291081
+      spriteID: a3c96f9aedb017f49bd844cda97dfc9e
+      internalID: 1488539355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Right_0
+      name: Player_ChronoBlade_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -364,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 513680a91e38cd24487f4f393c74b65f
-      internalID: -2144194359
+      spriteID: a67a4f060d6970644bb52ecf35ee5d80
+      internalID: 1501347573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Right_1
+      name: Player_ChronoBlade_Attack_Right_1
       rect:
         serializedVersion: 2
         x: 321.75
@@ -386,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b20f187082cb63a4da492710a8272202
-      internalID: 734666969
+      spriteID: 92d443f05f4da5a4ba786e794e14e010
+      internalID: -1283363157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Right_2
+      name: Player_ChronoBlade_Attack_Right_2
       rect:
         serializedVersion: 2
         x: 643.5
@@ -408,14 +408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71610880fa982f84f8b170cecbc0e273
-      internalID: -784559749
+      spriteID: cffaf178152baf942aa8b0e81028ecca
+      internalID: 2129365406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Right_3
+      name: Player_ChronoBlade_Attack_Right_3
       rect:
         serializedVersion: 2
         x: 965.25
@@ -430,14 +430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8751a09864b6cb84680c0d9afd312a73
-      internalID: 345687171
+      spriteID: 2b6d3ab5776ee80409c7ed7df46b9433
+      internalID: -1612390278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Up_0
+      name: Player_ChronoBlade_Attack_Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f6be6b62ac8cde4bbb01e3b56c17c48
-      internalID: 158123621
+      spriteID: 954f89fb7fefe1e4a843a2cd871eb503
+      internalID: 1050960312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Up_1
+      name: Player_ChronoBlade_Attack_Up_1
       rect:
         serializedVersion: 2
         x: 321.75
@@ -474,14 +474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d218a1b33c0314ab218e0ba66cb266
-      internalID: 714153942
+      spriteID: de7bf81f1ba5465418dba02164da867b
+      internalID: 1121432643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Up_2
+      name: Player_ChronoBlade_Attack_Up_2
       rect:
         serializedVersion: 2
         x: 643.5
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 256b13bbd7f4e184e8d362b3c3667416
-      internalID: -1607435001
+      spriteID: 4329f6457679c8e4fa89986eb0b423c4
+      internalID: 1996821027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BladeSlash_Up_3
+      name: Player_ChronoBlade_Attack_Up_3
       rect:
         serializedVersion: 2
         x: 965.25
@@ -518,8 +518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcea68865e532f4448f1baedc20ae340
-      internalID: 605374630
+      spriteID: 5b7e37ba83f9977459e46c90a1b11e79
+      internalID: -710157702
       vertices: []
       indices: 
       edges: []
@@ -570,6 +570,22 @@ TextureImporter:
       CD_Player_ChronoBlade_Slash_4Dir_4Frame_v01_7: -1072853662377165072
       CD_Player_ChronoBlade_Slash_4Dir_4Frame_v01_8: 1690444680967996450
       CD_Player_ChronoBlade_Slash_4Dir_4Frame_v01_9: 9006517286172094253
+      Player_ChronoBlade_Attack_Down_0: -641621689
+      Player_ChronoBlade_Attack_Down_1: -612893780
+      Player_ChronoBlade_Attack_Down_2: -99414281
+      Player_ChronoBlade_Attack_Down_3: -1904249038
+      Player_ChronoBlade_Attack_Left_0: 1843278659
+      Player_ChronoBlade_Attack_Left_1: 1830303249
+      Player_ChronoBlade_Attack_Left_2: 1177446561
+      Player_ChronoBlade_Attack_Left_3: 1488539355
+      Player_ChronoBlade_Attack_Right_0: 1501347573
+      Player_ChronoBlade_Attack_Right_1: -1283363157
+      Player_ChronoBlade_Attack_Right_2: 2129365406
+      Player_ChronoBlade_Attack_Right_3: -1612390278
+      Player_ChronoBlade_Attack_Up_0: 1050960312
+      Player_ChronoBlade_Attack_Up_1: 1121432643
+      Player_ChronoBlade_Attack_Up_2: 1996821027
+      Player_ChronoBlade_Attack_Up_3: -710157702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

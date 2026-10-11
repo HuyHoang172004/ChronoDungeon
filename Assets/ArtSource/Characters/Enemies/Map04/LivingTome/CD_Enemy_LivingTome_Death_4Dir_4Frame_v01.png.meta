@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -179,397 +179,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map04_LivingTome_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 799
-        width: 331
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 44f0b7c2bc0277d20800000000000000
-      internalID: 3276123310932037444
+      spriteID: 455d231ac10e46d4998b9983db5b6cc9
+      internalID: -1170302724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_1
+      name: Enemies_Map04_LivingTome_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 386
-        y: 783
-        width: 357
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 386a3142f15173110800000000000000
-      internalID: 1240483445857298051
+      spriteID: 1637aee2fe6188b49a1f945782e8857e
+      internalID: 1595742516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_2
+      name: Enemies_Map04_LivingTome_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 762
-        y: 789
-        width: 381
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c48d258935a4ce350800000000000000
-      internalID: 6047290122550040652
+      spriteID: 7ddaa9c788edfc84f89b1cb9f03f77bc
+      internalID: 719334447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_3
+      name: Enemies_Map04_LivingTome_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 801
-        width: 226
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df6972d541c15a390800000000000000
-      internalID: -7807803505189087491
+      spriteID: 3de5e87b5480e8540ad0a98db9648dc1
+      internalID: -544750215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map04_LivingTome_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 546
-        width: 339
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e0abbacb6b5c3660800000000000000
-      internalID: 7366863608992211169
+      spriteID: e2a2620ebd0483345a4e71daa221e397
+      internalID: -294915610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_5
+      name: Enemies_Map04_LivingTome_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 299
-        width: 319
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bcd3f9b558f7eb8e0800000000000000
-      internalID: -1675761800590705205
+      spriteID: 780bf7caa6db71f4388484f0f560b66d
+      internalID: -682487398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map04_LivingTome_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 364
-        y: 31
-        width: 363
-        height: 508
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 70793c2773a8e9710800000000000000
-      internalID: 1701949679945881351
+      spriteID: a34a91fa7c49a0744abbee4865afacfe
+      internalID: 525638246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map04_LivingTome_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 413
-        y: 546
-        width: 332
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e9e1ca06ffccbd90800000000000000
-      internalID: -7080555858483877402
+      spriteID: c41a240ca9e590446aa69853404b3e16
+      internalID: 8948974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_8
+      name: Enemies_Map04_LivingTome_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 746
-        y: 0
-        width: 365
-        height: 799
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 30a4fb83726408cb0800000000000000
-      internalID: -4863810463290406397
+      spriteID: 9878c18f64e43fb4183c0dae2f8dd17c
+      internalID: -1187558163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map04_LivingTome_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 1174
-        y: 536
-        width: 243
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac4b21c15dbe2de10800000000000000
-      internalID: 2221096866778625226
+      spriteID: ad253d874f6d5614288f967d59d39871
+      internalID: 89363242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map04_LivingTome_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 728
-        y: 469
-        width: 29
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 008f9c5e33ce97d30800000000000000
-      internalID: 4429831416138299392
+      spriteID: ac7848fc7172c7f4bb302cf0a0f8613d
+      internalID: -1774509748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map04_LivingTome_Death_Right_3
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 518
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7961410ff9c057a10800000000000000
-      internalID: 1906443898328454807
+      spriteID: 7da1f5b80cad37246b65648fabebf605
+      internalID: 2063015582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_12
+      name: Enemies_Map04_LivingTome_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 341
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03c59afdf5451a170800000000000000
-      internalID: 8187918368287317040
+      spriteID: 32b7c510606f1754d96afcd51dc9f815
+      internalID: -1658021362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_13
+      name: Enemies_Map04_LivingTome_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 1150
-        y: 260
-        width: 244
-        height: 245
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d6b857f5894bc68b0800000000000000
-      internalID: -5157548906716492947
+      spriteID: b9172fce654f46348ad991ba5a8a60d1
+      internalID: 1586218353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_14
+      name: Enemies_Map04_LivingTome_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 1357
-        y: 250
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 327bedfdc3bf67320800000000000000
-      internalID: 2555506077451859747
+      spriteID: cc121f702d842374c8b7557ef868723e
+      internalID: -192724324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_15
+      name: Enemies_Map04_LivingTome_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 722
-        y: 31
-        width: 21
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1086
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c93f30607db88bbd0800000000000000
-      internalID: -2614185828053421156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 1092
-        y: 35
-        width: 11
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76ff9c1ca7247c9b0800000000000000
-      internalID: -5060002561322778777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 1197
-        y: 17
-        width: 206
-        height: 228
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a14defc473da65500800000000000000
-      internalID: 384685271213331482
+      spriteID: 99f589fa30255254086132bce1ab8d65
+      internalID: 1578891525
       vertices: []
       indices: 
       edges: []
@@ -578,7 +534,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 292df2831e2bc3b46bb97ef088d3946a
     internalID: 0
     vertices: []
     indices: 
@@ -606,6 +562,22 @@ TextureImporter:
       CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_7: -7080555858483877402
       CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_8: -4863810463290406397
       CD_Enemy_LivingTome_Death_4Dir_4Frame_v01_9: 2221096866778625226
+      Enemies_Map04_LivingTome_Death_Down_0: -1170302724
+      Enemies_Map04_LivingTome_Death_Down_1: 1595742516
+      Enemies_Map04_LivingTome_Death_Down_2: 719334447
+      Enemies_Map04_LivingTome_Death_Down_3: -544750215
+      Enemies_Map04_LivingTome_Death_Left_0: -294915610
+      Enemies_Map04_LivingTome_Death_Left_1: -682487398
+      Enemies_Map04_LivingTome_Death_Left_2: 525638246
+      Enemies_Map04_LivingTome_Death_Left_3: 8948974
+      Enemies_Map04_LivingTome_Death_Right_0: -1187558163
+      Enemies_Map04_LivingTome_Death_Right_1: 89363242
+      Enemies_Map04_LivingTome_Death_Right_2: -1774509748
+      Enemies_Map04_LivingTome_Death_Right_3: 2063015582
+      Enemies_Map04_LivingTome_Death_Up_0: -1658021362
+      Enemies_Map04_LivingTome_Death_Up_1: 1586218353
+      Enemies_Map04_LivingTome_Death_Up_2: -192724324
+      Enemies_Map04_LivingTome_Death_Up_3: 1578891525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 3567e8e52ef46444fa94a65c96da8939
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8034051701434168932
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_0
+  - first:
+      213: 6305561396858060121
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_1
+  - first:
+      213: -3688525471694382462
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_2
+  - first:
+      213: 1718403621492681651
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_3
+  - first:
+      213: -7049015374658529197
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_4
+  - first:
+      213: 4685683766946705694
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_5
+  - first:
+      213: 7362983846115296537
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_6
+  - first:
+      213: -1725449241059050060
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_7
+  - first:
+      213: 3042176709147769813
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_8
+  - first:
+      213: -461226024761484865
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_9
+  - first:
+      213: 7015092149311751115
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_10
+  - first:
+      213: 7039849423225454181
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_11
+  - first:
+      213: 5114296820125467072
+    second: CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140.90909
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4ceda876a1a342910840fdb9fdf31
+      internalID: -100867940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Down_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f5d928cdf1e6e49bb5491f350ccb36
+      internalID: -456761986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Down_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b843f35c9c49e6469683a2b5eae87db
+      internalID: -750992574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Down_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652b420ba3a0b3f4bbe81401a6cce0d2
+      internalID: -1857431731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfd275fc2fdd0e499c0f0607c8ee0cd
+      internalID: 987308221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f15e2d022645341b65af41923ec711
+      internalID: 909552944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd8996a340c0e14eb5b97b54765102e
+      internalID: 586166474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627462447cd98794cbd3dfc93727d8de
+      internalID: -1681761941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57849af4189f5448a1451ae29d80d14
+      internalID: -1133577500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8eba7d2cc06d4bba55c9660cf8d17
+      internalID: -1695533148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1c2af4c4714954dae8c38053049166
+      internalID: 97929715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dc0b87012e3454896fe8b302291cdc
+      internalID: 669352915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70da972c9849bf4448198edf5e87fc7a
+      internalID: 576330509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa23ed7c3edb98b43b032694d75c5b30
+      internalID: 168615304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa084a032be286644990e0fc9dfe287e
+      internalID: -1783837544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_ChronoBlade_Idle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3881059b1c78941833abd34afff2ab
+      internalID: 650690441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ea17a85a232921e42951a47d9d1fae9a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_0: 8034051701434168932
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_1: 6305561396858060121
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_10: 7015092149311751115
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_11: 7039849423225454181
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_12: 5114296820125467072
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_2: -3688525471694382462
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_3: 1718403621492681651
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_4: -7049015374658529197
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_5: 4685683766946705694
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_6: 7362983846115296537
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_7: -1725449241059050060
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_8: 3042176709147769813
+      CD_Player_ChronoBlade_Idle_4Dir_4Frame_v02_9: -461226024761484865
+      Player_ChronoBlade_Idle_Down_0: -100867940
+      Player_ChronoBlade_Idle_Down_1: -456761986
+      Player_ChronoBlade_Idle_Down_2: -750992574
+      Player_ChronoBlade_Idle_Down_3: -1857431731
+      Player_ChronoBlade_Idle_Left_0: 987308221
+      Player_ChronoBlade_Idle_Left_1: 909552944
+      Player_ChronoBlade_Idle_Left_2: 586166474
+      Player_ChronoBlade_Idle_Left_3: -1681761941
+      Player_ChronoBlade_Idle_Right_0: -1133577500
+      Player_ChronoBlade_Idle_Right_1: -1695533148
+      Player_ChronoBlade_Idle_Right_2: 97929715
+      Player_ChronoBlade_Idle_Right_3: 669352915
+      Player_ChronoBlade_Idle_Up_0: 576330509
+      Player_ChronoBlade_Idle_Up_1: 168615304
+      Player_ChronoBlade_Idle_Up_2: -1783837544
+      Player_ChronoBlade_Idle_Up_3: 650690441
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

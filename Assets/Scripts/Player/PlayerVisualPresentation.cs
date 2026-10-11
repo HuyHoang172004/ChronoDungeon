@@ -58,6 +58,13 @@ public sealed class PlayerVisualPresentation : MonoBehaviour
 
     public bool IsExternalPresentationLocked => externalPresentationLocked;
 
+    public void SetPresentationScale(float scale)
+    {
+        float sign = transform.localScale.x < 0f ? -1f : 1f;
+        baseLocalScale = new Vector3(Mathf.Abs(scale), Mathf.Abs(scale), 1f);
+        transform.localScale = new Vector3(baseLocalScale.x * sign, baseLocalScale.y, baseLocalScale.z);
+    }
+
     private float AttackRecoveryDuration
     {
         get { return Mathf.Max(0.01f, attackSwingDuration - attackWindupDuration - attackStrikeDuration); }

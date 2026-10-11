@@ -126,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 140.90909
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -203,573 +203,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_0
+      name: NPC_Map03_GroveKeeper_Idle_Down_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 948
-        width: 302
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fe1027b79402a560800000000000000
-      internalID: 7323420993716756213
+      spriteID: 9775c75d374a12a4f97caa9f86026050
+      internalID: 932543144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_1
+      name: NPC_Map03_GroveKeeper_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 928
-        width: 310
-        height: 313
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dedc69c2d298cb1f0800000000000000
-      internalID: -1027795787832701459
+      spriteID: cbe9e87afa2c5db499b39585f65e7f09
+      internalID: -1628140090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_2
+      name: NPC_Map03_GroveKeeper_Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 617
-        y: 1184
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ab76263d808440480800000000000000
-      internalID: -8933936558052841542
+      spriteID: 2f4329fac3d8a4448b0af4a11ce22ff5
+      internalID: 593295885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_3
+      name: NPC_Map03_GroveKeeper_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 623
-        y: 1183
-        width: 24
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 660ac84b64d19d280800000000000000
-      internalID: -9018144589318676378
+      spriteID: 707c1062d57a40b48860284b7721c2ea
+      internalID: 573954381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_4
+      name: NPC_Map03_GroveKeeper_Idle_Left_0
       rect:
         serializedVersion: 2
-        x: 639
-        y: 1167
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b9ddb381b1fb9d10800000000000000
-      internalID: 2133564593211824562
+      spriteID: 5d35c2b91b7e2914e9f534b45b9ddfa8
+      internalID: 220938566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_5
+      name: NPC_Map03_GroveKeeper_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 647
-        y: 1143
-        width: 12
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb1865b5213708000800000000000000
-      internalID: 36155319697965502
+      spriteID: 74730e8011997d04684db35ffa573756
+      internalID: 1714817987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_6
+      name: NPC_Map03_GroveKeeper_Idle_Left_2
       rect:
         serializedVersion: 2
-        x: 674
-        y: 942
-        width: 255
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7f064f65921ae6c0800000000000000
-      internalID: -4113454876623237251
+      spriteID: 0974c8d0ce23f3c4bb3db50c65981057
+      internalID: -1296064055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_7
+      name: NPC_Map03_GroveKeeper_Idle_Left_3
       rect:
         serializedVersion: 2
-        x: 912
-        y: 1159
-        width: 35
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9786fc0c59b524600800000000000000
-      internalID: 451023611433543801
+      spriteID: 03f7d0beace0c0549971b00f8187aad3
+      internalID: -514513389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_8
+      name: NPC_Map03_GroveKeeper_Idle_Right_0
       rect:
         serializedVersion: 2
-        x: 976
-        y: 944
-        width: 228
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27bf8d98de0e12590800000000000000
-      internalID: -7700626577002267790
+      spriteID: 35861393529e14c44a527a2fa941362a
+      internalID: 1955491430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_9
+      name: NPC_Map03_GroveKeeper_Idle_Right_1
       rect:
         serializedVersion: 2
-        x: 335
-        y: 1095
-        width: 19
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c224354bd62b30a90800000000000000
-      internalID: -7348833982691982804
+      spriteID: 81550c607cc5c8e4fb1fe99d5e75a437
+      internalID: -1914471948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_10
+      name: NPC_Map03_GroveKeeper_Idle_Right_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 19
-        width: 324
-        height: 925
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c95c853cefeb3c820800000000000000
-      internalID: 2937401383384040860
+      spriteID: 0b964151e69ef464aa2a2f0946d30d9c
+      internalID: 64825601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_11
+      name: NPC_Map03_GroveKeeper_Idle_Right_3
       rect:
         serializedVersion: 2
-        x: 359
-        y: 624
-        width: 304
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c5a0416cb8cb78a0800000000000000
-      internalID: -6306226141791214140
+      spriteID: 47c3eda12954f904d80c40df127dd9b2
+      internalID: -860087511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_12
+      name: NPC_Map03_GroveKeeper_Idle_Up_0
       rect:
         serializedVersion: 2
-        x: 631
-        y: 781
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6a36fe44d940f000800000000000000
-      internalID: 67635170617211500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 623
-        width: 272
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3c12adfdbb2633c0800000000000000
-      internalID: -4380265492567155653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 17
-        width: 282
-        height: 927
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3605c7317af1a8b10800000000000000
-      internalID: 1984433388257038435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 639
-        y: 762
-        width: 20
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd6953f6882651000800000000000000
-      internalID: 6019312631781087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 17
-        width: 280
-        height: 614
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0279c4c43e0edf00800000000000000
-      internalID: 1143366975201309196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 612
-        width: 20
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54172e06ace9d7a10800000000000000
-      internalID: 1908856409120993605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 623
+        x: 0
         y: 0
-        width: 308
-        height: 631
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91681ca67c6eefa80800000000000000
-      internalID: -8431047708227041767
+      spriteID: 84c3946db6aa0924abe0467f032ea0a3
+      internalID: -813977537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_19
+      name: NPC_Map03_GroveKeeper_Idle_Up_1
       rect:
         serializedVersion: 2
-        x: 585
-        y: 410
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d099903297ae38e90800000000000000
-      internalID: -7024513187768067827
+      spriteID: 3655e637a1877f341b6b0ae4e8309ffa
+      internalID: -382450980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_20
+      name: NPC_Map03_GroveKeeper_Idle_Up_2
       rect:
         serializedVersion: 2
-        x: 295
-        y: 356
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06c5b0e4d0e4f0d80800000000000000
-      internalID: -8282315370660144032
+      spriteID: e5602381cc2c8c24783cb9cc68f0417e
+      internalID: -1097433295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_21
+      name: NPC_Map03_GroveKeeper_Idle_Up_3
       rect:
         serializedVersion: 2
-        x: 607
-        y: 321
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fcfe0cc3faa580a0800000000000000
-      internalID: -6879904891661255434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_22
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 321
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbfcea0e233fb4980800000000000000
-      internalID: -8553475667416657987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_23
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 327
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b38d46cd70ccb440800000000000000
-      internalID: 4953045336631116726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_24
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 280
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da86c528012d437d0800000000000000
-      internalID: -2939493688417687379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 258
-        width: 12
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 949aeab49fdd4e2d0800000000000000
-      internalID: -3250228968268322487
+      spriteID: e1150963c6f93ca4190a925bffe1b2b8
+      internalID: -1513460927
       vertices: []
       indices: 
       edges: []
@@ -778,7 +558,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 11afa1909c05841439435a2fdd7fe263
     internalID: 0
     vertices: []
     indices: 
@@ -814,6 +594,22 @@ TextureImporter:
       CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_7: 451023611433543801
       CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_8: -7700626577002267790
       CD_NPC_GroveKeeper_Idle_4Dir_4Frame_v01_9: -7348833982691982804
+      NPC_Map03_GroveKeeper_Idle_Down_0: 932543144
+      NPC_Map03_GroveKeeper_Idle_Down_1: -1628140090
+      NPC_Map03_GroveKeeper_Idle_Down_2: 593295885
+      NPC_Map03_GroveKeeper_Idle_Down_3: 573954381
+      NPC_Map03_GroveKeeper_Idle_Left_0: 220938566
+      NPC_Map03_GroveKeeper_Idle_Left_1: 1714817987
+      NPC_Map03_GroveKeeper_Idle_Left_2: -1296064055
+      NPC_Map03_GroveKeeper_Idle_Left_3: -514513389
+      NPC_Map03_GroveKeeper_Idle_Right_0: 1955491430
+      NPC_Map03_GroveKeeper_Idle_Right_1: -1914471948
+      NPC_Map03_GroveKeeper_Idle_Right_2: 64825601
+      NPC_Map03_GroveKeeper_Idle_Right_3: -860087511
+      NPC_Map03_GroveKeeper_Idle_Up_0: -813977537
+      NPC_Map03_GroveKeeper_Idle_Up_1: -382450980
+      NPC_Map03_GroveKeeper_Idle_Up_2: -1097433295
+      NPC_Map03_GroveKeeper_Idle_Up_3: -1513460927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

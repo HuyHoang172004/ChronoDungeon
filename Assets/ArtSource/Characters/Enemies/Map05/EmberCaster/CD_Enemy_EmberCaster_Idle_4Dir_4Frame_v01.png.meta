@@ -129,7 +129,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 124
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -206,595 +206,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_0
+      name: Enemies_Map05_EmberCaster_Idle_Down_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 933
-        width: 320
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8377ed2e09e175440800000000000000
-      internalID: 4924438325183280952
+      spriteID: 348c48535cf346748912e07c0530d477
+      internalID: -420174902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_1
+      name: Enemies_Map05_EmberCaster_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 357
-        y: 933
-        width: 240
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12053f7f313441c90800000000000000
-      internalID: -7200056151215222751
+      spriteID: 4607a54c7aede954692eaecf4517b47f
+      internalID: 978847798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 935
-        width: 290
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c47d3c1255a552690800000000000000
-      internalID: -7627591072196864180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 1162
-        width: 40
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd998d66c50d9d1d0800000000000000
-      internalID: -3325397754555360803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 937
-        width: 232
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea319bfdc6148ebf0800000000000000
-      internalID: -294913839727045714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 1055
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 782d96450d0bed4e0800000000000000
-      internalID: -1954930779416309113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 935
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4656dddddcce95460800000000000000
-      internalID: 7231071045654766948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 641
-        width: 293
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5fd2fa1cec13b0500800000000000000
-      internalID: 363438959015964149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 633
-        width: 301
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e8fd4d2d09b605c0800000000000000
-      internalID: -4249505732131686171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_9
+      name: Enemies_Map05_EmberCaster_Idle_Down_2
       rect:
         serializedVersion: 2
         x: 634
-        y: 780
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4fa9fd3a3e7e3e900800000000000000
-      internalID: 712668130947603188
+      spriteID: 163a427fb58d9724eb87874b7d09d3d1
+      internalID: -863734210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_10
+      name: Enemies_Map05_EmberCaster_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 675
-        y: 619
-        width: 260
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5524dfd0916221130800000000000000
-      internalID: 3535930546489999957
+      spriteID: 0688bc6363f7b60439fb1b3b881a4f4d
+      internalID: -576896302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_11
+      name: Enemies_Map05_EmberCaster_Idle_Left_0
       rect:
         serializedVersion: 2
-        x: 992
-        y: 641
-        width: 230
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a56110a02d13eb400800000000000000
-      internalID: 341765399907472986
+      spriteID: 41446e5d740a7884d9c93e70e5d7cd24
+      internalID: 2119985027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_12
+      name: Enemies_Map05_EmberCaster_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 357
-        y: 647
-        width: 18
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 091ee2ecd04514810800000000000000
-      internalID: 1747770548666950032
+      spriteID: a19e3d4e1f5eb7f468f41746811c3a81
+      internalID: 329545425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_13
+      name: Enemies_Map05_EmberCaster_Idle_Left_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 328
-        width: 266
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 634
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f1a7d7e600cf62330800000000000000
-      internalID: 3685910423833246239
+      spriteID: abcfbcd1ed1f54c47add7536b9167bca
+      internalID: 511744607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_14
+      name: Enemies_Map05_EmberCaster_Idle_Left_3
       rect:
         serializedVersion: 2
-        x: 349
-        y: 329
-        width: 270
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47baabf388ff01d60800000000000000
-      internalID: 7859062310411348852
+      spriteID: e72fced1355ff25439e2f37c2d1babe6
+      internalID: -467093882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_15
+      name: Enemies_Map05_EmberCaster_Idle_Right_0
       rect:
         serializedVersion: 2
-        x: 630
-        y: 39
-        width: 329
-        height: 577
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f6ea77a71858b6960800000000000000
-      internalID: 7596311987642412655
+      spriteID: ce14407e90dce7942a76bcc2bede8436
+      internalID: 435616063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_16
+      name: Enemies_Map05_EmberCaster_Idle_Right_1
       rect:
         serializedVersion: 2
-        x: 632
-        y: 546
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e12d88820bc834830800000000000000
-      internalID: 4054238777785766430
+      spriteID: 53698b9174b9c5843bc31371e5014d78
+      internalID: 484634202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_17
+      name: Enemies_Map05_EmberCaster_Idle_Right_2
       rect:
         serializedVersion: 2
-        x: 964
-        y: 331
-        width: 282
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 634
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a4ce0178cacdf020800000000000000
-      internalID: 2377279140560553128
+      spriteID: 55417def39b785748a77475a786e0800
+      internalID: -703738979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_18
+      name: Enemies_Map05_EmberCaster_Idle_Right_3
       rect:
         serializedVersion: 2
-        x: 615
-        y: 468
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc6d8212eb93cfe60800000000000000
-      internalID: 7997330527066052301
+      spriteID: a431362163df1a649a49af2cc6623e6d
+      internalID: -17315595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_19
+      name: Enemies_Map05_EmberCaster_Idle_Up_0
       rect:
         serializedVersion: 2
-        x: 279
-        y: 323
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 338ee851a6e602e10800000000000000
-      internalID: 2170856422299854899
+      spriteID: 5400023efe25d0940b713e531c17bf73
+      internalID: 65367340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_20
+      name: Enemies_Map05_EmberCaster_Idle_Up_1
       rect:
         serializedVersion: 2
-        x: 608
-        y: 324
-        width: 15
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6572d04b686764c10800000000000000
-      internalID: 2037446202350184278
+      spriteID: e4c909bd8e2616743b16b86314e4bf21
+      internalID: 884150853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_21
+      name: Enemies_Map05_EmberCaster_Idle_Up_2
       rect:
         serializedVersion: 2
-        x: 616
-        y: 329
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 634
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 727c5ad56c4e835a0800000000000000
-      internalID: -6541226918129842393
+      spriteID: 83cf417e41446b54ba79ea081e901b29
+      internalID: 1827414489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_22
+      name: Enemies_Map05_EmberCaster_Idle_Up_3
       rect:
         serializedVersion: 2
-        x: 76
-        y: 39
-        width: 224
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38ee721b38c504180800000000000000
-      internalID: -9133198323624710525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_23
-      rect:
-        serializedVersion: 2
-        x: 273
-        y: 144
-        width: 23
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f2e78d58d6416be0800000000000000
-      internalID: -1485828506959486221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_24
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 7
-        width: 331
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff0572c5024860ce0800000000000000
-      internalID: -1439317756378394369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 37
-        width: 258
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d13015b8d2bea1f00800000000000000
-      internalID: 1088440840806794013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 103
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b52fb42f26cbad2e0800000000000000
-      internalID: -2100159143057034661
+      spriteID: 74c47495531d3ee4e88d83aeeb3d3095
+      internalID: 1872006824
       vertices: []
       indices: 
       edges: []
@@ -803,7 +561,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d10a8c63d3e57bb49a5208e617ddb218
     internalID: 0
     vertices: []
     indices: 
@@ -840,6 +598,22 @@ TextureImporter:
       CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_7: 363438959015964149
       CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_8: -4249505732131686171
       CD_Enemy_EmberCaster_Idle_4Dir_4Frame_v01_9: 712668130947603188
+      Enemies_Map05_EmberCaster_Idle_Down_0: -420174902
+      Enemies_Map05_EmberCaster_Idle_Down_1: 978847798
+      Enemies_Map05_EmberCaster_Idle_Down_2: -863734210
+      Enemies_Map05_EmberCaster_Idle_Down_3: -576896302
+      Enemies_Map05_EmberCaster_Idle_Left_0: 2119985027
+      Enemies_Map05_EmberCaster_Idle_Left_1: 329545425
+      Enemies_Map05_EmberCaster_Idle_Left_2: 511744607
+      Enemies_Map05_EmberCaster_Idle_Left_3: -467093882
+      Enemies_Map05_EmberCaster_Idle_Right_0: 435616063
+      Enemies_Map05_EmberCaster_Idle_Right_1: 484634202
+      Enemies_Map05_EmberCaster_Idle_Right_2: -703738979
+      Enemies_Map05_EmberCaster_Idle_Right_3: -17315595
+      Enemies_Map05_EmberCaster_Idle_Up_0: 65367340
+      Enemies_Map05_EmberCaster_Idle_Up_1: 884150853
+      Enemies_Map05_EmberCaster_Idle_Up_2: 1827414489
+      Enemies_Map05_EmberCaster_Idle_Up_3: 1872006824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_0
+      name: Bosses_Map04_SilentCurator_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 642
-        width: 343
-        height: 604
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b19271bcbad3a960800000000000000
-      internalID: 7612168299152052665
+      spriteID: b450e0961d515f348a3a067a03187121
+      internalID: -208704901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 941
-        width: 280
-        height: 305
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee537e119a045b930800000000000000
-      internalID: 4158300925840537070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 942
-        width: 269
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 18bd96d8a85834cf0800000000000000
-      internalID: -269224722587591807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 638
-        width: 281
-        height: 306
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c843e0201fd5e8260800000000000000
-      internalID: 7101716952112837772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 955
-        y: 642
-        width: 288
-        height: 604
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd2b2c97340b5f4b0800000000000000
-      internalID: -5407221973736312100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 366
-        y: 638
-        width: 285
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 566d2fe447f444450800000000000000
-      internalID: 6072065558561609317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 0
-        width: 270
-        height: 639
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dddf35a8a32514940800000000000000
-      internalID: 5278590649637273053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 17
-        width: 264
-        height: 617
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cefcd852de1393d0800000000000000
-      internalID: -3201181021347447098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_8
+      name: Bosses_Map04_SilentCurator_Move_Down_1
       rect:
         serializedVersion: 2
         x: 315
-        y: 25
-        width: 341
-        height: 608
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6746386a44f00ed10800000000000000
-      internalID: 2152737409408918646
+      spriteID: c5e6c908c537bcd4f90d17a1086627bb
+      internalID: -1103062333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_9
+      name: Bosses_Map04_SilentCurator_Move_Down_2
       rect:
         serializedVersion: 2
-        x: 669
-        y: 31
-        width: 268
-        height: 601
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5764d1589594cb760800000000000000
-      internalID: 7474930130362386037
+      spriteID: d62a30a511e5804438e90fa19e5c9b3a
+      internalID: -959493009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69057b714add40c4ab3ac7b336c2cf26
+      internalID: -1371849596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b597aecb02691545b571fca6eb86812
+      internalID: -1205027732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f5e9860626aef41b2040d46d607ef8
+      internalID: -1781772188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36e0bb70b116db4aae570fd23646282
+      internalID: -996137116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e5c07144e8b7245b4baebe4c0fae23
+      internalID: 1410627250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7797887ebd054296a8aa630ea69ba
+      internalID: -806758241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf05df6bc5fefa4d9ee0836e9d7e133
+      internalID: 818955002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b646edeff5c26a24f9cb88b5236eee77
+      internalID: -115691417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285ae75b11edb5b4fa2818e9ca573079
+      internalID: 1575180193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce1e92288bcf06409b6b022bdcd8ae6
+      internalID: 1805611884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c91290ce3a8b684498f348d6a5a1621
+      internalID: -417710421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16df8c8c3425ed445a4a860316b3e9f5
+      internalID: -1928920393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67697b8fc58aa5743826c5922ff01008
+      internalID: 419689217
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7bdaddca99720294da797896b98ea85b
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map04_SilentCurator_Move_Down_0: -208704901
+      Bosses_Map04_SilentCurator_Move_Down_1: -1103062333
+      Bosses_Map04_SilentCurator_Move_Down_2: -959493009
+      Bosses_Map04_SilentCurator_Move_Down_3: -1371849596
+      Bosses_Map04_SilentCurator_Move_Left_0: -1205027732
+      Bosses_Map04_SilentCurator_Move_Left_1: -1781772188
+      Bosses_Map04_SilentCurator_Move_Left_2: -996137116
+      Bosses_Map04_SilentCurator_Move_Left_3: 1410627250
+      Bosses_Map04_SilentCurator_Move_Right_0: -806758241
+      Bosses_Map04_SilentCurator_Move_Right_1: 818955002
+      Bosses_Map04_SilentCurator_Move_Right_2: -115691417
+      Bosses_Map04_SilentCurator_Move_Right_3: 1575180193
+      Bosses_Map04_SilentCurator_Move_Up_0: 1805611884
+      Bosses_Map04_SilentCurator_Move_Up_1: -417710421
+      Bosses_Map04_SilentCurator_Move_Up_2: -1928920393
+      Bosses_Map04_SilentCurator_Move_Up_3: 419689217
       CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_0: 7612168299152052665
       CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_1: 4158300925840537070
       CD_Boss_SilentCurator_Hover_4Dir_4Frame_v01_2: -269224722587591807

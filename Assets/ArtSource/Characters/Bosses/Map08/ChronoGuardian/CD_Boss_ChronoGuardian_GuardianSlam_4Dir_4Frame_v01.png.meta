@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoGuardian_GuardianSlam_4Dir_4Frame_v01_0
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1278
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7500458f997fa5800800000000000000
-      internalID: 602065740875694167
+      spriteID: 33d8af657d96cea4d8aa4d78c785372c
+      internalID: 398979360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Down_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec66f5289acdaf49a12336b28c04d92
+      internalID: 581724323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Down_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fd338faaf2883488f5cfe7e3f2a0fc
+      internalID: 1225166028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Down_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 921
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdea8ec56bc520499e6b2b9ae864b0f
+      internalID: 390290483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395aded9bd6326f498013a9b140f943d
+      internalID: -110616852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Left_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ce655e757b854fa6344b0d191125a
+      internalID: -255588902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Left_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0e08531ee492479bd2128f42af533
+      internalID: 819274744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Left_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 614
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81086b83688fa6445b09336e0f472866
+      internalID: -191509410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e72761d1c3f0446916d6eda84b001d
+      internalID: 410430921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Right_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1a238440aaae24eb4ca7eaa1f3649c
+      internalID: 813345261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Right_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffe764fbf95e474ea73964c08021ff5
+      internalID: 631536535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Right_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 307
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309def8078d3a8749bdfd6ab336416ea
+      internalID: 1240749645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d4884ba8e3c24cb7d8d0674e1083b
+      internalID: 304053167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Up_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9122c21ecfe10246b68d7123ffc06fc
+      internalID: -283181510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Up_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b11ba3bc30f984b9bba9c479cf5c40
+      internalID: -814124820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map08_ChronoGuardian_GuardianSlam_Up_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 0
+        width: 319
+        height: 307
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5161d290d21f7f74796d9c7635bac9d4
+      internalID: -711792457
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61e4606948ea49b4f82428bc060e5940
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Down_0: 398979360
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Down_1: 581724323
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Down_2: 1225166028
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Down_3: 390290483
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Left_0: -110616852
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Left_1: -255588902
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Left_2: 819274744
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Left_3: -191509410
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Right_0: 410430921
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Right_1: 813345261
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Right_2: 631536535
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Right_3: 1240749645
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Up_0: 304053167
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Up_1: -283181510
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Up_2: -814124820
+      Bosses_Map08_ChronoGuardian_GuardianSlam_Up_3: -711792457
       CD_Boss_ChronoGuardian_GuardianSlam_4Dir_4Frame_v01_0: 602065740875694167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

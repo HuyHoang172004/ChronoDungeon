@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 121.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,265 +161,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_0
+      name: Enemies_Map02_LegionHusk_Idle_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 917
-        width: 311
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 910.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c479f3066f5f34b20800000000000000
-      internalID: 3117605805596055372
+      spriteID: 0e8deb11d431644439de6a303e201e3f
+      internalID: -713830031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_1
+      name: Enemies_Map02_LegionHusk_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 354
-        y: 919
-        width: 291
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 910.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b08844904e269060800000000000000
-      internalID: 6959801129048244409
+      spriteID: 9f10ab8043d52ac4aa3ccff0727955b7
+      internalID: 1671777580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_2
+      name: Enemies_Map02_LegionHusk_Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 648
-        y: 0
-        width: 341
-        height: 1214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 910.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a1571d3a1902bce50800000000000000
-      internalID: 6830589069728249114
+      spriteID: 86a9df2a34740d848b988fdc006f49a0
+      internalID: -1206201909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_3
+      name: Enemies_Map02_LegionHusk_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 959
-        y: 1043
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 910.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb5921bb4b5084b40800000000000000
-      internalID: 5424592024958571964
+      spriteID: 5bd323f9b13cb5841ae45ba9d4175e7a
+      internalID: -1018566934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1008
-        y: 917
-        width: 240
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 363c9812651eed9b0800000000000000
-      internalID: -5053353971817004189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_5
+      name: Enemies_Map02_LegionHusk_Idle_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 13
-        width: 335
-        height: 904
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 607
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d4c84e659bcbc780800000000000000
-      internalID: -8661605615656188719
+      spriteID: 5916a3631e1723142a09262849395cf2
+      internalID: 1095725310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_6
+      name: Enemies_Map02_LegionHusk_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 340
-        y: 15
-        width: 317
-        height: 898
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 607
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b598241974f3db50800000000000000
-      internalID: 6616901078403814832
+      spriteID: 2aa36d5e8b1feb34787cda38152ba7f1
+      internalID: -384252760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_7
+      name: Enemies_Map02_LegionHusk_Idle_Left_2
       rect:
         serializedVersion: 2
-        x: 971
-        y: 605
-        width: 270
-        height: 315
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 607
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f01a3f83f283e900800000000000000
-      internalID: 712557148646281457
+      spriteID: 2bbd33f4dd90b9142b5076eaeebcf537
+      internalID: -494925461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_8
+      name: Enemies_Map02_LegionHusk_Idle_Left_3
       rect:
         serializedVersion: 2
-        x: 1002
+        x: 971.25
+        y: 607
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d0e853dd2e784592680a5fdba0f83
+      internalID: -988796545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4eb75881a96c7447b22ce64872d669a
+      internalID: 1441365000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323.75
+        y: 303.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d76522066582914ab1ce279795f7578
+      internalID: 1111356652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 647.5
+        y: 303.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2f34e975d79f24ab4c376322c5f740
+      internalID: -1222038740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 971.25
+        y: 303.5
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680262d93faca2a44b9ed7fa4579d06d
+      internalID: 1202893981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 293
-        height: 605
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7615aa9afdf466e10800000000000000
-      internalID: 2190526090805137767
+      spriteID: 253e86178d0759746aa6222e8847e6fc
+      internalID: -901286796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_9
+      name: Enemies_Map02_LegionHusk_Idle_Up_1
       rect:
         serializedVersion: 2
-        x: 985
-        y: 555
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323.75
+        y: 0
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f3cb71d721990a40800000000000000
-      internalID: 5334954833801364471
+      spriteID: 8514808bc2e66504d8b9eed5afd16078
+      internalID: 1321669711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_10
+      name: Enemies_Map02_LegionHusk_Idle_Up_2
       rect:
         serializedVersion: 2
-        x: 995
-        y: 185
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 647.5
+        y: 0
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f0680761ed42a100800000000000000
-      internalID: 117742170756636921
+      spriteID: 8662df446c4200143bf538dd2950df44
+      internalID: -1974396973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_11
+      name: Enemies_Map02_LegionHusk_Idle_Up_3
       rect:
         serializedVersion: 2
-        x: 322
-        y: 53
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 971.25
+        y: 0
+        width: 323.75
+        height: 303.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ae2f28ec1ca7ede30800000000000000
-      internalID: 4530193247993262826
+      spriteID: 9e34d9a74aeb45e48b91513106a77f27
+      internalID: -1221325919
       vertices: []
       indices: 
       edges: []
@@ -428,7 +516,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 68bd52ffd987048488f78bc1f29e0739
     internalID: 0
     vertices: []
     indices: 
@@ -450,6 +538,22 @@ TextureImporter:
       CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_7: 712557148646281457
       CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_8: 2190526090805137767
       CD_Enemy_LegionHusk_Idle_4Dir_4Frame_v01_9: 5334954833801364471
+      Enemies_Map02_LegionHusk_Idle_Down_0: -713830031
+      Enemies_Map02_LegionHusk_Idle_Down_1: 1671777580
+      Enemies_Map02_LegionHusk_Idle_Down_2: -1206201909
+      Enemies_Map02_LegionHusk_Idle_Down_3: -1018566934
+      Enemies_Map02_LegionHusk_Idle_Left_0: 1095725310
+      Enemies_Map02_LegionHusk_Idle_Left_1: -384252760
+      Enemies_Map02_LegionHusk_Idle_Left_2: -494925461
+      Enemies_Map02_LegionHusk_Idle_Left_3: -988796545
+      Enemies_Map02_LegionHusk_Idle_Right_0: 1441365000
+      Enemies_Map02_LegionHusk_Idle_Right_1: 1111356652
+      Enemies_Map02_LegionHusk_Idle_Right_2: -1222038740
+      Enemies_Map02_LegionHusk_Idle_Right_3: 1202893981
+      Enemies_Map02_LegionHusk_Idle_Up_0: -901286796
+      Enemies_Map02_LegionHusk_Idle_Up_1: 1321669711
+      Enemies_Map02_LegionHusk_Idle_Up_2: -1974396973
+      Enemies_Map02_LegionHusk_Idle_Up_3: -1221325919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

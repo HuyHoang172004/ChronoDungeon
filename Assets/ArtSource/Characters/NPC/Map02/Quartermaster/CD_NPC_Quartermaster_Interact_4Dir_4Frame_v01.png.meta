@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 140.90909
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,155 +146,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_0
+      name: NPC_Map02_Quartermaster_Interact_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 375
-        height: 1228
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d8f4bd5b5f577900800000000000000
-      internalID: 682118714588723410
+      spriteID: 4f173ca8503e9cf4798a0eeeb78f10fd
+      internalID: -392252140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_1
+      name: NPC_Map02_Quartermaster_Interact_Down_1
       rect:
         serializedVersion: 2
-        x: 382
-        y: 15
-        width: 246
-        height: 1228
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a015f11680454faa0800000000000000
-      internalID: -6128180797978488566
+      spriteID: f71f6c46dede0ce4191d3c701a0c4364
+      internalID: 259144584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_2
+      name: NPC_Map02_Quartermaster_Interact_Down_2
       rect:
         serializedVersion: 2
-        x: 638
-        y: 15
-        width: 318
-        height: 1228
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 632
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02ae270dc349b7900800000000000000
-      internalID: 683302757392902688
+      spriteID: 960eba4ae22c86a4ca118f0e58c89f65
+      internalID: 1558310709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_3
+      name: NPC_Map02_Quartermaster_Interact_Down_3
       rect:
         serializedVersion: 2
-        x: 640
-        y: 1185
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948
+        y: 930
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ddbad3283e297310800000000000000
-      internalID: 1403203577557204439
+      spriteID: a6e1e0f5948f6eb4991817eb77e20c23
+      internalID: 100851907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 971
-        y: 15
-        width: 255
-        height: 1228
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 224e44b72f6f82290800000000000000
-      internalID: -7914804823793015774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_5
+      name: NPC_Map02_Quartermaster_Interact_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 723
-        width: 5
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69de03b7c7b270e90800000000000000
-      internalID: -7059626077237219946
+      spriteID: 03b23caa99bffbe41a4618f2fc87f6a3
+      internalID: -180962287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_6
+      name: NPC_Map02_Quartermaster_Interact_Left_1
       rect:
         serializedVersion: 2
-        x: 646
-        y: 425
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4fa05664a0bd647d0800000000000000
-      internalID: -2934417270008116492
+      spriteID: bd5a61833566b1647af3af9b629caea5
+      internalID: -2047028178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcc91b6dd1c04d4a91e36678325a8fb
+      internalID: -1437370072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 620
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc526f7b7c5be9d469e4b11a6f51cdd6
+      internalID: -1733849640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05850b8c27cdd54d893831c1f37e203
+      internalID: -480214553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3981acb0ca98f149bae600c4eb6996e
+      internalID: -167735215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6b90f66a3d36459e1add926f78ffd
+      internalID: 1605392152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 310
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a8de8b78cd1c49961e4729706e77a
+      internalID: -322519801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241ff5849fa55f446b4cd090bf4c4708
+      internalID: -1639466167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416d0c26eb855554f9f67a4607984283
+      internalID: -1644282507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d849009b70f844dbac0e41b2170e58
+      internalID: 225303271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map02_Quartermaster_Interact_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 316
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7590178b45cbe0547a005c910a11547f
+      internalID: 1491598272
       vertices: []
       indices: 
       edges: []
@@ -303,7 +501,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cdcf2805811d99d41adb4ed4ba53f715
     internalID: 0
     vertices: []
     indices: 
@@ -320,6 +518,22 @@ TextureImporter:
       CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_4: -7914804823793015774
       CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_5: -7059626077237219946
       CD_NPC_Quartermaster_Interact_4Dir_4Frame_v01_6: -2934417270008116492
+      NPC_Map02_Quartermaster_Interact_Down_0: -392252140
+      NPC_Map02_Quartermaster_Interact_Down_1: 259144584
+      NPC_Map02_Quartermaster_Interact_Down_2: 1558310709
+      NPC_Map02_Quartermaster_Interact_Down_3: 100851907
+      NPC_Map02_Quartermaster_Interact_Left_0: -180962287
+      NPC_Map02_Quartermaster_Interact_Left_1: -2047028178
+      NPC_Map02_Quartermaster_Interact_Left_2: -1437370072
+      NPC_Map02_Quartermaster_Interact_Left_3: -1733849640
+      NPC_Map02_Quartermaster_Interact_Right_0: -480214553
+      NPC_Map02_Quartermaster_Interact_Right_1: -167735215
+      NPC_Map02_Quartermaster_Interact_Right_2: 1605392152
+      NPC_Map02_Quartermaster_Interact_Right_3: -322519801
+      NPC_Map02_Quartermaster_Interact_Up_0: -1639466167
+      NPC_Map02_Quartermaster_Interact_Up_1: -1644282507
+      NPC_Map02_Quartermaster_Interact_Up_2: 225303271
+      NPC_Map02_Quartermaster_Interact_Up_3: 1491598272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

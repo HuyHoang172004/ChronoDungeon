@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,265 +161,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_0
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 13
-        width: 296
-        height: 1221
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e2fa197a0f866a50800000000000000
-      internalID: 6514051186182255328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 929
-        width: 311
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e661cbc7f4fb98fc0800000000000000
-      internalID: -3492049687933086098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 643
+        x: 0
         y: 933
-        width: 345
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f29d9865a8fbfb20800000000000000
-      internalID: 3169400152093725431
+      spriteID: bb194b2d5cd438f4981ff8e1dbf0daf4
+      internalID: -1320218285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_3
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_1
       rect:
         serializedVersion: 2
-        x: 671
-        y: 1188
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1aed2594cfd1d5da0800000000000000
-      internalID: -5954570162914795871
+      spriteID: e8c1b2c567678fc488cbf058722d71b6
+      internalID: -1946190389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_4
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_2
       rect:
         serializedVersion: 2
-        x: 983
-        y: 931
-        width: 241
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af0baf06ba8e09140800000000000000
-      internalID: 4724531831875743994
+      spriteID: dc06a48fc51f3784fad672470ba7635a
+      internalID: 39055936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_5
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_3
       rect:
         serializedVersion: 2
-        x: 316
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c75d322cb775040b0a7ba7008dc8f0
+      internalID: 887328148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52a82a2d5fec4c44a2b62b6470bb036
+      internalID: -463390312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26298dc2814cd71468b01121dfacc0cc
+      internalID: -1214542103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c011c73d8ef6646bc8aacc260488cc
+      internalID: 2057929775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483d190e17474064c837ba33e7c2ffbe
+      internalID: -1636612172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e11259ec38464588745c0b0b9a46c
+      internalID: -690919943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c54a2ad9428e984aa59323c764dadde
+      internalID: -200943655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e5a02bcfd75c64cb977014bae21fcc
+      internalID: 535666701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f08146d2eae58d45b885f3120adaf78
+      internalID: 557359279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 302
-        height: 631
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2798bd0d6c502d9e0800000000000000
-      internalID: -1598208566297392782
+      spriteID: d76f3eb9e5fe4da47a66d9ad4e0242ad
+      internalID: -380865508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_6
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_1
       rect:
         serializedVersion: 2
-        x: 353
-        y: 628
-        width: 279
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1eccf5553002a6b70800000000000000
-      internalID: 8892955612885798113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 628
-        width: 351
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3db9d693eb439ac0800000000000000
-      internalID: -3849649815611130563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 1003
-        y: 608
-        width: 252
-        height: 276
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e96dbb9ff60dda90800000000000000
-      internalID: -7287660927116285471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 617
+        x: 315
         y: 0
-        width: 363
-        height: 586
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5797ede490a6a660800000000000000
-      internalID: 7396775999509600092
+      spriteID: d58f905d89f6b764fb27a0223ac38c8f
+      internalID: -1854977185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_10
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_2
       rect:
         serializedVersion: 2
-        x: 978
-        y: 335
-        width: 256
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41167420ccf342b70800000000000000
-      internalID: 8873287311270830356
+      spriteID: a571f1fc40f18284ab30193b8c459771
+      internalID: -203733327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_11
+      name: Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_3
       rect:
         serializedVersion: 2
-        x: 987
-        y: 14
-        width: 245
-        height: 265
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fac5d6037f909b7d0800000000000000
-      internalID: -2902277527589528401
+      spriteID: 225edff93bf390b429424e2c22a64e69
+      internalID: 981228669
       vertices: []
       indices: 
       edges: []
@@ -428,7 +516,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ce616a6b4a91194ea9e9bb3c621f0ca
     internalID: 0
     vertices: []
     indices: 
@@ -438,6 +526,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_0: -1320218285
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_1: -1946190389
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_2: 39055936
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Down_3: 887328148
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_0: -463390312
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_1: -1214542103
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_2: 2057929775
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Left_3: -1636612172
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_0: -690919943
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_1: -200943655
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_2: 535666701
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Right_3: 557359279
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_0: -380865508
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_1: -1854977185
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_2: -203733327
+      Bosses_Map07_ChronoVanguard_RuneSpearThrow_Up_3: 981228669
       CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_0: 6514051186182255328
       CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_1: -3492049687933086098
       CD_Boss_ChronoVanguard_RuneSpearThrow_4Dir_4Frame_v01_10: 8873287311270830356

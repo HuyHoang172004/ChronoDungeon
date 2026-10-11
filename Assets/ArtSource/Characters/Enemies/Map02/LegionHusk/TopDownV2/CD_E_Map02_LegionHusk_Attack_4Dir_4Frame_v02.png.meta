@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 23d85262f352237498ab2688b9e00107
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4985811008109908734
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_0
+  - first:
+      213: -5864615895613867492
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_1
+  - first:
+      213: -1766822290158069682
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_2
+  - first:
+      213: -2231981610802991612
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_3
+  - first:
+      213: 1710040102759494554
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_4
+  - first:
+      213: 1466781773175788717
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_5
+  - first:
+      213: -6427468894612584001
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_6
+  - first:
+      213: -1343970903023143705
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_7
+  - first:
+      213: 4188073419490520416
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_8
+  - first:
+      213: 6707955757400476230
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_9
+  - first:
+      213: 1182082436567331458
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_10
+  - first:
+      213: -1649998960663206050
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_11
+  - first:
+      213: -8539564658776547993
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_12
+  - first:
+      213: -5125906959448628703
+    second: CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 121.2
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cdea528b1d7074ba9533e9e353e03b
+      internalID: 459103871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Down_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee29d93d608f31840a7d723f9bb20075
+      internalID: 842552408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Down_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6b55a9d1cc40d458b021eddc646792
+      internalID: -223406064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Down_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b686ef2be5858d049936aead27f955ec
+      internalID: -2018736721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b294c0beefbcb44bb5b267564029fdc
+      internalID: -1362772874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Left_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2af5ef7e48beb647890a50608de7aa1
+      internalID: -808943005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Left_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9716a7a887427f248a2c04687df9cab8
+      internalID: -1332026832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Left_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7925bcefca0744bb6d1954b6f68f29
+      internalID: -1317481829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6308eea4889698d42ad3572be0585ae3
+      internalID: 1138972856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac05ef9453e06c8439139959c672a937
+      internalID: -592071037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8823d7e8deaef4640a737aa0d4fe63d6
+      internalID: -623818144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d789325bdb1ec4498e13ab6ff612a82
+      internalID: -1816882472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aabba113ef63c4ca1126b685d7ad71
+      internalID: -1723880193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab9e67b6331f94098f0aa13654fbf7
+      internalID: -894105795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44518395b2ecbf54e93a5a0b4847661e
+      internalID: 302203341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_LegionHusk_Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8419f5c5889499e4495acb33b0009af0
+      internalID: 1031484119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5f0f14b4fe12ab84fa79edbfa75b630b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_0: 4985811008109908734
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_1: -5864615895613867492
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_10: 1182082436567331458
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_11: -1649998960663206050
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_12: -8539564658776547993
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_13: -5125906959448628703
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_2: -1766822290158069682
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_3: -2231981610802991612
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_4: 1710040102759494554
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_5: 1466781773175788717
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_6: -6427468894612584001
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_7: -1343970903023143705
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_8: 4188073419490520416
+      CD_E_Map02_LegionHusk_Attack_4Dir_4Frame_v02_9: 6707955757400476230
+      Enemies_Map02_LegionHusk_Attack_Down_0: 459103871
+      Enemies_Map02_LegionHusk_Attack_Down_1: 842552408
+      Enemies_Map02_LegionHusk_Attack_Down_2: -223406064
+      Enemies_Map02_LegionHusk_Attack_Down_3: -2018736721
+      Enemies_Map02_LegionHusk_Attack_Left_0: -1362772874
+      Enemies_Map02_LegionHusk_Attack_Left_1: -808943005
+      Enemies_Map02_LegionHusk_Attack_Left_2: -1332026832
+      Enemies_Map02_LegionHusk_Attack_Left_3: -1317481829
+      Enemies_Map02_LegionHusk_Attack_Right_0: 1138972856
+      Enemies_Map02_LegionHusk_Attack_Right_1: -592071037
+      Enemies_Map02_LegionHusk_Attack_Right_2: -623818144
+      Enemies_Map02_LegionHusk_Attack_Right_3: -1816882472
+      Enemies_Map02_LegionHusk_Attack_Up_0: -1723880193
+      Enemies_Map02_LegionHusk_Attack_Up_1: -894105795
+      Enemies_Map02_LegionHusk_Attack_Up_2: 302203341
+      Enemies_Map02_LegionHusk_Attack_Up_3: 1031484119
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

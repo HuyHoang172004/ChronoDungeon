@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 85.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,45 +131,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Walk_4Dir_4Frame_v01_0
+      name: Bosses_Map05_AshWarden_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 14
-        width: 1355
-        height: 1147
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6bfd9a6c7f6e69a50800000000000000
-      internalID: 6527658661784444854
+      spriteID: 8fb096a1590b0334b8180c65b9784d6d
+      internalID: -1214816255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Walk_4Dir_4Frame_v01_1
+      name: Bosses_Map05_AshWarden_Move_Down_1
       rect:
         serializedVersion: 2
-        x: 10
-        y: 11
-        width: 332
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 23b477aa01fcc82d0800000000000000
-      internalID: -3275015158518822094
+      spriteID: a253c19d30bde0c4bbcc776496274687
+      internalID: -10630400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33612b6fa25ccec448420a02c9e2a35c
+      internalID: 1552480615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ad18198d38e6b44a1a862b6922735a
+      internalID: 1751102857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32624fe10797b614b8952afa09048526
+      internalID: -2019163512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1105b450c93310458ed1fcc89bc674c
+      internalID: -1699733113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25c963ab269ee4ca1dbb83a9139e60
+      internalID: -117168143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f182c671eeac9d94e835627856333ec2
+      internalID: 1230215391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d33e09bad72ac409903411cba37a9f
+      internalID: -1041752171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd2f9ab0cff0bf4d96417f4b32771b9
+      internalID: 1201267248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8dbd0c7919624099ec3d52d13637f
+      internalID: 605430149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b234741a7cbc0842be3b04e6f5633f6
+      internalID: 1234464920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05442f7f3743a6d408afed28d530ad0f
+      internalID: 1227534925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803ddbb4c1dbadd43946d3226130f48a
+      internalID: 1023855076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4051dff9cee544083c214a817abb69
+      internalID: 1549725418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29efa91713248ed4c9f82de8b648715b
+      internalID: -392354600
       vertices: []
       indices: 
       edges: []
@@ -178,7 +486,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 74c010654e615204d87420e8b52577d9
     internalID: 0
     vertices: []
     indices: 
@@ -188,6 +496,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map05_AshWarden_Move_Down_0: -1214816255
+      Bosses_Map05_AshWarden_Move_Down_1: -10630400
+      Bosses_Map05_AshWarden_Move_Down_2: 1552480615
+      Bosses_Map05_AshWarden_Move_Down_3: 1751102857
+      Bosses_Map05_AshWarden_Move_Left_0: -2019163512
+      Bosses_Map05_AshWarden_Move_Left_1: -1699733113
+      Bosses_Map05_AshWarden_Move_Left_2: -117168143
+      Bosses_Map05_AshWarden_Move_Left_3: 1230215391
+      Bosses_Map05_AshWarden_Move_Right_0: -1041752171
+      Bosses_Map05_AshWarden_Move_Right_1: 1201267248
+      Bosses_Map05_AshWarden_Move_Right_2: 605430149
+      Bosses_Map05_AshWarden_Move_Right_3: 1234464920
+      Bosses_Map05_AshWarden_Move_Up_0: 1227534925
+      Bosses_Map05_AshWarden_Move_Up_1: 1023855076
+      Bosses_Map05_AshWarden_Move_Up_2: 1549725418
+      Bosses_Map05_AshWarden_Move_Up_3: -392354600
       CD_Boss_AshWarden_Walk_4Dir_4Frame_v01_0: 6527658661784444854
       CD_Boss_AshWarden_Walk_4Dir_4Frame_v01_1: -3275015158518822094
   mipmapLimitGroupName: 

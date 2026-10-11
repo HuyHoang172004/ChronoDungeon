@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,111 +140,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_0
+      name: Enemies_Map03_ThornSpitter_Idle_Down_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 30
-        width: 359
-        height: 994
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 29eb73e5401718ea0800000000000000
-      internalID: -5872288175539896686
+      spriteID: e46a5d91fb895464da9fe8cfb478ddce
+      internalID: 236633249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_1
+      name: Enemies_Map03_ThornSpitter_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 29
-        width: 359
-        height: 995
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: edd2064af29bb0670800000000000000
-      internalID: 8506095935491681758
+      spriteID: 2861a7fdbf2b37540a5684280c3839ba
+      internalID: -1233952547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_2
+      name: Enemies_Map03_ThornSpitter_Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 800
-        y: 27
-        width: 369
-        height: 749
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c505a897a48007f0800000000000000
-      internalID: -648372490985994812
+      spriteID: f2ec69eb530430a43b3f1f1ab41c4e7b
+      internalID: -58196900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_3
+      name: Enemies_Map03_ThornSpitter_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 814
-        y: 765
-        width: 323
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 954473f0ab84ccfa0800000000000000
-      internalID: -5779164257866791847
+      spriteID: 90e482857180b5c41bfedc17b03fd619
+      internalID: 1781678452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_4
+      name: Enemies_Map03_ThornSpitter_Idle_Left_0
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 30
-        width: 333
-        height: 989
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15baa807358ecb990800000000000000
-      internalID: -7368759445216908463
+      spriteID: 1d16b9063951ba54391a1738a64181db
+      internalID: 1548693819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4466f7703f50afa4d883a1544e5fc0ca
+      internalID: -1731082460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebeb384cb72eaa4db37c33031b5742c
+      internalID: -1986046329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3732187a6133cf042bbb6fd2069eec84
+      internalID: -1601314038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88df47a4ee2bdc4890e5439cb3e5643
+      internalID: -1256208773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95672f53a7ab49419ca28d987eeefaa
+      internalID: -1349339278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb300a4a9b64daa4898f3786652d3cfc
+      internalID: -771208802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc788a7b4b1eee478e29d797fed43c5
+      internalID: -2095790589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2611938f6733ea4b88e1edbef435fb7
+      internalID: -1922105545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f15db2efad09b4cbbe6aa229bd0ed5
+      internalID: -1950391169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfbcb926047a504a81d8955fbdee8e9
+      internalID: 1545693440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Idle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f2aa59ba926b84dafa26140351c39e
+      internalID: 2142684290
       vertices: []
       indices: 
       edges: []
@@ -253,7 +495,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: af001a1431ff9e447bd68c89bec8aa80
     internalID: 0
     vertices: []
     indices: 
@@ -268,6 +510,22 @@ TextureImporter:
       CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_2: -648372490985994812
       CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_3: -5779164257866791847
       CD_Enemy_ThornSpitter_Idle_4Dir_4Frame_v01_4: -7368759445216908463
+      Enemies_Map03_ThornSpitter_Idle_Down_0: 236633249
+      Enemies_Map03_ThornSpitter_Idle_Down_1: -1233952547
+      Enemies_Map03_ThornSpitter_Idle_Down_2: -58196900
+      Enemies_Map03_ThornSpitter_Idle_Down_3: 1781678452
+      Enemies_Map03_ThornSpitter_Idle_Left_0: 1548693819
+      Enemies_Map03_ThornSpitter_Idle_Left_1: -1731082460
+      Enemies_Map03_ThornSpitter_Idle_Left_2: -1986046329
+      Enemies_Map03_ThornSpitter_Idle_Left_3: -1601314038
+      Enemies_Map03_ThornSpitter_Idle_Right_0: -1256208773
+      Enemies_Map03_ThornSpitter_Idle_Right_1: -1349339278
+      Enemies_Map03_ThornSpitter_Idle_Right_2: -771208802
+      Enemies_Map03_ThornSpitter_Idle_Right_3: -2095790589
+      Enemies_Map03_ThornSpitter_Idle_Up_0: -1922105545
+      Enemies_Map03_ThornSpitter_Idle_Up_1: -1950391169
+      Enemies_Map03_ThornSpitter_Idle_Up_2: 1545693440
+      Enemies_Map03_ThornSpitter_Idle_Up_3: 2142684290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

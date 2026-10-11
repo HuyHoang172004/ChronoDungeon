@@ -87,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 79.852936
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,287 +164,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 791
-        width: 369
-        height: 232
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1fca7b3985726710800000000000000
-      internalID: 1685038442858860316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 12
-        width: 349
-        height: 1074
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64e68d003a4630550800000000000000
-      internalID: 6125850569410637382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 766
-        y: 738
-        width: 291
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a76dc194f92d0f3d0800000000000000
-      internalID: -3174806155727939974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 1104
-        y: 789
-        width: 333
-        height: 268
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c4ff99cbe1e5b6b0800000000000000
-      internalID: -5281066585205771064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 520
-        width: 369
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0dd7b1683b7db1900800000000000000
-      internalID: 656355336761605584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 764
-        y: 471
-        width: 275
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0f9b21514cb7b990800000000000000
-      internalID: -7370215276447817970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 520
-        width: 362
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4406fe9108d7b150800000000000000
-      internalID: 5888412539283702861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 1305
-        y: 518
-        width: 43
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f70cd53c34975e20800000000000000
-      internalID: 3339300635041073138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 497
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e12712d178cc87d30800000000000000
-      internalID: 4429515114200265246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 1091
-        y: 12
-        width: 357
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 540e7155a2ed47fa0800000000000000
-      internalID: -5803769746376105915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_10
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 11
-        width: 403
-        height: 485
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed19c2a17f16d4a00800000000000000
-      internalID: 742357227509944798
+      spriteID: 242786f5a83712745a68571d76d0d5a4
+      internalID: 558807126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_11
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Down_1
       rect:
         serializedVersion: 2
-        x: 981
-        y: 477
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9639bf4d02bb8e9d0800000000000000
-      internalID: -2744738223195712663
+      spriteID: cb8f30274a2fda845b328efbd85b973c
+      internalID: 846626964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_12
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Down_2
       rect:
         serializedVersion: 2
-        x: 763
-        y: 12
-        width: 310
-        height: 452
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89881e5de57ab7b90800000000000000
-      internalID: -7243011549938218856
+      spriteID: 23585360c4a63594c9b002b6dc625b8d
+      internalID: 1003886759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1f889730ec76c4bbf9fdca2586b098
+      internalID: -1566881192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186678026698dd449498425531059eb
+      internalID: -1649569804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Left_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373bba6b686b89a4595e08581d55839e
+      internalID: -734484167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Left_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a59230919d51554496b0626c5ea17ca
+      internalID: 1687425127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303c31e0f7da6a344be64545e8535d48
+      internalID: 1992673874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473cc9647eab7bf4888e36d7dedc86a7
+      internalID: 1624205582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Right_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbcb0d72ec93734594387e0e0d2ebce
+      internalID: -1467962470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Right_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d2fd6a653c31f4384f5599f240204b
+      internalID: -1566275623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf8b4ee62749a144bd053972310e7a0
+      internalID: -452983252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877e2c8eb7aa16f489e5f1300f5e70be
+      internalID: -757014557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Up_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d12974184b564ba417789cdcaadfc
+      internalID: 1334971370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Up_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e77d1c9ec0a830408466740f52b9baf
+      internalID: 32066049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_MaulSlam_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49929dce28cc9c478bc486ffd1724c1
+      internalID: 1617533609
       vertices: []
       indices: 
       edges: []
@@ -453,7 +519,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eb4abd6c1b571dd4c8a91bcd9d2d9479
     internalID: 0
     vertices: []
     indices: 
@@ -463,6 +529,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map01_Gatebreaker_MaulSlam_Down_0: 558807126
+      Bosses_Map01_Gatebreaker_MaulSlam_Down_1: 846626964
+      Bosses_Map01_Gatebreaker_MaulSlam_Down_2: 1003886759
+      Bosses_Map01_Gatebreaker_MaulSlam_Down_3: -1566881192
+      Bosses_Map01_Gatebreaker_MaulSlam_Left_0: -1649569804
+      Bosses_Map01_Gatebreaker_MaulSlam_Left_1: -734484167
+      Bosses_Map01_Gatebreaker_MaulSlam_Left_2: 1687425127
+      Bosses_Map01_Gatebreaker_MaulSlam_Left_3: 1992673874
+      Bosses_Map01_Gatebreaker_MaulSlam_Right_0: 1624205582
+      Bosses_Map01_Gatebreaker_MaulSlam_Right_1: -1467962470
+      Bosses_Map01_Gatebreaker_MaulSlam_Right_2: -1566275623
+      Bosses_Map01_Gatebreaker_MaulSlam_Right_3: -452983252
+      Bosses_Map01_Gatebreaker_MaulSlam_Up_0: -757014557
+      Bosses_Map01_Gatebreaker_MaulSlam_Up_1: 1334971370
+      Bosses_Map01_Gatebreaker_MaulSlam_Up_2: 32066049
+      Bosses_Map01_Gatebreaker_MaulSlam_Up_3: 1617533609
       CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_0: 1685038442858860316
       CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_1: 6125850569410637382
       CD_Boss_Gatebreaker_MaulSlam_4Dir_4Frame_v01_10: 742357227509944798

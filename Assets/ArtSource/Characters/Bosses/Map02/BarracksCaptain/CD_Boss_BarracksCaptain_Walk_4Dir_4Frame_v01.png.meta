@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 75.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,177 +149,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_0
+      name: Bosses_Map02_BarracksCaptain_Move_Down_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 269
-        width: 373
-        height: 503
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b597b4dd360139f70800000000000000
-      internalID: 9192709285493832027
+      spriteID: 6c101651e339dbd4d97480a5e5213910
+      internalID: -2128089129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_1
+      name: Bosses_Map02_BarracksCaptain_Move_Down_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 766
-        width: 361
-        height: 249
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 44d4473c48b57df80800000000000000
-      internalID: -8081890380520075964
+      spriteID: c244e3c378aedb34ba4f7d4f543a9620
+      internalID: -628615679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_2
+      name: Bosses_Map02_BarracksCaptain_Move_Down_2
       rect:
         serializedVersion: 2
-        x: 392
-        y: 13
-        width: 740
-        height: 1001
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21dbbbb701bf70230800000000000000
-      internalID: 3605126074947321106
+      spriteID: 0d4a0104525bac74b9c33bd373c65f72
+      internalID: 1126016021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_3
+      name: Bosses_Map02_BarracksCaptain_Move_Down_3
       rect:
         serializedVersion: 2
-        x: 400
-        y: 763
-        width: 348
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 261c856a77860d130800000000000000
-      internalID: 3589483766115516770
+      spriteID: f2b929558f31a0140b3934e9e1f7288d
+      internalID: 351178045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_4
+      name: Bosses_Map02_BarracksCaptain_Move_Left_0
       rect:
         serializedVersion: 2
-        x: 1102
-        y: 269
-        width: 402
-        height: 746
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b2b43abd598c5360800000000000000
-      internalID: 7159748543261225649
+      spriteID: e3d1d9ebabc9c4a48b10a4ece38e9944
+      internalID: -538889862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_5
+      name: Bosses_Map02_BarracksCaptain_Move_Left_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 13
-        width: 363
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc1b575579fc88740800000000000000
-      internalID: 5154598022406320587
+      spriteID: f8833dc85afbfcb47abbb6c1a5f74c58
+      internalID: 1324043311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_6
+      name: Bosses_Map02_BarracksCaptain_Move_Left_2
       rect:
         serializedVersion: 2
-        x: 774
-        y: 12
-        width: 366
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e609c08a6d1d9e450800000000000000
-      internalID: 6118652288632131694
+      spriteID: 222c8786459c2794d9a871947bffea3a
+      internalID: 633363000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_7
+      name: Bosses_Map02_BarracksCaptain_Move_Left_3
       rect:
         serializedVersion: 2
-        x: 1137
-        y: 11
-        width: 373
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc3f75be154c71bb0800000000000000
-      internalID: -4965284208032877621
+      spriteID: c9147c37da61e0442a71032d1bfe6ec2
+      internalID: -10419054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbfd2f1bce6afc48b0bf55b2da7f379
+      internalID: 241521885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b19587818d714bbff916e58eecc5f
+      internalID: 1216236547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb1ba8d5f126645a74e5f080c5cc03
+      internalID: -1879595286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46428e87b4c138f42a005f93d4769785
+      internalID: 147927280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fef5fb8ebf06c74894f1c690260f270
+      internalID: 1941672172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6faec4e186fbb4c8aa5b6751c1aee8
+      internalID: 10995817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985eef8844554294b9f6756de2c1e289
+      internalID: -548745728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b52a137613a1049a40a6a3214904ec
+      internalID: -1822222018
       vertices: []
       indices: 
       edges: []
@@ -328,7 +504,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 868f20f7ff7a1a243a3ed3e5cb276b60
     internalID: 0
     vertices: []
     indices: 
@@ -338,6 +514,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map02_BarracksCaptain_Move_Down_0: -2128089129
+      Bosses_Map02_BarracksCaptain_Move_Down_1: -628615679
+      Bosses_Map02_BarracksCaptain_Move_Down_2: 1126016021
+      Bosses_Map02_BarracksCaptain_Move_Down_3: 351178045
+      Bosses_Map02_BarracksCaptain_Move_Left_0: -538889862
+      Bosses_Map02_BarracksCaptain_Move_Left_1: 1324043311
+      Bosses_Map02_BarracksCaptain_Move_Left_2: 633363000
+      Bosses_Map02_BarracksCaptain_Move_Left_3: -10419054
+      Bosses_Map02_BarracksCaptain_Move_Right_0: 241521885
+      Bosses_Map02_BarracksCaptain_Move_Right_1: 1216236547
+      Bosses_Map02_BarracksCaptain_Move_Right_2: -1879595286
+      Bosses_Map02_BarracksCaptain_Move_Right_3: 147927280
+      Bosses_Map02_BarracksCaptain_Move_Up_0: 1941672172
+      Bosses_Map02_BarracksCaptain_Move_Up_1: 10995817
+      Bosses_Map02_BarracksCaptain_Move_Up_2: -548745728
+      Bosses_Map02_BarracksCaptain_Move_Up_3: -1822222018
       CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_0: 9192709285493832027
       CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_1: -8081890380520075964
       CD_Boss_BarracksCaptain_Walk_4Dir_4Frame_v01_2: 3605126074947321106

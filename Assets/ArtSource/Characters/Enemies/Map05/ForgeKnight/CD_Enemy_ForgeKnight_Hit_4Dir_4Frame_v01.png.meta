@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -173,353 +173,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map05_ForgeKnight_Hit_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 931
-        width: 325
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e0e5adb651a6bcb0800000000000000
-      internalID: -4848510554896736032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 931
-        width: 277
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2eba5a33cb0a29a0800000000000000
-      internalID: -6257175799152329172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 932
-        width: 323
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4a1d948d7074f5b0800000000000000
-      internalID: -5335515974129083825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 964
-        y: 931
+        y: 918
         width: 321
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fb698a1703d286c0800000000000000
-      internalID: -4142516679763989514
+      spriteID: 8aada6685cbbcdc4799dc0e757499755
+      internalID: 1156224200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_4
+      name: Enemies_Map05_ForgeKnight_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 13
-        y: 624
-        width: 285
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1672bd1e734ac8df0800000000000000
-      internalID: -176585725454899359
+      spriteID: 0dc5b0618f38d2646b01035e0bf073bb
+      internalID: 1485386706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_5
+      name: Enemies_Map05_ForgeKnight_Hit_Down_2
       rect:
         serializedVersion: 2
-        x: 350
-        y: 603
-        width: 252
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99107588636e53790800000000000000
-      internalID: -7550876078326742631
+      spriteID: 6802322f8fe71d84e9078b6567f28920
+      internalID: 1348571815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_6
+      name: Enemies_Map05_ForgeKnight_Hit_Down_3
       rect:
         serializedVersion: 2
-        x: 656
-        y: 631
-        width: 273
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39db2d2f7d903c6e0800000000000000
-      internalID: -1818599001431032429
+      spriteID: 01521dc8a012b524787d6e06d4f50c51
+      internalID: 780100179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_7
+      name: Enemies_Map05_ForgeKnight_Hit_Left_0
       rect:
         serializedVersion: 2
-        x: 972
-        y: 624
-        width: 274
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72b7575c7c1aae930800000000000000
-      internalID: 4173325884095560487
+      spriteID: 373ad572c8a584347927cdfe09e345d5
+      internalID: -492619952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map05_ForgeKnight_Hit_Left_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 321
-        width: 260
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0cad9c28f30863ff0800000000000000
-      internalID: -56716935029990720
+      spriteID: a920d839358be58479e2e06386a32108
+      internalID: -1617751320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_9
+      name: Enemies_Map05_ForgeKnight_Hit_Left_2
       rect:
         serializedVersion: 2
-        x: 383
-        y: 321
-        width: 279
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fed2f3b699b745a10800000000000000
-      internalID: 1897277241889336815
+      spriteID: 865d0df3c3dab324ca69c19c272127d3
+      internalID: 478263582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_10
+      name: Enemies_Map05_ForgeKnight_Hit_Left_3
       rect:
         serializedVersion: 2
-        x: 703
-        y: 311
-        width: 280
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e31922985fb109a00800000000000000
-      internalID: 761139078407295294
+      spriteID: 777518e11c07d5e40b884aad5566f97b
+      internalID: -1038883215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_11
+      name: Enemies_Map05_ForgeKnight_Hit_Right_0
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 320
-        width: 261
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26930eb53d3795260800000000000000
-      internalID: 7086822840260901218
+      spriteID: e2f3eb631de8ce34aac9726783c0da76
+      internalID: -2010008122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_12
+      name: Enemies_Map05_ForgeKnight_Hit_Right_1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 37
-        width: 319
-        height: 275
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a885a80ebc2f97960800000000000000
-      internalID: 7600372803623868554
+      spriteID: bb4d54fdcbfc4c0478b09d77f03173e5
+      internalID: 20579981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_13
+      name: Enemies_Map05_ForgeKnight_Hit_Right_2
       rect:
         serializedVersion: 2
-        x: 345
-        y: 35
-        width: 302
-        height: 269
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a558953bdab033210800000000000000
-      internalID: 1311404757161182554
+      spriteID: 280e35099eff28440a51b6150972ef1c
+      internalID: -1790766948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_14
+      name: Enemies_Map05_ForgeKnight_Hit_Right_3
       rect:
         serializedVersion: 2
-        x: 660
-        y: 32
-        width: 307
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad2cecd20bd029f80800000000000000
-      internalID: -8101397729352170790
+      spriteID: ba93bc2c9045fdc42be0a9ff3a2458a6
+      internalID: 1875524702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_15
+      name: Enemies_Map05_ForgeKnight_Hit_Up_0
       rect:
         serializedVersion: 2
-        x: 972
-        y: 34
-        width: 313
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 810da341dde8bc200800000000000000
-      internalID: 201411688526434328
+      spriteID: 8110a07a72dbd5646bf9c43edcd02077
+      internalID: -185533997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbf5094bb9d7db43b48f053dacc98ee
+      internalID: 108080816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91e64e7c5dc8fa4fad39d7ab68c907e
+      internalID: 1290327699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_ForgeKnight_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e59aed171eff4bb4d709f0d7d47bc
+      internalID: 639353138
       vertices: []
       indices: 
       edges: []
@@ -528,7 +528,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6ea337b46d247ec42a1e2f9baa688008
     internalID: 0
     vertices: []
     indices: 
@@ -554,6 +554,22 @@ TextureImporter:
       CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_7: 4173325884095560487
       CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_8: -56716935029990720
       CD_Enemy_ForgeKnight_Hit_4Dir_4Frame_v01_9: 1897277241889336815
+      Enemies_Map05_ForgeKnight_Hit_Down_0: 1156224200
+      Enemies_Map05_ForgeKnight_Hit_Down_1: 1485386706
+      Enemies_Map05_ForgeKnight_Hit_Down_2: 1348571815
+      Enemies_Map05_ForgeKnight_Hit_Down_3: 780100179
+      Enemies_Map05_ForgeKnight_Hit_Left_0: -492619952
+      Enemies_Map05_ForgeKnight_Hit_Left_1: -1617751320
+      Enemies_Map05_ForgeKnight_Hit_Left_2: 478263582
+      Enemies_Map05_ForgeKnight_Hit_Left_3: -1038883215
+      Enemies_Map05_ForgeKnight_Hit_Right_0: -2010008122
+      Enemies_Map05_ForgeKnight_Hit_Right_1: 20579981
+      Enemies_Map05_ForgeKnight_Hit_Right_2: -1790766948
+      Enemies_Map05_ForgeKnight_Hit_Right_3: 1875524702
+      Enemies_Map05_ForgeKnight_Hit_Up_0: -185533997
+      Enemies_Map05_ForgeKnight_Hit_Up_1: 108080816
+      Enemies_Map05_ForgeKnight_Hit_Up_2: 1290327699
+      Enemies_Map05_ForgeKnight_Hit_Up_3: 639353138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,6 +7,9 @@ public sealed class EnemyProjectilePool : MonoBehaviour, ITimeLoopResettable
     [SerializeField, Range(1, 8)] private int capacity = 3;
     private EnemyProjectile[] slots;
     private GameObject root;
+    private bool runtimeBolts;
+    private static Sprite boltSprite;
+    public void ConfigureRuntimeBolts() => runtimeBolts = true;
     public int Capacity => slots == null ? capacity : slots.Length;
     public int ActiveCount
     {
@@ -15,14 +18,28 @@ public sealed class EnemyProjectilePool : MonoBehaviour, ITimeLoopResettable
 
     private void Awake()
     {
-        if (projectilePrefab == null) { Debug.LogError("Projectile pool requires a prefab.", this); enabled = false; return; }
+        if (projectilePrefab == null && !runtimeBolts) { Debug.LogError("Projectile pool requires a prefab.", this); enabled = false; return; }
         root = new GameObject(name + " Arrows");
         // Sibling under room Content: arrows do not inherit the shooter's movement/scale.
         root.transform.SetParent(transform.parent, false);
         slots = new EnemyProjectile[Mathf.Clamp(capacity, 1, 8)];
         for (int i = 0; i < slots.Length; i++)
         {
-            slots[i] = Instantiate(projectilePrefab, root.transform);
+            if (projectilePrefab != null) slots[i] = Instantiate(projectilePrefab, root.transform);
+            else
+            {
+                GameObject bolt = new GameObject("Enemy Bolt");
+                bolt.SetActive(false);
+                bolt.transform.SetParent(root.transform, false);
+                SpriteRenderer visual = bolt.AddComponent<SpriteRenderer>();
+                if (boltSprite == null)
+                    boltSprite = Sprite.Create(Texture2D.whiteTexture, new Rect(0, 0, 2, 2), Vector2.one * .5f, 2f);
+                visual.sprite = boltSprite;
+                visual.color = new Color(1f, .65f, .15f);
+                visual.sortingOrder = 60;
+                bolt.transform.localScale = new Vector3(.3f, .09f, 1f);
+                slots[i] = bolt.AddComponent<EnemyProjectile>();
+            }
             slots[i].Cancel();
         }
     }

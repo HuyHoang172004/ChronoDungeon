@@ -135,7 +135,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -212,639 +212,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map06_CellGuard_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 848
-        width: 261
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6332dcc902aec6d40800000000000000
-      internalID: 5579091464195744566
+      spriteID: 164c38949dda07841b113a11ed394a80
+      internalID: -738622850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_1
+      name: Enemies_Map06_CellGuard_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 665
-        y: 1073
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a723ea85c5413de20800000000000000
-      internalID: 3374062932687991418
+      spriteID: 19514415a4a336c429e7659e1a3c957a
+      internalID: -1741861281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_2
+      name: Enemies_Map06_CellGuard_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 681
-        y: 771
-        width: 362
-        height: 331
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c3b512c8d35d13e0800000000000000
-      internalID: -2081415262341057593
+      spriteID: e01ef66d8634c4e4cb7d5e4e7317106c
+      internalID: -833153931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_3
+      name: Enemies_Map06_CellGuard_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 685
-        y: 1069
-        width: 78
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d0aaa31d9a7ce350800000000000000
-      internalID: 6047343214710137049
+      spriteID: 848e251e64cfc7f439552ee58821934c
+      internalID: -1047734277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map06_CellGuard_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 1051
-        y: 736
-        width: 325
-        height: 330
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95420afaa7909d1c0800000000000000
-      internalID: -4478537931906079655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 1065
-        width: 126
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b2eb03450e24dd30800000000000000
-      internalID: 4455236531510829746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 572
-        width: 265
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee20020f130c1c090800000000000000
-      internalID: -8015914541028211986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 752
-        width: 314
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a10cc95ee2e861fa0800000000000000
-      internalID: -5830316335512633318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 352
+        x: 0
         y: 560
-        width: 312
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db699d655c7cc4e00800000000000000
-      internalID: 1030418065140586173
+      spriteID: 923b9e745e73a2e42a78358ac0f14700
+      internalID: -2088663352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map06_CellGuard_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 675
-        y: 518
-        width: 343
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 412fde92ddd425480800000000000000
-      internalID: -8911975100326219244
+      spriteID: e2099e1418a522648b097d7918568d96
+      internalID: -196227775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map06_CellGuard_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 1051
-        y: 776
-        width: 18
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3578ad185cc51ceb0800000000000000
-      internalID: -4701374532641192109
+      spriteID: 4b72f0d45ff20f743981456abcdfb3c3
+      internalID: -860525791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map06_CellGuard_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 768
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ef7656a697094280800000000000000
-      internalID: -9058700831861866521
+      spriteID: af66b8bc31777d648a3832378018387e
+      internalID: 1181478355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_12
+      name: Enemies_Map06_CellGuard_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 360
-        y: 712
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14faa1af579e8fd10800000000000000
-      internalID: 2159732714240651073
+      spriteID: 902ff9b0dfefc924b99fe234085ac152
+      internalID: -185044622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_13
+      name: Enemies_Map06_CellGuard_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 1021
-        y: 436
-        width: 356
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 865e11696f74a4b30800000000000000
-      internalID: 4272306320919618920
+      spriteID: 0d985c8cd78d199478bc8ef031a39f6c
+      internalID: 349134423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_14
+      name: Enemies_Map06_CellGuard_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 338
-        y: 562
-        width: 30
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 162ec5640ac5a1980800000000000000
-      internalID: -8567433497673932191
+      spriteID: e6707f330df380f41976ad1234d5db5a
+      internalID: -667055803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_15
+      name: Enemies_Map06_CellGuard_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c3dacd1e9f93b44b260d2cd621c53b
+      internalID: -166731035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 378
-        height: 549
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90cd674494d0d9720800000000000000
-      internalID: 2854452347155176457
+      spriteID: 34feb49b1468bd94f8560d072ad55110
+      internalID: 1598622878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_16
+      name: Enemies_Map06_CellGuard_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 371
-        y: 289
-        width: 278
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 33a2cf6efcf560f00800000000000000
-      internalID: 1082658106967337523
+      spriteID: 9d15df140c6b12d45a4238db04b1ef3f
+      internalID: 1086483622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_17
+      name: Enemies_Map06_CellGuard_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 377
-        y: 542
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ffc2c5c3778afa090800000000000000
-      internalID: -8021007181256315649
+      spriteID: 828e6879fc9ab194ca1407639d4abe45
+      internalID: 1699648140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_18
+      name: Enemies_Map06_CellGuard_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 391
-        y: 546
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3886c349fa3307230800000000000000
-      internalID: 3634461728487270531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 1039
-        y: 504
-        width: 7
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb2aabee49d680120800000000000000
-      internalID: 2380272889493103292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 502
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 139d353dbee34af80800000000000000
-      internalID: -8096277047521584847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_21
-      rect:
-        serializedVersion: 2
-        x: 1051
-        y: 496
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e29fcbc82bc20c520800000000000000
-      internalID: 2720223320308775214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_22
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 498
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6feff343813874220800000000000000
-      internalID: 2470087060615069430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_23
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 43
-        width: 273
-        height: 240
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ea2610f148b0e9a0800000000000000
-      internalID: -6205757693176173855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_24
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 281
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6994fbcc6efce0820800000000000000
-      internalID: 2886473001375582614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 683
-        y: 239
-        width: 368
-        height: 248
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72c7083c807e740b0800000000000000
-      internalID: -5744368774862046169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 241
-        width: 316
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bbecd85472a733a00800000000000000
-      internalID: 735065473280757435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_27
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 25
-        width: 371
-        height: 208
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44f2ed3b0e3aad260800000000000000
-      internalID: 7123185946125545284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_28
-      rect:
-        serializedVersion: 2
-        x: 1048
-        y: 31
-        width: 339
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66b217e55a2101720800000000000000
-      internalID: 2814770268569938790
+      spriteID: 985236400f393a84b817c74e5cfd6770
+      internalID: -111060134
       vertices: []
       indices: 
       edges: []
@@ -853,7 +567,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a242d55362d21444a19b054944cc851
     internalID: 0
     vertices: []
     indices: 
@@ -892,6 +606,22 @@ TextureImporter:
       CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_7: -5830316335512633318
       CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_8: 1030418065140586173
       CD_Enemy_CellGuard_Death_4Dir_4Frame_v01_9: -8911975100326219244
+      Enemies_Map06_CellGuard_Death_Down_0: -738622850
+      Enemies_Map06_CellGuard_Death_Down_1: -1741861281
+      Enemies_Map06_CellGuard_Death_Down_2: -833153931
+      Enemies_Map06_CellGuard_Death_Down_3: -1047734277
+      Enemies_Map06_CellGuard_Death_Left_0: -2088663352
+      Enemies_Map06_CellGuard_Death_Left_1: -196227775
+      Enemies_Map06_CellGuard_Death_Left_2: -860525791
+      Enemies_Map06_CellGuard_Death_Left_3: 1181478355
+      Enemies_Map06_CellGuard_Death_Right_0: -185044622
+      Enemies_Map06_CellGuard_Death_Right_1: 349134423
+      Enemies_Map06_CellGuard_Death_Right_2: -667055803
+      Enemies_Map06_CellGuard_Death_Right_3: -166731035
+      Enemies_Map06_CellGuard_Death_Up_0: 1598622878
+      Enemies_Map06_CellGuard_Death_Up_1: 1086483622
+      Enemies_Map06_CellGuard_Death_Up_2: 1699648140
+      Enemies_Map06_CellGuard_Death_Up_3: -111060134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

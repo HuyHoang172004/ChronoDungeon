@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -197,529 +197,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_0
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 201
-        width: 406
-        height: 921
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c53c119628f18730800000000000000
-      internalID: 3999750788608701893
+      spriteID: ff069e5a26afc2747a89f325e45c08c5
+      internalID: -764358137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_1
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_1
       rect:
         serializedVersion: 2
-        x: 405
-        y: 0
-        width: 625
-        height: 1108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7bec6a261184e3ba0800000000000000
-      internalID: -6107364805161070921
+      spriteID: 5a4067a898d8b59439cd491e575d5eb8
+      internalID: 300258871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_2
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_2
       rect:
         serializedVersion: 2
-        x: 431
-        y: 830
-        width: 283
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 632dcbcddbf9a8dd0800000000000000
-      internalID: -2482996606740409802
+      spriteID: ce14e266b7ea39d498276c9d45266ac8
+      internalID: 253356741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_3
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_3
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 504
-        width: 342
-        height: 603
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c0bb2c2515ce7320800000000000000
-      internalID: 2557698333119066313
+      spriteID: 2033e4142f97e12458f209eae3637159
+      internalID: 2059962618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_4
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_0
       rect:
         serializedVersion: 2
-        x: 1245
-        y: 1017
-        width: 43
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97157494f57180470800000000000000
-      internalID: 8360958406232068473
+      spriteID: 233adef91f4120349aa8287400f6b9f1
+      internalID: -814505302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_5
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_1
       rect:
         serializedVersion: 2
-        x: 1336
-        y: 1018
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ef207ea294a4f550800000000000000
-      internalID: 6193756337440042978
+      spriteID: 7c0fec1447b1b9e47bc59c0c8490fb66
+      internalID: 1484508030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_6
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_2
       rect:
         serializedVersion: 2
-        x: 409
-        y: 985
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 530df2078970e47b0800000000000000
-      internalID: -5238240965286703051
+      spriteID: bac0df395fc788744950e066172daa73
+      internalID: -461352974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_7
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_3
       rect:
         serializedVersion: 2
-        x: 1023
-        y: 915
-        width: 7
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 222eee6d2ef99c420800000000000000
-      internalID: 2650825652301652514
+      spriteID: 14ac8f40e5b4e6e418724529a7cbda26
+      internalID: -982350815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_8
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 749
-        width: 24
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2055d19677b2ca590800000000000000
-      internalID: -7661701074199423742
+      spriteID: 1620d4a43715bb64f92a53a042af92b8
+      internalID: 482107974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_9
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_1
       rect:
         serializedVersion: 2
-        x: 1271
-        y: 736
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 23729b413351f7f20800000000000000
-      internalID: 3422477550960060210
+      spriteID: b3fe2088395f9e44999c9751b4755b09
+      internalID: 236439348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_10
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_2
       rect:
         serializedVersion: 2
-        x: 1337
-        y: 744
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fc1b693097fa8b10800000000000000
-      internalID: 1984670784620797176
+      spriteID: dddb22cd377d8bb4a982dbb3849f9f15
+      internalID: 71778606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_11
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_3
       rect:
         serializedVersion: 2
-        x: 58
-        y: 674
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2647ef0e2cd5fc4b0800000000000000
-      internalID: -5418008735123606430
+      spriteID: 440e9277b3149b948b2d55ed5884f744
+      internalID: 454609635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 676
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c4755d004c331f30800000000000000
-      internalID: 4545042694746240193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 1015
-        y: 0
-        width: 387
-        height: 567
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d54baecd41440ef0800000000000000
-      internalID: -142917485733394992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 1253
-        y: 552
-        width: 23
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23bb4f08c8605d940800000000000000
-      internalID: 5320165735336819506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 1278
-        y: 552
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b36c089e7836d4e10800000000000000
-      internalID: 2183510829733824059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 1255
-        y: 533
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 390ddbf557e9cdfe0800000000000000
-      internalID: -1162880376813793133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 526
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad2915e63ed53e390800000000000000
-      internalID: -7790279699031026982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 520
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 100851a5bb18647f0800000000000000
-      internalID: -628672456301379583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 991
-        y: 496
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9724162ddac102160800000000000000
-      internalID: 6998625353818260089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 989
-        y: 352
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67353dd2d297b3040800000000000000
-      internalID: 4628426277002630006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_21
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 406
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 08e13be34044510f0800000000000000
-      internalID: -1146935745073439104
+      spriteID: f5f14554a0548944e849b1d808356aa1
+      internalID: 2108977346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_22
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 273
-        width: 29
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7492ad38937642e30800000000000000
-      internalID: 4477817426236025159
+      spriteID: b49befce2043c244490879a5e62a9f7b
+      internalID: 1903712070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_23
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_2
       rect:
         serializedVersion: 2
-        x: 1273
-        y: 224
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 534a51f2e43f8fd80800000000000000
-      internalID: -8216550003014523851
+      spriteID: 432306731b7da4049be2e590b0b70774
+      internalID: 578292031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3d3fc4e0001df4d84116c7c7e25190
+      internalID: 230318725
       vertices: []
       indices: 
       edges: []
@@ -728,7 +552,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a1a2244ddf07f4a46916f471cb80890b
     internalID: 0
     vertices: []
     indices: 
@@ -762,6 +586,22 @@ TextureImporter:
       CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_7: 2650825652301652514
       CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_8: -7661701074199423742
       CD_Enemy_TemporalEchoMinion_EchoBolt_4Dir_4Frame_v01_9: 3422477550960060210
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_0: -764358137
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_1: 300258871
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_2: 253356741
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Down_3: 2059962618
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_0: -814505302
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_1: 1484508030
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_2: -461352974
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Left_3: -982350815
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_0: 482107974
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_1: 236439348
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_2: 71778606
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Right_3: 454609635
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_0: 2108977346
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_1: 1903712070
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_2: 578292031
+      Enemies_Map08_TemporalEchoMinion_EchoBolt_Up_3: 230318725
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 87.94118
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ThornMatriarch_Hit_4Dir_4Frame_v01_0
+      name: Bosses_Map03_ThornMatriarch_Hit_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1312
-        height: 1199
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 861014f4adc42a490800000000000000
-      internalID: -7736536709352849048
+      spriteID: 4bc58a9d16d6d1f4b8c661c5f51ceaed
+      internalID: -1484098932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Down_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f868fc2fe4f444f8feef2954285872
+      internalID: 2012738783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Down_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036d862cf7fbda4aac875c0a6f26790
+      internalID: 541718119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Down_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 897
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f6e5ddd51965341a9cd751461beb42
+      internalID: -298696859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7482d139994d70241b5b8cca582b1deb
+      internalID: 1123504790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Left_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a608429bde19cae4b8a6ff57d4cbe271
+      internalID: 1182011509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497690440746141449a05dc255ddeb32
+      internalID: -2060399216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 598
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd88f27a3211aeb4f839dff966c0a618
+      internalID: -2031864405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41be641fc93d4934b9c0a13d28ca4ebb
+      internalID: -1588753796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8542cdf96c32647478084a3532282a1d
+      internalID: -1376366271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38714a33bf9e3224e830d7384869e90f
+      internalID: -1661142521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 299
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0332b5d6a17042bfc2328feb4df05
+      internalID: -1182436275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cb9ed62f8be764e8d2f5318e670368
+      internalID: 1630896912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Up_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b935414b39199a45ba43c6560c98637
+      internalID: 95698570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Up_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d5f44b48def84458852e5bd34b7190
+      internalID: -1917676641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map03_ThornMatriarch_Hit_Up_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 328
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e7926d1218e6148a01e104a9732717
+      internalID: -90152886
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 97be1a881ed552547b5f1b5318a49e4f
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map03_ThornMatriarch_Hit_Down_0: -1484098932
+      Bosses_Map03_ThornMatriarch_Hit_Down_1: 2012738783
+      Bosses_Map03_ThornMatriarch_Hit_Down_2: 541718119
+      Bosses_Map03_ThornMatriarch_Hit_Down_3: -298696859
+      Bosses_Map03_ThornMatriarch_Hit_Left_0: 1123504790
+      Bosses_Map03_ThornMatriarch_Hit_Left_1: 1182011509
+      Bosses_Map03_ThornMatriarch_Hit_Left_2: -2060399216
+      Bosses_Map03_ThornMatriarch_Hit_Left_3: -2031864405
+      Bosses_Map03_ThornMatriarch_Hit_Right_0: -1588753796
+      Bosses_Map03_ThornMatriarch_Hit_Right_1: -1376366271
+      Bosses_Map03_ThornMatriarch_Hit_Right_2: -1661142521
+      Bosses_Map03_ThornMatriarch_Hit_Right_3: -1182436275
+      Bosses_Map03_ThornMatriarch_Hit_Up_0: 1630896912
+      Bosses_Map03_ThornMatriarch_Hit_Up_1: 95698570
+      Bosses_Map03_ThornMatriarch_Hit_Up_2: -1917676641
+      Bosses_Map03_ThornMatriarch_Hit_Up_3: -90152886
       CD_Boss_ThornMatriarch_Hit_4Dir_4Frame_v01_0: -7736536709352849048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

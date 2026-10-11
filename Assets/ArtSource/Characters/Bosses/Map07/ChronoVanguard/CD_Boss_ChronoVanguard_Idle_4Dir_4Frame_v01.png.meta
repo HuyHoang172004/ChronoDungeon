@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_0
+      name: Bosses_Map07_ChronoVanguard_Idle_Down_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 13
-        width: 307
-        height: 1233
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b90d4e07ae6705d80800000000000000
-      internalID: -8263974566936391525
+      spriteID: 67eff47c200322446903814bb83d46b1
+      internalID: -929391534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_1
+      name: Bosses_Map07_ChronoVanguard_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 370
-        y: 600
-        width: 292
-        height: 646
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be6c2579f9d936160800000000000000
-      internalID: 7017625953137510123
+      spriteID: f3188af343edab64ea029318f0697946
+      internalID: 254772266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_2
+      name: Bosses_Map07_ChronoVanguard_Idle_Down_2
       rect:
         serializedVersion: 2
-        x: 671
-        y: 1186
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2176004ce161c64f0800000000000000
-      internalID: -834267509577193710
+      spriteID: 7ad7af05125c96046804c6d3a8015aef
+      internalID: 1771034112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_3
+      name: Bosses_Map07_ChronoVanguard_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 679
-        y: 604
-        width: 289
-        height: 642
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa412d2cf5e21bc20800000000000000
-      internalID: 3220406197371933871
+      spriteID: 9984b5b7c8798d74183f71d5d7555e2d
+      internalID: -281182345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_4
+      name: Bosses_Map07_ChronoVanguard_Idle_Left_0
       rect:
         serializedVersion: 2
-        x: 997
-        y: 614
-        width: 250
-        height: 632
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aa0828c8ac9105cc0800000000000000
-      internalID: -3724448534103949142
+      spriteID: 7ddc5869f5c4b9645a81a4eed7bc9f41
+      internalID: -390086806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_5
+      name: Bosses_Map07_ChronoVanguard_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 334
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e25479f6df8214591d7fc687108c97
+      internalID: 1403578572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30217039a625c524494eba08dde93357
+      internalID: 519277072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f91ceba51cfb9745adaf6821c103fd9
+      internalID: 1116416750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230f7867582d85540884b822e05b2124
+      internalID: 672793509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6bbbc38597a7c41ab1cfcf2bad375b
+      internalID: -1477850247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d05a71601fe344cbec6fb840c224a3
+      internalID: 923320619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8402959f91fb3d24b97e25303bb46eab
+      internalID: 977246906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 284
-        height: 633
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca9d4f23664b814d0800000000000000
-      internalID: -3163580387193202260
+      spriteID: f5e9a3f26f16dac458e7f49b3ccfd848
+      internalID: -79290244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_6
+      name: Bosses_Map07_ChronoVanguard_Idle_Up_1
       rect:
         serializedVersion: 2
-        x: 597
-        y: 541
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17c4eb3c18332fe30800000000000000
-      internalID: 4535744407143337073
+      spriteID: b5092772b757a6a4798e74d60fa923c4
+      internalID: 52096326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_7
+      name: Bosses_Map07_ChronoVanguard_Idle_Up_2
       rect:
         serializedVersion: 2
-        x: 639
-        y: 13
-        width: 290
-        height: 620
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: aebfeb36421d8ea70800000000000000
-      internalID: 8856558621446568938
+      spriteID: bae188a267e2d034f846d99de10f7e12
+      internalID: -1606733401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_8
+      name: Bosses_Map07_ChronoVanguard_Idle_Up_3
       rect:
         serializedVersion: 2
-        x: 938
-        y: 13
-        width: 309
-        height: 620
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 953734410412d3520800000000000000
-      internalID: 2683337512084271961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 1221
-        y: 484
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f95bbb75ee86e7420800000000000000
-      internalID: 2629654605314373023
+      spriteID: 61c80609767738442ac4e44b1dfb3e2e
+      internalID: 2001124011
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f0188a593a7914b40885c52195cb88e5
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map07_ChronoVanguard_Idle_Down_0: -929391534
+      Bosses_Map07_ChronoVanguard_Idle_Down_1: 254772266
+      Bosses_Map07_ChronoVanguard_Idle_Down_2: 1771034112
+      Bosses_Map07_ChronoVanguard_Idle_Down_3: -281182345
+      Bosses_Map07_ChronoVanguard_Idle_Left_0: -390086806
+      Bosses_Map07_ChronoVanguard_Idle_Left_1: 1403578572
+      Bosses_Map07_ChronoVanguard_Idle_Left_2: 519277072
+      Bosses_Map07_ChronoVanguard_Idle_Left_3: 1116416750
+      Bosses_Map07_ChronoVanguard_Idle_Right_0: 672793509
+      Bosses_Map07_ChronoVanguard_Idle_Right_1: -1477850247
+      Bosses_Map07_ChronoVanguard_Idle_Right_2: 923320619
+      Bosses_Map07_ChronoVanguard_Idle_Right_3: 977246906
+      Bosses_Map07_ChronoVanguard_Idle_Up_0: -79290244
+      Bosses_Map07_ChronoVanguard_Idle_Up_1: 52096326
+      Bosses_Map07_ChronoVanguard_Idle_Up_2: -1606733401
+      Bosses_Map07_ChronoVanguard_Idle_Up_3: 2001124011
       CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_0: -8263974566936391525
       CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_1: 7017625953137510123
       CD_Boss_ChronoVanguard_Idle_4Dir_4Frame_v01_2: -834267509577193710

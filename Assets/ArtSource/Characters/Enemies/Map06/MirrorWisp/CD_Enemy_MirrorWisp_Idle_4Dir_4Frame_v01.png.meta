@@ -228,7 +228,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 124
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -305,1321 +305,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 778
-        width: 326
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61c1fa2f7106e8e70800000000000000
-      internalID: 9119331951443909654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 1191
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2c5903c3118eedd0800000000000000
-      internalID: -2454882824993809364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 898
-        width: 313
-        height: 336
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55ff653825fa94440800000000000000
-      internalID: 4920656836804673365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 1166
-        width: 36
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 676c12518c2499e60800000000000000
-      internalID: 7969474442724230774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 679
-        y: 901
-        width: 236
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25deb8e74d78c6b60800000000000000
-      internalID: 7740711206268955986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 895
-        width: 312
-        height: 333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10c4094600d6c91f0800000000000000
-      internalID: -1036833965747450879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 1094
-        width: 30
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57eac4cdc56018440800000000000000
-      internalID: 4936233662477545077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 1054
-        width: 23
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdbcf61855e6c5410800000000000000
-      internalID: 1467168892138802143
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 1038
-        width: 17
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0fcf0dd0ead7f4180800000000000000
-      internalID: -9128939733147124496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 1048
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9f2ad82d02b94dc0800000000000000
-      internalID: -3654193853044740198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 985
-        width: 18
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0cf79a3c8b17a5f70800000000000000
-      internalID: 9176772229091393472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 642
-        y: 1033
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f954d5b211db89db0800000000000000
-      internalID: -4784866722641525345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 612
-        y: 1008
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a74ec37da4cb3410800000000000000
-      internalID: 1457975153635772326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 586
-        y: 928
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0e02348767ea5d50800000000000000
-      internalID: 6726943425216777743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 753
-        y: 908
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c760ad18fd025d60800000000000000
-      internalID: 7877374057524520901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 891
-        y: 893
-        width: 20
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7a72c0b8079404a0800000000000000
-      internalID: -6628006688001459589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_16
+      name: Enemies_Map06_MirrorWisp_Idle_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 571
-        width: 338
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad31bafdaf09acd80800000000000000
-      internalID: -8229605961897405478
+      spriteID: b794d50db2bf6c345b6e9c2bfc9296ba
+      internalID: 403319176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_17
+      name: Enemies_Map06_MirrorWisp_Idle_Down_1
       rect:
         serializedVersion: 2
-        x: 277
-        y: 887
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0afc1dc281fa6d900800000000000000
-      internalID: 708946509723455392
+      spriteID: 75ae2d3a10b7cbb4d9222256eac8e9a3
+      internalID: 2050243525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 579
-        width: 275
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbf62d729a3fd6150800000000000000
-      internalID: 5867613797376749500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 885
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7705e80e18162a530800000000000000
-      internalID: 3864758640683405431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 885
-        width: 7
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1fe9e3deeff81840800000000000000
-      internalID: 5195183571394490141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_21
+      name: Enemies_Map06_MirrorWisp_Idle_Down_2
       rect:
         serializedVersion: 2
         x: 634
-        y: 871
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9fa3a09cc072ca2a0800000000000000
-      internalID: -6724957207705011463
+      spriteID: 307a029692ede4248b31f7c25a1053b5
+      internalID: 793702921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_22
+      name: Enemies_Map06_MirrorWisp_Idle_Down_3
       rect:
         serializedVersion: 2
-        x: 640
-        y: 595
-        width: 339
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12860e0968e362760800000000000000
-      internalID: 7432696982698747937
+      spriteID: e695541a82ca20649a7a16881c4a556b
+      internalID: 1369072285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_23
+      name: Enemies_Map06_MirrorWisp_Idle_Left_0
       rect:
         serializedVersion: 2
-        x: 992
-        y: 610
-        width: 240
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37bdad451602c38f0800000000000000
-      internalID: -559536651293238413
+      spriteID: 8adcfa3962af93b4da71eec5f20437e4
+      internalID: -2031176386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_24
+      name: Enemies_Map06_MirrorWisp_Idle_Left_1
       rect:
         serializedVersion: 2
-        x: 622
-        y: 834
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93cae06513899d860800000000000000
-      internalID: 7555237187555339321
+      spriteID: c9d26b72df09e2e45b81e5f306ecce0c
+      internalID: -842973268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 844
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f9080b9ac74f9dd0800000000000000
-      internalID: -2477182334520522252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 812
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc3d4dec7d911e210800000000000000
-      internalID: 1360396977121317836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_27
-      rect:
-        serializedVersion: 2
-        x: 638
-        y: 804
-        width: 22
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6801bde82b6089b0800000000000000
-      internalID: -5079942556143253396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_28
+      name: Enemies_Map06_MirrorWisp_Idle_Left_2
       rect:
         serializedVersion: 2
         x: 634
-        y: 776
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b96ff384c0834cd50800000000000000
-      internalID: 6756586966365501083
+      spriteID: ba3013fea45766f42817ad2fb9efc7b3
+      internalID: -359589189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_29
+      name: Enemies_Map06_MirrorWisp_Idle_Left_3
       rect:
         serializedVersion: 2
-        x: 640
-        y: 764
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59e5d3f44bdf3a390800000000000000
-      internalID: -7808118378064945515
+      spriteID: 4c35095ffbf2dfb4a9d6ec699735ecf8
+      internalID: 1694660543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_30
+      name: Enemies_Map06_MirrorWisp_Idle_Right_0
       rect:
         serializedVersion: 2
-        x: 936
-        y: 721
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 529d0aaa050983390800000000000000
-      internalID: -7838356475303896795
+      spriteID: 77230424045a6c449871ba5e028a72b4
+      internalID: -1138417289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_31
+      name: Enemies_Map06_MirrorWisp_Idle_Right_1
       rect:
         serializedVersion: 2
-        x: 359
-        y: 651
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 317
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72310454a392d1240800000000000000
-      internalID: 4764009311074521895
+      spriteID: 80045a98828e9674084384c21eeda1d7
+      internalID: -1621908059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_32
-      rect:
-        serializedVersion: 2
-        x: 1118
-        y: 644
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd8c756c90dfb1b40800000000000000
-      internalID: 5412197595639957727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_33
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 626
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb836d6c7f2bf8bf0800000000000000
-      internalID: -319840271257421634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_34
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 635
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8b2d4b14c0ab35e0800000000000000
-      internalID: -1928771251266049141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_35
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 627
-        width: 7
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f2f583e72a1ca7d0800000000000000
-      internalID: -2905918900937559307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_36
-      rect:
-        serializedVersion: 2
-        x: 1148
-        y: 629
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bd6d83a02bdaf850800000000000000
-      internalID: 6411677952744713654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_37
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 98
-        width: 373
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f71853393c405a00800000000000000
-      internalID: 743177747074390002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_38
-      rect:
-        serializedVersion: 2
-        x: 1148
-        y: 595
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32d352204b5a9a1e0800000000000000
-      internalID: -2186033951562973917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_39
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 329
-        width: 238
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da43bd680c305ebd0800000000000000
-      internalID: -2601669084305476435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_40
+      name: Enemies_Map06_MirrorWisp_Idle_Right_2
       rect:
         serializedVersion: 2
         x: 634
-        y: 312
-        width: 254
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3f38ba7e49507a50800000000000000
-      internalID: 6516806854406324027
+      spriteID: f929fcb9d2de1d14c975647543c25cdc
+      internalID: 117753093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_41
+      name: Enemies_Map06_MirrorWisp_Idle_Right_3
       rect:
         serializedVersion: 2
-        x: 899
-        y: 537
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52076331165dee150800000000000000
-      internalID: 5903890774440177701
+      spriteID: 538d34097b314dc4bbd28904ffa07726
+      internalID: 710097205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_42
+      name: Enemies_Map06_MirrorWisp_Idle_Up_0
       rect:
         serializedVersion: 2
-        x: 916
-        y: 311
-        width: 326
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63440695d1abc74b0800000000000000
-      internalID: -5441269614554102730
+      spriteID: d999759471c6be947a359d5b2d7cbbd4
+      internalID: -306931854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_43
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 452
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac59dedbea66e11c0800000000000000
-      internalID: -4531071274391333430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_44
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 421
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b1c94014a5fe8940800000000000000
-      internalID: 5300443896458363320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_45
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 375
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3d09c649c34cd910800000000000000
-      internalID: 1863438877579611455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_46
-      rect:
-        serializedVersion: 2
-        x: 889
-        y: 369
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 89a7058e13ff1b2d0800000000000000
-      internalID: -3264547665050830184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_47
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 361
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60a207888d8186e80800000000000000
-      internalID: -8185265004464821754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_48
-      rect:
-        serializedVersion: 2
-        x: 568
-        y: 355
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff2b05bbfec6b5300800000000000000
-      internalID: 241906781890065151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_49
-      rect:
-        serializedVersion: 2
-        x: 648
-        y: 355
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc8b2a861aa737c10800000000000000
-      internalID: 2050117089047525579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_50
+      name: Enemies_Map06_MirrorWisp_Idle_Up_1
       rect:
         serializedVersion: 2
         x: 317
         y: 0
-        width: 292
-        height: 326
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38b41fe85985f4390800000000000000
-      internalID: -7831943827602453629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_51
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 313
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d74ff854df638b5c0800000000000000
-      internalID: -4199546191101299587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_52
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 317
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bce222d6fbd204c70800000000000000
-      internalID: 8953206359405506251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_53
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 307
-        width: 12
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2cb6fa5d7515e9bf0800000000000000
-      internalID: -315725486180308030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_54
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 13
-        width: 306
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 656d7037b67da53c0800000000000000
-      internalID: -4369943631918279082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_55
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 273
-        width: 21
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb118ac9ddc502770800000000000000
-      internalID: 8583962996653953467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_56
-      rect:
-        serializedVersion: 2
-        x: 650
-        y: 0
         width: 317
-        height: 316
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f6a4bc9806f269050800000000000000
-      internalID: 5806880861216000623
+      spriteID: e428099933c94894685a993bfed388b4
+      internalID: 369759338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_57
-      rect:
-        serializedVersion: 2
-        x: 974
-        y: 0
-        width: 264
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2700304eeb53bbbb0800000000000000
-      internalID: -4919279073986674574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_58
+      name: Enemies_Map06_MirrorWisp_Idle_Up_2
       rect:
         serializedVersion: 2
         x: 634
-        y: 198
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 418ec8ef4b3723510800000000000000
-      internalID: 1527410444833974292
+      spriteID: cf8ff0c1f7c6c13429d14cdd8f807c7d
+      internalID: -399598543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_59
+      name: Enemies_Map06_MirrorWisp_Idle_Up_3
       rect:
         serializedVersion: 2
-        x: 319
-        y: 152
-        width: 19
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 951
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1702bfabfeafcc9a0800000000000000
-      internalID: -6211313878509608847
+      spriteID: 3ea20255798c75b48a918c0afdf7b420
+      internalID: 26436034
       vertices: []
       indices: 
       edges: []
@@ -1628,7 +660,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 91d8f2bb11fe8264d92727b8d43add5a
     internalID: 0
     vertices: []
     indices: 
@@ -1698,6 +730,22 @@ TextureImporter:
       CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_7: 1467168892138802143
       CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_8: -9128939733147124496
       CD_Enemy_MirrorWisp_Idle_4Dir_4Frame_v01_9: -3654193853044740198
+      Enemies_Map06_MirrorWisp_Idle_Down_0: 403319176
+      Enemies_Map06_MirrorWisp_Idle_Down_1: 2050243525
+      Enemies_Map06_MirrorWisp_Idle_Down_2: 793702921
+      Enemies_Map06_MirrorWisp_Idle_Down_3: 1369072285
+      Enemies_Map06_MirrorWisp_Idle_Left_0: -2031176386
+      Enemies_Map06_MirrorWisp_Idle_Left_1: -842973268
+      Enemies_Map06_MirrorWisp_Idle_Left_2: -359589189
+      Enemies_Map06_MirrorWisp_Idle_Left_3: 1694660543
+      Enemies_Map06_MirrorWisp_Idle_Right_0: -1138417289
+      Enemies_Map06_MirrorWisp_Idle_Right_1: -1621908059
+      Enemies_Map06_MirrorWisp_Idle_Right_2: 117753093
+      Enemies_Map06_MirrorWisp_Idle_Right_3: 710097205
+      Enemies_Map06_MirrorWisp_Idle_Up_0: -306931854
+      Enemies_Map06_MirrorWisp_Idle_Up_1: 369759338
+      Enemies_Map06_MirrorWisp_Idle_Up_2: -399598543
+      Enemies_Map06_MirrorWisp_Idle_Up_3: 26436034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

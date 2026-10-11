@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_0
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 626
-        width: 293
-        height: 620
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58e6283d76f0673e0800000000000000
-      internalID: -2056439241243464059
+      spriteID: c3436a864c8414a42bf149cbdeb5f86b
+      internalID: 133825764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_1
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_1
       rect:
         serializedVersion: 2
-        x: 374
-        y: 895
-        width: 261
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c87e24bdad99f580800000000000000
-      internalID: -8792823428086335292
+      spriteID: e5b4d5c7ea60f994897dea7350c7c838
+      internalID: 1172732234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_2
       rect:
         serializedVersion: 2
-        x: 659
-        y: 884
-        width: 305
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90dea63739541ff20800000000000000
-      internalID: 3454618888768777481
+      spriteID: 4b0d3c0ae0b0af14aadf8ec0051246a2
+      internalID: -2043113959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_3
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_3
       rect:
         serializedVersion: 2
-        x: 977
-        y: 620
-        width: 285
-        height: 626
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 226c6cd20d8476e80800000000000000
-      internalID: -8185493738764188126
+      spriteID: ce8af54f69c658244bc71af5d0683c87
+      internalID: -1689682342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_4
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 14
-        width: 269
-        height: 603
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 575f3ce86ce531fb0800000000000000
-      internalID: -4678291381016070795
+      spriteID: 4f8aa956f31b6c24fa2a58a862c74d33
+      internalID: -183237317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_5
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_1
       rect:
         serializedVersion: 2
-        x: 321
-        y: 581
-        width: 721
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 331b2772b58f7e230800000000000000
-      internalID: 3668173491904098611
+      spriteID: 69f7fac93771c274fb032f9474cdbcbb
+      internalID: 890499941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_6
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_2
       rect:
         serializedVersion: 2
-        x: 624
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cd173317c5d1b4cafab45666843692
+      internalID: -1579283431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3322ec993f07d3a428b35a0150b2cf8c
+      internalID: -577211774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad28ea6288cdb4e967f0af76393df9
+      internalID: 1603380426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722ad6ac025b2f04c9ca8658a87b7406
+      internalID: 2064177274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcf3b6d721ac7545b78895228145e16
+      internalID: 1415771106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65856b2c50c2649409dfb0f00fce6e46
+      internalID: 545482010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 638
-        height: 619
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 302603f863bb03e00800000000000000
-      internalID: 1022522958418043395
+      spriteID: bf3bb8ce179fad444a32138d2c9db73d
+      internalID: -788459078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_7
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_1
       rect:
         serializedVersion: 2
-        x: 305
-        y: 329
-        width: 316
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d9ec62c9c9a8fbf0800000000000000
-      internalID: -290295491949958702
+      spriteID: 5276b74d52649da4ea6cbeab4c0995d4
+      internalID: -1248267348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_8
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_2
       rect:
         serializedVersion: 2
-        x: 366
-        y: 323
-        width: 27
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c5d5e87f83cbe960800000000000000
-      internalID: 7632409014485505475
+      spriteID: 838c20ddffafb5147855d6f440aca91e
+      internalID: 1676821268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_9
+      name: Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_3
       rect:
         serializedVersion: 2
-        x: 324
-        y: 14
-        width: 297
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc99da9e3cfbed240800000000000000
-      internalID: 4818499499493005773
+      spriteID: 2155c35ca03e5964eba8f13123d4208a
+      internalID: 1019633960
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8f0339a8a294e7b418b063b86f57d30a
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_0: 133825764
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_1: 1172732234
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_2: -2043113959
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Down_3: -1689682342
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_0: -183237317
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_1: 890499941
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_2: -1579283431
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Left_3: -577211774
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_0: 1603380426
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_1: 2064177274
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_2: 1415771106
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Right_3: 545482010
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_0: -788459078
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_1: -1248267348
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_2: 1676821268
+      Bosses_Map07_ChronoVanguard_TemporalDashSlash_Up_3: 1019633960
       CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_0: -2056439241243464059
       CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_1: -8792823428086335292
       CD_Boss_ChronoVanguard_TemporalDashSlash_4Dir_4Frame_v01_2: 3454618888768777481

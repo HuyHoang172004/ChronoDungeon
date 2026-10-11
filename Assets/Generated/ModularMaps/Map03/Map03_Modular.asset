@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a87b8c633ca81449decb4753dbb9fd, type: 3}
+  m_Name: Map03_Modular
+  m_EditorClassIdentifier: Assembly-CSharp::ModularMapDefinition
+  zoneName: Zone03_OvergrownWilds
+  worldSize: {x: 42.09, y: 23.75}
+  spawnNormalized: {x: 0.025, y: 0.765}
+  background: {fileID: 21300000, guid: ca543c66322a92e44a671bd2da5f343a, type: 3}
+  walkableMask: {fileID: 2800000, guid: 925012ea75a2c1f4a809a176bb51834f, type: 3}
+  tiles:
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: c09214095e0e2254dab82ae444889330, type: 3}
+    localPosition: {x: -14.03, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: f0958c7b7159bc145b2931f9915c793b, type: 3}
+    localPosition: {x: 0, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 71bb9556b36b36342ac6a3cfb70e60e3, type: 3}
+    localPosition: {x: 14.03, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: d054bb7d6f5cd66458b4666a080cd574, type: 3}
+    localPosition: {x: 0, y: -5.605}
+  colliderPaths: []

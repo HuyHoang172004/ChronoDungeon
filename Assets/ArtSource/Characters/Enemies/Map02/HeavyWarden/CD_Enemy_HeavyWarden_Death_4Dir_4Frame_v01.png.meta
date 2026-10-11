@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,265 +161,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map02_HeavyWarden_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 27
-        width: 347
-        height: 989
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 856694d6e0a18bdc0800000000000000
-      internalID: -3623117250954172840
+      spriteID: df825d6789f1f584a9ed72e27120c174
+      internalID: 289783676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_1
+      name: Enemies_Map02_HeavyWarden_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 420
-        y: 29
-        width: 329
-        height: 739
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8bd547c995658e90800000000000000
-      internalID: -7024096332666774641
+      spriteID: 13960ecce53c3ad4da145ca68befd8ec
+      internalID: 660013274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_2
+      name: Enemies_Map02_HeavyWarden_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 455
-        y: 763
-        width: 266
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00b34a2d2ec433e20800000000000000
-      internalID: 3329089086637226752
+      spriteID: e9b2da11ccd8fde45aaff1b2acfaf4ed
+      internalID: 643147249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_3
+      name: Enemies_Map02_HeavyWarden_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 746
-        y: 753
-        width: 375
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac0f58dffc978b490800000000000000
-      internalID: -7730294826162851638
+      spriteID: e14c6a52cfbce2247ba46fb7353bf77e
+      internalID: -1740966638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map02_HeavyWarden_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 1132
-        y: 749
-        width: 379
-        height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d5fc0f3a27c91d10800000000000000
-      internalID: 2096926085778044375
+      spriteID: 500999831a1494b41825f85ffefa73a4
+      internalID: -1332192894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_5
+      name: Enemies_Map02_HeavyWarden_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 750
-        y: 511
-        width: 325
-        height: 219
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4f79d6085b5f27b0800000000000000
-      internalID: -5246874607233171634
+      spriteID: 55d388e9be3db2642a4732e0bf7d8c70
+      internalID: 562844651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map02_HeavyWarden_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 511
-        width: 393
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3a2d1ff3b0e391170800000000000000
-      internalID: 8149613218741998243
+      spriteID: 0dd3885c529acfe4baeff375b9561d41
+      internalID: 809497033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map02_HeavyWarden_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 776
-        y: 268
-        width: 327
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c7fece0481f23ee0800000000000000
-      internalID: -1282697394360748095
+      spriteID: 3886ba69091ddd44d9c926f321bf3e26
+      internalID: 137470284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_8
+      name: Enemies_Map02_HeavyWarden_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 1117
-        y: 217
-        width: 404
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 238bcfc80767bfa20800000000000000
-      internalID: 3097199394521135154
+      spriteID: 4c0d4ed1c4102f84e999210045b7cbe8
+      internalID: -488456614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map02_HeavyWarden_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 752
-        y: 152
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 992c8b8074871fb50800000000000000
-      internalID: 6625208773323047577
+      spriteID: e508dbc0ee31bc641af5223882ecff40
+      internalID: 1638149949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map02_HeavyWarden_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 770
-        y: 24
-        width: 338
-        height: 204
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fe1c42d3a47277180800000000000000
-      internalID: -9117775720781397521
+      spriteID: c7b08b0dafd8ad34bafca5adea378029
+      internalID: 780047807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map02_HeavyWarden_Death_Right_3
       rect:
         serializedVersion: 2
-        x: 1122
-        y: 29
-        width: 399
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22ca3a14da04c1c50800000000000000
-      internalID: 6637251063712033826
+      spriteID: 6599e0302a3ace14ebd065bb498af0ad
+      internalID: -1580423586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Death_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a501c0c3357b2f446b91738494076203
+      internalID: 1784470390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Death_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9827a2ac41439a34d844e28670aa6496
+      internalID: 1417874791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e08f73260bac0a449f009ecff4ccf97
+      internalID: 466320409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_HeavyWarden_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7283535dbb92ce44ea77afd9ecb5fa49
+      internalID: -1340014504
       vertices: []
       indices: 
       edges: []
@@ -428,7 +516,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ced67289f9dbbf34a8fc73fe2806e3d8
     internalID: 0
     vertices: []
     indices: 
@@ -450,6 +538,22 @@ TextureImporter:
       CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_7: -1282697394360748095
       CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_8: 3097199394521135154
       CD_Enemy_HeavyWarden_Death_4Dir_4Frame_v01_9: 6625208773323047577
+      Enemies_Map02_HeavyWarden_Death_Down_0: 289783676
+      Enemies_Map02_HeavyWarden_Death_Down_1: 660013274
+      Enemies_Map02_HeavyWarden_Death_Down_2: 643147249
+      Enemies_Map02_HeavyWarden_Death_Down_3: -1740966638
+      Enemies_Map02_HeavyWarden_Death_Left_0: -1332192894
+      Enemies_Map02_HeavyWarden_Death_Left_1: 562844651
+      Enemies_Map02_HeavyWarden_Death_Left_2: 809497033
+      Enemies_Map02_HeavyWarden_Death_Left_3: 137470284
+      Enemies_Map02_HeavyWarden_Death_Right_0: -488456614
+      Enemies_Map02_HeavyWarden_Death_Right_1: 1638149949
+      Enemies_Map02_HeavyWarden_Death_Right_2: 780047807
+      Enemies_Map02_HeavyWarden_Death_Right_3: -1580423586
+      Enemies_Map02_HeavyWarden_Death_Up_0: 1784470390
+      Enemies_Map02_HeavyWarden_Death_Up_1: 1417874791
+      Enemies_Map02_HeavyWarden_Death_Up_2: 466320409
+      Enemies_Map02_HeavyWarden_Death_Up_3: -1340014504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

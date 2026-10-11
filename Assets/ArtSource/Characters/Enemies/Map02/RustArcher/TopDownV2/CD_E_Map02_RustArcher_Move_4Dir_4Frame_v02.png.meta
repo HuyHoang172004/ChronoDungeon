@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 3e50173daa380164793bd7a207064270
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6818209641561867247
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_0
+  - first:
+      213: -290647506005519251
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_1
+  - first:
+      213: -7766255261303862403
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_2
+  - first:
+      213: 8934006799731553491
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_3
+  - first:
+      213: -8087507946513707485
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_4
+  - first:
+      213: -8733681516330197648
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_5
+  - first:
+      213: -2117563417806757448
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_6
+  - first:
+      213: -1137050297696582074
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_7
+  - first:
+      213: 7005404191814779614
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_8
+  - first:
+      213: 2015594322148693213
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_9
+  - first:
+      213: 1567633833858772577
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_10
+  - first:
+      213: -5482843197830456265
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_11
+  - first:
+      213: -7669556189940299918
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_12
+  - first:
+      213: -4608005262076557895
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_13
+  - first:
+      213: 8423842872815206064
+    second: CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 122
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063b9962a2d2e804ab75dd1796d641ed
+      internalID: 1928589071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Down_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 915
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248ea5e54fc20fb40938b109faefcb87
+      internalID: 1664490724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 915
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d21b7bdb680b74cad92f12f1259868
+      internalID: -1570634964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 915
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1ed3a7a552ce54ca3620d8b3b493a2
+      internalID: 1482781895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dff9494e2435fe4c8fadcb5fcd88afb
+      internalID: 1690839919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 610
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9236383234a5c45b95604894dd9b20
+      internalID: -1065015553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 610
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb76e308f9e4c489a2a6b499f5b7cb
+      internalID: 1080156018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 610
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a455c0b8ac3bc4598d0cbba30e0298
+      internalID: -1141932847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e8f3094530bad42bf96ccc29365032
+      internalID: 1242339931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 305
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cea2a6efe96d0e41b5b6c8d2e3d66e3
+      internalID: 1992686688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 305
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510ed93ba678bc349b894ac3ec978160
+      internalID: 918134277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 305
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0905abb6cca49c46b0bb016cd1be248
+      internalID: -464120479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952fdae94b041634eb353c64340cba47
+      internalID: -241455281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49911b08ccd12fa4cab68845abcd0fb6
+      internalID: 967172771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52e4750b4b509349b33f071298b4f26
+      internalID: 1643205399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map02_RustArcher_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 322
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975cda70df01ed84980cd4f5c733b940
+      internalID: 470767981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b930507abd4ee654d917cfa0498d3b16
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_0: 6818209641561867247
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_1: -290647506005519251
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_10: 1567633833858772577
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_11: -5482843197830456265
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_12: -7669556189940299918
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_13: -4608005262076557895
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_14: 8423842872815206064
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_2: -7766255261303862403
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_3: 8934006799731553491
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_4: -8087507946513707485
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_5: -8733681516330197648
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_6: -2117563417806757448
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_7: -1137050297696582074
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_8: 7005404191814779614
+      CD_E_Map02_RustArcher_Move_4Dir_4Frame_v02_9: 2015594322148693213
+      Enemies_Map02_RustArcher_Move_Down_0: 1928589071
+      Enemies_Map02_RustArcher_Move_Down_1: 1664490724
+      Enemies_Map02_RustArcher_Move_Down_2: -1570634964
+      Enemies_Map02_RustArcher_Move_Down_3: 1482781895
+      Enemies_Map02_RustArcher_Move_Left_0: 1690839919
+      Enemies_Map02_RustArcher_Move_Left_1: -1065015553
+      Enemies_Map02_RustArcher_Move_Left_2: 1080156018
+      Enemies_Map02_RustArcher_Move_Left_3: -1141932847
+      Enemies_Map02_RustArcher_Move_Right_0: 1242339931
+      Enemies_Map02_RustArcher_Move_Right_1: 1992686688
+      Enemies_Map02_RustArcher_Move_Right_2: 918134277
+      Enemies_Map02_RustArcher_Move_Right_3: -464120479
+      Enemies_Map02_RustArcher_Move_Up_0: -241455281
+      Enemies_Map02_RustArcher_Move_Up_1: 967172771
+      Enemies_Map02_RustArcher_Move_Up_2: 1643205399
+      Enemies_Map02_RustArcher_Move_Up_3: 470767981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,431 @@
+fileFormatVersion: 2
+guid: 43d281be94eddad4f8ee71ee83335c82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2023674389245082419
+    second: Map05_WalkableMask_0
+  - first:
+      213: 7803457373222354523
+    second: Map05_WalkableMask_1
+  - first:
+      213: 274202824977404399
+    second: Map05_WalkableMask_2
+  - first:
+      213: -4862460931732221105
+    second: Map05_WalkableMask_3
+  - first:
+      213: -2350947805532063919
+    second: Map05_WalkableMask_4
+  - first:
+      213: 2816093491645238602
+    second: Map05_WalkableMask_5
+  - first:
+      213: -7823144360621057686
+    second: Map05_WalkableMask_6
+  - first:
+      213: -1119131806966858617
+    second: Map05_WalkableMask_7
+  - first:
+      213: -8672058325801714385
+    second: Map05_WalkableMask_8
+  - first:
+      213: 5257315446420640636
+    second: Map05_WalkableMask_9
+  - first:
+      213: -5040721861986687461
+    second: Map05_WalkableMask_10
+  - first:
+      213: -7212011670375192839
+    second: Map05_WalkableMask_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Map05_WalkableMask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2152
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4cdf76dd67ae3e0800000000000000
+      internalID: -2023674389245082419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 559
+        width: 91
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e32dee2237b4c60800000000000000
+      internalID: 7803457373222354523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_2
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 714
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1df2b340a2ec300800000000000000
+      internalID: 274202824977404399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_3
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 659
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43d2e58b81158cb0800000000000000
+      internalID: -4862460931732221105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_4
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 712
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157f6cd3d61cf5fd0800000000000000
+      internalID: -2350947805532063919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_5
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 652
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dcdcf3c16c41720800000000000000
+      internalID: 2816093491645238602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_6
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 658
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69d49e17ab9e6390800000000000000
+      internalID: -7823144360621057686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_7
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 714
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c36ec0d8b0870f0800000000000000
+      internalID: -1119131806966858617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 379
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dbe1336e8a6a780800000000000000
+      internalID: -8672058325801714385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_9
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 151
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7393184b8cb5f840800000000000000
+      internalID: 5257315446420640636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_10
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 0
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16ecb46c22cb0ab0800000000000000
+      internalID: -5040721861986687461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map05_WalkableMask_11
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 0
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6a05fb899c9eb90800000000000000
+      internalID: -7212011670375192839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Map05_WalkableMask_0: -2023674389245082419
+      Map05_WalkableMask_1: 7803457373222354523
+      Map05_WalkableMask_10: -5040721861986687461
+      Map05_WalkableMask_11: -7212011670375192839
+      Map05_WalkableMask_2: 274202824977404399
+      Map05_WalkableMask_3: -4862460931732221105
+      Map05_WalkableMask_4: -2350947805532063919
+      Map05_WalkableMask_5: 2816093491645238602
+      Map05_WalkableMask_6: -7823144360621057686
+      Map05_WalkableMask_7: -1119131806966858617
+      Map05_WalkableMask_8: -8672058325801714385
+      Map05_WalkableMask_9: 5257315446420640636
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

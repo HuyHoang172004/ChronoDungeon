@@ -204,7 +204,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 141.36363
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -281,1145 +281,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_0
+      name: NPC_Map06_PrisonerEcho_Freed_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 932
-        width: 318
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 053fe39e610c76320800000000000000
-      internalID: 2551218918563705680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 849
-        width: 361
-        height: 375
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 944959144408e3d60800000000000000
-      internalID: 7871870229336659017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 669
-        y: 1187
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c5a9db9053286750800000000000000
-      internalID: 6298322907996726723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 676
-        y: 934
-        width: 218
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 511116e97d12164b0800000000000000
-      internalID: -5449036864182742763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 915
-        y: 904
-        width: 325
-        height: 315
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a0e47d3962418a50800000000000000
-      internalID: 6521566755179258022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 1092
-        width: 24
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98484b497a46d0190800000000000000
-      internalID: -7994623092595587959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 1210
-        y: 1075
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6394438de55c7cfa0800000000000000
-      internalID: -5780434585561839306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 1216
-        y: 1074
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bc5c4d4cd60f09b0800000000000000
-      internalID: -5111859508782801742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 1035
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7222c7fd1e78f480800000000000000
-      internalID: -8865197199302974853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 1037
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80c8de6c7fc082170800000000000000
-      internalID: 8153781383688195080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 1210
-        y: 1041
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ce455ee0454adfa0800000000000000
-      internalID: -5775227426970448188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 1033
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 416356d4456570de0800000000000000
-      internalID: -1367029041807935980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 956
-        y: 981
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd438fb8d5e0de1b0800000000000000
-      internalID: -5625824564572834593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 956
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6a38847a244da6d0800000000000000
-      internalID: -2977648829487629714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_14
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 938
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba9c43db7ecd2e4c0800000000000000
-      internalID: -4259599409669158485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_15
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 626
-        width: 237
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc18a1a0e596bc6c0800000000000000
-      internalID: -4122085181310205489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_16
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 618
-        width: 295
-        height: 306
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6d14326f20af0fc0800000000000000
-      internalID: -3526423857836319379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_17
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 906
-        width: 17
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1488af828ab81460800000000000000
-      internalID: 7212719873152549915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 898
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc62b7ab59198af50800000000000000
-      internalID: 6892919301955331788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 896
-        width: 14
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba2733c709ab00ab0800000000000000
-      internalID: -5043826452933152085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 30
+        y: 933
         width: 315
-        height: 901
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8792dcacfce24250800000000000000
-      internalID: 5927560629548390284
+      spriteID: 8fc43b74fe4d30c4681158c9ecaa1819
+      internalID: -363983584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_21
+      name: NPC_Map06_PrisonerEcho_Freed_Down_1
       rect:
         serializedVersion: 2
-        x: 944
-        y: 626
-        width: 288
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ba5948f4a909d0a60800000000000000
-      internalID: 7641923135151052203
+      spriteID: 899df28f754046842a2b773aeb1bd1d9
+      internalID: -344485503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_22
+      name: NPC_Map06_PrisonerEcho_Freed_Down_2
       rect:
         serializedVersion: 2
-        x: 917
-        y: 873
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1885ab7a7007edba0800000000000000
-      internalID: -6062284870213019519
+      spriteID: 1490b3f830a4b5a4f8dff5c461de5134
+      internalID: -45831486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_23
+      name: NPC_Map06_PrisonerEcho_Freed_Down_3
       rect:
         serializedVersion: 2
-        x: 926
-        y: 858
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 810ff8f40cb7ea9e0800000000000000
-      internalID: -1608211951025917928
+      spriteID: 11e07ee7cb87f0f4cb627363c526d843
+      internalID: 25008370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 813
-        width: 62
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26fd42e0ff1be7890800000000000000
-      internalID: -7458328223866888350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 790
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caf7a63ab77cde3d0800000000000000
-      internalID: -3175662828389761108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 760
-        width: 21
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76f8c98c8b6b67d30800000000000000
-      internalID: 4428928188321402727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_27
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 714
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 286761579757b0120800000000000000
-      internalID: 2381125992511338114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_28
-      rect:
-        serializedVersion: 2
-        x: 626
-        y: 671
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d24486cb4482a8770800000000000000
-      internalID: 8613741512983331885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_29
+      name: NPC_Map06_PrisonerEcho_Freed_Left_0
       rect:
         serializedVersion: 2
         x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f0bda62c99d014abfdf6e7898ffce8
+      internalID: 1588528669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Left_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd818bbfd1083cc4cad427f26b3f470f
+      internalID: 1883954086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57311b69e20bdd847b6090926f71d18b
+      internalID: -1638973440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f07beced1c47741ae63b0eb2d92d43
+      internalID: -519123579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faa3f1352a764a4bb4f0aae472960d8
+      internalID: 1657142420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5611927ddbb8ca340bb2539171340b3b
+      internalID: -133788777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e37d19aabec5a47aa4a1fa86b600da
+      internalID: -81560426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1d1a121cd58fd40b5ea977d659fb68
+      internalID: 1762433071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map06_PrisonerEcho_Freed_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 324
-        height: 619
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 561705a7c75389f00800000000000000
-      internalID: 1123706915773247845
+      spriteID: 4eb49547c0a024e41828f0c195f8aca1
+      internalID: 1449489348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_30
+      name: NPC_Map06_PrisonerEcho_Freed_Up_1
       rect:
         serializedVersion: 2
-        x: 299
+        x: 315
         y: 0
-        width: 335
-        height: 621
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 068ec8e5ec2f84410800000000000000
-      internalID: 1461685047245203552
+      spriteID: 495e94b1c6773754bae93a6972e5ae50
+      internalID: 1836072485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_31
+      name: NPC_Map06_PrisonerEcho_Freed_Up_2
       rect:
         serializedVersion: 2
-        x: 345
-        y: 582
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 510d539d7d9e85df0800000000000000
-      internalID: -191145870891823083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_32
-      rect:
-        serializedVersion: 2
-        x: 950
+        x: 630
         y: 0
-        width: 298
-        height: 618
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b61f4aab79eacad30800000000000000
-      internalID: 4444118899002503531
+      spriteID: 3634bc1ae923f984bb7f1753f04a6e2c
+      internalID: -379402932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_33
+      name: NPC_Map06_PrisonerEcho_Freed_Up_3
       rect:
         serializedVersion: 2
-        x: 297
-        y: 485
-        width: 44
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8376eaf6bd7c5a40800000000000000
-      internalID: 5358295881510974351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_34
-      rect:
-        serializedVersion: 2
-        x: 927
-        y: 519
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb25ca215435d9470800000000000000
-      internalID: 8402964035874345663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_35
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 485
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4834b33f658c0f340800000000000000
-      internalID: 4895633070725219204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_36
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 395
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5be4eafb6f180a740800000000000000
-      internalID: 5161268069744398005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_37
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 396
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86010327791c19180800000000000000
-      internalID: -9110287714993827736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_38
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 392
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d4534c2a6385b760800000000000000
-      internalID: 7473023648723588310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_39
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 357
-        width: 32
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 111436b0df56459f0800000000000000
-      internalID: -480647122729615087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_40
-      rect:
-        serializedVersion: 2
-        x: 913
-        y: 349
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8e23045c416b2e10800000000000000
-      internalID: 2173938225591299724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_41
-      rect:
-        serializedVersion: 2
-        x: 281
-        y: 258
-        width: 9
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc041ddd976211d30800000000000000
-      internalID: 4400340615772061899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_42
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 264
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a04b19832437a9a60800000000000000
-      internalID: 7681578842687910922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_43
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 244
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f8599e03029d06f0800000000000000
-      internalID: -716756223854552842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_44
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 228
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: accafb3663fec44b0800000000000000
-      internalID: -5454722031771734838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_45
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 195
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88db3f8482c278470800000000000000
-      internalID: 8396728581789826440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_46
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 163
-        width: 45
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a3e765aa5fb2d130800000000000000
-      internalID: 3590142249010717607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_47
-      rect:
-        serializedVersion: 2
-        x: 580
-        y: 169
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 361eebfe2ce509eb0800000000000000
-      internalID: -4715164618517978781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_48
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 172
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 892f7c4710933ee60800000000000000
-      internalID: 7990292842302403224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_49
-      rect:
-        serializedVersion: 2
-        x: 1206
-        y: 147
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f89db2d2b4831dc0800000000000000
-      internalID: -3669443367802136329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_50
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 115
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b66f3f6af495d2510800000000000000
-      internalID: 1525974047386760811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_51
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 114
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01e70f762acd5d340800000000000000
-      internalID: 4888055560667168272
+      spriteID: c7ae27c72f50eb64fad699354794b020
+      internalID: -356442258
       vertices: []
       indices: 
       edges: []
@@ -1428,7 +636,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 438c359955fd1e94994d0dd0e659f201
     internalID: 0
     vertices: []
     indices: 
@@ -1490,6 +698,22 @@ TextureImporter:
       CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_7: -5111859508782801742
       CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_8: -8865197199302974853
       CD_NPC_PrisonerEcho_Freed_4Dir_4Frame_v01_9: 8153781383688195080
+      NPC_Map06_PrisonerEcho_Freed_Down_0: -363983584
+      NPC_Map06_PrisonerEcho_Freed_Down_1: -344485503
+      NPC_Map06_PrisonerEcho_Freed_Down_2: -45831486
+      NPC_Map06_PrisonerEcho_Freed_Down_3: 25008370
+      NPC_Map06_PrisonerEcho_Freed_Left_0: 1588528669
+      NPC_Map06_PrisonerEcho_Freed_Left_1: 1883954086
+      NPC_Map06_PrisonerEcho_Freed_Left_2: -1638973440
+      NPC_Map06_PrisonerEcho_Freed_Left_3: -519123579
+      NPC_Map06_PrisonerEcho_Freed_Right_0: 1657142420
+      NPC_Map06_PrisonerEcho_Freed_Right_1: -133788777
+      NPC_Map06_PrisonerEcho_Freed_Right_2: -81560426
+      NPC_Map06_PrisonerEcho_Freed_Right_3: 1762433071
+      NPC_Map06_PrisonerEcho_Freed_Up_0: 1449489348
+      NPC_Map06_PrisonerEcho_Freed_Up_1: 1836072485
+      NPC_Map06_PrisonerEcho_Freed_Up_2: -379402932
+      NPC_Map06_PrisonerEcho_Freed_Up_3: -356442258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

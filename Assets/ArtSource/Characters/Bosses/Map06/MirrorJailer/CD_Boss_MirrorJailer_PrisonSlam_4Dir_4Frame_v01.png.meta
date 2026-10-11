@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 89.117645
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,111 +140,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_0
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 15
-        width: 989
-        height: 1200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 275151387b8d2bda0800000000000000
-      internalID: -5930439476603710094
+      spriteID: 1f6bb557961bd174ea03e19848381d4e
+      internalID: -1187836658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_1
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Down_1
       rect:
         serializedVersion: 2
-        x: 989
-        y: 880
-        width: 306
-        height: 257
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9966d1eaf72012b0800000000000000
-      internalID: -5615944776846775905
+      spriteID: c7efbdaa74df84545a6a2d73b85a6a79
+      internalID: -823929791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Down_2
       rect:
         serializedVersion: 2
-        x: 1006
-        y: 592
-        width: 289
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 646
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9385f73c3bc039da0800000000000000
-      internalID: -5939389517352970183
+      spriteID: 9abb8df2da2f9694bbe0a42edae7aeb1
+      internalID: -149675544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_3
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Down_3
       rect:
         serializedVersion: 2
-        x: 632
+        x: 969
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8be9eb37e7de04fb6777fd87b46368
+      internalID: 311985870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e1a59b0866124eb28655e2a8fa441
+      internalID: 1641165174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Left_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384a768d11c78764aa24cacdb2ae0d10
+      internalID: -1014226028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Left_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5db235fb8496b4e8c697f4c48ab3f3
+      internalID: -2010930405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Left_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd5ea735ec9fae448a6e4ec0ade1e07
+      internalID: 779606234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f28a23bb9db0c4e9485f7f9096f2fb
+      internalID: -1190526524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372583d67d990774cbef0d4a52d4360e
+      internalID: 1589633249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Right_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980d283b84859124494a6b77f7b3bde5
+      internalID: 544633224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Right_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a90ca2c1a9bc94dad31ca0e217111d
+      internalID: 1377419340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 650
-        height: 577
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b88cf6a2e8100bca0800000000000000
-      internalID: -6003296593175918453
+      spriteID: b279791013f072f4d9ca50311fd32a85
+      internalID: -753805674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_4
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Up_1
       rect:
         serializedVersion: 2
-        x: 998
-        y: 27
-        width: 297
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15a2e0f10c9cd3450800000000000000
-      internalID: 6070229699757222481
+      spriteID: 6f05d109781ca7f4e8d2873b96e877fd
+      internalID: 880399340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Up_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c19e08fcbbffa42b7c92fb8ebb4cfe
+      internalID: -382911594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_PrisonSlam_Up_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3fa083741c96948b29b8855ddf3682
+      internalID: -171395899
       vertices: []
       indices: 
       edges: []
@@ -253,7 +495,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ad193c79a935663479775558020010fb
     internalID: 0
     vertices: []
     indices: 
@@ -263,6 +505,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map06_MirrorJailer_PrisonSlam_Down_0: -1187836658
+      Bosses_Map06_MirrorJailer_PrisonSlam_Down_1: -823929791
+      Bosses_Map06_MirrorJailer_PrisonSlam_Down_2: -149675544
+      Bosses_Map06_MirrorJailer_PrisonSlam_Down_3: 311985870
+      Bosses_Map06_MirrorJailer_PrisonSlam_Left_0: 1641165174
+      Bosses_Map06_MirrorJailer_PrisonSlam_Left_1: -1014226028
+      Bosses_Map06_MirrorJailer_PrisonSlam_Left_2: -2010930405
+      Bosses_Map06_MirrorJailer_PrisonSlam_Left_3: 779606234
+      Bosses_Map06_MirrorJailer_PrisonSlam_Right_0: -1190526524
+      Bosses_Map06_MirrorJailer_PrisonSlam_Right_1: 1589633249
+      Bosses_Map06_MirrorJailer_PrisonSlam_Right_2: 544633224
+      Bosses_Map06_MirrorJailer_PrisonSlam_Right_3: 1377419340
+      Bosses_Map06_MirrorJailer_PrisonSlam_Up_0: -753805674
+      Bosses_Map06_MirrorJailer_PrisonSlam_Up_1: 880399340
+      Bosses_Map06_MirrorJailer_PrisonSlam_Up_2: -382911594
+      Bosses_Map06_MirrorJailer_PrisonSlam_Up_3: -171395899
       CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_0: -5930439476603710094
       CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_1: -5615944776846775905
       CD_Boss_MirrorJailer_PrisonSlam_4Dir_4Frame_v01_2: -5939389517352970183

@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 85.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_0
+      name: Bosses_Map05_AshWarden_Death_Down_0
       rect:
         serializedVersion: 2
         x: 0
         y: 870
-        width: 318
-        height: 276
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76f621dd0e3946cc0800000000000000
-      internalID: -3718684798310256793
+      spriteID: 90f6589eaa055054baa51f68dcd0d412
+      internalID: -1577137216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_1
+      name: Bosses_Map05_AshWarden_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 329
-        y: 865
-        width: 416
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0beac77be57680b50800000000000000
-      internalID: 6559606513768115888
+      spriteID: 4590c567a03ce1f438287d2430564933
+      internalID: 1527243310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_2
+      name: Bosses_Map05_AshWarden_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 925
-        y: 1113
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7c9c81e749101010800000000000000
-      internalID: 1157452900751678588
+      spriteID: 1c01996246603e84195d2bc12f0f218a
+      internalID: -1631813398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_3
+      name: Bosses_Map05_AshWarden_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 984
-        y: 813
-        width: 371
-        height: 337
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2bd38f277d9d63050800000000000000
-      internalID: 5780046691146677682
+      spriteID: e3b7752a468cf9e4d9d1089d915c43af
+      internalID: -81007658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_4
+      name: Bosses_Map05_AshWarden_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 585
-        width: 298
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c6ac609d36ca76280800000000000000
-      internalID: -9050075381334881684
+      spriteID: b269043a708ef5e43885ae1beb78a474
+      internalID: 1343582160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_5
+      name: Bosses_Map05_AshWarden_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 339
-        y: 584
-        width: 325
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7343595ce5f05ffe0800000000000000
-      internalID: -1156000829634431945
+      spriteID: c90af331f27720e428bfcb94721007ce
+      internalID: -348512330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_6
+      name: Bosses_Map05_AshWarden_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 661
-        y: 827
-        width: 358
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef6840c924593f760800000000000000
-      internalID: 7490494718565189374
+      spriteID: 2bb3421057f6ebc4c8d5dbc263033a93
+      internalID: 1489131107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_7
+      name: Bosses_Map05_AshWarden_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 966
-        y: 813
-        width: 13
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1014
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 924f0fd124f8e7cc0800000000000000
-      internalID: -3711371528773766103
+      spriteID: 976315eeed0da604494bdf491cb1de54
+      internalID: 2077688401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_8
+      name: Bosses_Map05_AshWarden_Death_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c45efd77eaf084db5be868d2f535be
+      internalID: -968523460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Death_Right_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cf1b31b3aa49f45bdfaf52a8667588
+      internalID: -1465443032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Death_Right_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009367b7e97c4514793ffa87b18d74e9
+      internalID: 1748541865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Death_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a535c3aaae49144cb87f688258a6d9b
+      internalID: -2061391113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1355
-        height: 588
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24e42c782111c5380800000000000000
-      internalID: -8981284785598869950
+      spriteID: 42bdb790a8ac85443bd37b996e3eab4d
+      internalID: -717014811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Death_4Dir_4Frame_v01_9
+      name: Bosses_Map05_AshWarden_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 657
-        y: 577
-        width: 698
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 338
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5404516e4dbf86e0800000000000000
-      internalID: -1833038378978507686
+      spriteID: acb3218dd913a90478db0b61657bfc89
+      internalID: 1321039989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Death_Up_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409fb14e559022b42bde1ff9de844d13
+      internalID: -1995402411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Death_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5a46944cffd4418524866eca9fd8e
+      internalID: -184404021
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b2dead9b22822644b89299273b4b2b2b
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map05_AshWarden_Death_Down_0: -1577137216
+      Bosses_Map05_AshWarden_Death_Down_1: 1527243310
+      Bosses_Map05_AshWarden_Death_Down_2: -1631813398
+      Bosses_Map05_AshWarden_Death_Down_3: -81007658
+      Bosses_Map05_AshWarden_Death_Left_0: 1343582160
+      Bosses_Map05_AshWarden_Death_Left_1: -348512330
+      Bosses_Map05_AshWarden_Death_Left_2: 1489131107
+      Bosses_Map05_AshWarden_Death_Left_3: 2077688401
+      Bosses_Map05_AshWarden_Death_Right_0: -968523460
+      Bosses_Map05_AshWarden_Death_Right_1: -1465443032
+      Bosses_Map05_AshWarden_Death_Right_2: 1748541865
+      Bosses_Map05_AshWarden_Death_Right_3: -2061391113
+      Bosses_Map05_AshWarden_Death_Up_0: -717014811
+      Bosses_Map05_AshWarden_Death_Up_1: 1321039989
+      Bosses_Map05_AshWarden_Death_Up_2: -1995402411
+      Bosses_Map05_AshWarden_Death_Up_3: -184404021
       CD_Boss_AshWarden_Death_4Dir_4Frame_v01_0: -3718684798310256793
       CD_Boss_AshWarden_Death_4Dir_4Frame_v01_1: 6559606513768115888
       CD_Boss_AshWarden_Death_4Dir_4Frame_v01_2: 1157452900751678588

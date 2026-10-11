@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 420
+  spritePixelsToUnits: 141.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,7 +140,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_BaseWalk_Down_0
+      name: Player_Base_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8b2e46cbb4913449b340cc86c6bc02
-      internalID: -2041934698
+      spriteID: 2eea664e44868d84baed28e103e88260
+      internalID: 1559759513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Down_1
+      name: Player_Base_Move_Down_1
       rect:
         serializedVersion: 2
         x: 316.25
@@ -177,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 005bdb9f8321e554aa1d3e8d94365eb5
-      internalID: -1995460217
+      spriteID: 9cae675dfcbddce4d997c4c1cdfaf1fd
+      internalID: -1667659073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Down_2
+      name: Player_Base_Move_Down_2
       rect:
         serializedVersion: 2
         x: 632.5
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49d98af0d0c278947a8d5583ac7b5ea1
-      internalID: 790307194
+      spriteID: 01619b094a86bb24bac55a7a17ed3400
+      internalID: -461699598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Down_3
+      name: Player_Base_Move_Down_3
       rect:
         serializedVersion: 2
         x: 948.75
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f1b1696289bb04393dec00438ee0e5
-      internalID: -362653333
+      spriteID: 8728331b60a646c4d87e5a3941d9cff2
+      internalID: -273337061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Left_0
+      name: Player_Base_Move_Left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6822ce64ec351174c8140a48e2cd2c00
-      internalID: 33241186
+      spriteID: b34db83afda21d9419b59341588b252a
+      internalID: -440638216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Left_1
+      name: Player_Base_Move_Left_1
       rect:
         serializedVersion: 2
         x: 316.25
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b42a1a2998b9a2f46b279a7000533c63
-      internalID: -559029500
+      spriteID: 787a478e920b94648b8976caa119c696
+      internalID: 1530156496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Left_2
+      name: Player_Base_Move_Left_2
       rect:
         serializedVersion: 2
         x: 632.5
@@ -287,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74940d72a50252947a07f196f799a21e
-      internalID: 248278779
+      spriteID: 90081b2956baed34792ba9048b3f659a
+      internalID: -464858077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Left_3
+      name: Player_Base_Move_Left_3
       rect:
         serializedVersion: 2
         x: 948.75
@@ -309,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69622035c6ce7d94db37fd573004a371
-      internalID: -75604582
+      spriteID: b10684cd56e55c644b23fa42ecea6f9f
+      internalID: 1357526720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Right_0
+      name: Player_Base_Move_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac84792f46a177a408856be2552932df
-      internalID: -142027505
+      spriteID: ad4f6dfa67142b344aee47203551e072
+      internalID: 1514974627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Right_1
+      name: Player_Base_Move_Right_1
       rect:
         serializedVersion: 2
         x: 316.25
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38ec96f42219124d86309d6490cc12b
-      internalID: -924636968
+      spriteID: 002f2dae16f6ad1459139f4eba4ca39a
+      internalID: -142915021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Right_2
+      name: Player_Base_Move_Right_2
       rect:
         serializedVersion: 2
         x: 632.5
@@ -375,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a2ef1045476d7429aa50d161fad418
-      internalID: 1563814258
+      spriteID: da6247c8d4c0b494685a1e00d9bbc914
+      internalID: 407435927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Right_3
+      name: Player_Base_Move_Right_3
       rect:
         serializedVersion: 2
         x: 948.75
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93d7d30db49ffba45b3d02049ea919ee
-      internalID: 187234971
+      spriteID: 0f26b2c0dba02c44c8e9ffdb6a1574c9
+      internalID: 484489415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Up_0
+      name: Player_Base_Move_Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -419,14 +419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450c009c9e103614dadf8d9f980dbdfa
-      internalID: 925969732
+      spriteID: e46332d1afd61f7469f6f3c2013fba84
+      internalID: 1267345042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Up_1
+      name: Player_Base_Move_Up_1
       rect:
         serializedVersion: 2
         x: 316.25
@@ -441,14 +441,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1003c3a445102549b1c83ec1b13ba2a
-      internalID: -10325349
+      spriteID: 2afdb3954407f9f4cb5c1e89a33995ce
+      internalID: 1309252904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Up_2
+      name: Player_Base_Move_Up_2
       rect:
         serializedVersion: 2
         x: 632.5
@@ -463,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eabab0141a3fc34f806c80758989283
-      internalID: 1231056541
+      spriteID: 3b538376ca376074e8971a59ed9297de
+      internalID: 1452691299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_BaseWalk_Up_3
+      name: Player_Base_Move_Up_3
       rect:
         serializedVersion: 2
         x: 948.75
@@ -485,8 +485,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af2564f2c5a86b94489c15852ae7b43e
-      internalID: 1442751064
+      spriteID: c18d3cefdff2c8b4f84c0915a2b96b04
+      internalID: 1704479744
       vertices: []
       indices: 
       edges: []
@@ -526,6 +526,22 @@ TextureImporter:
       CD_Player_Base_Walk_4Dir_4Frame_v02_2: 1314460230736548541
       CD_Player_Base_Walk_4Dir_4Frame_v02_3: 2564370590070354276
       CD_Player_Base_Walk_4Dir_4Frame_v02_4: -604820296849808826
+      Player_Base_Move_Down_0: 1559759513
+      Player_Base_Move_Down_1: -1667659073
+      Player_Base_Move_Down_2: -461699598
+      Player_Base_Move_Down_3: -273337061
+      Player_Base_Move_Left_0: -440638216
+      Player_Base_Move_Left_1: 1530156496
+      Player_Base_Move_Left_2: -464858077
+      Player_Base_Move_Left_3: 1357526720
+      Player_Base_Move_Right_0: 1514974627
+      Player_Base_Move_Right_1: -142915021
+      Player_Base_Move_Right_2: 407435927
+      Player_Base_Move_Right_3: 484489415
+      Player_Base_Move_Up_0: 1267345042
+      Player_Base_Move_Up_1: 1309252904
+      Player_Base_Move_Up_2: 1452691299
+      Player_Base_Move_Up_3: 1704479744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

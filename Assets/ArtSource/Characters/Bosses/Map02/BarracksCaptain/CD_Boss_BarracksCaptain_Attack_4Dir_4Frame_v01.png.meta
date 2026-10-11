@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 75.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,221 +155,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_0
+      name: Bosses_Map02_BarracksCaptain_Attack_Down_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 763
-        width: 323
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f3e55d495b94b1a0800000000000000
-      internalID: -6794635129943366668
+      spriteID: 8e767f063459e6940af793b36cf83022
+      internalID: -799437275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_1
+      name: Bosses_Map02_BarracksCaptain_Attack_Down_1
       rect:
         serializedVersion: 2
         x: 384
-        y: 16
-        width: 369
-        height: 1008
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 71f7cc4fb14ba95a0800000000000000
-      internalID: -6513695878873841897
+      spriteID: 516a32893799930478dfd4ba5cc378fa
+      internalID: -2133208932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_2
+      name: Bosses_Map02_BarracksCaptain_Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 766
-        y: 733
-        width: 338
-        height: 271
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d4d9b2551234b140800000000000000
-      internalID: 4734464175436846292
+      spriteID: 5cf57b06331b1634a87dc635fd60f670
+      internalID: -434424225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_3
+      name: Bosses_Map02_BarracksCaptain_Attack_Down_3
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 763
-        width: 339
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c6624dc67171332e0800000000000000
-      internalID: -2147347207948065172
+      spriteID: 611c392e4a3ab3043ab4e79710b7c4c1
+      internalID: 116323356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_4
+      name: Bosses_Map02_BarracksCaptain_Attack_Left_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 285
-        width: 340
-        height: 473
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7d9ccb09a17dab70800000000000000
-      internalID: 8911904208497450365
+      spriteID: cbef33b881169004c9181161e3c7cf1d
+      internalID: -46752506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_5
+      name: Bosses_Map02_BarracksCaptain_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 710
-        y: 511
-        width: 813
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f71ff1b2fdc8cdf0800000000000000
-      internalID: -159651344519587856
+      spriteID: 9d969441e4df49f46a4aace60ec1c138
+      internalID: 1683774517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_6
+      name: Bosses_Map02_BarracksCaptain_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 734
-        y: 15
-        width: 449
-        height: 505
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3db0666a8a51c8ff0800000000000000
-      internalID: -32627283208041517
+      spriteID: adb9bdd9d4f0c004890b0641fe30c08b
+      internalID: 589343776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_7
+      name: Bosses_Map02_BarracksCaptain_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 763
-        y: 517
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 60d7626421070b500800000000000000
-      internalID: 409950789879364870
+      spriteID: 819944f6fa98e2b4d870a0ffbab712ee
+      internalID: -2030959419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_8
+      name: Bosses_Map02_BarracksCaptain_Attack_Right_0
       rect:
         serializedVersion: 2
-        x: 1150
-        y: 13
-        width: 386
-        height: 499
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50c4c49ce482a8540800000000000000
-      internalID: 5010861854252878853
+      spriteID: 40c2d362f003b954798ce13cbb699d77
+      internalID: -1773902221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_9
+      name: Bosses_Map02_BarracksCaptain_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 15
-        width: 350
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4398ccd6f49105920800000000000000
-      internalID: 2976907182627129652
+      spriteID: 5a381b463aa5b564b833e1179765faa5
+      internalID: -180222108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Attack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112ad20f1b6f8e642b35097f2fb2a1e0
+      internalID: 1847129860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c035e269ba8b0fb43b184fc3d6ab03ce
+      internalID: -2017243659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Attack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea3698024fd404b80522ea8dea8308
+      internalID: -1798282668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Attack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d44c82dc90ed49bf47849418630b6
+      internalID: 1948300402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Attack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8d602ca7402004488812bea5a46c7f
+      internalID: -937584828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map02_BarracksCaptain_Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1c7067bde13d64da6747b628126ef0
+      internalID: -1058649399
       vertices: []
       indices: 
       edges: []
@@ -378,7 +510,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2763a02efd292e340bf435fe9174ae76
     internalID: 0
     vertices: []
     indices: 
@@ -388,6 +520,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map02_BarracksCaptain_Attack_Down_0: -799437275
+      Bosses_Map02_BarracksCaptain_Attack_Down_1: -2133208932
+      Bosses_Map02_BarracksCaptain_Attack_Down_2: -434424225
+      Bosses_Map02_BarracksCaptain_Attack_Down_3: 116323356
+      Bosses_Map02_BarracksCaptain_Attack_Left_0: -46752506
+      Bosses_Map02_BarracksCaptain_Attack_Left_1: 1683774517
+      Bosses_Map02_BarracksCaptain_Attack_Left_2: 589343776
+      Bosses_Map02_BarracksCaptain_Attack_Left_3: -2030959419
+      Bosses_Map02_BarracksCaptain_Attack_Right_0: -1773902221
+      Bosses_Map02_BarracksCaptain_Attack_Right_1: -180222108
+      Bosses_Map02_BarracksCaptain_Attack_Right_2: 1847129860
+      Bosses_Map02_BarracksCaptain_Attack_Right_3: -2017243659
+      Bosses_Map02_BarracksCaptain_Attack_Up_0: -1798282668
+      Bosses_Map02_BarracksCaptain_Attack_Up_1: 1948300402
+      Bosses_Map02_BarracksCaptain_Attack_Up_2: -937584828
+      Bosses_Map02_BarracksCaptain_Attack_Up_3: -1058649399
       CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_0: -6794635129943366668
       CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_1: -6513695878873841897
       CD_Boss_BarracksCaptain_Attack_4Dir_4Frame_v01_2: 4734464175436846292

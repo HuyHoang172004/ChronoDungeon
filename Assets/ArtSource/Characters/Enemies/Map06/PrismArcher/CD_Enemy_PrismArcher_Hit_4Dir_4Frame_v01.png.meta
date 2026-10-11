@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 124.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,309 +167,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_0
+      name: Enemies_Map06_PrismArcher_Hit_Down_0
       rect:
         serializedVersion: 2
-        x: 50
+        x: 0
         y: 933
-        width: 244
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8bad74875b441b540800000000000000
-      internalID: 5021870605692558008
+      spriteID: f39ca4c5471f97e47a432d733a89b338
+      internalID: 1955647562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_1
+      name: Enemies_Map06_PrismArcher_Hit_Down_1
       rect:
         serializedVersion: 2
-        x: 364
-        y: 936
-        width: 238
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d8a4682c66a70690800000000000000
-      internalID: -7635951659719022379
+      spriteID: 5bdb39db0313b724b90b3611bb7db2b2
+      internalID: 1109092479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_2
+      name: Enemies_Map06_PrismArcher_Hit_Down_2
       rect:
         serializedVersion: 2
         x: 630
-        y: 938
-        width: 263
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0728ed8d8545c810800000000000000
-      internalID: 1784909301595776783
+      spriteID: f7e5dade4ee22ee4d819aac35372682f
+      internalID: -350540039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_3
+      name: Enemies_Map06_PrismArcher_Hit_Down_3
       rect:
         serializedVersion: 2
-        x: 970
-        y: 938
-        width: 247
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0d112b094c5742250800000000000000
-      internalID: 5918985297373303248
+      spriteID: 69cff7077888ce44b868163bf69e576c
+      internalID: -848372916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_4
+      name: Enemies_Map06_PrismArcher_Hit_Left_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 15
-        width: 304
-        height: 913
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6596b6e8de4ca9080800000000000000
-      internalID: -9179808365865637546
+      spriteID: bb8c56144943e2344be5b261900bfc2d
+      internalID: 1191534104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_5
+      name: Enemies_Map06_PrismArcher_Hit_Left_1
       rect:
         serializedVersion: 2
-        x: 337
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babd322d4a347a2438d07924fde5bb33
+      internalID: 2123712449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d821fc0296b4b94ab829cc4e3f0e5d8
+      internalID: -1540486415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3fc50e0e11a78489ca7ee11d9c2a37
+      internalID: 1836202560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07842348e515cb1418c585bf1c9c2877
+      internalID: -514066208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5435c590e433f43a1ef657dcdbdba1
+      internalID: 389260513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb39985d26297143a0c277bf3e8bf9f
+      internalID: -1159245280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f630592129a02bf409d5415bdfac246a
+      internalID: 16948019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_PrismArcher_Hit_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 311
-        height: 926
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 53109f35c3f000eb0800000000000000
-      internalID: -4755784454721961675
+      spriteID: 6bfaab15e5d9e994a84e8ea6e2992499
+      internalID: 1146866892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_6
+      name: Enemies_Map06_PrismArcher_Hit_Up_1
       rect:
         serializedVersion: 2
-        x: 661
-        y: 628
-        width: 279
-        height: 284
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f66d6c32a2b2dab0800000000000000
-      internalID: -4984725427677468935
+      spriteID: 2b1fd7d58762ddb47a775e5d331e857b
+      internalID: 1759828631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_7
+      name: Enemies_Map06_PrismArcher_Hit_Up_2
       rect:
         serializedVersion: 2
-        x: 966
-        y: 631
-        width: 267
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74772b2f104557b70800000000000000
-      internalID: 8896109006283765575
+      spriteID: fe777854e26d39947b1c8cfa98915789
+      internalID: 1151482900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_8
+      name: Enemies_Map06_PrismArcher_Hit_Up_3
       rect:
         serializedVersion: 2
-        x: 628
-        y: 533
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9531dd5eac1a06700800000000000000
-      internalID: 531602648841655129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 637
-        y: 536
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3051b6dfa5ce4f8c0800000000000000
-      internalID: -3966285496263699197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 323
-        width: 285
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bcac86ccc9b0a7a0800000000000000
-      internalID: -6367885583946306383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 320
-        width: 279
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a6b920ad25ec2ff0800000000000000
-      internalID: -59420710939281760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 673
-        y: 15
-        width: 264
-        height: 298
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c39c432f46be8ff0800000000000000
-      internalID: -31887696334122039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 970
-        y: 15
-        width: 260
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edf6743c013b25200800000000000000
-      internalID: 167393020743217118
+      spriteID: a83f14b35855c9a49b1755669959a57d
+      internalID: 1348587490
       vertices: []
       indices: 
       edges: []
@@ -478,7 +522,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10c12e17b65633a42a6cba164e561e28
     internalID: 0
     vertices: []
     indices: 
@@ -502,6 +546,22 @@ TextureImporter:
       CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_7: 8896109006283765575
       CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_8: 531602648841655129
       CD_Enemy_PrismArcher_Hit_4Dir_4Frame_v01_9: -3966285496263699197
+      Enemies_Map06_PrismArcher_Hit_Down_0: 1955647562
+      Enemies_Map06_PrismArcher_Hit_Down_1: 1109092479
+      Enemies_Map06_PrismArcher_Hit_Down_2: -350540039
+      Enemies_Map06_PrismArcher_Hit_Down_3: -848372916
+      Enemies_Map06_PrismArcher_Hit_Left_0: 1191534104
+      Enemies_Map06_PrismArcher_Hit_Left_1: 2123712449
+      Enemies_Map06_PrismArcher_Hit_Left_2: -1540486415
+      Enemies_Map06_PrismArcher_Hit_Left_3: 1836202560
+      Enemies_Map06_PrismArcher_Hit_Right_0: -514066208
+      Enemies_Map06_PrismArcher_Hit_Right_1: 389260513
+      Enemies_Map06_PrismArcher_Hit_Right_2: -1159245280
+      Enemies_Map06_PrismArcher_Hit_Right_3: 16948019
+      Enemies_Map06_PrismArcher_Hit_Up_0: 1146866892
+      Enemies_Map06_PrismArcher_Hit_Up_1: 1759828631
+      Enemies_Map06_PrismArcher_Hit_Up_2: 1151482900
+      Enemies_Map06_PrismArcher_Hit_Up_3: 1348587490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

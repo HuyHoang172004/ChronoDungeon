@@ -87,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,287 +164,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 566
-        width: 263
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: efba347a55caa7700800000000000000
-      internalID: 538932589302623230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 852
-        width: 251
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3c3ed32634d3fb90800000000000000
-      internalID: -7209185249494942659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 844
-        width: 346
-        height: 273
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe801a0f30bc3d5e0800000000000000
-      internalID: -1885940601155680017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 562
-        width: 275
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2060b1484dccca5f0800000000000000
-      internalID: -743994625301477886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 719
-        y: 565
-        width: 332
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7948c374d12fd43d0800000000000000
-      internalID: -3220651950936914793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 749
-        y: 852
-        width: 294
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5163ec93196a7eb00800000000000000
-      internalID: 857837396707653141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 1104
-        y: 850
-        width: 273
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9db9424cc1a9fff0800000000000000
-      internalID: -1792426179445345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 279
-        width: 288
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b9290896b430d450800000000000000
-      internalID: 6111442653181192628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 31
-        width: 317
-        height: 535
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9f1373c6af2e4540800000000000000
-      internalID: 4993981430090637213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 705
-        y: 31
-        width: 325
-        height: 541
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7d232704ab348fa0800000000000000
-      internalID: -5799444844465934980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 565
-        width: 274
-        height: 283
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 979f3aaebfa2c9a90800000000000000
-      internalID: -7305917234040014471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_11
-      rect:
-        serializedVersion: 2
-        x: 1094
-        y: 25
-        width: 295
-        height: 543
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e130c659adf540b50800000000000000
-      internalID: 6558472349772677918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_12
+      name: Enemies_Map06_EchoBinder_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
-        width: 298
-        height: 261
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f6730df96e344da60800000000000000
-      internalID: 7697852320885782383
+      spriteID: 7bfd66ac4645a294cbf399122d72f74b
+      internalID: -2074560386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Down_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6d5796d2fb6f644b28ca35f39398ad
+      internalID: -1642746607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4211906af5c6ce4f91d1c30a4a6b92a
+      internalID: -457047296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4b33d37789a1f46ac4ed8189301fe4
+      internalID: 342672569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1592f17ebd77624591eddbae0f5140f
+      internalID: -1852354354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7b3382d1a2c7d41ae5801e2ddc2344
+      internalID: 782558868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dc5de3597c0c1468973adf7c289f47
+      internalID: -1728537658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4d7d6ab40bf984088d759697318435
+      internalID: 927285434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7984208280778154eb09ea2372071591
+      internalID: 939182242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0bb9da71df3c7499f479df548c5fc5
+      internalID: -766402609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991fe93f98783c341a1bca4c5205b2b1
+      internalID: 1423481394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306ee04a449198d45940abd94ebf4e38
+      internalID: -1891296867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092b822a725a50a429926bdd2f94309c
+      internalID: -664855021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00982bdac361c944cbb8f5bd458b1018
+      internalID: 495604715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b090a41471ba41b0e6128377a25d3
+      internalID: 1059404488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_EchoBinder_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2617aabdb09ae419efd37677353a5e
+      internalID: 1991817476
       vertices: []
       indices: 
       edges: []
@@ -453,7 +519,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cdc22390f1bbf6549857a3630e0c9846
     internalID: 0
     vertices: []
     indices: 
@@ -476,6 +542,22 @@ TextureImporter:
       CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_7: 6111442653181192628
       CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_8: 4993981430090637213
       CD_Enemy_EchoBinder_Hover_4Dir_4Frame_v01_9: -5799444844465934980
+      Enemies_Map06_EchoBinder_Move_Down_0: -2074560386
+      Enemies_Map06_EchoBinder_Move_Down_1: -1642746607
+      Enemies_Map06_EchoBinder_Move_Down_2: -457047296
+      Enemies_Map06_EchoBinder_Move_Down_3: 342672569
+      Enemies_Map06_EchoBinder_Move_Left_0: -1852354354
+      Enemies_Map06_EchoBinder_Move_Left_1: 782558868
+      Enemies_Map06_EchoBinder_Move_Left_2: -1728537658
+      Enemies_Map06_EchoBinder_Move_Left_3: 927285434
+      Enemies_Map06_EchoBinder_Move_Right_0: 939182242
+      Enemies_Map06_EchoBinder_Move_Right_1: -766402609
+      Enemies_Map06_EchoBinder_Move_Right_2: 1423481394
+      Enemies_Map06_EchoBinder_Move_Right_3: -1891296867
+      Enemies_Map06_EchoBinder_Move_Up_0: -664855021
+      Enemies_Map06_EchoBinder_Move_Up_1: 495604715
+      Enemies_Map06_EchoBinder_Move_Up_2: 1059404488
+      Enemies_Map06_EchoBinder_Move_Up_3: 1991817476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

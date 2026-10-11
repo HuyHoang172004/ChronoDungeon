@@ -61,8 +61,17 @@ public sealed class PlayerCombatHUD : MonoBehaviour
 
     private void Awake()
     {
+        ScaleSkillButton(skill1Button);
+        ScaleSkillButton(skill2Button);
         skill1FallbackIcon = skill1Icon != null ? skill1Icon.sprite : null;
         skill2FallbackIcon = skill2Icon != null ? skill2Icon.sprite : null;
+    }
+
+    private static void ScaleSkillButton(Button button)
+    {
+        if (button == null) return;
+        RectTransform rect = button.transform as RectTransform;
+        if (rect != null) rect.localScale *= 2f;
     }
 
     private void OnEnable()

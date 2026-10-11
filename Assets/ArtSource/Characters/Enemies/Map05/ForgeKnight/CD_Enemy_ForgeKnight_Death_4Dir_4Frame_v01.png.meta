@@ -141,7 +141,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -218,683 +218,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 792
-        width: 658
-        height: 424
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7283963e0cf3fc40800000000000000
-      internalID: 5545052704198591102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 1167
-        width: 28
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fae443cc4640b9480800000000000000
-      internalID: -8891508208343691601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 875
-        y: 1179
-        width: 24
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e834f4d8ad86dbc0800000000000000
-      internalID: -3758661082727302942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 915
-        y: 1199
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9b851d069d494940800000000000000
-      internalID: 5280837344928566171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1032
-        y: 1130
-        width: 69
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dbc7d1e1678b4280800000000000000
-      internalID: -9057997371055027241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 1106
-        y: 1161
-        width: 62
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ff414201cbe086c0800000000000000
-      internalID: -4143052442981806087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map05_ForgeKnight_Death_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 915
-        width: 310
-        height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 084ad53246f3cb930800000000000000
-      internalID: 4160269855106114688
+      spriteID: 7f744392a2613a145bc5669179733cd9
+      internalID: -1208243758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map05_ForgeKnight_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 885
-        y: 1140
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c40aa0681cd6be220800000000000000
-      internalID: 2516225494761513036
+      spriteID: 8db49dd27c6989645aaeba1364f00da9
+      internalID: 826011149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_8
+      name: Enemies_Map05_ForgeKnight_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 891
-        y: 1138
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69d4a6a74454b4470800000000000000
-      internalID: 8379867692066819478
+      spriteID: 696048dd4556f1744a9f381677086017
+      internalID: -1372808380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map05_ForgeKnight_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 1150
-        y: 1100
-        width: 14
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 918
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5dd7cd54a144e32d0800000000000000
-      internalID: -3297122997556707883
+      spriteID: b28095206b4cba84299e23df9fccab51
+      internalID: -857141428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map05_ForgeKnight_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 1108
-        width: 114
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d11683701088314b0800000000000000
-      internalID: -5470879584327540451
+      spriteID: 7a661a05087fe2f429b41c5f698587ee
+      internalID: -1971327096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map05_ForgeKnight_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 964
-        y: 1003
-        width: 15
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd91eb15cd70cb9d0800000000000000
-      internalID: -2757320229011973665
+      spriteID: 731a61296b04e974f9700eef0a62a32c
+      internalID: 1454855531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_12
+      name: Enemies_Map05_ForgeKnight_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 992
-        y: 776
-        width: 277
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f8444ba6efe65ef0800000000000000
-      internalID: -119644566083843850
+      spriteID: 3a37f75eda0b0be4289c53f5a7fab6f3
+      internalID: -446266075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_13
+      name: Enemies_Map05_ForgeKnight_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 14
-        y: 623
-        width: 256
-        height: 272
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 612
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2030c03d11edac680800000000000000
-      internalID: -8733924359195065598
+      spriteID: a4812c3fed3162d4fa3f12ab9cb377e4
+      internalID: 687581687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_14
+      name: Enemies_Map05_ForgeKnight_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 305
-        y: 587
-        width: 315
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77c49ee138f811010800000000000000
-      internalID: 1157864372533021815
+      spriteID: d608ec8de8be5504ca82457a94d99c60
+      internalID: 1384208704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_15
+      name: Enemies_Map05_ForgeKnight_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 641
-        y: 504
-        width: 336
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc56dd521957e7f50800000000000000
-      internalID: 6881066546934670799
+      spriteID: 1729825c68bff56458a0015174c72968
+      internalID: -578695031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_16
+      name: Enemies_Map05_ForgeKnight_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 911
-        y: 789
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9027e743bd1e5910800000000000000
-      internalID: 1827931154601681055
+      spriteID: 52f589f4396179843ab6d272f5cb0a6b
+      internalID: 242153984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_17
+      name: Enemies_Map05_ForgeKnight_Death_Right_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 335
-        width: 277
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 306
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb07eee80970c7840800000000000000
-      internalID: 5223057985297608895
+      spriteID: 63fab4ce008c75d47a3d2272fc1c134c
+      internalID: -1105274905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 333
-        width: 311
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: acd95e5ccb497bd40800000000000000
-      internalID: 5600108200153423306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 565
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b08070c06745a5e50800000000000000
-      internalID: 6798839453453846539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_20
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 522
-        width: 276
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5aac13832d49a4a60800000000000000
-      internalID: 7659097746903780005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_21
+      name: Enemies_Map05_ForgeKnight_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 647
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e2ff7e7024527210800000000000000
-      internalID: 1329217338565718754
+      spriteID: 631ec0f4bc9038b449ee951c91865af6
+      internalID: -1819251518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_22
+      name: Enemies_Map05_ForgeKnight_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 648
-        y: 210
-        width: 12
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5bbd928e276e86c90800000000000000
-      internalID: -7176232625019167819
+      spriteID: 6f4c55166e2b46c46a026fb3301c0312
+      internalID: 1459423675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_23
+      name: Enemies_Map05_ForgeKnight_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 664
-        y: 202
-        width: 607
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb6c815de2b723700800000000000000
-      internalID: 518612348174911167
+      spriteID: d800296c691d81741807a7672bd1f78f
+      internalID: -1161582336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_24
+      name: Enemies_Map05_ForgeKnight_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 913
-        y: 265
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 963
+        y: 0
+        width: 321
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6de933be3f83f0c80800000000000000
-      internalID: -8354396163474743594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_25
-      rect:
-        serializedVersion: 2
-        x: 970
-        y: 279
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10a465f25016d9320800000000000000
-      internalID: 2566314037567965697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_26
-      rect:
-        serializedVersion: 2
-        x: 970
-        y: 226
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 423cb271364fd5380800000000000000
-      internalID: -8980753375479217372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_27
-      rect:
-        serializedVersion: 2
-        x: 1178
-        y: 184
-        width: 14
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf6b2194bd33a1e10800000000000000
-      internalID: 2169103187449132795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_28
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 7
-        width: 329
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b28f89d89e40e3e80800000000000000
-      internalID: -8197108870618220501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_29
-      rect:
-        serializedVersion: 2
-        x: 988
-        y: 43
-        width: 284
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a3bd60ee10e77500800000000000000
-      internalID: 394029915637134240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_30
-      rect:
-        serializedVersion: 2
-        x: 1190
-        y: 182
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bebff0b5ac392cb0800000000000000
-      internalID: -4888309238197141838
+      spriteID: ec88544e8d4aecb439e447949b53c9e3
+      internalID: 620693430
       vertices: []
       indices: 
       edges: []
@@ -903,7 +573,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6405899d327e0b54a93025ce87e04092
     internalID: 0
     vertices: []
     indices: 
@@ -944,6 +614,22 @@ TextureImporter:
       CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_7: 2516225494761513036
       CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_8: 8379867692066819478
       CD_Enemy_ForgeKnight_Death_4Dir_4Frame_v01_9: -3297122997556707883
+      Enemies_Map05_ForgeKnight_Death_Down_0: -1208243758
+      Enemies_Map05_ForgeKnight_Death_Down_1: 826011149
+      Enemies_Map05_ForgeKnight_Death_Down_2: -1372808380
+      Enemies_Map05_ForgeKnight_Death_Down_3: -857141428
+      Enemies_Map05_ForgeKnight_Death_Left_0: -1971327096
+      Enemies_Map05_ForgeKnight_Death_Left_1: 1454855531
+      Enemies_Map05_ForgeKnight_Death_Left_2: -446266075
+      Enemies_Map05_ForgeKnight_Death_Left_3: 687581687
+      Enemies_Map05_ForgeKnight_Death_Right_0: 1384208704
+      Enemies_Map05_ForgeKnight_Death_Right_1: -578695031
+      Enemies_Map05_ForgeKnight_Death_Right_2: 242153984
+      Enemies_Map05_ForgeKnight_Death_Right_3: -1105274905
+      Enemies_Map05_ForgeKnight_Death_Up_0: -1819251518
+      Enemies_Map05_ForgeKnight_Death_Up_1: 1459423675
+      Enemies_Map05_ForgeKnight_Death_Up_2: -1161582336
+      Enemies_Map05_ForgeKnight_Death_Up_3: 620693430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

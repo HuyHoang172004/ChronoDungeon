@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 127.27273
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,133 +143,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_0
+      name: NPC_Map04_ArchivistEcho_Interact_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceef7929f74e6b409f79a9ecf7a4be0
+      internalID: -1171755533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Down_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dba948c81b10804284e3c7998be0bc7
+      internalID: -1181401301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Down_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90167dd71a5e66f409d3b48d41866b2e
+      internalID: 837106649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5131078673a3de74083219159a4408d6
+      internalID: -1572852985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172d9603291482b4d88275d21f42a841
+      internalID: 392652026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Left_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a39e0d70bf43f345bc1db0514d0f821
+      internalID: -223492149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Left_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cddd95a3fc7b484581af47f4bfe8399
+      internalID: 718898282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdf63f4e7008784582051528d84e2bb
+      internalID: -196987260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878c9283ca5f95244bc3acfd817c2e96
+      internalID: 1954740196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc3bc8dc4ae51a4aa7710c1453604a6
+      internalID: -1950939535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99f16849e30d0a44ba8d5d4fdfad7c7
+      internalID: -1344882595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a60a490a6361c84b9666ef17f85da24
+      internalID: 1738503230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Map04_ArchivistEcho_Interact_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 351
-        height: 1113
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df2ea9ea6f8bea4b0800000000000000
-      internalID: -5427197131304017155
+      spriteID: 50fc7f3dc0ecad44e99479f7c01c2d61
+      internalID: 211510464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_1
+      name: NPC_Map04_ArchivistEcho_Interact_Up_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 26
-        width: 359
-        height: 1087
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e829134c792afff00800000000000000
-      internalID: 1152818802345480846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 714
+        x: 350
         y: 0
-        width: 375
-        height: 1114
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ce96b9985287a510800000000000000
-      internalID: 1560359112954781378
+      spriteID: ae98992cab76d594f94a291e615cc67f
+      internalID: -1749432784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_3
+      name: NPC_Map04_ArchivistEcho_Interact_Up_2
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 103
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f30efbfa6d9267cc0800000000000000
-      internalID: -3713734840672067521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 1102
+        x: 700
         y: 0
-        width: 298
-        height: 1113
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2050b62ff35a24010800000000000000
-      internalID: 1171680547138372866
+      spriteID: 9544dffe3882cc342b2f43dece3e772a
+      internalID: -131399816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_5
+      name: NPC_Map04_ArchivistEcho_Interact_Up_3
       rect:
         serializedVersion: 2
-        x: 668
-        y: 71
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 789dfb91180e6a570800000000000000
-      internalID: 8477710193658943879
+      spriteID: bf6b1c243877a874db591750e183afa1
+      internalID: -1314862153
       vertices: []
       indices: 
       edges: []
@@ -278,7 +498,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a60f9eba90fba8429f4df8c763a3a2b
     internalID: 0
     vertices: []
     indices: 
@@ -294,6 +514,22 @@ TextureImporter:
       CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_3: -3713734840672067521
       CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_4: 1171680547138372866
       CD_NPC_ArchivistEcho_Interact_4Dir_4Frame_v01_5: 8477710193658943879
+      NPC_Map04_ArchivistEcho_Interact_Down_0: -1171755533
+      NPC_Map04_ArchivistEcho_Interact_Down_1: -1181401301
+      NPC_Map04_ArchivistEcho_Interact_Down_2: 837106649
+      NPC_Map04_ArchivistEcho_Interact_Down_3: -1572852985
+      NPC_Map04_ArchivistEcho_Interact_Left_0: 392652026
+      NPC_Map04_ArchivistEcho_Interact_Left_1: -223492149
+      NPC_Map04_ArchivistEcho_Interact_Left_2: 718898282
+      NPC_Map04_ArchivistEcho_Interact_Left_3: -196987260
+      NPC_Map04_ArchivistEcho_Interact_Right_0: 1954740196
+      NPC_Map04_ArchivistEcho_Interact_Right_1: -1950939535
+      NPC_Map04_ArchivistEcho_Interact_Right_2: -1344882595
+      NPC_Map04_ArchivistEcho_Interact_Right_3: 1738503230
+      NPC_Map04_ArchivistEcho_Interact_Up_0: 211510464
+      NPC_Map04_ArchivistEcho_Interact_Up_1: -1749432784
+      NPC_Map04_ArchivistEcho_Interact_Up_2: -131399816
+      NPC_Map04_ArchivistEcho_Interact_Up_3: -1314862153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 127.6
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -167,309 +167,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_0
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 970
-        width: 277
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7689aeaa0f3ef92e0800000000000000
-      internalID: -2116722677041686425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 970
-        width: 299
-        height: 275
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f98b2f8ce76a69c40800000000000000
-      internalID: 5518781456856561823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 645
-        y: 965
-        width: 260
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 108fe4241ce72e110800000000000000
-      internalID: 1288731811887642625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 932
-        y: 969
-        width: 269
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e23368ee71126e270800000000000000
-      internalID: 8279341351636972334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 675
-        width: 279
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce006697ecb7f5160800000000000000
-      internalID: 7016462871196729580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 675
-        width: 248
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a4b6f4a2422fa530800000000000000
-      internalID: 3868348274565362856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 676
-        width: 350
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3dd41536a6d644200800000000000000
-      internalID: 163375790192414163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 674
-        width: 253
-        height: 281
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2266da18513b14040800000000000000
-      internalID: 4630178796864890402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_8
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 354
-        width: 239
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b7c4f47758693a20800000000000000
-      internalID: 3042577748099123123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_9
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 353
-        width: 244
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 783d63a1ef917d1f0800000000000000
-      internalID: -1020318211423939705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_10
-      rect:
-        serializedVersion: 2
-        x: 629
-        y: 353
-        width: 554
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65bec2c2703643990800000000000000
-      internalID: -7407186604660561066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_11
+      name: Enemies_Map05_AshHusk_Attack_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 45
+        y: 957
         width: 307
-        height: 298
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4eb82d87c477d3e60800000000000000
-      internalID: 7943636488079707108
+      spriteID: 92179c4074edd19428b9f92e38c87d3c
+      internalID: 689056595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_12
+      name: Enemies_Map05_AshHusk_Attack_Down_1
       rect:
         serializedVersion: 2
-        x: 318
-        y: 46
-        width: 268
-        height: 304
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 307
+        y: 957
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12d04eb9e07cc18b0800000000000000
-      internalID: -5180046605824029407
+      spriteID: 5ce0d63b0eabc414caafb31ce8d57acd
+      internalID: 1502095842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_13
+      name: Enemies_Map05_AshHusk_Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 609
-        y: 15
-        width: 598
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 614
+        y: 957
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11d1d80ee2f33f850800000000000000
-      internalID: 6409536165246737681
+      spriteID: 30de848d29a9d7948a7d16ad38121ab1
+      internalID: -363665202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Down_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 957
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02755d54d9200243aaef41409cf508c
+      internalID: -943735700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee1ae467d2cb145913a46cc89f73c1
+      internalID: -410794656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Left_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 638
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4dd19a0e8cd814ea17047ce4354b07
+      internalID: -229713690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Left_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 638
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab337425bcb3744ea4906c914863757
+      internalID: -806735965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Left_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 638
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b326a0dacafbc41927ea81a8321cd1
+      internalID: 2019839774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226f8aecdcc6df949b8dcbe43261a37a
+      internalID: 820203332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Right_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 319
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20287749eefadd439c0598c093713b4
+      internalID: 198270449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 319
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae015aa99a50937459deb24c9b31d57d
+      internalID: -2138851318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 319
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f30a5249255a2c4c863a2a27695ffbd
+      internalID: 1896176535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779aff41e5723e940bbd9bfcc2d0f5d4
+      internalID: -25865491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ab1df47e739a4468e6eb8cd5c3c0e3
+      internalID: 802685727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb12c095209bf57489d2dbe7ca68f34e
+      internalID: -1452509789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map05_AshHusk_Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 307
+        height: 319
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff85fcc072ba50e44b4681bde49c4fca
+      internalID: 1655729554
       vertices: []
       indices: 
       edges: []
@@ -478,7 +522,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9bb4f11234fb6ac4e8cdba0adc553fde
     internalID: 0
     vertices: []
     indices: 
@@ -502,6 +546,22 @@ TextureImporter:
       CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_7: 4630178796864890402
       CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_8: 3042577748099123123
       CD_Enemy_AshHusk_Attack_4Dir_4Frame_v01_9: -1020318211423939705
+      Enemies_Map05_AshHusk_Attack_Down_0: 689056595
+      Enemies_Map05_AshHusk_Attack_Down_1: 1502095842
+      Enemies_Map05_AshHusk_Attack_Down_2: -363665202
+      Enemies_Map05_AshHusk_Attack_Down_3: -943735700
+      Enemies_Map05_AshHusk_Attack_Left_0: -410794656
+      Enemies_Map05_AshHusk_Attack_Left_1: -229713690
+      Enemies_Map05_AshHusk_Attack_Left_2: -806735965
+      Enemies_Map05_AshHusk_Attack_Left_3: 2019839774
+      Enemies_Map05_AshHusk_Attack_Right_0: 820203332
+      Enemies_Map05_AshHusk_Attack_Right_1: 198270449
+      Enemies_Map05_AshHusk_Attack_Right_2: -2138851318
+      Enemies_Map05_AshHusk_Attack_Right_3: 1896176535
+      Enemies_Map05_AshHusk_Attack_Up_0: -25865491
+      Enemies_Map05_AshHusk_Attack_Up_1: 802685727
+      Enemies_Map05_AshHusk_Attack_Up_2: -1452509789
+      Enemies_Map05_AshHusk_Attack_Up_3: 1655729554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

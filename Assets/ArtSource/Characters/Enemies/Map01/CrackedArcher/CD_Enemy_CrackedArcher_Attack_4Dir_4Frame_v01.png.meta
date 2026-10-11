@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 118.5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,243 +158,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_0
+      name: Enemies_Map01_CrackedArcher_Attack_Down_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 870
-        width: 234
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f23e256dac689350800000000000000
-      internalID: 6023683993590706929
+      spriteID: 290fd3dd00309344c97c8c251301de5d
+      internalID: -286816297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_1
+      name: Enemies_Map01_CrackedArcher_Attack_Down_1
       rect:
         serializedVersion: 2
-        x: 402
-        y: 876
-        width: 219
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331.75
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38bff72b3a03e52b0800000000000000
-      internalID: -5593980207515042941
+      spriteID: a9d7bd7e972468b478e5812fd9520af9
+      internalID: -1364579051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_2
+      name: Enemies_Map01_CrackedArcher_Attack_Down_2
       rect:
         serializedVersion: 2
-        x: 726
-        y: 878
-        width: 243
-        height: 307
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663.5
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b620b813f9a7a1b0800000000000000
-      internalID: -5645356746329282893
+      spriteID: 9db3648b1c7c96241a7676459aaee409
+      internalID: -65969416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_3
+      name: Enemies_Map01_CrackedArcher_Attack_Down_3
       rect:
         serializedVersion: 2
-        x: 993
-        y: 589
-        width: 334
-        height: 596
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 995.25
+        y: 888.75
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11477c29f224fb9e0800000000000000
-      internalID: -1603490170227166191
+      spriteID: dd5976f614a8eac4b8318c173d322a48
+      internalID: 284183716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_4
+      name: Enemies_Map01_CrackedArcher_Attack_Left_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 589
-        width: 271
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98e36b2b91fe75330800000000000000
-      internalID: 3699688512559660681
+      spriteID: 8f8f59411d64eb442b0153e01fa86f6b
+      internalID: -601504086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_5
+      name: Enemies_Map01_CrackedArcher_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 356
-        y: 13
-        width: 290
-        height: 580
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331.75
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 262b7270f9d339fd0800000000000000
-      internalID: -2336456028446018974
+      spriteID: 943f9092a1eafcf4c9a8970257bf95ff
+      internalID: -1689195642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_6
+      name: Enemies_Map01_CrackedArcher_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 370
-        y: 590
-        width: 292
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663.5
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 833929c3b4cb5d810800000000000000
-      internalID: 1789543458274448184
+      spriteID: 1f87a2c7d51e3224282721177953cace
+      internalID: 1379994349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_7
+      name: Enemies_Map01_CrackedArcher_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 680
-        y: 11
-        width: 324
-        height: 861
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 995.25
+        y: 592.5
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc5c1b91f23e94d60800000000000000
-      internalID: 7875075214868071883
+      spriteID: 09e6afff264b44144b38d9b80c8930c1
+      internalID: -1556890138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_8
+      name: Enemies_Map01_CrackedArcher_Attack_Right_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 13
-        width: 269
-        height: 573
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1125e98094d8b2340800000000000000
-      internalID: 4840117569356452369
+      spriteID: fe9f5b1a79084914ba7b40915947ad43
+      internalID: 1967818710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_9
+      name: Enemies_Map01_CrackedArcher_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 680
-        y: 71
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 331.75
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3227189de90454960800000000000000
-      internalID: 7585540198373618211
+      spriteID: 502eb08f2b8c436469140f67291a13e4
+      internalID: 1323383007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_10
+      name: Enemies_Map01_CrackedArcher_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 11
-        width: 277
-        height: 577
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 663.5
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c923815fa3be1f610800000000000000
-      internalID: 1653361176674316956
+      spriteID: aa196a45de2416040bc1b70fb1df2c8d
+      internalID: -1418441204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 995.25
+        y: 296.25
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576082919f8e5ef499a3f1b9f9df7282
+      internalID: 324899746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Attack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f0009aba6be2342883dbc4735f2b1a
+      internalID: -2006698003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Attack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 331.75
+        y: 0
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb80bd551df09249b254f1b19c563bc
+      internalID: 1535973265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Attack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 663.5
+        y: 0
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e1e73b2553c8458af95c9ef12d335
+      internalID: 316257165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_CrackedArcher_Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 995.25
+        y: 0
+        width: 331.75
+        height: 296.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92102c39961ab964bb43ca4004fb5853
+      internalID: 1479870667
       vertices: []
       indices: 
       edges: []
@@ -403,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0c546d6c06cf93145ad824cc125b099d
     internalID: 0
     vertices: []
     indices: 
@@ -424,6 +534,22 @@ TextureImporter:
       CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_7: 7875075214868071883
       CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_8: 4840117569356452369
       CD_Enemy_CrackedArcher_Attack_4Dir_4Frame_v01_9: 7585540198373618211
+      Enemies_Map01_CrackedArcher_Attack_Down_0: -286816297
+      Enemies_Map01_CrackedArcher_Attack_Down_1: -1364579051
+      Enemies_Map01_CrackedArcher_Attack_Down_2: -65969416
+      Enemies_Map01_CrackedArcher_Attack_Down_3: 284183716
+      Enemies_Map01_CrackedArcher_Attack_Left_0: -601504086
+      Enemies_Map01_CrackedArcher_Attack_Left_1: -1689195642
+      Enemies_Map01_CrackedArcher_Attack_Left_2: 1379994349
+      Enemies_Map01_CrackedArcher_Attack_Left_3: -1556890138
+      Enemies_Map01_CrackedArcher_Attack_Right_0: 1967818710
+      Enemies_Map01_CrackedArcher_Attack_Right_1: 1323383007
+      Enemies_Map01_CrackedArcher_Attack_Right_2: -1418441204
+      Enemies_Map01_CrackedArcher_Attack_Right_3: 324899746
+      Enemies_Map01_CrackedArcher_Attack_Up_0: -2006698003
+      Enemies_Map01_CrackedArcher_Attack_Up_1: 1535973265
+      Enemies_Map01_CrackedArcher_Attack_Up_2: 316257165
+      Enemies_Map01_CrackedArcher_Attack_Up_3: 1479870667
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

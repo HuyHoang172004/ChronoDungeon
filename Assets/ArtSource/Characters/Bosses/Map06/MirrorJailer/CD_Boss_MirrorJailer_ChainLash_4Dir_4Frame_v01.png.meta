@@ -75,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 89.117645
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,199 +152,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_0
+      name: Bosses_Map06_MirrorJailer_ChainLash_Down_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 906
-        width: 291
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b4d3b38182404a40800000000000000
-      internalID: 5350349481343964341
+      spriteID: 4bf494b7d16c4874983119ee898475dd
+      internalID: 1689213953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_1
+      name: Bosses_Map06_MirrorJailer_ChainLash_Down_1
       rect:
         serializedVersion: 2
-        x: 356
-        y: 915
-        width: 291
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8eb6cb9bdc27ecd90800000000000000
-      internalID: -7075591736642475032
+      spriteID: 543571d0d58fd46439f769b9557a556f
+      internalID: 1741269376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Down_2
       rect:
         serializedVersion: 2
-        x: 435
-        y: 1205
-        width: 19
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 646
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a67c6629e3d64d620800000000000000
-      internalID: 2797981384015529834
+      spriteID: e466e285d2f5e324491db7945764b73d
+      internalID: -166936650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_3
+      name: Bosses_Map06_MirrorJailer_ChainLash_Down_3
       rect:
         serializedVersion: 2
-        x: 14
-        y: 19
-        width: 1015
-        height: 899
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 969
+        y: 909
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef31f5aac6a05ee50800000000000000
-      internalID: 6837883071063069694
+      spriteID: 13b56b0e3bf3a36489e2adf89f6f4da2
+      internalID: -1302239912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_4
+      name: Bosses_Map06_MirrorJailer_ChainLash_Left_0
       rect:
         serializedVersion: 2
-        x: 650
-        y: 906
-        width: 357
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2961eaa705859920800000000000000
-      internalID: 2996447395063097647
+      spriteID: 69b0deac0fe945749a09209170b03cf5
+      internalID: 1760760778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_5
+      name: Bosses_Map06_MirrorJailer_ChainLash_Left_1
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 876
-        width: 249
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 323
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7774496f5e46dfd50800000000000000
-      internalID: 6772680353482295159
+      spriteID: 86685ff7462db3b4ea0d13c236ea0346
+      internalID: -941073256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_6
+      name: Bosses_Map06_MirrorJailer_ChainLash_Left_2
       rect:
         serializedVersion: 2
-        x: 1017
-        y: 614
-        width: 263
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 646
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17959fc6e484906a0800000000000000
-      internalID: -6482570686950188687
+      spriteID: 5ebfc3082b668464282609da9367ff62
+      internalID: 2138290847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_7
+      name: Bosses_Map06_MirrorJailer_ChainLash_Left_3
       rect:
         serializedVersion: 2
-        x: 985
-        y: 318
-        width: 295
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 969
+        y: 606
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a563667b06e096f70800000000000000
-      internalID: 9180885123928045146
+      spriteID: c93094bf036fe404ca31b4002a55baf8
+      internalID: 1026315524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_8
+      name: Bosses_Map06_MirrorJailer_ChainLash_Right_0
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 14
-        width: 271
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c99b4012e19f86ce0800000000000000
-      internalID: -1411604575382357604
+      spriteID: 598a1812a860ddd409371ec6c92907ec
+      internalID: -1890018474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Right_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c7ccadd287a4c4695f16daaba6c1b6
+      internalID: -1742282950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Right_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2231e4fdde89b144a724263ac6dc78b
+      internalID: -139738926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Right_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 303
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb551b46bbbe7f4fbf0294224a803f2
+      internalID: -851666074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0153f10d9f89d4ea2f598afeec7216
+      internalID: 950585629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Up_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb6afc02a4d164fb1558339dfa8e1c
+      internalID: 817178115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Up_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3272cfef74248474e9d895e3b71cb8c7
+      internalID: -942697907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map06_MirrorJailer_ChainLash_Up_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 323
+        height: 303
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f070b6f8d086f2a44876334fbf08538a
+      internalID: -1563937333
       vertices: []
       indices: 
       edges: []
@@ -353,7 +507,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 052898ee0dee9f44c89ffd55f6ca0fef
     internalID: 0
     vertices: []
     indices: 
@@ -363,6 +517,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map06_MirrorJailer_ChainLash_Down_0: 1689213953
+      Bosses_Map06_MirrorJailer_ChainLash_Down_1: 1741269376
+      Bosses_Map06_MirrorJailer_ChainLash_Down_2: -166936650
+      Bosses_Map06_MirrorJailer_ChainLash_Down_3: -1302239912
+      Bosses_Map06_MirrorJailer_ChainLash_Left_0: 1760760778
+      Bosses_Map06_MirrorJailer_ChainLash_Left_1: -941073256
+      Bosses_Map06_MirrorJailer_ChainLash_Left_2: 2138290847
+      Bosses_Map06_MirrorJailer_ChainLash_Left_3: 1026315524
+      Bosses_Map06_MirrorJailer_ChainLash_Right_0: -1890018474
+      Bosses_Map06_MirrorJailer_ChainLash_Right_1: -1742282950
+      Bosses_Map06_MirrorJailer_ChainLash_Right_2: -139738926
+      Bosses_Map06_MirrorJailer_ChainLash_Right_3: -851666074
+      Bosses_Map06_MirrorJailer_ChainLash_Up_0: 950585629
+      Bosses_Map06_MirrorJailer_ChainLash_Up_1: 817178115
+      Bosses_Map06_MirrorJailer_ChainLash_Up_2: -942697907
+      Bosses_Map06_MirrorJailer_ChainLash_Up_3: -1563937333
       CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_0: 5350349481343964341
       CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_1: -7075591736642475032
       CD_Boss_MirrorJailer_ChainLash_4Dir_4Frame_v01_2: 2797981384015529834

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a87b8c633ca81449decb4753dbb9fd, type: 3}
+  m_Name: Map04_Modular
+  m_EditorClassIdentifier: Assembly-CSharp::ModularMapDefinition
+  zoneName: Zone04_EchoLibrary
+  worldSize: {x: 39.11, y: 25.08}
+  spawnNormalized: {x: 0.025, y: 0.75}
+  background: {fileID: 21300000, guid: ffa7421930a788a4c97e3eda7b2c35d9, type: 3}
+  walkableMask: {fileID: 2800000, guid: 90ec52e4c065bd94d824ea26d48523c5, type: 3}
+  tiles:
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 61ce7b08ab19b0d48bf33568e8e89bae, type: 3}
+    localPosition: {x: -12.54, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: e4c98c9bd41a3cb4d988d58fe1a7d953, type: 3}
+    localPosition: {x: 0.745, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 1bc5e60e40249304f85f8f860d9fe8d1, type: 3}
+    localPosition: {x: 13.285, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: ed7e5e058897c1843b48774b6ffd3ba8, type: 3}
+    localPosition: {x: 0.745, y: -6.27}
+  colliderPaths: []

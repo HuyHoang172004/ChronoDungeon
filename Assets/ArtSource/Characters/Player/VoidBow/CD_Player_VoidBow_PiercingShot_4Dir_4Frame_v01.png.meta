@@ -57,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 141.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,67 +134,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Player_VoidBow_PiercingShot_4Dir_4Frame_v01_0
+      name: Player_VoidBow_PiercingShot_Down_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 13
-        width: 328
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 840a7751e2c8d8100800000000000000
-      internalID: 111899695310676040
+      spriteID: f0b3b0697a4a96d4aa8172ce0637b407
+      internalID: -1050131386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_VoidBow_PiercingShot_4Dir_4Frame_v01_1
+      name: Player_VoidBow_PiercingShot_Down_1
       rect:
         serializedVersion: 2
-        x: 309
-        y: 13
-        width: 333
-        height: 1230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 316.25
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14b42e7c2769f7d30800000000000000
-      internalID: 4431425978079791937
+      spriteID: 16581f6df52d64a41b2ef1c5a9d3ed15
+      internalID: 1415211749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Player_VoidBow_PiercingShot_4Dir_4Frame_v01_2
+      name: Player_VoidBow_PiercingShot_Down_2
       rect:
         serializedVersion: 2
-        x: 614
+        x: 632.5
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f1b39cac7ad4e49b5581c419a9305a
+      internalID: -1704384855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Down_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 932.25
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f877b7ac7c04404c9ed0c896e173910
+      internalID: -1725129038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e57fdce54ccb143985657195d6aaa9
+      internalID: 123446017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Left_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb27059bbf92946b29c18b66ca14d0
+      internalID: -1805172203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Left_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b6ec6daea0ad42a1231bbb441b2f4
+      internalID: 1321507262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Left_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 621.5
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d191e4cb43a83d448852e22f43319d12
+      internalID: 445909081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d647748716b6dac40bb5302a4f8bdc9e
+      internalID: -637453204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Right_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8729b6fff2d7d418450df69102cc40
+      internalID: -407732089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Right_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d358304f736ed648bbf25f34f2e9dc9
+      internalID: 659582244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Right_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 310.75
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cca443aadc23e5469a8a86268d375e8
+      internalID: 2040586905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 651
-        height: 1243
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e7c9edf018d21010800000000000000
-      internalID: 1158225621678671845
+      spriteID: 23b4c2be2a8471a4d985ddc219a2298d
+      internalID: 1984123776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Up_1
+      rect:
+        serializedVersion: 2
+        x: 316.25
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd97614ca422a854dab978e158057967
+      internalID: 127640738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Up_2
+      rect:
+        serializedVersion: 2
+        x: 632.5
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cb97510f569794fbf1296dc54f45ba
+      internalID: -872611977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_VoidBow_PiercingShot_Up_3
+      rect:
+        serializedVersion: 2
+        x: 948.75
+        y: 0
+        width: 316.25
+        height: 310.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9bda4685364774999132142f908cb4
+      internalID: 1489025211
       vertices: []
       indices: 
       edges: []
@@ -203,7 +489,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 58db58f6013729a4d806fa60f581b342
     internalID: 0
     vertices: []
     indices: 
@@ -216,6 +502,22 @@ TextureImporter:
       CD_Player_VoidBow_PiercingShot_4Dir_4Frame_v01_0: 111899695310676040
       CD_Player_VoidBow_PiercingShot_4Dir_4Frame_v01_1: 4431425978079791937
       CD_Player_VoidBow_PiercingShot_4Dir_4Frame_v01_2: 1158225621678671845
+      Player_VoidBow_PiercingShot_Down_0: -1050131386
+      Player_VoidBow_PiercingShot_Down_1: 1415211749
+      Player_VoidBow_PiercingShot_Down_2: -1704384855
+      Player_VoidBow_PiercingShot_Down_3: -1725129038
+      Player_VoidBow_PiercingShot_Left_0: 123446017
+      Player_VoidBow_PiercingShot_Left_1: -1805172203
+      Player_VoidBow_PiercingShot_Left_2: 1321507262
+      Player_VoidBow_PiercingShot_Left_3: 445909081
+      Player_VoidBow_PiercingShot_Right_0: -637453204
+      Player_VoidBow_PiercingShot_Right_1: -407732089
+      Player_VoidBow_PiercingShot_Right_2: 659582244
+      Player_VoidBow_PiercingShot_Right_3: 2040586905
+      Player_VoidBow_PiercingShot_Up_0: 1984123776
+      Player_VoidBow_PiercingShot_Up_1: 127640738
+      Player_VoidBow_PiercingShot_Up_2: -872611977
+      Player_VoidBow_PiercingShot_Up_3: 1489025211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

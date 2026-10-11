@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 91.47059
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,243 +158,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_0
+      name: Bosses_Map04_SilentCurator_PageVolley_Down_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 941
-        width: 227
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba30946aa1c8cd300800000000000000
-      internalID: 278251323076969387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 640
-        width: 306
-        height: 596
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8528d1ede2842140800000000000000
-      internalID: 4694020669834798479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 634
-        width: 344
-        height: 602
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32316f484964f6bd0800000000000000
-      internalID: -2634809653288627421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 981
-        y: 642
-        width: 266
-        height: 596
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8e5fc98ac99eaa40800000000000000
-      internalID: 5381407699928833676
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_4
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 644
-        width: 281
-        height: 296
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b660733b322f34d30800000000000000
-      internalID: 4414638294897722987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 349
-        width: 251
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93150c4a5381649a0800000000000000
-      internalID: -6249280814253584071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_6
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 39
-        width: 252
+        x: 0
+        y: 933
+        width: 315
         height: 311
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a04e3b011ccf1790800000000000000
-      internalID: -7557097276129263451
+      spriteID: 280d329729fbec44696fc3cfd466567c
+      internalID: -2130541606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_7
+      name: Bosses_Map04_SilentCurator_PageVolley_Down_1
       rect:
         serializedVersion: 2
         x: 315
-        y: 23
-        width: 309
-        height: 617
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 876352e1de8573170800000000000000
-      internalID: 8158087025441191544
+      spriteID: 075f5a9435ebefb4da254c0b6b96d42b
+      internalID: 1686749682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_8
+      name: Bosses_Map04_SilentCurator_PageVolley_Down_2
       rect:
         serializedVersion: 2
-        x: 639
-        y: 345
-        width: 335
-        height: 290
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 630
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4792c3297904ffdd0800000000000000
-      internalID: -2450168652528604812
+      spriteID: 7b4bcb3c74565ac48a1a6efee3faca90
+      internalID: 630724761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_9
+      name: Bosses_Map04_SilentCurator_PageVolley_Down_3
       rect:
         serializedVersion: 2
-        x: 661
-        y: 39
-        width: 329
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 945
+        y: 933
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3691f96ab4bc90270800000000000000
-      internalID: 8217322520892610915
+      spriteID: f9fe9c1dab80cea40b93022a56fff09f
+      internalID: 183541841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_10
+      name: Bosses_Map04_SilentCurator_PageVolley_Left_0
       rect:
         serializedVersion: 2
-        x: 973
-        y: 21
-        width: 272
-        height: 616
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5900d4b1c9b7f9730800000000000000
-      internalID: 4008058103786176661
+      spriteID: 893189c7586adbc4fb637d8c57311add
+      internalID: 908211370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Left_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed2dcdfd109d1469b06a2b9726b854
+      internalID: 587545857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Left_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420c3113cecffdb4a96c42e8557559af
+      internalID: 44668504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Left_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 622
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbeded4f3fab8a4599fe668858710ab
+      internalID: -694296420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc59f6197a7413408fc9f68042d2b19
+      internalID: 429662106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3674eb248578f44a0c400106ff48fa
+      internalID: -489299981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Right_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a467f6f2ab2d8347bfd54e6b23614c3
+      internalID: -684535803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Right_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 311
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad59f88d5622304c8874c2aa6aaf73c
+      internalID: 1250535328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e506499b099f094c8c0652caaa218e1
+      internalID: 1887914106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Up_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3481de9509e15242bc6148c49f40ff6
+      internalID: 1065059063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Up_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038c19d39f1397f4cb7cda813370affb
+      internalID: 323677263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map04_SilentCurator_PageVolley_Up_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 315
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47671d7bcb6d22547bfb7369d82c8756
+      internalID: -805884617
       vertices: []
       indices: 
       edges: []
@@ -403,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dd432f677cd98a044949e3b0127a085a
     internalID: 0
     vertices: []
     indices: 
@@ -413,6 +523,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map04_SilentCurator_PageVolley_Down_0: -2130541606
+      Bosses_Map04_SilentCurator_PageVolley_Down_1: 1686749682
+      Bosses_Map04_SilentCurator_PageVolley_Down_2: 630724761
+      Bosses_Map04_SilentCurator_PageVolley_Down_3: 183541841
+      Bosses_Map04_SilentCurator_PageVolley_Left_0: 908211370
+      Bosses_Map04_SilentCurator_PageVolley_Left_1: 587545857
+      Bosses_Map04_SilentCurator_PageVolley_Left_2: 44668504
+      Bosses_Map04_SilentCurator_PageVolley_Left_3: -694296420
+      Bosses_Map04_SilentCurator_PageVolley_Right_0: 429662106
+      Bosses_Map04_SilentCurator_PageVolley_Right_1: -489299981
+      Bosses_Map04_SilentCurator_PageVolley_Right_2: -684535803
+      Bosses_Map04_SilentCurator_PageVolley_Right_3: 1250535328
+      Bosses_Map04_SilentCurator_PageVolley_Up_0: 1887914106
+      Bosses_Map04_SilentCurator_PageVolley_Up_1: 1065059063
+      Bosses_Map04_SilentCurator_PageVolley_Up_2: 323677263
+      Bosses_Map04_SilentCurator_PageVolley_Up_3: -805884617
       CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_0: 278251323076969387
       CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_1: 4694020669834798479
       CD_Boss_SilentCurator_PageVolley_4Dir_4Frame_v01_10: 4008058103786176661

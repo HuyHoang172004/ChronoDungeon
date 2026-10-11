@@ -12,6 +12,6 @@ public sealed class RoomExit : MonoBehaviour
     {
         if (manager == null || room == null || other.attachedRigidbody == null) return;
         var actor = other.attachedRigidbody.GetComponent<PlayerMovement>();
-        if (actor != null) manager.TryAdvance(room, actor);
+        if (actor != null && manager.CanAdvanceFrom(room)) manager.TryAdvance(room, actor);
     }
 }

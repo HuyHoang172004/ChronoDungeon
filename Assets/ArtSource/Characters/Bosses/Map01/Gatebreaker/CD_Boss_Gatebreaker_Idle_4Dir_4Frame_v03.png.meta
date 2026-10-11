@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 79.852936
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,23 +128,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_Idle_4Dir_4Frame_v03_0
+      name: Bosses_Map01_Gatebreaker_Idle_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 13
-        width: 1448
-        height: 1073
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 35737ffae6f8a5c50800000000000000
-      internalID: 6654789104954718035
+      spriteID: bd51e24302686ae48b0d4eb83571061e
+      internalID: -1212008740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Down_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44044c99eb1ccee42bd9d80e7684c251
+      internalID: 71608407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Down_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc29f09698deca40813b7f1da55e6de
+      internalID: 2131209918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 814.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f880add91cc7154fb092d0b9c6470ac
+      internalID: 1428935448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02878a9dbaa69ef409c616a85a3ab0a1
+      internalID: 479082806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef873c0b02856144e842d6acffdc898d
+      internalID: -1441013889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c94206bd7e5cc54b840898d0a66e6fc
+      internalID: 1763743335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 543
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d30a3488f8bfd843a6fed2df4e92a0f
+      internalID: 1899178251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf1d17bb481cc64c858d332ad9c4836
+      internalID: 1991967393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8c2feee5724354db1e1f6d5c0e8f15
+      internalID: 1968709291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd16adde37383324eb16c4fc9331b759
+      internalID: 1757081520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 271.5
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afd7eb273f7915458ba02e60bbe1300
+      internalID: -2088756054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81051624bddcdbb4f82793cf539aa104
+      internalID: -1380418083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Up_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c55ac7902afc4049a347aef7d56b11b
+      internalID: -504695331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Up_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988a1884c3767d046ab8b3c6325b777d
+      internalID: 395122644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_Idle_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 271.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b536aa6c608bc4ba04b6416727f8d2
+      internalID: -1014061437
       vertices: []
       indices: 
       edges: []
@@ -153,7 +483,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9f1110f557e899643ad4cadeebb9ac83
     internalID: 0
     vertices: []
     indices: 
@@ -163,6 +493,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map01_Gatebreaker_Idle_Down_0: -1212008740
+      Bosses_Map01_Gatebreaker_Idle_Down_1: 71608407
+      Bosses_Map01_Gatebreaker_Idle_Down_2: 2131209918
+      Bosses_Map01_Gatebreaker_Idle_Down_3: 1428935448
+      Bosses_Map01_Gatebreaker_Idle_Left_0: 479082806
+      Bosses_Map01_Gatebreaker_Idle_Left_1: -1441013889
+      Bosses_Map01_Gatebreaker_Idle_Left_2: 1763743335
+      Bosses_Map01_Gatebreaker_Idle_Left_3: 1899178251
+      Bosses_Map01_Gatebreaker_Idle_Right_0: 1991967393
+      Bosses_Map01_Gatebreaker_Idle_Right_1: 1968709291
+      Bosses_Map01_Gatebreaker_Idle_Right_2: 1757081520
+      Bosses_Map01_Gatebreaker_Idle_Right_3: -2088756054
+      Bosses_Map01_Gatebreaker_Idle_Up_0: -1380418083
+      Bosses_Map01_Gatebreaker_Idle_Up_1: -504695331
+      Bosses_Map01_Gatebreaker_Idle_Up_2: 395122644
+      Bosses_Map01_Gatebreaker_Idle_Up_3: -1014061437
       CD_Boss_Gatebreaker_Idle_4Dir_4Frame_v03_0: 6654789104954718035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

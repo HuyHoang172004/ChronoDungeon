@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 102.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -161,265 +161,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_0
+      name: Enemies_Map03_ThornSpitter_Move_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 769
-        width: 385
-        height: 255
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21243e272c3100fd0800000000000000
-      internalID: -2377878877379542510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_1
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 527
-        width: 363
-        height: 496
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4152f77fa9d3870b0800000000000000
-      internalID: -5730762790042393324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_2
-      rect:
-        serializedVersion: 2
-        x: 792
-        y: 767
-        width: 299
+        y: 768
+        width: 384
         height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b45263752183dc5a0800000000000000
-      internalID: -6499477035802024629
+      spriteID: bf6b59bcb67ada04fb39520f1269914d
+      internalID: -145346587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_3
+      name: Enemies_Map03_ThornSpitter_Move_Down_1
       rect:
         serializedVersion: 2
-        x: 1116
-        y: 769
-        width: 397
-        height: 251
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f6d8211d08172d90800000000000000
-      internalID: -7122697841261619464
+      spriteID: efb5e11aed589d94fb4bfbbecddbf478
+      internalID: -694442024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_4
+      name: Enemies_Map03_ThornSpitter_Move_Down_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80f4c330901cc34487d049bafff3fd8
+      internalID: -1381607861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Move_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf14990dde314b4caf8cc4a6444b7d0
+      internalID: 516526961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Move_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
-        width: 427
-        height: 724
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 32a8e1589528f4100800000000000000
-      internalID: 94437438195141155
+      spriteID: 2ff53c14cc5fff84d9f8ff9e4c998f29
+      internalID: 639412654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_5
+      name: Enemies_Map03_ThornSpitter_Move_Left_1
       rect:
         serializedVersion: 2
-        x: 816
-        y: 525
-        width: 309
-        height: 238
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 134c0d63e8cdda9f0800000000000000
-      internalID: -455465483931433935
+      spriteID: dd601c8ed20b9f544b473dac6193c9e8
+      internalID: -291870748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_6
+      name: Enemies_Map03_ThornSpitter_Move_Left_2
       rect:
         serializedVersion: 2
-        x: 1173
-        y: 527
-        width: 300
-        height: 231
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f008409204bce7860800000000000000
-      internalID: 7529679103436554255
+      spriteID: 342673fea9e7671429c25254182c44f4
+      internalID: -721581346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_7
+      name: Enemies_Map03_ThornSpitter_Move_Left_3
       rect:
         serializedVersion: 2
-        x: 422
-        y: 294
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 61387f4c9ecc9a160800000000000000
-      internalID: 7037381197147112214
+      spriteID: 71e24e0d56612334cbe4d3007d6e4ed4
+      internalID: -1525089233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_8
+      name: Enemies_Map03_ThornSpitter_Move_Right_0
       rect:
         serializedVersion: 2
-        x: 430
-        y: 33
-        width: 339
-        height: 487
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e8a5c4148e7f88d90800000000000000
-      internalID: -7095148636022220146
+      spriteID: f471a7153a86f8f42b0a2cd886cf0cef
+      internalID: -11072627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_9
+      name: Enemies_Map03_ThornSpitter_Move_Right_1
       rect:
         serializedVersion: 2
-        x: 794
-        y: 31
-        width: 307
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b42f98e86b4fb1ec0800000000000000
-      internalID: -3595010812612578741
+      spriteID: 90dfc9fb6a7d89648bf45b467c41a1c0
+      internalID: -699160439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_10
+      name: Enemies_Map03_ThornSpitter_Move_Right_2
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 31
-        width: 331
-        height: 484
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1e9e6cfbdf0424970800000000000000
-      internalID: 8737617685640571361
+      spriteID: b33e471b2b50bbb44a124761a0b28b94
+      internalID: -1004646066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_11
+      name: Enemies_Map03_ThornSpitter_Move_Right_3
       rect:
         serializedVersion: 2
-        x: 1116
-        y: 99
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e3ee9020bcc7ab00800000000000000
-      internalID: 839864912361481192
+      spriteID: af519fbc38491ca4f9ba0a87419107ef
+      internalID: 1407664710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07698567ec849e94089b5c6c56a26929
+      internalID: 1367817644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Move_Up_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5519f79544396f4a874f04c833267e8
+      internalID: 558913953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1e3d2bc5dc22843a79a113d1bdd3b6
+      internalID: 1064149977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map03_ThornSpitter_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2d7afec1c7984ba6a0f61535faf90
+      internalID: -663788915
       vertices: []
       indices: 
       edges: []
@@ -428,7 +516,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 41ca0f38fe9cf824faed2a127a16211f
     internalID: 0
     vertices: []
     indices: 
@@ -450,6 +538,22 @@ TextureImporter:
       CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_7: 7037381197147112214
       CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_8: -7095148636022220146
       CD_Enemy_ThornSpitter_Walk_4Dir_4Frame_v01_9: -3595010812612578741
+      Enemies_Map03_ThornSpitter_Move_Down_0: -145346587
+      Enemies_Map03_ThornSpitter_Move_Down_1: -694442024
+      Enemies_Map03_ThornSpitter_Move_Down_2: -1381607861
+      Enemies_Map03_ThornSpitter_Move_Down_3: 516526961
+      Enemies_Map03_ThornSpitter_Move_Left_0: 639412654
+      Enemies_Map03_ThornSpitter_Move_Left_1: -291870748
+      Enemies_Map03_ThornSpitter_Move_Left_2: -721581346
+      Enemies_Map03_ThornSpitter_Move_Left_3: -1525089233
+      Enemies_Map03_ThornSpitter_Move_Right_0: -11072627
+      Enemies_Map03_ThornSpitter_Move_Right_1: -699160439
+      Enemies_Map03_ThornSpitter_Move_Right_2: -1004646066
+      Enemies_Map03_ThornSpitter_Move_Right_3: 1407664710
+      Enemies_Map03_ThornSpitter_Move_Up_0: 1367817644
+      Enemies_Map03_ThornSpitter_Move_Up_1: 558913953
+      Enemies_Map03_ThornSpitter_Move_Up_2: 1064149977
+      Enemies_Map03_ThornSpitter_Move_Up_3: -663788915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

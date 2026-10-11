@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 738f7c3e26877bf4fbc92eaa1f38ee28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7461757991748295424
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_0
+  - first:
+      213: 9105352010357286281
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_1
+  - first:
+      213: -6859043422995061530
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_2
+  - first:
+      213: 761438094319576252
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_3
+  - first:
+      213: -4072183550543756269
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_4
+  - first:
+      213: -222208305263021181
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_5
+  - first:
+      213: -5744027807504622661
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_6
+  - first:
+      213: -7817383827818933038
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_7
+  - first:
+      213: -8143828583509161017
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_8
+  - first:
+      213: -2464194399726350579
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_9
+  - first:
+      213: -4299082391214494046
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_10
+  - first:
+      213: 4772580249798050376
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_11
+  - first:
+      213: -4887042630011201056
+    second: CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 124
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69699aa683fa9d043b1d872ba40538b0
+      internalID: 301429310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Down_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33283ca6c2627a54e80cdbc358762be7
+      internalID: 1804148531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Down_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c1d2df704ee2a4cbfc9ef75a1ee8a5
+      internalID: 206288975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Down_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 930
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7770e91ecf8094089806f3dd1fc596
+      internalID: -229516021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fabdbe85670c649b2c8e00ae414fe9
+      internalID: -1067802429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Left_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d824da0647fe248af5a82110b88110
+      internalID: 448316193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Left_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d917528f0480440ae7fe7967fae282
+      internalID: -872508614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Left_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 620
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d005611cd276294c9fd170e6cace897
+      internalID: 1314150213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601f58d02a23f024cac23ef52c1d670e
+      internalID: 170807216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Right_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c01a709f51cd64b92be7c35b8640fa
+      internalID: -792917048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Right_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda3bf74daa530144bc1f029f020f368
+      internalID: 1735556709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Right_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 310
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c677175c90f50bf4286a09e09d87f394
+      internalID: 2953079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b24684021b4ae44ab216410256f6cd1
+      internalID: -1649065575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Up_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaf271dbd447a445be80ef35ddec025
+      internalID: 304865679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Up_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bba61b111fb09a48901aca11267724a
+      internalID: -623954942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map01_HeavyWarden_Attack_Up_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 317
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d4a67839056fe449b3507e02d8b923
+      internalID: 1683693924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 54e424d5961008b4d8b1001dee8f9b0c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_0: 7461757991748295424
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_1: 9105352010357286281
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_10: -4299082391214494046
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_11: 4772580249798050376
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_12: -4887042630011201056
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_2: -6859043422995061530
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_3: 761438094319576252
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_4: -4072183550543756269
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_5: -222208305263021181
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_6: -5744027807504622661
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_7: -7817383827818933038
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_8: -8143828583509161017
+      CD_E_Map01_HeavyWarden_Attack_4Dir_4Frame_v02_9: -2464194399726350579
+      Enemies_Map01_HeavyWarden_Attack_Down_0: 301429310
+      Enemies_Map01_HeavyWarden_Attack_Down_1: 1804148531
+      Enemies_Map01_HeavyWarden_Attack_Down_2: 206288975
+      Enemies_Map01_HeavyWarden_Attack_Down_3: -229516021
+      Enemies_Map01_HeavyWarden_Attack_Left_0: -1067802429
+      Enemies_Map01_HeavyWarden_Attack_Left_1: 448316193
+      Enemies_Map01_HeavyWarden_Attack_Left_2: -872508614
+      Enemies_Map01_HeavyWarden_Attack_Left_3: 1314150213
+      Enemies_Map01_HeavyWarden_Attack_Right_0: 170807216
+      Enemies_Map01_HeavyWarden_Attack_Right_1: -792917048
+      Enemies_Map01_HeavyWarden_Attack_Right_2: 1735556709
+      Enemies_Map01_HeavyWarden_Attack_Right_3: 2953079
+      Enemies_Map01_HeavyWarden_Attack_Up_0: -1649065575
+      Enemies_Map01_HeavyWarden_Attack_Up_1: 304865679
+      Enemies_Map01_HeavyWarden_Attack_Up_2: -623954942
+      Enemies_Map01_HeavyWarden_Attack_Up_3: 1683693924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

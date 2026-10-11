@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 79.70588
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,111 +140,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_0
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Down_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 18
-        width: 339
-        height: 535
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ecd8a2ddba32d4870800000000000000
-      internalID: 8668624078815006158
+      spriteID: e27084acc69c0b844abd00c6092187ad
+      internalID: -1554127133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_1
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Down_1
       rect:
         serializedVersion: 2
-        x: 13
-        y: 546
-        width: 342
-        height: 540
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ddfa10e6f18338c0800000000000000
-      internalID: -4020727144989917740
+      spriteID: cebb98c9a3e996c4e86c724ab9b4de0f
+      internalID: 1376910951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Down_2
       rect:
         serializedVersion: 2
-        x: 348
+        x: 724
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc01c1c0672b46428ac09ba6ba026c1
+      internalID: 1894003485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 813
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6f0f5902c39be47a05a7a398d6aec2
+      internalID: 1640422902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d18f29a417d8d4db8e5330548852a3
+      internalID: -428289940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Left_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1237ca0784d494ba8206a401a79998
+      internalID: 1205024974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Left_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154bb8099c580b74892568e87cd5fdc5
+      internalID: -1601425945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 542
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb986fa9a3e9b6429c467242ff431f8
+      internalID: -1740365047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b216e5500d770ef4e8c72b3afe670946
+      internalID: 1904682311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Right_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18568b460b0ca744ea8ec8d11f726b82
+      internalID: 120130559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Right_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b5f85c7554aa84eb8e0090df15df67
+      internalID: -469282813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 271
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cf7623eb224254abe78b72d19478c7
+      internalID: 1009587432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 765
-        height: 1086
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42a90dff831e10c10800000000000000
-      internalID: 2018141742964972068
+      spriteID: a3332fe00852bbd499f69e7346b92fad
+      internalID: -1591120258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_3
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Up_1
       rect:
         serializedVersion: 2
-        x: 1106
-        y: 17
-        width: 329
-        height: 536
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 362
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ae329c194370aacd0800000000000000
-      internalID: -2546214716959022102
+      spriteID: d2e6e01d571cb5c46804c365a3b8944e
+      internalID: 1247406280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_4
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Up_2
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 549
-        width: 328
-        height: 537
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 724
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e6f800086913c010800000000000000
-      internalID: 1207837059533305577
+      spriteID: 64a787cdb4ff21248ad5d6a08d7386bf
+      internalID: -1699407128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map01_Gatebreaker_ShieldBash_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 362
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b77dff76c3d174a9a4a409d40991ac
+      internalID: -1271325437
       vertices: []
       indices: 
       edges: []
@@ -253,7 +495,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 017cb80af44f9bd40b191604af4bfaf9
     internalID: 0
     vertices: []
     indices: 
@@ -263,6 +505,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map01_Gatebreaker_ShieldBash_Down_0: -1554127133
+      Bosses_Map01_Gatebreaker_ShieldBash_Down_1: 1376910951
+      Bosses_Map01_Gatebreaker_ShieldBash_Down_2: 1894003485
+      Bosses_Map01_Gatebreaker_ShieldBash_Down_3: 1640422902
+      Bosses_Map01_Gatebreaker_ShieldBash_Left_0: -428289940
+      Bosses_Map01_Gatebreaker_ShieldBash_Left_1: 1205024974
+      Bosses_Map01_Gatebreaker_ShieldBash_Left_2: -1601425945
+      Bosses_Map01_Gatebreaker_ShieldBash_Left_3: -1740365047
+      Bosses_Map01_Gatebreaker_ShieldBash_Right_0: 1904682311
+      Bosses_Map01_Gatebreaker_ShieldBash_Right_1: 120130559
+      Bosses_Map01_Gatebreaker_ShieldBash_Right_2: -469282813
+      Bosses_Map01_Gatebreaker_ShieldBash_Right_3: 1009587432
+      Bosses_Map01_Gatebreaker_ShieldBash_Up_0: -1591120258
+      Bosses_Map01_Gatebreaker_ShieldBash_Up_1: 1247406280
+      Bosses_Map01_Gatebreaker_ShieldBash_Up_2: -1699407128
+      Bosses_Map01_Gatebreaker_ShieldBash_Up_3: -1271325437
       CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_0: 8668624078815006158
       CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_1: -4020727144989917740
       CD_Boss_Gatebreaker_ShieldBash_4Dir_4Frame_v01_2: 2018141742964972068

@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 85.29411
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,177 +149,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_0
+      name: Bosses_Map05_AshWarden_Idle_Down_0
       rect:
         serializedVersion: 2
         x: 0
         y: 870
-        width: 669
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d733df4c5492e9e50800000000000000
-      internalID: 6817932265519919997
+      spriteID: 2357ab786bf18684f95f581516fc3b37
+      internalID: 1972418137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_1
+      name: Bosses_Map05_AshWarden_Idle_Down_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a506111e2491246ac9591b64d98c03
+      internalID: -1020474629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Down_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160f3a040cb705d48a28e81bc6750b07
+      internalID: 956660529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Down_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 870
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb335f2edc3675349979b6951114e8ca
+      internalID: 1214883214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd696c5ea1ae5a48a0cb1631c359e37
+      internalID: -1459264245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Left_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711e1221731cb67458e1a5d514a69afe
+      internalID: -1886274790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Left_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071f928b2ed2aec4b867bef9fb2a4229
+      internalID: -391198560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 580
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4109c1226f35bac4c84269959f948e95
+      internalID: 239785097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c5123b5485c124791d2eb4ca69ca7b
+      internalID: -875237237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Right_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61decca9db419541a418d28299ca467
+      internalID: 2028942415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Right_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1fdc9389b2a2b4bb803978dff92c95
+      internalID: -568426585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 290
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f789dfa7ecc7459782bbec9b56ef6
+      internalID: 1827083882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bosses_Map05_AshWarden_Idle_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 346
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d3d8599ae78684a90800000000000000
-      internalID: -7329493500325163715
+      spriteID: 1c7d1524bf2397e46a310fba207f5fc7
+      internalID: 2052558027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_2
+      name: Bosses_Map05_AshWarden_Idle_Up_1
       rect:
         serializedVersion: 2
-        x: 337
-        y: 577
-        width: 327
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7b6925ede29c9240800000000000000
-      internalID: 4799872853319707514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_3
-      rect:
-        serializedVersion: 2
-        x: 345
+        x: 338
         y: 0
-        width: 678
-        height: 878
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 84fde4042a76674c0800000000000000
-      internalID: -4290127648462545080
+      spriteID: 558f677d2c8826543af69defe6faf61b
+      internalID: -688347762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_4
+      name: Bosses_Map05_AshWarden_Idle_Up_2
       rect:
         serializedVersion: 2
-        x: 668
-        y: 869
-        width: 339
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 676
+        y: 0
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 884ca92be5a015c00800000000000000
-      internalID: 887502003408389256
+      spriteID: 289aa21face6f424282fb217d7141ade
+      internalID: -1498359007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_5
-      rect:
-        serializedVersion: 2
-        x: 1006
-        y: 866
-        width: 336
-        height: 295
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 431a625c75adf9200800000000000000
-      internalID: 189109779877503284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_6
+      name: Bosses_Map05_AshWarden_Idle_Up_3
       rect:
         serializedVersion: 2
         x: 1014
-        y: 577
-        width: 328
-        height: 297
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8772766352951bb60800000000000000
-      internalID: 7760081649297467256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_7
-      rect:
-        serializedVersion: 2
-        x: 1022
         y: 0
-        width: 333
-        height: 586
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 338
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ddabbd18273fc710800000000000000
-      internalID: 1715650628488506833
+      spriteID: ded98e5a418ea8c42b0013e4f66e16f9
+      internalID: -843713562
       vertices: []
       indices: 
       edges: []
@@ -328,7 +504,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5c43cf2cbb97b6246af55dc995f5a6b7
     internalID: 0
     vertices: []
     indices: 
@@ -338,6 +514,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      Bosses_Map05_AshWarden_Idle_Down_0: 1972418137
+      Bosses_Map05_AshWarden_Idle_Down_1: -1020474629
+      Bosses_Map05_AshWarden_Idle_Down_2: 956660529
+      Bosses_Map05_AshWarden_Idle_Down_3: 1214883214
+      Bosses_Map05_AshWarden_Idle_Left_0: -1459264245
+      Bosses_Map05_AshWarden_Idle_Left_1: -1886274790
+      Bosses_Map05_AshWarden_Idle_Left_2: -391198560
+      Bosses_Map05_AshWarden_Idle_Left_3: 239785097
+      Bosses_Map05_AshWarden_Idle_Right_0: -875237237
+      Bosses_Map05_AshWarden_Idle_Right_1: 2028942415
+      Bosses_Map05_AshWarden_Idle_Right_2: -568426585
+      Bosses_Map05_AshWarden_Idle_Right_3: 1827083882
+      Bosses_Map05_AshWarden_Idle_Up_0: 2052558027
+      Bosses_Map05_AshWarden_Idle_Up_1: -688347762
+      Bosses_Map05_AshWarden_Idle_Up_2: -1498359007
+      Bosses_Map05_AshWarden_Idle_Up_3: -843713562
       CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_0: 6817932265519919997
       CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_1: -7329493500325163715
       CD_Boss_AshWarden_Idle_4Dir_4Frame_v01_2: 4799872853319707514

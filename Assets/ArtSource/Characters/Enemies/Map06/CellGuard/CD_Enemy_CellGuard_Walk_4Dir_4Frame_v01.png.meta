@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 112
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,133 +143,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_0
+      name: Enemies_Map06_CellGuard_Move_Down_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 33
-        width: 332
-        height: 1076
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5fc77e4f78f62e800800000000000000
-      internalID: 640196726760111349
+      spriteID: 972ef93734a8ca548822b6a021fdf4be
+      internalID: 978493007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_1
+      name: Enemies_Map06_CellGuard_Move_Down_1
       rect:
         serializedVersion: 2
-        x: 369
-        y: 590
-        width: 321
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 06eb21e55311a22a0800000000000000
-      internalID: -6761572969634152864
+      spriteID: 46938dc07cb108f4c816c2a31834114d
+      internalID: 137467873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_2
+      name: Enemies_Map06_CellGuard_Move_Down_2
       rect:
         serializedVersion: 2
-        x: 701
-        y: 32
-        width: 352
-        height: 1077
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 700
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0b145b28375a5b30800000000000000
-      internalID: 4276826694898424587
+      spriteID: 791d264f3f0ac484586bf29e4c446fa4
+      internalID: -582956173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_3
+      name: Enemies_Map06_CellGuard_Move_Down_3
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 693
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1050
+        y: 840
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 590a1c6046b98e760800000000000000
-      internalID: 7487405234415837333
+      spriteID: cf7d1272321f195449e39eefe82fd1f3
+      internalID: -551063085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_4
+      name: Enemies_Map06_CellGuard_Move_Left_0
       rect:
         serializedVersion: 2
-        x: 1070
+        x: 0
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff994332a0bacc4d9d491ba0d2806db
+      internalID: 1995119725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Left_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e0d14e2bd849145aa4c4752f032ae4
+      internalID: -1782919172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Left_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ffa14277de344a9bf4dfe58a70713
+      internalID: -5948925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 560
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00847ff6e84408f4b918af89af571c8d
+      internalID: 486506653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5bb4b8840d582479d20cc33690f8eb
+      internalID: -1308032193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Right_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d625b0370b2664bb16f863b0b576ee
+      internalID: 488788415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Right_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81021a185d35dca45b791c67a838c320
+      internalID: 855118919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470bf28844828fd4e90378017ea24fff
+      internalID: 1180525725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 332
-        height: 1110
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c132ae438eec46c0800000000000000
-      internalID: -4157686108242431549
+      spriteID: be44c3471fd052f48a8b4baa564a7925
+      internalID: 1827863346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_5
+      name: Enemies_Map06_CellGuard_Move_Up_1
       rect:
         serializedVersion: 2
-        x: 363
-        y: 19
-        width: 329
-        height: 568
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eff1ea699ea0478d0800000000000000
-      internalID: -2849640665847029762
+      spriteID: 60af4fe10109d9643a50c959091e4c18
+      internalID: 1813904580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Up_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb01e0c3b9f14740b3b15f1e461d3a4
+      internalID: -1538262663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemies_Map06_CellGuard_Move_Up_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 350
+        height: 280
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bce2b23b4fe19446915945fff5cedb4
+      internalID: 1100241208
       vertices: []
       indices: 
       edges: []
@@ -278,7 +498,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 01218d1c568866c4990f70fbe963caa1
     internalID: 0
     vertices: []
     indices: 
@@ -294,6 +514,22 @@ TextureImporter:
       CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_3: 7487405234415837333
       CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_4: -4157686108242431549
       CD_Enemy_CellGuard_Walk_4Dir_4Frame_v01_5: -2849640665847029762
+      Enemies_Map06_CellGuard_Move_Down_0: 978493007
+      Enemies_Map06_CellGuard_Move_Down_1: 137467873
+      Enemies_Map06_CellGuard_Move_Down_2: -582956173
+      Enemies_Map06_CellGuard_Move_Down_3: -551063085
+      Enemies_Map06_CellGuard_Move_Left_0: 1995119725
+      Enemies_Map06_CellGuard_Move_Left_1: -1782919172
+      Enemies_Map06_CellGuard_Move_Left_2: -5948925
+      Enemies_Map06_CellGuard_Move_Left_3: 486506653
+      Enemies_Map06_CellGuard_Move_Right_0: -1308032193
+      Enemies_Map06_CellGuard_Move_Right_1: 488788415
+      Enemies_Map06_CellGuard_Move_Right_2: 855118919
+      Enemies_Map06_CellGuard_Move_Right_3: 1180525725
+      Enemies_Map06_CellGuard_Move_Up_0: 1827863346
+      Enemies_Map06_CellGuard_Move_Up_1: 1813904580
+      Enemies_Map06_CellGuard_Move_Up_2: -1538262663
+      Enemies_Map06_CellGuard_Move_Up_3: 1100241208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

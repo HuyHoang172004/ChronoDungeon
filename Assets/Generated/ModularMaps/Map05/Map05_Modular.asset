@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a87b8c633ca81449decb4753dbb9fd, type: 3}
+  m_Name: Map05_Modular
+  m_EditorClassIdentifier: Assembly-CSharp::ModularMapDefinition
+  zoneName: Zone05_AshForge
+  worldSize: {x: 39.11, y: 25.08}
+  spawnNormalized: {x: 0.025, y: 0.75}
+  background: {fileID: 21300000, guid: 7131c185ebec0a0478dbf103bb63581a, type: 3}
+  walkableMask: {fileID: 2800000, guid: 63c7a6561437c644fbdbdd6d7d439d88, type: 3}
+  tiles:
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: d9024794189947748a65f9eb620f80fb, type: 3}
+    localPosition: {x: -12.54, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 38a8dec8c3068964e81410b56a1445a6, type: 3}
+    localPosition: {x: 0.745, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 951c49e0ec1a3c047a1989bb4f154b6b, type: 3}
+    localPosition: {x: 13.285, y: 6.27}
+  - background: {fileID: 0}
+    ground: {fileID: 21300000, guid: 7f74bf7e81b2a794e8e58562e04363af, type: 3}
+    localPosition: {x: 0.745, y: -6.27}
+  colliderPaths: []

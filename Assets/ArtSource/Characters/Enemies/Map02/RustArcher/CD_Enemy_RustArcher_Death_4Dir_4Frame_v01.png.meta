@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 122
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -185,441 +185,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_0
+      name: Enemies_Map02_RustArcher_Death_Down_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 882
-        width: 247
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6280f9a2a804be190800000000000000
-      internalID: -7932175356518266842
+      spriteID: cc8a3a1730ed9d247876dc20d7202759
+      internalID: 870113465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_1
+      name: Enemies_Map02_RustArcher_Death_Down_1
       rect:
         serializedVersion: 2
-        x: 354
-        y: 880
-        width: 253
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37ce135d5f8a08c70800000000000000
-      internalID: 8971356231519300723
+      spriteID: 0eebf3d2f67e04f44bbf0f657e36a7ec
+      internalID: -939342100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_2
+      name: Enemies_Map02_RustArcher_Death_Down_2
       rect:
         serializedVersion: 2
-        x: 570
-        y: 1162
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e1172d0cd06c43a0800000000000000
-      internalID: -6679857649067552284
+      spriteID: 25085c5b80fd02e48b203a221de4fa6d
+      internalID: 1801564107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_3
+      name: Enemies_Map02_RustArcher_Death_Down_3
       rect:
         serializedVersion: 2
-        x: 636
-        y: 864
-        width: 316
-        height: 347
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966.75
+        y: 915
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0f9c1942b6328e90800000000000000
-      internalID: -7024992329385861361
+      spriteID: c5da85cda7561be4788e26ad65025d77
+      internalID: -1758690477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_4
+      name: Enemies_Map02_RustArcher_Death_Left_0
       rect:
         serializedVersion: 2
-        x: 1039
-        y: 1067
-        width: 86
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8b0a01b5f6dd9130800000000000000
-      internalID: 3575250029927598991
+      spriteID: e2862c70c27788f4c9062c237c2bbc3e
+      internalID: 166628369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_5
+      name: Enemies_Map02_RustArcher_Death_Left_1
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 1099
-        width: 58
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 28119b4b88b2f7cd0800000000000000
-      internalID: -2558278197175578238
+      spriteID: 1fc362e1f1eacbd479dc1ad4d7a337c0
+      internalID: 73775412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_6
+      name: Enemies_Map02_RustArcher_Death_Left_2
       rect:
         serializedVersion: 2
-        x: 1249
-        y: 1107
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16337841c5e9e67c0800000000000000
-      internalID: -4076146494405135519
+      spriteID: 5c08cb422c7309d47b932942dc4768f7
+      internalID: -1938658083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_7
+      name: Enemies_Map02_RustArcher_Death_Left_3
       rect:
         serializedVersion: 2
-        x: 28
-        y: 591
-        width: 293
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966.75
+        y: 610
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5de8df9225ea766c0800000000000000
-      internalID: -4150156863683588395
+      spriteID: f8c3723c4f1c9be40842a3cae85cc370
+      internalID: 2141526593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_8
+      name: Enemies_Map02_RustArcher_Death_Right_0
       rect:
         serializedVersion: 2
-        x: 951
-        y: 858
-        width: 338
-        height: 210
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f655d78f9882a7290800000000000000
-      internalID: -7891950823968778897
+      spriteID: 9fc34732881545d47a614d44c3d58fed
+      internalID: -1307739350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_9
+      name: Enemies_Map02_RustArcher_Death_Right_1
       rect:
         serializedVersion: 2
-        x: 342
-        y: 591
-        width: 302
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b11b06f5899b28540800000000000000
-      internalID: 5008769799675752731
+      spriteID: f1cad38b7eeb885448f520195fdb31ec
+      internalID: 2103191445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_10
+      name: Enemies_Map02_RustArcher_Death_Right_2
       rect:
         serializedVersion: 2
-        x: 640
-        y: 501
-        width: 649
-        height: 331
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5dbb96860d0787ae0800000000000000
-      internalID: -1551366031221867563
+      spriteID: 42b0a980db13b22489b33e42eca59804
+      internalID: -910831705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_11
+      name: Enemies_Map02_RustArcher_Death_Right_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 295
-        width: 268
-        height: 285
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966.75
+        y: 305
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7bf4d4f7c41998dc0800000000000000
-      internalID: -3636215466385649737
+      spriteID: 5db5ca435190ebb4ea6cf4531cc2e2bd
+      internalID: 1093876179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_12
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 286
-        width: 292
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95e05651b085a5dd0800000000000000
-      internalID: -2496586238796689831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_13
-      rect:
-        serializedVersion: 2
-        x: 652
-        y: 503
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44a9e834e39279fe0800000000000000
-      internalID: -1182431029763335612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_14
+      name: Enemies_Map02_RustArcher_Death_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 343
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80838324a92ad8bc0800000000000000
-      internalID: -3779185728874334200
+      spriteID: 7e67f43b27dfadd499eecc255482ee34
+      internalID: -548820231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_15
+      name: Enemies_Map02_RustArcher_Death_Up_1
       rect:
         serializedVersion: 2
-        x: 628
-        y: 264
-        width: 661
-        height: 228
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 322.25
+        y: 0
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7bf400ff6e6a8a140800000000000000
-      internalID: 4731214919603605431
+      spriteID: 196dd8ebd7f76cd40a108f9307a65df4
+      internalID: 2092716272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_16
+      name: Enemies_Map02_RustArcher_Death_Up_2
       rect:
         serializedVersion: 2
-        x: 354
-        y: 31
-        width: 292
-        height: 231
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 644.5
+        y: 0
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5b71d63571266de0800000000000000
-      internalID: -1340347051781555361
+      spriteID: 7b9c400c7dd0b3e4e84e14ad2606a011
+      internalID: 1779121688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_17
+      name: Enemies_Map02_RustArcher_Death_Up_3
       rect:
         serializedVersion: 2
-        x: 651
-        y: 27
-        width: 638
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 966.75
+        y: 0
+        width: 322.25
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f0a1cac1566a8a90800000000000000
-      internalID: -7310918543602507527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_18
-      rect:
-        serializedVersion: 2
-        x: 719
-        y: 194
-        width: 38
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e1956dca2b8ab8c0800000000000000
-      internalID: -3982717904504909335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_19
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 69
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1396c12bbc54c8200800000000000000
-      internalID: 183598425984231729
+      spriteID: 7f65edff183483841a7f49fdbbac535d
+      internalID: -1038524036
       vertices: []
       indices: 
       edges: []
@@ -628,7 +540,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 582af3f3ec37f3b41b09688f90bbf4a4
     internalID: 0
     vertices: []
     indices: 
@@ -658,6 +570,22 @@ TextureImporter:
       CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_7: -4150156863683588395
       CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_8: -7891950823968778897
       CD_Enemy_RustArcher_Death_4Dir_4Frame_v01_9: 5008769799675752731
+      Enemies_Map02_RustArcher_Death_Down_0: 870113465
+      Enemies_Map02_RustArcher_Death_Down_1: -939342100
+      Enemies_Map02_RustArcher_Death_Down_2: 1801564107
+      Enemies_Map02_RustArcher_Death_Down_3: -1758690477
+      Enemies_Map02_RustArcher_Death_Left_0: 166628369
+      Enemies_Map02_RustArcher_Death_Left_1: 73775412
+      Enemies_Map02_RustArcher_Death_Left_2: -1938658083
+      Enemies_Map02_RustArcher_Death_Left_3: 2141526593
+      Enemies_Map02_RustArcher_Death_Right_0: -1307739350
+      Enemies_Map02_RustArcher_Death_Right_1: 2103191445
+      Enemies_Map02_RustArcher_Death_Right_2: -910831705
+      Enemies_Map02_RustArcher_Death_Right_3: 1093876179
+      Enemies_Map02_RustArcher_Death_Up_0: -548820231
+      Enemies_Map02_RustArcher_Death_Up_1: 2092716272
+      Enemies_Map02_RustArcher_Death_Up_2: 1779121688
+      Enemies_Map02_RustArcher_Death_Up_3: -1038524036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
