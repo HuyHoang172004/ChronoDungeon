@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: bd6f5bb5b83503d4fb4be56d1cdbf654
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7434769784501645879
+    second: CrystalSentinel_Idle_03_0
+  - first:
+      213: -940495142020962902
+    second: CrystalSentinel_Idle_03_1
+  - first:
+      213: -3805310020949380515
+    second: CrystalSentinel_Idle_03_2
+  - first:
+      213: -5686605080853835984
+    second: CrystalSentinel_Idle_03_3
+  - first:
+      213: -7729522221405540375
+    second: CrystalSentinel_Idle_03_4
+  - first:
+      213: 8354974216988022606
+    second: CrystalSentinel_Idle_03_5
+  - first:
+      213: -4245886724367454122
+    second: CrystalSentinel_Idle_03_6
+  - first:
+      213: 1292311727298736294
+    second: CrystalSentinel_Idle_03_7
+  - first:
+      213: -5376511055151457985
+    second: CrystalSentinel_Idle_03_8
+  - first:
+      213: -5635641516681239507
+    second: CrystalSentinel_Idle_03_9
+  - first:
+      213: -3666235517901198797
+    second: CrystalSentinel_Idle_03_10
+  - first:
+      213: -7526480643153766277
+    second: CrystalSentinel_Idle_03_11
+  - first:
+      213: -3452858795106731494
+    second: CrystalSentinel_Idle_03_12
+  - first:
+      213: 3813406257711776446
+    second: CrystalSentinel_Idle_03_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.46410978, y: 0.06622516}
+  spritePixelsToUnits: 140.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 175
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73237085abb9d2760800000000000000
+      internalID: 7434769784501645879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 202
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa52cdab6a0b2f2f0800000000000000
+      internalID: -940495142020962902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 164
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52f31582b2d03bc0800000000000000
+      internalID: -3805310020949380515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 144
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f86c1dece1511b0800000000000000
+      internalID: -5686605080853835984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef62ad0e783bb490800000000000000
+      internalID: -7729522221405540375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_5
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 80
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e475e17a8c4d2f370800000000000000
+      internalID: 8354974216988022606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 109
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f78515849315c0800000000000000
+      internalID: -4245886724367454122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 62
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a076b44ba63fe110800000000000000
+      internalID: 1292311727298736294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f399cba6eabc265b0800000000000000
+      internalID: -5376511055151457985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2465c446ed2ac1b0800000000000000
+      internalID: -5635641516681239507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 29
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a2494983aee1dc0800000000000000
+      internalID: -3666235517901198797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 27
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7857f76bb19c8790800000000000000
+      internalID: -7526480643153766277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 29
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a741a483bf410d0800000000000000
+      internalID: -3452858795106731494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrystalSentinel_Idle_03_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2892f79c0fbe430800000000000000
+      internalID: 3813406257711776446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CrystalSentinel_Idle_03_0: 7434769784501645879
+      CrystalSentinel_Idle_03_1: -940495142020962902
+      CrystalSentinel_Idle_03_10: -3666235517901198797
+      CrystalSentinel_Idle_03_11: -7526480643153766277
+      CrystalSentinel_Idle_03_12: -3452858795106731494
+      CrystalSentinel_Idle_03_13: 3813406257711776446
+      CrystalSentinel_Idle_03_2: -3805310020949380515
+      CrystalSentinel_Idle_03_3: -5686605080853835984
+      CrystalSentinel_Idle_03_4: -7729522221405540375
+      CrystalSentinel_Idle_03_5: 8354974216988022606
+      CrystalSentinel_Idle_03_6: -4245886724367454122
+      CrystalSentinel_Idle_03_7: 1292311727298736294
+      CrystalSentinel_Idle_03_8: -5376511055151457985
+      CrystalSentinel_Idle_03_9: -5635641516681239507
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,9 +4,8 @@ using UnityEngine.InputSystem;
 #endif
 
 /// <summary>
-/// Small, isolated controller for the side-view conversion prototype.
-/// It deliberately does not replace PlayerMovement yet, so the existing
-/// top-down GameScene stays safe until this control feel is approved.
+/// Side-view player motor. Horizontal input moves the actor; upward joystick
+/// flicks request up to three height-calibrated jumps before the next landing.
 /// </summary>
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
@@ -21,7 +20,8 @@ public sealed class SideViewPlayerController : MonoBehaviour
     [Header("Movement")]
     [SerializeField, Min(0.1f)] private float moveSpeed = 6f;
     [SerializeField, Min(0.1f)] private float acceleration = 40f;
-    [SerializeField, Min(0.1f)] private float jumpVelocity = 11f;
+    [SerializeField, Min(0.25f)] private float jumpHeightInBodyLengths = 1f;
+    [SerializeField, Range(1, 3)] private int maximumJumpCount = 3;
     [SerializeField, Min(0.1f)] private float gravityMultiplier = 3f;
     [SerializeField, Range(0.2f, 1f)] private float jumpFlickThreshold = 0.7f;
     [SerializeField, Range(0.01f, 1f)] private float groundCheckRadius = 0.12f;
@@ -33,12 +33,15 @@ public sealed class SideViewPlayerController : MonoBehaviour
     [SerializeField, Min(0.05f)] private float dashCooldown = 0.7f;
 
     private Rigidbody2D body;
+    private Collider2D bodyCollider;
     private float horizontalInput;
     private float nextDashTime;
     private float coyoteTimeRemaining;
     private float jumpBufferRemaining;
     private float verticalVelocity;
     private bool joystickJumpArmed = true;
+    private bool wasGrounded;
+    private int jumpsUsed;
     private readonly RaycastHit2D[] dashHits = new RaycastHit2D[8];
     private ContactFilter2D dashFilter;
 
@@ -46,11 +49,15 @@ public sealed class SideViewPlayerController : MonoBehaviour
     public bool FacingRight { get; private set; } = true;
     public Vector2 FacingDirection => FacingRight ? Vector2.right : Vector2.left;
     public float DashCooldownRemaining => Mathf.Max(0f, nextDashTime - Time.time);
+    public int JumpsUsed => jumpsUsed;
+    public int JumpsRemaining => Mathf.Max(0, maximumJumpCount - jumpsUsed);
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        if (groundLayers.value == 0) groundLayers = LayerMask.GetMask("SideViewGround");
+        bodyCollider = GetComponent<Collider2D>();
+        if (groundLayers.value == 0)
+            groundLayers = LayerMask.GetMask("SideViewGround", "SideViewOneWay");
         dashFilter.useTriggers = false;
         dashFilter.SetLayerMask(groundLayers);
         // The legacy top-down Player Rigidbody can carry stale gravity/constraint
@@ -62,8 +69,18 @@ public sealed class SideViewPlayerController : MonoBehaviour
         {
             GameObject check = new GameObject("GroundCheck");
             check.transform.SetParent(transform, false);
-            check.transform.localPosition = new Vector3(0f, -0.55f, 0f);
             groundCheck = check.transform;
+        }
+
+        // Match the check to the real collider bottom. The side-view sprites use
+        // a feet pivot, so a fixed negative offset would sit below the platform.
+        if (bodyCollider != null)
+        {
+            Vector3 bottomWorld = new Vector3(
+                bodyCollider.bounds.center.x,
+                bodyCollider.bounds.min.y,
+                transform.position.z);
+            groundCheck.position = bottomWorld;
         }
     }
 
@@ -71,6 +88,9 @@ public sealed class SideViewPlayerController : MonoBehaviour
     {
         UpdateInput();
         IsGrounded = groundCheck != null && Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayers) != null;
+        if (IsGrounded && !wasGrounded)
+            jumpsUsed = 0;
+        wasGrounded = IsGrounded;
         coyoteTimeRemaining = IsGrounded
             ? coyoteTime
             : Mathf.Max(0f, coyoteTimeRemaining - Time.deltaTime);
@@ -105,9 +125,19 @@ public sealed class SideViewPlayerController : MonoBehaviour
 #endif
         horizontalInput = Mathf.Abs(keyboardX) > 0.01f ? keyboardX : joystickX;
 
-        if (jumpBufferRemaining > 0f && coyoteTimeRemaining > 0f)
+        bool canUseGroundJump = coyoteTimeRemaining > 0f && jumpsUsed == 0;
+        bool canUseAirJump = !IsGrounded && jumpsUsed < maximumJumpCount;
+        if (jumpBufferRemaining > 0f && (canUseGroundJump || canUseAirJump))
         {
-            verticalVelocity = jumpVelocity;
+            float bodyHeight = bodyCollider != null ? bodyCollider.bounds.size.y : 1f;
+            float gravity = Mathf.Abs(Physics2D.gravity.y * gravityMultiplier);
+            float currentUpwardSpeed = Mathf.Max(0f, verticalVelocity);
+            // Adding 2*g*h to v^2 raises the apex by approximately one body height
+            // per press, even when the next jump is requested while still ascending.
+            verticalVelocity = Mathf.Sqrt(
+                currentUpwardSpeed * currentUpwardSpeed +
+                2f * gravity * bodyHeight * jumpHeightInBodyLengths);
+            jumpsUsed++;
             jumpBufferRemaining = 0f;
             coyoteTimeRemaining = 0f;
             IsGrounded = false;
@@ -121,16 +151,19 @@ public sealed class SideViewPlayerController : MonoBehaviour
         // legacy Rigidbody velocity. This prevents friction/damping or stale
         // top-down physics state from making horizontal movement slow to zero.
         float targetVelocityX = horizontalInput * moveSpeed;
+        float acceleratedVelocityX = Mathf.MoveTowards(
+            body.linearVelocity.x,
+            targetVelocityX,
+            acceleration * Time.fixedDeltaTime);
         Vector2 nextPosition = body.position + new Vector2(
-            targetVelocityX * Time.fixedDeltaTime,
+            acceleratedVelocityX * Time.fixedDeltaTime,
             verticalVelocity * Time.fixedDeltaTime);
         body.MovePosition(nextPosition);
-        body.linearVelocity = new Vector2(targetVelocityX, verticalVelocity);
+        body.linearVelocity = new Vector2(acceleratedVelocityX, verticalVelocity);
 
         if (Mathf.Abs(horizontalInput) > 0.01f)
         {
             FacingRight = horizontalInput > 0f;
-            if (visualRenderer != null) visualRenderer.flipX = !FacingRight;
         }
     }
 
@@ -141,6 +174,7 @@ public sealed class SideViewPlayerController : MonoBehaviour
 
     public void RequestJump()
     {
+        if (!IsGrounded && jumpsUsed >= maximumJumpCount) return;
         jumpBufferRemaining = jumpBufferTime;
     }
 

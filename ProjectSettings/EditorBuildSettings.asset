@@ -12,7 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenuScene.unity
     guid: 90fbb345543ce10498824220325ad95d
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 31e6285aad6e35640ba21ae46f38be3f
+    path: Assets/Scenes/Map01_RuinedEntrance_SideView.unity
+    guid: df5a40fb2d00ffd479d9752e47727820
+  - enabled: 1
+    path: Assets/Scenes/Map02_Grassland_SideView.unity
+    guid: 3384438fc7a2a4c4ba1522f571217908
+  - enabled: 1
+    path: Assets/Scenes/Map03_Barbarian_SideView.unity
+    guid: 6ead27a6a84821344a827fd4445eefbf
+  - enabled: 1
+    path: Assets/Scenes/Map04_FrozenCrystal_SideView.unity
+    guid: 84beaabfb5375c64685e98be04702be2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

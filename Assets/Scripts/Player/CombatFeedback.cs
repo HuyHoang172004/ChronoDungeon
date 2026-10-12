@@ -12,6 +12,7 @@ public sealed class CombatFeedback : MonoBehaviour
     private float flashUntil;
     private Color flashColor;
     private Vector3 baseScale;
+    private bool preservePhysicsScale;
     private AudioSource audioSource;
     private AudioClip attackClip;
     private AudioClip hitClip;
@@ -23,6 +24,7 @@ public sealed class CombatFeedback : MonoBehaviour
         baseColors = new Color[sprites.Length];
         for (int i = 0; i < sprites.Length; i++) baseColors[i] = sprites[i].color;
         baseScale = transform.localScale;
+        preservePhysicsScale=GetComponent<SideViewPlayerController>()!=null || GetComponent<SideViewEnemyAnimator>()!=null;
         audioSource = gameObject.GetComponent<AudioSource>();
         if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false;
@@ -55,7 +57,7 @@ public sealed class CombatFeedback : MonoBehaviour
     {
         flashColor = color;
         flashUntil = Time.time + duration;
-        transform.localScale = baseScale * scale;
+        if(!preservePhysicsScale) transform.localScale = baseScale * scale;
         for (int i = 0; i < sprites.Length; i++)
             if (sprites[i] != null) sprites[i].color = flashColor;
     }
@@ -63,7 +65,7 @@ public sealed class CombatFeedback : MonoBehaviour
     private void Update()
     {
         if (Time.time < flashUntil) return;
-        transform.localScale = baseScale;
+        if(!preservePhysicsScale) transform.localScale = baseScale;
         for (int i = 0; i < sprites.Length; i++)
             if (sprites[i] != null) sprites[i].color = baseColors[i];
     }
@@ -71,7 +73,7 @@ public sealed class CombatFeedback : MonoBehaviour
     private void OnDisable()
     {
         flashUntil = 0f;
-        transform.localScale = baseScale;
+        if(!preservePhysicsScale) transform.localScale = baseScale;
         if (sprites == null) return;
         for (int i = 0; i < sprites.Length; i++)
             if (sprites[i] != null) sprites[i].color = baseColors[i];

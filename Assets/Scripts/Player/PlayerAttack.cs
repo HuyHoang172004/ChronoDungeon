@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     private float nextAttackTime;
     private AttackFeedback feedback;
     private CombatFeedback combatFeedback;
+    private int attackAnimationIndex;
     private readonly AttackResolver resolver = new AttackResolver();
     public event Action<AttackSnapshot> AttackPerformed;
     public float CooldownRemaining => Mathf.Max(0f, nextAttackTime - Time.time);
@@ -32,7 +33,9 @@ public class PlayerAttack : MonoBehaviour
 
         if (!isActiveAndEnabled || !CanAttack) return;
         var movement = GetComponent<PlayerMovement>();
-        Vector2 direction = movement != null ? movement.FacingDirection : Vector2.right;
+        var sideViewMovement = GetComponent<SideViewPlayerController>();
+        Vector2 direction = movement != null ? movement.FacingDirection :
+            sideViewMovement != null ? sideViewMovement.FacingDirection : Vector2.right;
         if (direction.sqrMagnitude < 0.001f) direction = Vector2.right;
         var attack = new AttackSnapshot { Position = transform.position,
             Direction = direction.normalized, Range = attackRange, Damage = attackDamage,
@@ -40,6 +43,17 @@ public class PlayerAttack : MonoBehaviour
         nextAttackTime = Time.time + Mathf.Max(0f, attackCooldown);
         // Record accepted attempts, including swings that hit nothing.
         AttackPerformed?.Invoke(attack);
+        SideViewPlayerAnimator sideViewAnimator = GetComponent<SideViewPlayerAnimator>();
+        if (sideViewAnimator != null)
+        {
+            // One existing attack button now cycles through the three authored
+            // attacks: punch, kick, normal sword attack, overhead sword slash.
+            if (attackAnimationIndex == 0) sideViewAnimator.PlayAttack();
+            else if (attackAnimationIndex == 1) sideViewAnimator.PlayKick();
+            else if (attackAnimationIndex == 2) sideViewAnimator.PlaySwordAttack();
+            else sideViewAnimator.PlaySwordDownAttack();
+            attackAnimationIndex = (attackAnimationIndex + 1) % 4;
+        }
         resolver.Execute(attack);
         // Legacy yellow direction indicator intentionally retired.
         if (combatFeedback != null) combatFeedback.PlayAttack();

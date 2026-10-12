@@ -22,9 +22,17 @@ public static class Map01ApprovedPresentationBuilder
     private const float MapCenterY = -3.5f;
     private const int GuideCellPixels = 8;
 
-    [MenuItem("Tools/ChronoDungeon/Maps/Rebuild Map01 Approved Presentation")]
+    [MenuItem("Tools/ChronoDungeon/Maps/Legacy/DO NOT USE - Rebuild Top-Down Map01")]
     public static void Rebuild()
     {
+        if (!EditorUtility.DisplayDialog(
+                "Legacy top-down Map 01",
+                "This builder uses the retired 3/4 top-down master and collision guide. " +
+                "Use 'Rebuild Map01 Side-View Production' for the current game.",
+                "Continue with legacy map",
+                "Cancel"))
+            return;
+
         GameObject mapRoot = GameObject.Find(MapRootPath);
         if (mapRoot == null) throw new InvalidOperationException("Map01_RuinedEntrance is not loaded.");
 
